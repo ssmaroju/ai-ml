@@ -1,0 +1,1815 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Woodside,Scarborough,IMMS,,1,Topside Roll,deg,"Roll angle of rotation about the local body longitudinal (x) axis, measured at Topside. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,2,Topside Pitch,deg,"Pitch angle of rotation about the local body transverse (y) axis, measured at Topside. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,3,Topside Yaw,deg,"Yaw angle of rotation about the local body vertical (z) axis, measured at Topside. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,4,Topside Roll Vel,deg/s,"Roll angular rate, measured at Topside. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,5,Topside Pitch Vel,deg/s,"Pitch angular rate, measured at Topside. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,6,Topside Yaw Vel,deg/s,"Yaw angular rate, measured at Topside. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,7,Topside Roll Accel,deg/s^2,"Roll angular acceleration, measured at Topside. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,8,Topside Pitch Accel,deg/s^2,"Pitch angular acceleration, measured at Topside. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,9,Topside Yaw Accel,deg/s^2,"Yaw angular acceleration, measured at Topside. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,10,Topside Surge,m,"Linear motion along the local body longitudinal (x) axis, measured at Topside. +ve Surge is towards Platform East."
+Woodside,Scarborough,IMMS,,11,Topside Sway,m,"Linear motion along the local body transverse (y) axis, measured at Topside. +ve Sway is towards Platform North."
+Woodside,Scarborough,IMMS,,12,Topside Heave,m,"Linear motion along the local body vertical (z) axis, measured at Topside. +ve Heave is directed vertically upwards."
+Woodside,Scarborough,IMMS,,13,Topside Surge Vel,m/s,Surge velocity measured at Topside. +ve Surge is towards Platform East.
+Woodside,Scarborough,IMMS,,14,Topside Sway Vel,m/s,Sway velocity measured at Topside. +ve Sway is towards Platform North.
+Woodside,Scarborough,IMMS,,15,Topside Heave Vel,m/s,Heave velocity measured at Topside. +ve Heave is directed vertically upwards.
+Woodside,Scarborough,IMMS,,16,Topside X Accel,m/s^2,Surge acceleration measured at Topside. +ve Surge is towards Platform East.
+Woodside,Scarborough,IMMS,,17,Topside Y Accel,m/s^2,Sway acceleration measured at Topside. +ve Sway is towards Platform North.
+Woodside,Scarborough,IMMS,,18,Topside Z Accel,m/s^2,Heave acceleration measured at Topside. +ve Heave is directed vertically upwards.
+Woodside,Scarborough,IMMS,,19,HELI Roll,deg,"Roll angle of rotation about the local body longitudinal (x) axis, measured at Hellideck. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,20,HELI Pitch,deg,"Pitch angle of rotation about the local body transverse (y) axis, measured at Hellideck. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,21,HELI Yaw,deg,"Yaw angle of rotation about the local body vertical (z) axis, measured at Hellideck. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,22,HELI Roll Vel,deg/s,"Roll angular rate, measured at Hellideck. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,23,HELI Pitch Vel,deg/s,"Pitch angular rate, measured at Hellideck. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,24,HELI Yaw Vel,deg/s,"Yaw angular rate, measured at Hellideck. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,25,HELI Roll Accel,deg/s^2,"Roll angular acceleration, measured at Hellideck. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,26,HELI Pitch Accel,deg/s^2,"Pitch angular acceleration, measured at Hellideck. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,27,HELI Yaw Accel,deg/s^2,"Yaw angular acceleration, measured at Hellideck. +ve Yaw is Platform East towards Platform North."
+Woodside,Scarborough,IMMS,,28,HELI Surge,m,"Linear motion along the local body longitudinal (x) axis, measured at Hellideck. +ve Surge is towards Platform East."
+Woodside,Scarborough,IMMS,,29,HELI Sway,m,"Linear motion along the local body transverse (y) axis, measured at Hellideck. +ve Sway is towards Platform North."
+Woodside,Scarborough,IMMS,,30,HELI Heave,m,"Linear motion along the local body vertical (z) axis, measured at Hellideck. +ve Heave is upwards."
+Woodside,Scarborough,IMMS,,31,HELI Surge Vel,m/s,Surge velocity measured at Hellideck. +ve Surge is towards Platform East.
+Woodside,Scarborough,IMMS,,32,HELI Sway Vel,m/s,Sway velocity measured at Hellideck. +ve Sway is towards Platform North.
+Woodside,Scarborough,IMMS,,33,HELI Heave Vel,m/s,Heave velocity measured at Hellideck. +ve Heave is directed vertically upwards.
+Woodside,Scarborough,IMMS,,34,HELI X Accel,m/s^2,Surge acceleration measured at Hellideck. +ve Surge is towards Platform East.
+Woodside,Scarborough,IMMS,,35,HELI Y Accel,m/s^2,Sway acceleration measured at Hellideck. +ve Sway is towards Platform North.
+Woodside,Scarborough,IMMS,,36,HELI Z Accel,m/s^2,Heave acceleration measured at Hellideck. +ve Heave is directed vertically upwards.
+Woodside,Scarborough,IMMS,,37,LQ Latitude DegMin,degMin,Latitude of the LQ GNSS antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,38,LQ Latitude DecMin,decMin,Latitude of the LQ GNSS antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,39,LQ Latitude DecMin2,decMin,Latitude of the LQ GNSS antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,40,LQ Longitude DegMin,degMin,Longitude of the LQ GNSS antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,41,LQ Longitude DecMin,decMin,Longitude of the LQ GNSS antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,42,LQ Longitude DecMin2,decMin,Longiitude of the LQ GNSS antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,43,LQ Altitude 1,m,Altitude measurement at the LQ GNSS antenna location in terms of integer meters
+Woodside,Scarborough,IMMS,,44,LQ Altitude 2,10mm,Altitude measurement at the LQ GNSS antenna location in terms of integer centimeters
+Woodside,Scarborough,IMMS,,45,LQ GPS Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,46,LQ Number of Satellites,#,Number of Satellites available to LQ GNSS for position measurement.
+Woodside,Scarborough,IMMS,,47,LQ HDOP,#,Horizontal dilution of precission number reported at the LQ GNSS.
+Woodside,Scarborough,IMMS,,48,LQ Age of Diff Corr,sec,Time lag of the LQ GNSS correction signal in seconds.
+Woodside,Scarborough,IMMS,,49,LQ GNSS Heading,deg,Measured heading of the vessel by the LQ GNSS. +ve heading is Platform East (x-axis) clockwise of True North.
+Woodside,Scarborough,IMMS,,50,LQ Raw Wind Dir,deg,"Wind direction FROM measured at the LQ anemometer, relative to the vessel reference."
+Woodside,Scarborough,IMMS,,51,LQ Raw Wind Spd,m/s,Wind speed measured at the LQ anemometer
+Woodside,Scarborough,IMMS,,52,SEC Raw Wind Dir,deg,"Wind direction FROM measured relative to the SEC encoder, at the SEC anemometer"
+Woodside,Scarborough,IMMS,,53,SEC Raw Wind Spd,m/s,Wind speed measured at the SEC anemometer
+Woodside,Scarborough,IMMS,,54,SEC Enc Heading,deg,"SEC Encoder heading, relative to the vessel reference."
+Woodside,Scarborough,IMMS,,55,SEC Latitude DegMin,degMin,Latitude of the antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,56,SEC Latitude DecMin,decMin,Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,57,SEC Latitude DecMin2,decMin,Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,58,SEC Longitude DegMin,degMin,Longitude of the antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,59,SEC Longitude DecMin,decMin,Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,60,SEC Longitude DecMin2,decMin,Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,61,SEC Altitude 1,m,Altitude measurement at the antenna location in terms of integer meters
+Woodside,Scarborough,IMMS,,62,SEC Altitude 2,10mm,Altitude measurement at the antenna location in terms of integer centimeters
+Woodside,Scarborough,IMMS,,63,SEC GPS Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,64,SEC Number of Satellites,#,Number of Satellites available for SEC GNSS position measurement.
+Woodside,Scarborough,IMMS,,65,SEC HDOP,#,Horizontal dilution of precission number reported at the SEC GNSS.
+Woodside,Scarborough,IMMS,,66,SEC Age of Diff Corr,sec,Time lag of the SEC GNSS correction signal in seconds.
+Woodside,Scarborough,IMMS,,67,NWC Raw Wind Dir,deg,"Wind direction FROM measured relative to the NWC encoder, at the NWC anemometer"
+Woodside,Scarborough,IMMS,,68,NWC Raw Wind Spd,m/s,Wind speed measured at the NWC anemometer
+Woodside,Scarborough,IMMS,,69,NWC Enc Heading,deg,"NWC Encoder heading, relative to the vessel reference."
+Woodside,Scarborough,IMMS,,70,NWC Latitude DegMin,degMin,Latitude of the antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,71,NWC Latitude DecMin,decMin,Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,72,NWC Latitude DecMin2,decMin,Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,73,NWC Longitude DegMin,degMin,Longitude of the antenna in terms of degrees and integer minutes
+Woodside,Scarborough,IMMS,,74,NWC Longitude DecMin,decMin,Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4)
+Woodside,Scarborough,IMMS,,75,NWC Longitude DecMin2,decMin,Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8)
+Woodside,Scarborough,IMMS,,76,NWC Altitude 1,m,Altitude measurement at the antenna location in terms of integer meters
+Woodside,Scarborough,IMMS,,77,NWC Altitude 2,10mm,Altitude measurement at the antenna location in terms of integer centimeters
+Woodside,Scarborough,IMMS,,78,NWC GPS Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,79,NWC Number of Satellites,#,Number of Satellites available for NWC GNSS position measurement.
+Woodside,Scarborough,IMMS,,80,NWC HDOP,#,Horizontal dilution of precission number reported at the NWC GNSS.
+Woodside,Scarborough,IMMS,,81,NWC Age of Diff Corr,sec,Time lag of the NWC GNSS correction signal in seconds.
+Woodside,Scarborough,IMMS,,82,Sig Wave Height,m,"Average of the highest 1/3 waves during the observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,83,Max Wave Height,m,"Maximum wave height during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,84,Pri Wave Peak T,sec,"Wave period with highest energy (PSD) during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,85,Mean 0-Upcrossing T,sec,"Mean wave zero-upcrossing period during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,86,Pri Wave Peak Dir,degT,"Wave spectrum's primary peak energy direction FROM during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,87,Pri Wave Dir Spread,deg,"Direction spreading of the wave spectrum's primary peak energy during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,88,Wave Steepness,none,"Ratio of wave height to wave length during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,89,Sec Wave Peak Dir,degT,"Wave spectrum's secondary peak energy direction FROM during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,90,Wave High Time,sec,Timestamp of update from sensor (High Part)
+Woodside,Scarborough,IMMS,,91,Wave Low Time,sec,Timestamp of update from sensor (Low Part)
+Woodside,Scarborough,IMMS,,92,Surface Current Spd,m/s,"Average surface current speed during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,93,Surface Current Dir,degT,"Surface current direction TOWARDS relative to True North during observation interval near the platform, as measured by the wave radar."
+Woodside,Scarborough,IMMS,,94,Surface Current Time HI,sec,Timestamp of update from sensor (High Part)
+Woodside,Scarborough,IMMS,,95,Surface Current Time LO,sec,Timestamp of update from sensor (Low Part)
+Woodside,Scarborough,IMMS,,96,Barometric Px1,mbar,Atmospheric pressure measured at the platform location.
+Woodside,Scarborough,IMMS,,97,Barometric Px2,mbar,Atmospheric pressure measured at the platform location.
+Woodside,Scarborough,IMMS,,98,Air Temperature,degC,Air temperature measured at the platform location.
+Woodside,Scarborough,IMMS,,99,Humidity,percent,Humidity measured at the platform location.
+Woodside,Scarborough,IMMS,,100,N Raw Airgap,m,Distance of the N Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,101,E Raw Airgap,m,Distance of the E Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,102,S Raw Airgap,m,Distance of the S Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,103,W Raw Airgap,m,Distance of the W Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,104,Radiation,W/m^2,Broad-spectrum short-wave radiation.
+Woodside,Scarborough,IMMS,,105,Precip Intensity RT,mm/min,Precipitation Intensity or rate of rain over the last minute updated every minute.
+Woodside,Scarborough,IMMS,,106,Precip Accu RT/NRT,mm,Precipitation accumulated over the last minute updated every minute.
+Woodside,Scarborough,IMMS,,107,Precip Accu NRT,mm,"Precipitation accumulated over one minute, 5 minutes ago, updated every minute."
+Woodside,Scarborough,IMMS,,108,Precip Accu Total NRT,mm,Total precipitation accumulated since start updated every minute. Value resets after 500mm.
+Woodside,Scarborough,IMMS,,109,Precip Bucket RT,mm,Unfiltered bucket contents. Raw reading.
+Woodside,Scarborough,IMMS,,110,Precip Bucket NRT,mm,Filtered bucket contents. More accurate reading.
+Woodside,Scarborough,IMMS,,111,Ceilometer Status,bits,See Vaisala CL31 user manual
+Woodside,Scarborough,IMMS,,112,Cloud Height 1,m,Height of lowest cloud. 0 or -9999 is no cloud is detected.
+Woodside,Scarborough,IMMS,,113,Penetration Depth 1,m,Thickness of lowest cloud.
+Woodside,Scarborough,IMMS,,114,Cloud Height 2,m,Height of middle cloud if more than one layer detected. 0 or -9999 is no cloud is detected.
+Woodside,Scarborough,IMMS,,115,Penetration Depth 2,m,Thickness of middle cloud.
+Woodside,Scarborough,IMMS,,116,Cloud Height 3,m,Height of highest cloud if a 3rd cloud layer is detected. 0 or -9999 is no cloud is detected.
+Woodside,Scarborough,IMMS,,117,Penetration Depth 3,m,Thickness of highest cloud.
+Woodside,Scarborough,IMMS,,118,Vertical Visibility,m,Vertical visibility measured in distance.
+Woodside,Scarborough,IMMS,,119,Measuring Range,m,Maximum measurement range of sensor.
+Woodside,Scarborough,IMMS,,120,Optical Range,km,Horizonal visibility measure in distance
+Woodside,Scarborough,IMMS,,121,Precipitation Type,code,See WinMon precipitation code table.
+Woodside,Scarborough,IMMS,,122,Obstruction Type,code,See WinMon obstruction code table.
+Woodside,Scarborough,IMMS,,123,Background Illumination,none,Background Illumination
+Woodside,Scarborough,IMMS,,124,Last Period Precipitation,mm,Precipication during the last XXXX
+Woodside,Scarborough,IMMS,,125,Temperature,degC,Temperature (sensor internal or external air temperature?)
+Woodside,Scarborough,IMMS,,126,No Precipitation,#,No Precipitation
+Woodside,Scarborough,IMMS,,127,Transmissometer,none,Transmissometer
+Woodside,Scarborough,IMMS,,128,EXCO Precipitation,1/km,EXCO Precipitation
+Woodside,Scarborough,IMMS,,129,Back Scatter,none,Back Scatter
+Woodside,Scarborough,IMMS,,130,Precipitation Index,code,Precipitation Index
+Woodside,Scarborough,IMMS,,131,Precipitation Indicator,none,Precipitation Indicator
+Woodside,Scarborough,IMMS,,132,Self-test and Monitor,bits,Self-test and Monitor
+Woodside,Scarborough,IMMS,,133,Total EXCO,1/km,Total EXCO
+Woodside,Scarborough,IMMS,,134,UPS-A Status,bool,"UPS A BREAKER status: CLOSED (ON, high), supplying 230 VAC to ATS PRIMARY"
+Woodside,Scarborough,IMMS,,135,UPS-B Status,bool,"UPS B BREAKER status: CLOSED (ON, high), supplying 230 VAC to ATS SECONDARY"
+Woodside,Scarborough,IMMS,,136,Thermostat Status,bool,"THERMOSTAT status: CLOSED (ON, high), CONSOLE TEMPERATURE NORMAL"
+Woodside,Scarborough,IMMS,,137,Fire & Gas Alarm,bool,"FIRE&GAS EMERGENCY SHUTDOWN status: (ON, high): NOT ACTIVATED (F&G 24V present from client)"
+Woodside,Scarborough,IMMS,,138,Low Pwr Mode Status,bool,"LOW-POWER MODE status: (ON, high): NOT ACTIVATED (Low-Power 24V present from client)"
+Woodside,Scarborough,IMMS,,139,24V PS1 Status,bool,"24V PS1 POWER SUPPLY status: (ON, high): SUPPLYING 24V POWER"
+Woodside,Scarborough,IMMS,,140,24V PS2 Status,bool,"24V PS2 POWER SUPPLY status: (ON, high): SUPPLYING 24V POWER"
+Woodside,Scarborough,IMMS,,141,Total Current,amps,Total current out of all PDU channels
+Woodside,Scarborough,IMMS,,142,Input Voltage,volts,PDU input voltage (volts)
+Woodside,Scarborough,IMMS,,143,Undervoltage,bool,"PDU input voltage undervoltage (0= input voltage OK, 1= input voltage < 9.5 volts)"
+Woodside,Scarborough,IMMS,,144,Overvoltage,bool,"PDU input voltage overvoltage (0= input voltage OK, 1= input voltage > 30 volts)"
+Woodside,Scarborough,IMMS,,145,PDU ECB Chan Err,bool,"PDU Channel error status (0 = no errors, 1 = error in at least one channel)"
+Woodside,Scarborough,IMMS,,146,80% Current Warning,bool,"80% of maximum current load warning (0 = no warning in the system, 1 = at least 1 channel where current I > 80% I Nom)"
+Woodside,Scarborough,IMMS,,147,Total Current Shutdown,bool,"Total current shutdown status (0 = no total current shutdown, 1 = at least one module shutdown due to total current overrange)"
+Woodside,Scarborough,IMMS,,148,ECB Comms Count,counter,Communications Count of number of ECB modules
+Woodside,Scarborough,IMMS,,149,Console 24V PWR STS,bool,CONSOLE 24V AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,150,Console Computer PWR STS,bool,CONSOLE COMPUTER AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,151,SEMS Anemometer PWR STS,bool,SEMS ANEMOMETER AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,152,LRIT PWR STS,bool,LRIT AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,153,Pressure PWR STS,bool,PRESSURE AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,154,Temp Humidity PWR STS,bool,TEMP HUMIDITY AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,155,Heading PWR STS,bool,HEADING AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,156,Helideck 6DOF PWR STS,bool,HELIDECK 6DOF AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,157,NW Crane PWR STS,bool,NW CRANE AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,158,SE Crane PWR STS,bool,SE CRANE AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,159,N Airgap PWR STS,bool,N AIRGAP AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,160,S Airgap PWR STS,bool,S AIRGAP AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,161,W Airgap PWR STS,bool,W AIRGAP AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,162,E Airgap PWR STS,bool,E AIRGAP AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,163,Topside 6DOF PWR STS,bool,TOPSIDE 6DOF AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,164,Weather Suite PWR STS,bool,WEATHER SUITE AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,165,Wave Radar PWR STS,bool,WAVE RADAR AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,166,Wave Buoy PWR STS,bool,WAVE BUOY AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,167,NW NE HSMS DAQ1 PWR STS,bool,NW NE HSMS DAQ 1 AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,168,SW SE HSMS DAQ1 PWR STS,bool,SW SE HSMS DAQ 1 AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,169,NW NE HSMS DAQ2 PWR STS,bool,NW NE HSMS DAQ 2 AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,170,SW SE HSMS DAQ2 PWR STS,bool,SW SE HSMS DAQ 2 AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,171,NW Mooring PWR STS,bool,NW MOORING AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,172,NE Mooring PWR STS,bool,NE MOORING AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,173,SW Mooring PWR STS,bool,SW MOORING AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,174,SE Mooring PWR STS,bool,NE MOORING AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,175,Console HSMS DAQ PWR STS,bool,CONSOLE HSMS DAQ AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,176,Spare PWR STS,bool,SPAR AUTO Status. Power ON/OFF.
+Woodside,Scarborough,IMMS,,177,Console 24V PWR SD,bool,CONSOLE 24V AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,178,Console Computer PWR SD,bool,CONSOLE COMPUTER AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,179,SEMS Anemometer PWR SD,bool,SEMS ANEMOMETER AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,180,LRIT PWR SD,bool,LRIT AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,181,Pressure PWR SD,bool,PRESSURE AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,182,Temp Humidity PWR SD,bool,TEMP HUMIDITY AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,183,Heading PWR SD,bool,HEADING AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,184,Helideck 6DOF PWR SD,bool,HELIDECK 6DOF AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,185,NW Crane PWR SD,bool,NW CRANE AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,186,SE Crane PWR SD,bool,SE CRANE AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,187,N Airgap PWR SD,bool,N AIRGAP AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,188,S Airgap PWR SD,bool,S AIRGAP AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,189,W Airgap PWR SD,bool,W AIRGAP AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,190,E Airgap PWR SD,bool,E AIRGAP AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,191,Topside 6DOF PWR SD,bool,TOPSIDE 6DOF AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,192,Weather Suite PWR SD,bool,WEATHER SUITE AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,193,Wave Radar PWR SD,bool,WAVE RADAR AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,194,Wave Buoy PWR SD,bool,WAVE BUOY AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,195,NW NE HSMS DAQ1 PWR SD,bool,NW NE HSMS DAQ 1 AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,196,SW SE HSMS DAQ1 PWR SD,bool,SW SE HSMS DAQ 1 AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,197,NW NE HSMS DAQ2 PWR SD,bool,NW NE HSMS DAQ 2 AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,198,SW SE HSMS DAQ2 PWR SD,bool,SW SE HSMS DAQ 2 AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,199,NW Mooring PWR SD,bool,NW MOORING AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,200,NE Mooring PWR SD,bool,NE MOORING AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,201,SW Mooring PWR SD,bool,SW MOORING AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,202,SE Mooring PWR SD,bool,NE MOORING AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,203,Console HSMS DAQ PWR SD,bool,CONSOLE HSMS DAQ AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,204,Spare PWR SD,bool,SPAR AUTO Shut Down (Circuit Breaker Tripped).
+Woodside,Scarborough,IMMS,,205,Console 24V PWR CUR,amps,CONSOLE 24V AUTO Current.
+Woodside,Scarborough,IMMS,,206,Console Computer PWR CUR,amps,CONSOLE COMPUTER AUTO Current.
+Woodside,Scarborough,IMMS,,207,SEMS Anemometer PWR CUR,amps,SEMS ANEMOMETER AUTO Current.
+Woodside,Scarborough,IMMS,,208,LRIT PWR CUR,amps,LRIT AUTO Current.
+Woodside,Scarborough,IMMS,,209,Pressure PWR CUR,amps,PRESSURE AUTO Current.
+Woodside,Scarborough,IMMS,,210,Temp Humidity PWR CUR,amps,TEMP HUMIDITY AUTO Current.
+Woodside,Scarborough,IMMS,,211,Heading PWR CUR,amps,HEADING AUTO Current.
+Woodside,Scarborough,IMMS,,212,Helideck 6DOF PWR CUR,amps,HELIDECK 6DOF AUTO Current.
+Woodside,Scarborough,IMMS,,213,NW Crane PWR CUR,amps,NW CRANE AUTO Current.
+Woodside,Scarborough,IMMS,,214,SE Crane PWR CUR,amps,SE CRANE AUTO Current.
+Woodside,Scarborough,IMMS,,215,N Airgap PWR CUR,amps,N AIRGAP AUTO Current.
+Woodside,Scarborough,IMMS,,216,S Airgap PWR CUR,amps,S AIRGAP AUTO Current.
+Woodside,Scarborough,IMMS,,217,W Airgap PWR CUR,amps,W AIRGAP AUTO Current.
+Woodside,Scarborough,IMMS,,218,E Airgap PWR CUR,amps,E AIRGAP AUTO Current.
+Woodside,Scarborough,IMMS,,219,Topside 6DOF PWR CUR,amps,TOPSIDE 6DOF AUTO Current.
+Woodside,Scarborough,IMMS,,220,Weather Suite PWR CUR,amps,WEATHER SUITE AUTO Current.
+Woodside,Scarborough,IMMS,,221,Wave Radar PWR CUR,amps,WAVE RADAR AUTO Current.
+Woodside,Scarborough,IMMS,,222,Wave Buoy PWR CUR,amps,WAVE BUOY AUTO Current.
+Woodside,Scarborough,IMMS,,223,NW NE HSMS DAQ1 PWR CUR,amps,NW NE HSMS DAQ 1 AUTO Current.
+Woodside,Scarborough,IMMS,,224,SW SE HSMS DAQ1 PWR CUR,amps,SW SE HSMS DAQ 1 AUTO Current.
+Woodside,Scarborough,IMMS,,225,NW NE HSMS DAQ2 PWR CUR,amps,NW NE HSMS DAQ 2 AUTO Current.
+Woodside,Scarborough,IMMS,,226,SW SE HSMS DAQ2 PWR CUR,amps,SW SE HSMS DAQ 2 AUTO Current.
+Woodside,Scarborough,IMMS,,227,NW Mooring PWR CUR,amps,NW MOORING AUTO Current.
+Woodside,Scarborough,IMMS,,228,NE Mooring PWR CUR,amps,NE MOORING AUTO Current.
+Woodside,Scarborough,IMMS,,229,SW Mooring PWR CUR,amps,SW MOORING AUTO Current.
+Woodside,Scarborough,IMMS,,230,SE Mooring PWR CUR,amps,NE MOORING AUTO Current.
+Woodside,Scarborough,IMMS,,231,Console HSMS DAQ PWR CUR,amps,CONSOLE HSMS DAQ AUTO Current.
+Woodside,Scarborough,IMMS,,232,Spare PWR CUR,amps,SPAR AUTO Current.
+Woodside,Scarborough,IMMS,,233,Console 24V PWR CTR,bool,CONSOLE 24V AUTO Power Control.
+Woodside,Scarborough,IMMS,,234,Console Computer PWR CTR,bool,CONSOLE COMPUTER AUTO Power Control.
+Woodside,Scarborough,IMMS,,235,SEMS Anemometer PWR CTR,bool,SEMS ANEMOMETER AUTO Power Control.
+Woodside,Scarborough,IMMS,,236,LRIT PWR CTR,bool,LRIT AUTO Power Control.
+Woodside,Scarborough,IMMS,,237,Pressure PWR CTR,bool,PRESSURE AUTO Power Control.
+Woodside,Scarborough,IMMS,,238,Temp Humidity PWR CTR,bool,TEMP HUMIDITY AUTO Power Control.
+Woodside,Scarborough,IMMS,,239,Heading PWR CTR,bool,HEADING AUTO Power Control.
+Woodside,Scarborough,IMMS,,240,Helideck 6DOF PWR CTR,bool,HELIDECK 6DOF AUTO Power Control.
+Woodside,Scarborough,IMMS,,241,NW Crane PWR CTR,bool,NW CRANE AUTO Power Control.
+Woodside,Scarborough,IMMS,,242,SE Crane PWR CTR,bool,SE CRANE AUTO Power Control.
+Woodside,Scarborough,IMMS,,243,N Airgap PWR CTR,bool,N AIRGAP AUTO Power Control.
+Woodside,Scarborough,IMMS,,244,S Airgap PWR CTR,bool,S AIRGAP AUTO Power Control.
+Woodside,Scarborough,IMMS,,245,W Airgap PWR CTR,bool,W AIRGAP AUTO Power Control.
+Woodside,Scarborough,IMMS,,246,E Airgap PWR CTR,bool,E AIRGAP AUTO Power Control.
+Woodside,Scarborough,IMMS,,247,Topside 6DOF PWR CTR,bool,TOPSIDE 6DOF AUTO Power Control.
+Woodside,Scarborough,IMMS,,248,Weather Suite PWR CTR,bool,WEATHER SUITE AUTO Power Control.
+Woodside,Scarborough,IMMS,,249,Wave Radar PWR CTR,bool,WAVE RADAR AUTO Power Control.
+Woodside,Scarborough,IMMS,,250,Wave Buoy PWR CTR,bool,WAVE BUOY AUTO Power Control.
+Woodside,Scarborough,IMMS,,251,NW NE HSMS DAQ1 PWR CTR,bool,NW NE HSMS DAQ 1 AUTO Power Control.
+Woodside,Scarborough,IMMS,,252,SW SE HSMS DAQ1 PWR CTR,bool,SW SE HSMS DAQ 1 AUTO Power Control.
+Woodside,Scarborough,IMMS,,253,NW NE HSMS DAQ2 PWR CTR,bool,NW NE HSMS DAQ 2 AUTO Power Control.
+Woodside,Scarborough,IMMS,,254,SW SE HSMS DAQ2 PWR CTR,bool,SW SE HSMS DAQ 2 AUTO Power Control.
+Woodside,Scarborough,IMMS,,255,NW Mooring PWR CTR,bool,NW MOORING AUTO Power Control.
+Woodside,Scarborough,IMMS,,256,NE Mooring PWR CTR,bool,NE MOORING AUTO Power Control.
+Woodside,Scarborough,IMMS,,257,SW Mooring PWR CTR,bool,SW MOORING AUTO Power Control.
+Woodside,Scarborough,IMMS,,258,SE Mooring PWR CTR,bool,SE MOORING AUTO Power Control.
+Woodside,Scarborough,IMMS,,259,Console HSMS DAQ PWR CTR,bool,CONSOLE HSMS DAQ AUTO Power Control.
+Woodside,Scarborough,IMMS,,260,Spare PWR CTR,bool,SPAR AUTO Power Control.
+Woodside,Scarborough,IMMS,,261,Buoy Heave,m,Dynamic motion along the local body vertical (z) axis. +ve Heave is directed vertically upwards.
+Woodside,Scarborough,IMMS,,262,Buoy North,m,"Dynamic Northwards excursion of the buoy, measured from the reference position."
+Woodside,Scarborough,IMMS,,263,Buoy West,m,"Dynamic Westwards excursion of the buoy, measured from the reference position."
+Woodside,Scarborough,IMMS,,264,Buoy Sig Wave Ht,m,"Four times the standard deviation of the surface elevation during the observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,265,Buoy Max Wave Ht,m,"Maximum wave height during observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,266,Buoy Peak Period,sec,"Wave energy peak period during observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,267,Buoy 0-Upcross Period,sec,"Mean wave zero-upcrossing period during observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,268,Buoy Pri Wave Dir,degT,"Wave spectrum's primary peak energy direction FROM, relative to True North, during observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,269,Buoy Mean Wave Dir,degT,"Wave spectrum's average energy direction FROM, relative to True North, during observation interval near the platform, as measured by the Waverider buoy."
+Woodside,Scarborough,IMMS,,270,Buoy Time HI,WORD,Timestamp of statistics update from sensor (High Part)
+Woodside,Scarborough,IMMS,,271,Buoy Time LO,WORD,Timestamp of statistics update from sensor (Low Part)
+Woodside,Scarborough,IMMS,,272,ML 1 Tension 1,tonnes,Measured mooring line ML 1 tension at fairlead
+Woodside,Scarborough,IMMS,,273,ML 1 Tension 2,tonnes,Measured redundant mooring line ML 1 tension at fairlead
+Woodside,Scarborough,IMMS,,274,ML 1 Angle,deg,Measured mooring line ML 1 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,275,ML 1 Latch Position,deg,Stopper latch angle for mooring line ML 1
+Woodside,Scarborough,IMMS,,276,ML 2 Tension 1,tonnes,Measured mooring line ML 2 tension at fairlead
+Woodside,Scarborough,IMMS,,277,ML 2 Tension 2,tonnes,Measured redundant mooring line ML 2 tension at fairlead
+Woodside,Scarborough,IMMS,,278,ML 2 Angle,deg,Measured mooring line ML 2 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,279,ML 2 Latch Position,deg,Stopper latch angle for mooring line ML 2
+Woodside,Scarborough,IMMS,,280,ML 3 Tension 1,tonnes,Measured mooring line ML 3 tension at fairlead
+Woodside,Scarborough,IMMS,,281,ML 3 Tension 2,tonnes,Measured redundant mooring line ML 3 tension at fairlead
+Woodside,Scarborough,IMMS,,282,ML 3 Angle,deg,Measured mooring line ML 3 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,283,ML 3 Latch Position,deg,Stopper latch angle for mooring line ML 3
+Woodside,Scarborough,IMMS,,284,ML 4 Tension 1,tonnes,Measured mooring line ML 4 tension at fairlead
+Woodside,Scarborough,IMMS,,285,ML 4 Tension 2,tonnes,Measured redundant mooring line ML 4 tension at fairlead
+Woodside,Scarborough,IMMS,,286,ML 4 Angle,deg,Measured mooring line ML 4 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,287,ML 4 Latch Position,deg,Stopper latch angle for mooring line ML 4
+Woodside,Scarborough,IMMS,,288,ML 5 Tension 1,tonnes,Measured mooring line ML 5 tension at fairlead
+Woodside,Scarborough,IMMS,,289,ML 5 Tension 2,tonnes,Measured redundant mooring line ML 5 tension at fairlead
+Woodside,Scarborough,IMMS,,290,ML 5 Angle,deg,Measured mooring line ML 5 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,291,ML 5 Latch Position,deg,Stopper latch angle for mooring line ML 5
+Woodside,Scarborough,IMMS,,292,NE Supply Damper 1 ZSC,bool,NE Supply Damper 1 Fully Closed Indication
+Woodside,Scarborough,IMMS,,293,NE Supply Damper 1 ZSO,bool,NE Supply Damper 1 Fully Open Indication
+Woodside,Scarborough,IMMS,,294,NE Exhaust Damper 2 ZSC,bool,NE Exhaust Damper 2 Fully Closed Indication
+Woodside,Scarborough,IMMS,,295,NE Exhaust Damper 2 ZSO,bool,NE Exhaust Damper 2 Fully Open Indication
+Woodside,Scarborough,IMMS,,296,NE Exhaust Damper 3 ZSC,bool,NE Exhaust Damper 3 Fully Closed Indication
+Woodside,Scarborough,IMMS,,297,NE Exhaust Damper 3 ZSO,bool,NE Exhaust Damper 3 Fully Open Indication
+Woodside,Scarborough,IMMS,,298,NE Close Door,bool,NE Column Door Fully Closed Indication
+Woodside,Scarborough,IMMS,,299,NE Close Hatch,bool,NE Column Hatch Fully Closed Indication
+Woodside,Scarborough,IMMS,,300,NE ML PLC Watchdog,counter,Heartbeat Counter
+Woodside,Scarborough,IMMS,,301,ML 6 Tension 1,tonnes,Measured mooring line ML 6 tension at fairlead
+Woodside,Scarborough,IMMS,,302,ML 6 Tension 2,tonnes,Measured redundant mooring line ML 6 tension at fairlead
+Woodside,Scarborough,IMMS,,303,ML 6 Angle,deg,Measured mooring line ML 6 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,304,ML 6 Latch Position,deg,Stopper latch angle for mooring line ML 6
+Woodside,Scarborough,IMMS,,305,ML 7 Tension 1,tonnes,Measured mooring line ML 7 tension at fairlead
+Woodside,Scarborough,IMMS,,306,ML 7 Tension 2,tonnes,Measured redundant mooring line ML 7 tension at fairlead
+Woodside,Scarborough,IMMS,,307,ML 7 Angle,deg,Measured mooring line ML 7 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,308,ML 7 Latch Position,deg,Stopper latch angle for mooring line ML 7
+Woodside,Scarborough,IMMS,,309,ML 8 Tension 1,tonnes,Measured mooring line ML 8 tension at fairlead
+Woodside,Scarborough,IMMS,,310,ML 8 Tension 2,tonnes,Measured redundant mooring line ML 8 tension at fairlead
+Woodside,Scarborough,IMMS,,311,ML 8 Angle,deg,Measured mooring line ML 8 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,312,ML 8 Latch Position,deg,Stopper latch angle for mooring line ML 8
+Woodside,Scarborough,IMMS,,313,ML 9 Tension 1,tonnes,Measured mooring line ML 9 tension at fairlead
+Woodside,Scarborough,IMMS,,314,ML 9 Tension 2,tonnes,Measured redundant mooring line ML 9 tension at fairlead
+Woodside,Scarborough,IMMS,,315,ML 9 Angle,deg,Measured mooring line ML 9 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,316,ML 9 Latch Position,deg,Stopper latch angle for mooring line ML 9
+Woodside,Scarborough,IMMS,,317,ML 10 Tension 1,tonnes,Measured mooring line ML 10 tension at fairlead
+Woodside,Scarborough,IMMS,,318,ML 10 Tension 2,tonnes,Measured redundant mooring line ML 10 tension at fairlead
+Woodside,Scarborough,IMMS,,319,ML 10 Angle,deg,Measured mooring line ML 10 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,320,ML 10 Latch Position,deg,Stopper latch angle for mooring line ML 10
+Woodside,Scarborough,IMMS,,321,SE Supply Damper 1 ZSC,bool,SE Supply Damper 1 Fully Closed Indication
+Woodside,Scarborough,IMMS,,322,SE Supply Damper 1 ZSO,bool,SE Supply Damper 1 Fully Open Indication
+Woodside,Scarborough,IMMS,,323,SE Exhaust Damper 2 ZSC,bool,SE Exhaust Damper 2 Fully Closed Indication
+Woodside,Scarborough,IMMS,,324,SE Exhaust Damper 2 ZSO,bool,SE Exhaust Damper 2 Fully Open Indication
+Woodside,Scarborough,IMMS,,325,SE Exhaust Damper 3 ZSC,bool,SE Exhaust Damper 3 Fully Closed Indication
+Woodside,Scarborough,IMMS,,326,SE Exhaust Damper 3 ZSO,bool,SE Exhaust Damper 3 Fully Open Indication
+Woodside,Scarborough,IMMS,,327,SE Close Door,bool,SE Column Door Fully Closed Indication
+Woodside,Scarborough,IMMS,,328,SE Close Hatch,bool,SE Column Hatch Fully Closed Indication
+Woodside,Scarborough,IMMS,,329,SE ML PLC Watchdog,counter,Heartbeat Counter
+Woodside,Scarborough,IMMS,,330,ML 11 Tension 1,tonnes,Measured mooring line ML 11 tension at fairlead
+Woodside,Scarborough,IMMS,,331,ML 11 Tension 2,tonnes,Measured redundant mooring line ML 11 tension at fairlead
+Woodside,Scarborough,IMMS,,332,ML 11 Angle,deg,Measured mooring line ML 11 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,333,ML 11 Latch Position,deg,Stopper latch angle for mooring line ML 11
+Woodside,Scarborough,IMMS,,334,ML 12 Tension 1,tonnes,Measured mooring line ML 12 tension at fairlead
+Woodside,Scarborough,IMMS,,335,ML 12 Tension 2,tonnes,Measured redundant mooring line ML 12 tension at fairlead
+Woodside,Scarborough,IMMS,,336,ML 12 Angle,deg,Measured mooring line ML 12 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,337,ML 12 Latch Position,deg,Stopper latch angle for mooring line ML 12
+Woodside,Scarborough,IMMS,,338,ML 13 Tension 1,tonnes,Measured mooring line ML 13 tension at fairlead
+Woodside,Scarborough,IMMS,,339,ML 13 Tension 2,tonnes,Measured redundant mooring line ML 13 tension at fairlead
+Woodside,Scarborough,IMMS,,340,ML 13 Angle,deg,Measured mooring line ML 13 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,341,ML 13 Latch Position,deg,Stopper latch angle for mooring line ML 13
+Woodside,Scarborough,IMMS,,342,ML 14 Tension 1,tonnes,Measured mooring line ML 14 tension at fairlead
+Woodside,Scarborough,IMMS,,343,ML 14 Tension 2,tonnes,Measured redundant mooring line ML 14 tension at fairlead
+Woodside,Scarborough,IMMS,,344,ML 14 Angle,deg,Measured mooring line ML 14 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,345,ML 14 Latch Position,deg,Stopper latch angle for mooring line ML 14
+Woodside,Scarborough,IMMS,,346,ML 15 Tension 1,tonnes,Measured mooring line ML 15 tension at fairlead
+Woodside,Scarborough,IMMS,,347,ML 15 Tension 2,tonnes,Measured redundant mooring line ML 15 tension at fairlead
+Woodside,Scarborough,IMMS,,348,ML 15 Angle,deg,Measured mooring line ML 15 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,349,ML 15 Latch Position,deg,Stopper latch angle for mooring line ML 15
+Woodside,Scarborough,IMMS,,350,SW Supply Damper 1 ZSC,bool,SW Supply Damper 1 Fully Closed Indication
+Woodside,Scarborough,IMMS,,351,SW Supply Damper 1 ZSO,bool,SW Supply Damper 1 Fully Open Indication
+Woodside,Scarborough,IMMS,,352,SW Exhaust Damper 2 ZSC,bool,SW Exhaust Damper 2 Fully Closed Indication
+Woodside,Scarborough,IMMS,,353,SW Exhaust Damper 2 ZSO,bool,SW Exhaust Damper 2 Fully Open Indication
+Woodside,Scarborough,IMMS,,354,SW Exhaust Damper 3 ZSC,bool,SW Exhaust Damper 3 Fully Closed Indication
+Woodside,Scarborough,IMMS,,355,SW Exhaust Damper 3 ZSO,bool,SW Exhaust Damper 3 Fully Open Indication
+Woodside,Scarborough,IMMS,,356,SW Close Door,bool,SW Column Door Fully Closed Indication
+Woodside,Scarborough,IMMS,,357,SW Close Hatch,bool,SW Column Hatch Fully Closed Indication
+Woodside,Scarborough,IMMS,,358,SW ML PLC Watchdog,counter,Heartbeat Counter
+Woodside,Scarborough,IMMS,,359,ML 16 Tension 1,tonnes,Measured mooring line ML 16 tension at fairlead
+Woodside,Scarborough,IMMS,,360,ML 16 Tension 2,tonnes,Measured redundant mooring line ML 16 tension at fairlead
+Woodside,Scarborough,IMMS,,361,ML 16 Angle,deg,Measured mooring line ML 16 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,362,ML 16 Latch Position,deg,Stopper latch angle for mooring line ML 16
+Woodside,Scarborough,IMMS,,363,ML 17 Tension 1,tonnes,Measured mooring line ML 17 tension at fairlead
+Woodside,Scarborough,IMMS,,364,ML 17 Tension 2,tonnes,Measured redundant mooring line ML 17 tension at fairlead
+Woodside,Scarborough,IMMS,,365,ML 17 Angle,deg,Measured mooring line ML 17 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,366,ML 17 Latch Position,deg,Stopper latch angle for mooring line ML 17
+Woodside,Scarborough,IMMS,,367,ML 18 Tension 1,tonnes,Measured mooring line ML 18 tension at fairlead
+Woodside,Scarborough,IMMS,,368,ML 18 Tension 2,tonnes,Measured redundant mooring line ML 18 tension at fairlead
+Woodside,Scarborough,IMMS,,369,ML 18 Angle,deg,Measured mooring line ML 18 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,370,ML 18 Latch Position,deg,Stopper latch angle for mooring line ML1 8
+Woodside,Scarborough,IMMS,,371,ML 19 Tension 1,tonnes,Measured mooring line ML 19 tension at fairlead
+Woodside,Scarborough,IMMS,,372,ML 19 Tension 2,tonnes,Measured redundant mooring line ML 19 tension at fairlead
+Woodside,Scarborough,IMMS,,373,ML 19 Angle,deg,Measured mooring line ML 19 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,374,ML 19 Latch Position,deg,Stopper latch angle for mooring line ML 19
+Woodside,Scarborough,IMMS,,375,ML 20 Tension 1,tonnes,Measured mooring line ML 20 tension at fairlead
+Woodside,Scarborough,IMMS,,376,ML 20 Tension 2,tonnes,Measured redundant mooring line ML 20 tension at fairlead
+Woodside,Scarborough,IMMS,,377,ML 20 Angle,deg,Measured mooring line ML 20 angle from vertical at fairlead
+Woodside,Scarborough,IMMS,,378,ML 20 Latch Position,deg,Stopper latch angle for mooring line ML 20
+Woodside,Scarborough,IMMS,,379,NW Supply Damper 1 ZSC,bool,NW Supply Damper 1 Fully Closed Indication
+Woodside,Scarborough,IMMS,,380,NW Supply Damper 1 ZSO,bool,NW Supply Damper 1 Fully Open Indication
+Woodside,Scarborough,IMMS,,381,NW Exhaust Damper 2 ZSC,bool,NW Exhaust Damper 2 Fully Closed Indication
+Woodside,Scarborough,IMMS,,382,NW Exhaust Damper 2 ZSO,bool,NW Exhaust Damper 2 Fully Open Indication
+Woodside,Scarborough,IMMS,,383,NW Exhaust Damper 3 ZSC,bool,NW Exhaust Damper 3 Fully Closed Indication
+Woodside,Scarborough,IMMS,,384,NW Exhaust Damper 3 ZSO,bool,NW Exhaust Damper 3 Fully Open Indication
+Woodside,Scarborough,IMMS,,385,NW Close Door,bool,NW Column Door Fully Closed Indication
+Woodside,Scarborough,IMMS,,386,NW Close Hatch,bool,NW Column Hatch Fully Closed Indication
+Woodside,Scarborough,IMMS,,387,NW ML PLC Watchdog,counter,Heartbeat Counter
+Woodside,Scarborough,IMMS,,388,FBG001,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,389,FBG001-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,390,FBG002,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,391,FBG002-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,392,FBG003,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,393,FBG003-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,394,FBG004,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,395,FBG004-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,396,FBG005,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,397,FBG005-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,398,FBG006,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,399,FBG006-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,400,FBG007,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,401,FBG007-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,402,FBG008,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,403,FBG008-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,404,FBG009,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,405,FBG009-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,406,FBG010,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,407,FBG010-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,408,FBG011,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,409,FBG012-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,410,FBG013,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,411,FBG014,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,412,FBG015,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,413,FBG016,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,414,FBG016-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,415,FBG017,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,416,FBG018-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,417,FBG019,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,418,FBG020,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,419,FBG020-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,420,FBG021,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,421,FBG021-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,422,FBG022,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,423,FBG022-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,424,FBG023,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,425,FBG023-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,426,FBG024,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,427,FBG024-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,428,FBG025,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,429,FBG025-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,430,FBG026,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,431,FBG026-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,432,FBG027,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,433,FBG027-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,434,FBG028,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,435,FBG028-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,436,FBG029,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,437,FBG030,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,438,FBG031-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,439,FBG032,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,440,FBG033,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,441,FBG034,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,442,FBG034-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,443,FBG035,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,444,FBG036,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,445,FBG037-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,446,FBG038,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,447,FBG039,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,448,FBG039-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,449,FBG040,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,450,FBG040-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,451,FBG041,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,452,FBG041-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,453,FBG042,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,454,FBG042-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,455,FBG043,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,456,FBG043-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,457,FBG044,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,458,FBG044-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,459,FBG045,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,460,FBG045-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,461,FBG046,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,462,FBG046-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,463,FBG047,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,464,FBG047-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,465,FBG048,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,466,FBG048-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,467,FBG049,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,468,FBG050-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,469,FBG051,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,470,FBG052,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,471,FBG053,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,472,FBG054,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,473,FBG054-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,474,FBG055,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,475,FBG056-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,476,FBG057,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,477,FBG058,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,478,FBG058-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,479,FBG059,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,480,FBG059-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,481,FBG060,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,482,FBG060-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,483,FBG061,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,484,FBG061-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,485,FBG062,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,486,FBG062-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,487,FBG063,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,488,FBG063-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,489,FBG064,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,490,FBG064-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,491,FBG065,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,492,FBG065-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,493,FBG066,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,494,FBG066-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,495,FBG067,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,496,FBG068,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,497,FBG069-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,498,FBG070,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,499,FBG071,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,500,FBG072,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,501,FBG072-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,502,FBG073,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,503,FBG074,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,504,FBG075-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,505,FBG076,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,506,FBG077,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,507,FBG077-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,508,FBG078,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,509,FBG078-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,510,FBG079,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,511,FBG079-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,512,FBG080,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,513,FBG080-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,514,FBG081,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,515,FBG081-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,516,FBG082,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,517,FBG082-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,518,FBG083,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,519,FBG083-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,520,FBG084,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,521,FBG084-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,522,FBG085,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,523,FBG085-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,524,FBG086,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,525,FBG086-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,526,FBG087,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,527,FBG088-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,528,FBG089,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,529,FBG090,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,530,FBG091,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,531,FBG092,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,532,FBG092-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,533,FBG093,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,534,FBG094-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,535,FBG095,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,536,FBG096,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,537,FBG096-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,538,FBG097,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,539,FBG097-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,540,FBG098,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,541,FBG098-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,542,FBG099,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,543,FBG099-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,544,FBG100,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,545,FBG100-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,546,FBG101,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,547,FBG101-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,548,FBG102,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,549,FBG102-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,550,FBG103,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,551,FBG103-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,552,FBG104,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,553,FBG104-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,554,FBG105,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,555,FBG106,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,556,FBG107-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,557,FBG108,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,558,FBG109,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,559,FBG110,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,560,FBG110-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,561,FBG111,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,562,FBG112,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,563,FBG113-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,564,FBG114,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,565,FBG115,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,566,FBG115-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,567,FBG116,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,568,FBG116-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,569,FBG117,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,570,FBG117-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,571,FBG118,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,572,FBG118-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,573,FBG119,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,574,FBG119-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,575,FBG120,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,576,FBG120-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,577,FBG121,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,578,FBG121-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,579,FBG122,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,580,FBG122-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,581,FBG123,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,582,FBG123-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,583,FBG124,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,584,FBG124-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,585,FBG125,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,586,FBG126-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,587,FBG127,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,588,FBG128,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,589,FBG129,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,590,FBG130,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,591,FBG130-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,592,FBG131,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,593,FBG132-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,594,FBG133,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,595,FBG134,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,596,FBG134-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,597,FBG135,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,598,FBG135-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,599,FBG136,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,600,FBG136-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,601,FBG137,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,602,FBG137-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,603,FBG138,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,604,FBG138-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,605,FBG139,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,606,FBG139-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,607,FBG140,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,608,FBG140-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,609,FBG141,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,610,FBG141-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,611,FBG142,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,612,FBG142-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,613,FBG143,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,614,FBG144,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,615,FBG145-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,616,FBG146,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,617,FBG147,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,618,FBG148,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,619,FBG148-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,620,FBG149,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,621,FBG150,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,622,FBG151-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,623,FBG152,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,624,FBG153,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,625,FBG153-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,626,FBG154,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,627,FBG154-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,628,FBG155,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,629,FBG155-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,630,FBG156,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,631,FBG156-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,632,FBG157,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,633,FBG157-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,634,FBG158,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,635,FBG158-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,636,FBG159,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,637,FBG159-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,638,FBG160,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,639,FBG160-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,640,FBG161,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,641,FBG161-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,642,FBG162,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,643,FBG162-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,644,FBG163,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,645,FBG163-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,646,FBG164,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,647,FBG164-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,648,FBG177,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,649,FBG177-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,650,FBG178,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,651,FBG178-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,652,FBG179,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,653,FBG179-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,654,FBG180,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,655,FBG180-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,656,FBG181,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,657,FBG181-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,658,FBG182,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,659,FBG182-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,660,FBG183,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,661,FBG183-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,662,FBG184,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,663,FBG184-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,664,FBG189,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,665,FBG189-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,666,FBG190,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,667,FBG190-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,668,FBG191,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,669,FBG191-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,670,FBG192,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,671,FBG192-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,672,FBG193,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,673,FBG193-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,674,FBG194,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,675,FBG194-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,676,FBG195,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,677,FBG195-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,678,FBG196,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,679,FBG196-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,680,FBG197,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,681,FBG197-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,682,FBG198,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,683,FBG198-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,684,FBG199,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,685,FBG199-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,686,FBG200,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,687,FBG200-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,688,FBG201,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,689,FBG201-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,690,FBG202,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,691,FBG202-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,692,FBG203,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,693,FBG203-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,694,FBG204,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,695,FBG204-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,696,FBG205,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,697,FBG205-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,698,FBG206,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,699,FBG206-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,700,FBG207,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,701,FBG207-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,702,FBG208,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,703,FBG208-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,704,FBG209,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,705,FBG209-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,706,FBG210,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,707,FBG210-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,708,FBG211,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,709,FBG211-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,710,FBG212,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,711,FBG212-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,712,FBG213,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,713,FBG213-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,714,FBG214,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,715,FBG214-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,716,FBG215,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,717,FBG215-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,718,FBG216,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,719,FBG216-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,720,FBG217,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,721,FBG217-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,722,FBG218,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,723,FBG218-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,724,FBG219,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,725,FBG219-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,726,FBG220,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,727,FBG220-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,728,FBG221,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,729,FBG221-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,730,FBG222,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,731,FBG222-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,732,FBG223,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,733,FBG223-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,734,FBG224,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,735,FBG224-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,736,FBG225,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,737,FBG225-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,738,FBG226,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,739,FBG226-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,740,FBG227,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,741,FBG227-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,742,FBG228,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,743,FBG228-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,744,FBG229,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,745,FBG229-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,746,FBG230,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,747,FBG230-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,748,FBG231,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,749,FBG231-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,750,FBG232,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,751,FBG232-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,752,FBG233,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,753,FBG233-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,754,FBG234,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,755,FBG234-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,756,FBG235,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,757,FBG235-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,758,FBG236,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,759,FBG236-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,760,FBG237,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,761,FBG237-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,762,FBG238,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,763,FBG238-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,764,FBG239,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,765,FBG239-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,766,FBG240,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,767,FBG240-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,768,FBG241,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,769,FBG241-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,770,FBG242,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,771,FBG242-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,772,FBG245,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,773,FBG245-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,774,FBG246,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,775,FBG246-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,776,FBG247,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,777,FBG247-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,778,FBG248,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,779,FBG248-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,780,FBG249,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,781,FBG249-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,782,FBG250,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,783,FBG250-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,784,FBG251,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,785,FBG251-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,786,FBG252,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,787,FBG252-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,788,FBG253,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,789,FBG253-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,790,FBG254,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,791,FBG254-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,792,FBG255,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,793,FBG255-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,794,FBG256,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,795,FBG256-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,796,FBG281,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,797,FBG281-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,798,FBG282,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,799,FBG282-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,800,FBG283,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,801,FBG283-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,802,FBG284,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,803,FBG284-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,804,FBG285,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,805,FBG285-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,806,FBG286,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,807,FBG286-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,808,FBG287,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,809,FBG287-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,810,FBG288,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,811,FBG288-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,812,FBG257,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,813,FBG257-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,814,FBG258,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,815,FBG258-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,816,FBG259,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,817,FBG259-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,818,FBG260,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,819,FBG260-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,820,FBG261,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,821,FBG261-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,822,FBG262,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,823,FBG262-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,824,FBG263,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,825,FBG263-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,826,FBG264,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,827,FBG264-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,828,FBG265,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,829,FBG265-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,830,FBG266,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,831,FBG266-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,832,FBG267,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,833,FBG267-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,834,FBG268,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,835,FBG268-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,836,FBG269,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,837,FBG269-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,838,FBG270,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,839,FBG270-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,840,FBG271,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,841,FBG271-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,842,FBG272,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,843,FBG272-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,844,FBG273,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,845,FBG273-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,846,FBG274,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,847,FBG274-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,848,FBG275,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,849,FBG275-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,850,FBG276,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,851,FBG276-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,852,FBG277,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,853,FBG277-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,854,FBG278,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,855,FBG278-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,856,FBG279,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,857,FBG279-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,858,FBG280,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,859,FBG280-T,nm,Raw fiber-optic Bragg grating wavelength
+Woodside,Scarborough,IMMS,,860,ICSS Watchdog,cntr,Heartbeat Counter
+Woodside,Scarborough,IMMS,,861,N-BSE Level,%,N-BSE Level
+Woodside,Scarborough,IMMS,,862,N-BNE Level,%,N-BNE Level
+Woodside,Scarborough,IMMS,,863,NE0-BNW Level,%,NE0-BNW Level
+Woodside,Scarborough,IMMS,,864,NE0-BNE Level,%,NE0-BNE Level
+Woodside,Scarborough,IMMS,,865,NE0-BSE Level,%,NE0-BSE Level
+Woodside,Scarborough,IMMS,,866,E-BNE Level,%,E-BNE Level
+Woodside,Scarborough,IMMS,,867,E-BNW Level,%,E-BNW Level
+Woodside,Scarborough,IMMS,,868,NE1-VNE Void,%,NE1-VNE Void
+Woodside,Scarborough,IMMS,,869,NE1-VSE Void,%,NE1-VSE Void
+Woodside,Scarborough,IMMS,,870,NE1-VSW Void,%,NE1-VSW Void
+Woodside,Scarborough,IMMS,,871,NE1-VNW Void,%,NE1-VNW Void
+Woodside,Scarborough,IMMS,,872,NE2-VNE Void,%,NE2-VNE Void
+Woodside,Scarborough,IMMS,,873,NE2-VSE Void,%,NE2-VSE Void
+Woodside,Scarborough,IMMS,,874,NE2-VSW Void,%,NE2-VSW Void
+Woodside,Scarborough,IMMS,,875,NE2-VNW Void,%,NE2-VNW Void
+Woodside,Scarborough,IMMS,,876,NE3-VNE Void,%,NE3-VNE Void
+Woodside,Scarborough,IMMS,,877,NE3-VSE Void,%,NE3-VSE Void
+Woodside,Scarborough,IMMS,,878,NE3-VSW Void,%,NE3-VSW Void
+Woodside,Scarborough,IMMS,,879,NE3-VNW Void,%,NE3-VNW Void
+Woodside,Scarborough,IMMS,,880,E-BSW Level,%,E-BSW Level
+Woodside,Scarborough,IMMS,,881,E-BSE Level,%,E-BSE Level
+Woodside,Scarborough,IMMS,,882,SE0-BNE Level,%,SE0-BNE Level
+Woodside,Scarborough,IMMS,,883,SE0-BSE Level,%,SE0-BSE Level
+Woodside,Scarborough,IMMS,,884,SE0-BSW Level,%,SE0-BSW Level
+Woodside,Scarborough,IMMS,,885,S-BSE Level,%,S-BSE Level
+Woodside,Scarborough,IMMS,,886,S-BNE Level,%,S-BNE Level
+Woodside,Scarborough,IMMS,,887,SE1-VNE Void,%,SE1-VNE Void
+Woodside,Scarborough,IMMS,,888,SE1-VSE Void,%,SE1-VSE Void
+Woodside,Scarborough,IMMS,,889,SE1-VSW Void,%,SE1-VSW Void
+Woodside,Scarborough,IMMS,,890,SE1-VNW Void,%,SE1-VNW Void
+Woodside,Scarborough,IMMS,,891,SE2-VNE Void,%,SE2-VNE Void
+Woodside,Scarborough,IMMS,,892,SE2-VSE Void,%,SE2-VSE Void
+Woodside,Scarborough,IMMS,,893,SE2-VSW Void,%,SE2-VSW Void
+Woodside,Scarborough,IMMS,,894,SE2-VNW Void,%,SE2-VNW Void
+Woodside,Scarborough,IMMS,,895,SE3-VNE Void,%,SE3-VNE Void
+Woodside,Scarborough,IMMS,,896,SE3-VSE Void,%,SE3-VSE Void
+Woodside,Scarborough,IMMS,,897,SE3-VSW Void,%,SE3-VSW Void
+Woodside,Scarborough,IMMS,,898,SE3-VNW Void,%,SE3-VNW Void
+Woodside,Scarborough,IMMS,,899,S-BNW Level,%,S-BNW Level
+Woodside,Scarborough,IMMS,,900,S-BSW Level,%,S-BSW Level
+Woodside,Scarborough,IMMS,,901,SW0-BSE Level,%,SW0-BSE Level
+Woodside,Scarborough,IMMS,,902,SW0-BSW Level,%,SW0-BSW Level
+Woodside,Scarborough,IMMS,,903,SW0-BNW Level,%,SW0-BNW Level
+Woodside,Scarborough,IMMS,,904,W-BSW Level,%,W-BSW Level
+Woodside,Scarborough,IMMS,,905,W-BSE Level,%,W-BSE Level
+Woodside,Scarborough,IMMS,,906,SW1-VNE Void,%,SW1-VNE Void
+Woodside,Scarborough,IMMS,,907,SW1-VSE Void,%,SW1-VSE Void
+Woodside,Scarborough,IMMS,,908,SW1-VSW Void,%,SW1-VSW Void
+Woodside,Scarborough,IMMS,,909,SW1-VNW Void,%,SW1-VNW Void
+Woodside,Scarborough,IMMS,,910,SW2-VNE Void,%,SW2-VNE Void
+Woodside,Scarborough,IMMS,,911,SW2-VSE Void,%,SW2-VSE Void
+Woodside,Scarborough,IMMS,,912,SW2-VSW Void,%,SW2-VSW Void
+Woodside,Scarborough,IMMS,,913,SW2-VNW Void,%,SW2-VNW Void
+Woodside,Scarborough,IMMS,,914,SW3-VNE Void,%,SW3-VNE Void
+Woodside,Scarborough,IMMS,,915,SW3-VSE Void,%,SW3-VSE Void
+Woodside,Scarborough,IMMS,,916,SW3-VSW Void,%,SW3-VSW Void
+Woodside,Scarborough,IMMS,,917,SW3-VNW Void,%,SW3-VNW Void
+Woodside,Scarborough,IMMS,,918,W-BNE Level,%,W-BNE Level
+Woodside,Scarborough,IMMS,,919,W-BNW Level,%,W-BNW Level
+Woodside,Scarborough,IMMS,,920,NW0-BSW Level,%,NW0-BSW Level
+Woodside,Scarborough,IMMS,,921,NW0-BNW Level,%,NW0-BNW Level
+Woodside,Scarborough,IMMS,,922,NW0-BNE Level,%,NW0-BNE Level
+Woodside,Scarborough,IMMS,,923,N-BNW Level,%,N-BNW Level
+Woodside,Scarborough,IMMS,,924,N-BSW Level,%,N-BSW Level
+Woodside,Scarborough,IMMS,,925,NW1-VNE Void,%,NW1-VNE Void
+Woodside,Scarborough,IMMS,,926,NW1-VSE Void,%,NW1-VSE Void
+Woodside,Scarborough,IMMS,,927,NW1-VSW Void,%,NW1-VSW Void
+Woodside,Scarborough,IMMS,,928,NW1-VNW Void,%,NW1-VNW Void
+Woodside,Scarborough,IMMS,,929,NW2-VNE Void,%,NW2-VNE Void
+Woodside,Scarborough,IMMS,,930,NW2-VSE Void,%,NW2-VSE Void
+Woodside,Scarborough,IMMS,,931,NW2-VSW Void,%,NW2-VSW Void
+Woodside,Scarborough,IMMS,,932,NW2-VNW Void,%,NW2-VNW Void
+Woodside,Scarborough,IMMS,,933,NW3-VNE Void,%,NW3-VNE Void
+Woodside,Scarborough,IMMS,,934,NW3-VSE Void,%,NW3-VSE Void
+Woodside,Scarborough,IMMS,,935,NW3-VSW Void,%,NW3-VSW Void
+Woodside,Scarborough,IMMS,,936,NW3-VNW Void,%,NW3-VNW Void
+Woodside,Scarborough,IMMS,,937,NE Draft,m,NE Draft
+Woodside,Scarborough,IMMS,,938,SE Draft,m,SE Draft
+Woodside,Scarborough,IMMS,,939,SW Draft,m,SW Draft
+Woodside,Scarborough,IMMS,,940,NW Draft,m,NW Draft
+Woodside,Scarborough,IMMS,,941,Utility Wtr Storage,%,Utility Wtr Storage
+Woodside,Scarborough,IMMS,,942,Fresh Wtr Strorage 1,%,Fresh Wtr Strorage 1
+Woodside,Scarborough,IMMS,,943,Fresh Wtr Strorage 2,%,Fresh Wtr Strorage 2
+Woodside,Scarborough,IMMS,,944,EC Diesel Storage Tank,%,EC Diesel Storage Tank
+Woodside,Scarborough,IMMS,,945,WC Diesel Storage Tank,%,WC Diesel Storage Tank
+Woodside,Scarborough,IMMS,,946,HP Flare Knockout Drum,%,HP Flare Knockout Drum
+Woodside,Scarborough,IMMS,,947,LP Flare Knockout Drum,%,LP Flare Knockout Drum
+Woodside,Scarborough,IMMS,,948,Clsd Drains Drum,%,Clsd Drains Drum
+Woodside,Scarborough,IMMS,,949,Opn Drains Drum,%,Opn Drains Drum
+Woodside,Scarborough,IMMS,,950,Mchn Opn Drains Drum,%,Mchn Opn Drains Drum
+Woodside,Scarborough,IMMS,,951,MEG Clsd Drains Drum,%,MEG Clsd Drains Drum
+Woodside,Scarborough,IMMS,,952,MRU Column Raiser,%,MRU Column Raiser
+Woodside,Scarborough,IMMS,,953,MRU Flash Separator,%,MRU Flash Separator
+Woodside,Scarborough,IMMS,,954,Clsd Drains Waste Drum A,tonnes,Clsd Drains Waste Drum A
+Woodside,Scarborough,IMMS,,955,Clsd Drains Waste Drum B,tonnes,Clsd Drains Waste Drum B
+Woodside,Scarborough,IMMS,,956,Opn Drains Waste Drum,tonnes,Opn Drains Waste Drum
+Woodside,Scarborough,IMMS,,957,MRU Waste Drum C,tonnes,MRU Waste Drum C
+Woodside,Scarborough,IMMS,,958,MRU Waste Drum D,tonnes,MRU Waste Drum D
+Woodside,Scarborough,IMMS,,959,CIP Waste Drum E,tonnes,CIP Waste Drum E
+Woodside,Scarborough,IMMS,,960,MAS WatchDog,cntr,Heartbeat Counter
+Woodside,Scarborough,IMMS,,961,MAS Calculation Status,bool,MAS Calculation Status
+Woodside,Scarborough,IMMS,,962,Discrepancy Wt,mt,Discrepancy Wt
+Woodside,Scarborough,IMMS,,963,Discrepancy Wt cg NS,m,Discrepancy Wt cg NS
+Woodside,Scarborough,IMMS,,964,Discrepancy Wt cg EW,m,Discrepancy Wt cg EW
+Woodside,Scarborough,IMMS,,965,Discrepancy Wt VCG,m,Discrepancy Wt VCG
+Woodside,Scarborough,IMMS,,966,Apparent Weight,mt,Apparent Weight
+Woodside,Scarborough,IMMS,,967,Displacement,m,Displacement
+Woodside,Scarborough,IMMS,,968,Displacement VCG,m,Displacement VCG
+Woodside,Scarborough,IMMS,,969,Displacement cg NS,m,Displacement cg NS
+Woodside,Scarborough,IMMS,,970,Displacement cg EW,m,Displacement cg EW
+Woodside,Scarborough,IMMS,,971,Target Displacement,m,Target Displacement
+Woodside,Scarborough,IMMS,,972,Target Displacement VCG,m,Target Displacement VCG
+Woodside,Scarborough,IMMS,,973,Target Displacement cg NS,m,Target Displacement cg NS
+Woodside,Scarborough,IMMS,,974,Target Displacement cg EW,m,Target Displacement cg EW
+Woodside,Scarborough,IMMS,,975,Free Surface-NS,m,Free Surface-NS
+Woodside,Scarborough,IMMS,,976,Free Surface-EW,m,Free Surface-EW
+Woodside,Scarborough,IMMS,,977,KG Corrected,m,KG Corrected
+Woodside,Scarborough,IMMS,,978,Maximum KG,m,Maximum KG
+Woodside,Scarborough,IMMS,,979,KG Margin,m,KG Margin
+Woodside,Scarborough,IMMS,,980,Non Exempt LS,percent,Non Exempt LS
+Woodside,Scarborough,IMMS,,981,Ballast WT,mt,Ballast WT
+Woodside,Scarborough,IMMS,,982,Ballast LCG,m,Ballast LCG
+Woodside,Scarborough,IMMS,,983,Ballast TCG,m,Ballast TCG
+Woodside,Scarborough,IMMS,,984,Ballast VCG,m,Ballast VCG
+Woodside,Scarborough,IMMS,,985,Ballast FSL,m,Ballast FSL
+Woodside,Scarborough,IMMS,,986,Ballast FST,m,Ballast FST
+Woodside,Scarborough,IMMS,,987,Voids WT,mt,Voids WT
+Woodside,Scarborough,IMMS,,988,Voids LCG,m,Voids LCG
+Woodside,Scarborough,IMMS,,989,Voids TCG,m,Voids TCG
+Woodside,Scarborough,IMMS,,990,Voids VCG,m,Voids VCG
+Woodside,Scarborough,IMMS,,991,Voids FSL,m,Voids FSL
+Woodside,Scarborough,IMMS,,992,Voids FST,m,Voids FST
+Woodside,Scarborough,IMMS,,993,Hull Tanks WT,mt,Hull Tanks WT
+Woodside,Scarborough,IMMS,,994,Hull Tanks LCG,m,Hull Tanks LCG
+Woodside,Scarborough,IMMS,,995,Hull Tanks TCG,m,Hull Tanks TCG
+Woodside,Scarborough,IMMS,,996,Hull Tanks VCG,m,Hull Tanks VCG
+Woodside,Scarborough,IMMS,,997,Hull Tanks FSL,m,Hull Tanks FSL
+Woodside,Scarborough,IMMS,,998,Hull Tanks FST,m,Hull Tanks FST
+Woodside,Scarborough,IMMS,,999,Topside Tanks WT,mt,Topside Tanks WT
+Woodside,Scarborough,IMMS,,1000,Topside Tanks LCG,m,Topside Tanks LCG
+Woodside,Scarborough,IMMS,,1001,Topside Tanks TCG,m,Topside Tanks TCG
+Woodside,Scarborough,IMMS,,1002,Topside Tanks VCG,m,Topside Tanks VCG
+Woodside,Scarborough,IMMS,,1003,Topside Tanks FSL,m,Topside Tanks FSL
+Woodside,Scarborough,IMMS,,1004,Topside Tanks FST,m,Topside Tanks FST
+Woodside,Scarborough,IMMS,,1005,Lightship WT,mt,Lightship WT
+Woodside,Scarborough,IMMS,,1006,Lightship LCG,m,Lightship LCG
+Woodside,Scarborough,IMMS,,1007,Lightship TCG,m,Lightship TCG
+Woodside,Scarborough,IMMS,,1008,Lightship VCG,m,Lightship VCG
+Woodside,Scarborough,IMMS,,1009,Lightship Modification WT,mt,Lightship Modification WT
+Woodside,Scarborough,IMMS,,1010,Lightship Modification LCG,m,Lightship Modification LCG
+Woodside,Scarborough,IMMS,,1011,Lightship Modification TCG,m,Lightship Modification TCG
+Woodside,Scarborough,IMMS,,1012,Lightship Modification VCG,m,Lightship Modification VCG
+Woodside,Scarborough,IMMS,,1013,Deck Survey WT,mt,Deck Survey WT
+Woodside,Scarborough,IMMS,,1014,Deck Survey LCG,m,Deck Survey LCG
+Woodside,Scarborough,IMMS,,1015,Deck Survey TCG,m,Deck Survey TCG
+Woodside,Scarborough,IMMS,,1016,Deck Survey VCG,m,Deck Survey VCG
+Woodside,Scarborough,IMMS,,1017,Topsides Weights WT,mt,Topsides Weights WT
+Woodside,Scarborough,IMMS,,1018,Topsides Weights LCG,m,Topsides Weights LCG
+Woodside,Scarborough,IMMS,,1019,Topsides Weights TCG,m,Topsides Weights TCG
+Woodside,Scarborough,IMMS,,1020,Topsides Weights VCG,m,Topsides Weights VCG
+Woodside,Scarborough,IMMS,,1021,Chain Onboard WT,mt,Chain Onboard WT
+Woodside,Scarborough,IMMS,,1022,Chain Onboard LCG,m,Chain Onboard LCG
+Woodside,Scarborough,IMMS,,1023,Chain Onboard TCG,m,Chain Onboard TCG
+Woodside,Scarborough,IMMS,,1024,Chain Onboard VCG,m,Chain Onboard VCG
+Woodside,Scarborough,IMMS,,1025,Mooring Tension WT,mt,Mooring Tension WT
+Woodside,Scarborough,IMMS,,1026,Mooring Tension LCG,m,Mooring Tension LCG
+Woodside,Scarborough,IMMS,,1027,Mooring Tension TCG,m,Mooring Tension TCG
+Woodside,Scarborough,IMMS,,1028,Mooring Tension VCG,m,Mooring Tension VCG
+Woodside,Scarborough,IMMS,,1029,SCRs WT,mt,SCRs WT
+Woodside,Scarborough,IMMS,,1030,SCRs LCG,m,SCRs LCG
+Woodside,Scarborough,IMMS,,1031,SCRs TCG,m,SCRs TCG
+Woodside,Scarborough,IMMS,,1032,SCRs VCG,m,SCRs VCG
+Woodside,Scarborough,IMMS,,1033,Calculated Draft North,m,Calculated Draft North
+Woodside,Scarborough,IMMS,,1034,Calculated Draft South,m,Calculated Draft South
+Woodside,Scarborough,IMMS,,1035,Calculated Draft East,m,Calculated Draft East
+Woodside,Scarborough,IMMS,,1036,Calculated Draft West,m,Calculated Draft West
+Woodside,Scarborough,IMMS,,1037,Calculated Inclination N-S,m,Calculated Inclination N-S
+Woodside,Scarborough,IMMS,,1038,Calculated Inclination E-W,m,Calculated Inclination E-W
+Woodside,Scarborough,IMMS,,1039,Damage Identification Alrm,code,Damage Identification Alrm
+Woodside,Scarborough,IMMS,,1040,KG Margin Alarm,code,KG Margin Alarm
+Woodside,Scarborough,IMMS,,1041,Discrepancy Wgt Alarm,code,Discrepancy Wgt Alarm
+Woodside,Scarborough,IMMS,,1042,Discrepancy Draft Alarm,code,Discrepancy Draft Alarm
+Woodside,Scarborough,IMMS,,1043,Discrepancy Inclinati Alrm,code,Discrepancy Inclinati Alrm
+Woodside,Scarborough,IMMS,,1044,N BNE Target TK LVL,m,N BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1045,N BNW Target TK LVL,m,N BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1046,N BSE Target TK LVL,m,N BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1047,N BSW Target TK LVL,m,N BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1048,S BNE Target TK LVL,m,S BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1049,S BNW Target TK LVL,m,S BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1050,S BSE Target TK LVL,m,S BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1051,S BSW Target TK LVL,m,S BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1052,E BNE Target TK LVL,m,E BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1053,E BNW Target TK LVL,m,E BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1054,E BSE Target TK LVL,m,E BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1055,E BSW Target TK LVL,m,E BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1056,W BNE Target TK LVL,m,W BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1057,W BNW Target TK LVL,m,W BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1058,W BSE Target TK LVL,m,W BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1059,W BSW Target TK LVL,m,W BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1060,SE0 BSW Target TK LVL,m,SE0 BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1061,SE0 BSE Target TK LVL,m,SE0 BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1062,SE0 BNE Target TK LVL,m,SE0 BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1063,SW0 BSE Target TK LVL,m,SW0 BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1064,SW0 BSW Target TK LVL,m,SW0 BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1065,SW0 BNW Target TK LVL,m,SW0 BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1066,NW0 BNE Target TK LVL,m,NW0 BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1067,NW0 BNW Target TK LVL,m,NW0 BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1068,NW0 BSW Target TK LVL,m,NW0 BSW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1069,NE0 BNE Target TK LVL,m,NE0 BNE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1070,NE0 BNW Target TK LVL,m,NE0 BNW Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1071,NE0 BSE Target TK LVL,m,NE0 BSE Target Tank Level (Absolute)
+Woodside,Scarborough,IMMS,,1072,PQ Roll,deg,"Roll angle of rotation about the local body longitudinal (x) axis, at platform origin. +ve Roll is Platform South Down."
+Woodside,Scarborough,IMMS,,1073,PQ Pitch,deg,"Pitch angle of rotation about the local body transverse (y) axis, at platform origin. +ve Pitch is Platform East Down."
+Woodside,Scarborough,IMMS,,1074,PQ Roll 20min,deg,List or Heel of the platform. +ve List is Platform South Down.
+Woodside,Scarborough,IMMS,,1075,PQ Pitch 20min,deg,Trim of the platform. +ve Trim is Platform East Down.
+Woodside,Scarborough,IMMS,,1076,PQ Heading,degT,Heading of the vessel at platform origin. +ve heading is Platform East (x-axis) clockwise of True North.
+Woodside,Scarborough,IMMS,,1077,PQ Heading 20min,degT,20-minute running average of the Platform Heading.
+Woodside,Scarborough,IMMS,,1078,LQ GPS Lat,deg,"Calculated Latitude using DegMin, DecMin and DecMin2 as measured at LQ GNSS"
+Woodside,Scarborough,IMMS,,1079,LQ GPS Lon,deg,"Calculated Longitude using DegMin, DecMin and DecMin2 as measured at LQ GNSS"
+Woodside,Scarborough,IMMS,,1080,LQ GPS Altitude,m,"Altitude measurement at the LQ GNSS antenna location, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1081,LQ GPS Northings,m,"Northings at the LQ GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1082,LQ GPS Eastings,m,"Eastings at the LQ GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1083,LQ PQ Northings,m,"Northings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1084,LQ PQ Eastings,m,"Eastings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1085,LQ PQ Altitude,m,"Altitude measurement at the platform origin, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1086,LQ PQ Offset,m,Calculated horizontal plane offset of the platform from the platform reference position.
+Woodside,Scarborough,IMMS,,1087,LQ PQ Offset Dir,degT,"Angle clockwise of True North, of an imaginary line from the platform reference position to the instantaneous platform origin."
+Woodside,Scarborough,IMMS,,1088,LQ PQ Northings AVG,m,20-minute running average of LQ PQ Northings
+Woodside,Scarborough,IMMS,,1089,LQ PQ Eastings AVG,m,20-minute running average of LQ PQ Eastings
+Woodside,Scarborough,IMMS,,1090,LQ PQ Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,1091,SEC GPS Lat,deg,"Calculated Latitude using DegMin, DecMin and DecMin2 as measured at SEC GNSS"
+Woodside,Scarborough,IMMS,,1092,SEC GPS Lon,deg,"Calculated Longitude using DegMin, DecMin and DecMin2 as measured at SEC GNSS"
+Woodside,Scarborough,IMMS,,1093,SEC GPS Altitude,m,"Altitude measurement at the SEC GNSS antenna location, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1094,SEC GPS Northings,m," Northings at the SEC GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1095,SEC GPS Eastings,m," Eastings at the SEC GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1096,SEC PQ Northings,m," Northings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1097,SEC PQ Eastings,m," Eastings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1098,SEC PQ Altitude,m,"Altitude measurement at the platform origin, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1099,SEC PQ Offset,m,Calculated horizontal plane offset of the platform from the platform reference position.
+Woodside,Scarborough,IMMS,,1100,SEC PQ Offset Dir,degT,"Angle clockwise of True North, of an imaginary line from the platform reference position to the instantaneous platform origin."
+Woodside,Scarborough,IMMS,,1101,SEC PQ Northings AVG,m,20-minute running average of SEC PQ Northings
+Woodside,Scarborough,IMMS,,1102,SEC PQ Eastings AVG,m,20-minute running average of SEC PQ Eastings
+Woodside,Scarborough,IMMS,,1103,SEC PQ Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,1104,NWC GPS Lat,deg,"Calculated Latitude using DegMin, DecMin and DecMin2 as measured at NWC GNSS"
+Woodside,Scarborough,IMMS,,1105,NWC GPS Lon,deg,"Calculated Longitude using DegMin, DecMin and DecMin2 as measured at NWC GNSS"
+Woodside,Scarborough,IMMS,,1106,NWC GPS Altitude,m,"Altitude measurement at the NWC GNSS antenna location, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1107,NWC GPS Northings,m,"Northings at the NWC GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1108,NWC GPS Eastings,m,"Eastings at the NWC GNSS antenna location, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1109,NWC PQ Northings,m,"Northings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1110,NWC PQ Eastings,m,"Eastings at the platform origin, measured from platform reference position"
+Woodside,Scarborough,IMMS,,1111,NWC PQ Altitude,m,"Altitude measurement at the platform origin, from the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1112,NWC PQ Offset,m,Calculated horizontal plane offset of the platform from the platform reference position.
+Woodside,Scarborough,IMMS,,1113,NWC PQ Offset Dir,degT,"Angle clockwise of True North, of an imaginary line from the platform reference position to the instantaneous platform origin."
+Woodside,Scarborough,IMMS,,1114,NWC PQ Northings AVG,m,20-minute running average of NWC PQ Northings
+Woodside,Scarborough,IMMS,,1115,NWC PQ Eastings AVG,m,20-minute running average of NWC PQ Eastings
+Woodside,Scarborough,IMMS,,1116,NWC PQ Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,1117,COMBO PQ Lat,deg,Combined Latitude of the platform origin from all GNSS measurements
+Woodside,Scarborough,IMMS,,1118,COMBO PQ Lon,deg,Combined Longitude of the platform origin from all GNSS measurements
+Woodside,Scarborough,IMMS,,1119,COMBO PQ Altitude,ft,"Combined Altitude of the platform origin from all GNSS measurements, in the WGS84 reference datum"
+Woodside,Scarborough,IMMS,,1120,COMBO PQ Northings,ft,"Combined Northings at the platform origin measured from platform reference position, from all GNSS measurements"
+Woodside,Scarborough,IMMS,,1121,COMBO PQ Eastings,ft,"Combined Eastings at the platform origin measured from platform reference position, from all GNSS measurements"
+Woodside,Scarborough,IMMS,,1122,COMBO PQ Offset,ft,"Combined horizontal plane offset of the platform origin measured from platform reference position, from all GNSS measurements"
+Woodside,Scarborough,IMMS,,1123,COMBO PQ Offset Dir,degT,"Angle clockwise of True North, of an imaginary line from the platform reference position to the instantaneous combined platform origin location."
+Woodside,Scarborough,IMMS,,1124,COMBO PQ Northings AVG,ft,20-minute running average of Combined PQ Northings
+Woodside,Scarborough,IMMS,,1125,COMBO PQ Eastings AVG,ft,20-minute running average of Combined PQ Eastings
+Woodside,Scarborough,IMMS,,1126,COMBO GPS Quality,code,"GNSS Quality indicator (0 = invalid, 1 = GPS SPS, 2 = DGPS fix, 3 = GPS PPS, 4 = Fixed RTK, 5 = Float RTK, 6 = Estimated (dead reckoning), 7 = Manual Input , 8 = Simulation, 9 = SBAS"
+Woodside,Scarborough,IMMS,,1127,COMBO GPS No of Sats,#,Number of Satellites available for the combined GNSS position measurement.
+Woodside,Scarborough,IMMS,,1128,COMBO GPS HDOP,none,Horizontal dilution of precission number reported at the Combined GNSS.
+Woodside,Scarborough,IMMS,,1129,COMBO GPS Age of Cor,sec,Time lag of the Combined GNSS correction signal in seconds.
+Woodside,Scarborough,IMMS,,1130,COMBO GPS Active Mask,bits,"GNSS receivers used in COMBO solution (bit 0 = LQ, bit 1 = SEC, bit 2 = NWC)"
+Woodside,Scarborough,IMMS,,1131,COMBO WCC Offset,ft,Combined horizontal plane offset of the WCC point from the platform reference position.
+Woodside,Scarborough,IMMS,,1132,COMBO WCC Bearing,degT,"Combined horizontal plane bearing of the WCC point from the platform reference position, clockwise of True North."
+Woodside,Scarborough,IMMS,,1133,N Airgap,ft,Quality controlled distance of the N Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,1134,N Sig Wave Ht,ft,Four times the standard deviation of the surface elevation obtained from a running 20-minute record of the N Airgap Sensor.
+Woodside,Scarborough,IMMS,,1135,N Wave Period Tz,sec,Time series based zero-upcrossing period.
+Woodside,Scarborough,IMMS,,1136,N Draft,ft,N Airgap Sensor height minus the 20-minute running average of the quality controlled N Airgap Sensor reading.
+Woodside,Scarborough,IMMS,,1137,E Airgap,ft,Quality controlled distance of the E Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,1138,E Sig Wave Ht,ft,Four times the standard deviation of the surface elevation obtained from a running 20-minute record of the E Airgap Sensor.
+Woodside,Scarborough,IMMS,,1139,E Wave Period Tz,sec,Time series based zero-upcrossing period.
+Woodside,Scarborough,IMMS,,1140,E Draft,ft,E Airgap Sensor height minus the 20-minute running average of the quality controlled E Airgap Sensor reading.
+Woodside,Scarborough,IMMS,,1141,S Airgap,ft,Quality controlled distance of the S Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,1142,S Sig Wave Ht,ft,Four times the standard deviation of the surface elevation obtained from a running 20-minute record of the S Airgap Sensor.
+Woodside,Scarborough,IMMS,,1143,S Wave Period Tz,sec,Time series based zero-upcrossing period.
+Woodside,Scarborough,IMMS,,1144,S Draft,ft,S Airgap Sensor height minus the 20-minute running average of the quality controlled S Airgap Sensor reading.
+Woodside,Scarborough,IMMS,,1145,W Airgap,ft,Quality controlled distance of the W Airgap Sensor above the instantaneous water surface.
+Woodside,Scarborough,IMMS,,1146,W Sig Wave Ht,ft,Four times the standard deviation of the surface elevation obtained from a running 20-minute record of the W Airgap Sensor.
+Woodside,Scarborough,IMMS,,1147,W Wave Period Tz,sec,Time series based zero-upcrossing period.
+Woodside,Scarborough,IMMS,,1148,W Draft,ft,W Airgap Sensor height minus the 20-minute running average of the quality controlled W Airgap Sensor reading.
+Woodside,Scarborough,IMMS,,1149,COMBO Sig Wave Ht,ft,Selected Sig Wave Ht from the four wave height (air gap) sensors
+Woodside,Scarborough,IMMS,,1150,COMBO Wave Period,ft,Time series based zero-upcrossing period of selected Sig Wave Ht
+Woodside,Scarborough,IMMS,,1151,CL Draft Fr Airgaps,ft,Interpolated draft at the platform center obtained from a plane-fit through the four(4) airgap sensor readings.
+Woodside,Scarborough,IMMS,,1152,List Fr Airgaps,deg,List angle of the platform obtained from a plane-fit through the four(4) airgap sensor readings. +ve List is Platform South Down.
+Woodside,Scarborough,IMMS,,1153,Trim Fr Airgaps,deg,Trim angle of the platform obtained from a plane-fit through the four(4) airgap sensor readings. +ve Trim is Platform East Down.
+Woodside,Scarborough,IMMS,,1154,N Draft Fr Airgaps,ft,Interpolated draft at the N Airgap location obtained from a plane-fit through the four(4) airgap sensor readings.
+Woodside,Scarborough,IMMS,,1155,E Draft Fr Airgaps,ft,Interpolated draft at the E Airgap location obtained from a plane-fit through the four(4) airgap sensor readings.
+Woodside,Scarborough,IMMS,,1156,S Draft Fr Airgaps,ft,Interpolated draft at the S Airgap location obtained from a plane-fit through the four(4) airgap sensor readings.
+Woodside,Scarborough,IMMS,,1157,W Draft Fr Airgaps,ft,Interpolated draft at the W Airgap location obtained from a plane-fit through the four(4) airgap sensor readings.
+Woodside,Scarborough,IMMS,,1158,N Draft Delta,ft,Plane-fit error measured as the difference between 'N Draft' and 'N Draft Fr Airgaps'.
+Woodside,Scarborough,IMMS,,1159,E Draft Delta,ft,Plane-fit error measured as the difference between 'E Draft' and 'E Draft Fr Airgaps'.
+Woodside,Scarborough,IMMS,,1160,S Draft Delta,ft,Plane-fit error measured as the difference between 'S Draft' and 'S Draft Fr Airgaps'.
+Woodside,Scarborough,IMMS,,1161,W Draft Delta,ft,Plane-fit error measured as the difference between 'W Draft' and 'W Draft Fr Airgaps'.
+Woodside,Scarborough,IMMS,,1162,SEC Wind Spd,knots,Quality controlled Wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1163,SEC Wind Dir,degT,"True Wind direction FROM measured clockwise relative to North, at the SEC anemometer."
+Woodside,Scarborough,IMMS,,1164,SEC North Wind Spd,knots,Northerly component of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1165,SEC East Wind Spd,knots,Easterly component of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1166,SEC 3sec Wind Spd,knots,3-second running average of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1167,SEC 3sec Wind Dir,degT,"3-second running average of the true wind direction FROM measured clockwise relative to North, at the SEC anemometer."
+Woodside,Scarborough,IMMS,,1168,SEC 1min Wind Spd,knots,1-minute running average of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1169,SEC 1min Wind Dir,degT,"1-minute running average of the true wind direction FROM measured clockwise relative to North, at the SEC anemometer."
+Woodside,Scarborough,IMMS,,1170,SEC 10min Wind Spd,knots,10-minute running average of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1171,SEC 10min Wind Dir,degT,"10-minute running average of the true wind direction FROM measured clockwise relative to North, at the SEC anemometer."
+Woodside,Scarborough,IMMS,,1172,SEC 1hr Wind Spd,knots,1-hour running average of the wind speed measured at the SEC anemometer.
+Woodside,Scarborough,IMMS,,1173,SEC 1hr Wind Dir,degT,"1-hour running average of the true wind direction FROM measured clockwise relative to North, at the SEC anemometer."
+Woodside,Scarborough,IMMS,,1174,SEC 10min Wind Gust,knot,10-minute maximum value of wind gust. Wind gust is measured as 3-second running average of SEC Wind Spd.
+Woodside,Scarborough,IMMS,,1175,SEC 3sec Wind Spd 10m,knots,"3-second running average of the wind speed measured at the SEC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1176,SEC 1min Wind Spd 10m,knots,"1-minute running average of the wind speed measured at the SEC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1177,SEC 10min Wind Spd 10m,knots,"10-minute running average of the wind speed measured at the SEC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1178,SEC 1hr Wind Spd 10m,knots,"1-hour running average of the wind speed measured at the SEC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1179,SEC 10min Wind Gust 10m,knot,"10-minute maximum value of wind gust, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1180,NWC Wind Spd,knots,Quality controlled Wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1181,NWC Wind Dir,degT,"True Wind direction FROM measured clockwise relative to North, at the NWC anemometer."
+Woodside,Scarborough,IMMS,,1182,NWC North Wind Spd,knots,Northerly component of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1183,NWC East Wind Spd,knots,Easterly component of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1184,NWC 3sec Wind Spd,knots,3-second running average of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1185,NWC 3sec Wind Dir,degT,"3-second running average of the true wind direction FROM measured clockwise relative to North, at the NWC anemometer."
+Woodside,Scarborough,IMMS,,1186,NWC 1min Wind Spd,knots,1-minute running average of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1187,NWC 1min Wind Dir,degT,"1-minute running average of the true wind direction FROM measured clockwise relative to North, at the NWC anemometer."
+Woodside,Scarborough,IMMS,,1188,NWC 10min Wind Spd,knots,10-minute running average of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1189,NWC 10min Wind Dir,degT,"10-minute running average of the true wind direction FROM measured clockwise relative to North, at the NWC anemometer."
+Woodside,Scarborough,IMMS,,1190,NWC 1hr Wind Spd,knots,1-hour running average of the wind speed measured at the NWC anemometer.
+Woodside,Scarborough,IMMS,,1191,NWC 1hr Wind Dir,degT,"1-hour running average of the true wind direction FROM measured clockwise relative to North, at the NWC anemometer."
+Woodside,Scarborough,IMMS,,1192,NWC 10min Wind Gust,knot,10-minute maximum value of wind gust. Wind gust is measured as 3-second running average of NWC Wind Spd.
+Woodside,Scarborough,IMMS,,1193,NWC 3sec Wind Spd 10m,knots,"3-second running average of the wind speed measured at the NWC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1194,NWC 1min Wind Spd 10m,knots,"1-minute running average of the wind speed measured at the NWC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1195,NWC 10min Wind Spd 10m,knots,"10-minute running average of the wind speed measured at the NWC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1196,NWC 1hr Wind Spd 10m,knots,"1-hour running average of the wind speed measured at the NWC anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1197,NWC 10min Wind Gust 10m,knot,"10-minute maximum value of wind gust, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1198,LQ Wind Spd,knots,Quality controlled Wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1199,LQ Wind Dir,degT,"True Wind direction FROM measured clockwise relative to North, at the LQ anemometer."
+Woodside,Scarborough,IMMS,,1200,LQ North Wind Spd,knots,Northerly component of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1201,LQ East Wind Spd,knots,Easterly component of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1202,LQ 3sec Wind Spd,knots,3-second running average of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1203,LQ 3sec Wind Dir,degT,"3-second running average of the true wind direction FROM measured clockwise relative to North, at the LQ anemometer."
+Woodside,Scarborough,IMMS,,1204,LQ 1min Wind Spd,knots,1-minute running average of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1205,LQ 1min Wind Dir,degT,"1-minute running average of the true wind direction FROM measured clockwise relative to North, at the LQ anemometer."
+Woodside,Scarborough,IMMS,,1206,LQ 10min Wind Spd,knots,10-minute running average of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1207,LQ 10min Wind Dir,degT,"10-minute running average of the true wind direction FROM measured clockwise relative to North, at the LQ anemometer."
+Woodside,Scarborough,IMMS,,1208,LQ 1hr Wind Spd,knots,1-hour running average of the wind speed measured at the LQ anemometer.
+Woodside,Scarborough,IMMS,,1209,LQ 1hr Wind Dir,degT,"1-hour running average of the true wind direction FROM measured clockwise relative to North, at the LQ anemometer."
+Woodside,Scarborough,IMMS,,1210,LQ 10min Wind Gust,knot,10-minute maximum value of wind gust. Wind gust is measured as 3-second running average of LQ Wind Spd.
+Woodside,Scarborough,IMMS,,1211,LQ 3sec Wind Spd 10m,knots,"3-second running average of the wind speed measured at the LQ anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1212,LQ 1min Wind Spd 10m,knots,"1-minute running average of the wind speed measured at the LQ anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1213,LQ 10min Wind Spd 10m,knots,"10-minute running average of the wind speed measured at the LQ anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1214,LQ 1hr Wind Spd 10m,knots,"1-hour running average of the wind speed measured at the LQ anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1215,LQ 10min Wind Gust 10m,knot,"10-minute maximum value of wind gust, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1216,Best Wind Spd,knots,Best = Highest wind from sensor in valid sector.
+Woodside,Scarborough,IMMS,,1217,Best Wind Dir,degT,Best = Direction corresponding to wind speed.
+Woodside,Scarborough,IMMS,,1218,Best North Wind Spd,knots,North component of Best Wind Speed typically used to computer wind direction from components.
+Woodside,Scarborough,IMMS,,1219,Best East Wind Spd,knots,East  component of Best Wind Speed typically used to computer wind direction from components.
+Woodside,Scarborough,IMMS,,1220,Best 3sec Wind Spd AVG,knots,"3-second running average of the wind speed measured  of the selected anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1221,Best 3sec Wind Dir AVG,degT,"3-second running average of the true wind direction FROM measured clockwise relative to North,  of the selected anemometer."
+Woodside,Scarborough,IMMS,,1222,Best 1min Wind Spd AVG,knots,"1-minute running average of the wind speed measured  of the selected anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1223,Best 1min Wind Dir AVG,degT,"1-minute running average of the true wind direction FROM measured clockwise relative to North, of the selected anemometer."
+Woodside,Scarborough,IMMS,,1224,Best 10min Wind Spd AVG,knots,"10-minute running average of the wind speed measured  of the selected anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1225,Best 10min Wind Dir AVG,degT,"10-minute running average of the true wind direction FROM measured clockwise relative to North,  of the selected anemometer."
+Woodside,Scarborough,IMMS,,1226,Best 1hr Wind Spd AVG,knots,"1-hour running average of the wind speed measured  of the selected anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1227,Best 1hr Wind Dir AVG,degT,"1-hour running average of the true wind direction FROM measured clockwise relative to North,  of the selected anemometer."
+Woodside,Scarborough,IMMS,,1228,Best 10min Wind Gust,knots,"10-minute maximum value of wind gust of the selected anemometer, scaled to 10 meters above mean sea level."
+Woodside,Scarborough,IMMS,,1229,Barometric Pressure,mbar,"Atmospheric pressure measured at the sensor (station pressure), at the platform location.."
+Woodside,Scarborough,IMMS,,1230,QNH,mbar,"Atmospheric pressure corrected to the mean sea level, at the platform location."
+Woodside,Scarborough,IMMS,,1231,QFE,mbar,"Atmospheric pressure corrected to the helideck level, at the platform location."
+Woodside,Scarborough,IMMS,,1232,Dew Point,degC,Dew point temperature at the platform location.
+Woodside,Scarborough,IMMS,,1233,Barometric Pressure 20min,mbar,20-minute running average of Barometric Pressure (station).
+Woodside,Scarborough,IMMS,,1234,QNH 20min,mbar,20-minute running average of corrected Barometric Pressure (sea level).
+Woodside,Scarborough,IMMS,,1235,QFE 20min,mbar,20-minute running average of corrected Barometric Pressure (helideck).
+Woodside,Scarborough,IMMS,,1236,Air Temperature 20min,degF,20-minute running average of Air Temperature.
+Woodside,Scarborough,IMMS,,1237,Humidity 20min,percent,20-minute running average of Humidity.
+Woodside,Scarborough,IMMS,,1238,HELI Max Roll Left,deg,Maximum roll to the left side (PN down) over the previous 20 minutes.
+Woodside,Scarborough,IMMS,,1239,HELI Max Roll Right,deg,Maximum roll to the right side (PS down) over the previous 20 minutes.
+Woodside,Scarborough,IMMS,,1240,HELI Max Pitch Up,deg,Maximum pitch up (PE up) over the previous 20 minutes.
+Woodside,Scarborough,IMMS,,1241,HELI Max Pitch Down,deg,Maximum pitch down (PE down) over the previous 20 minutes.
+Woodside,Scarborough,IMMS,,1242,HELI Inclination,deg,Composite roll/pitch inclination.
+Woodside,Scarborough,IMMS,,1243,HELI Max Inclination,deg,Maximum composite roll/pitch inclination over the previous 20 minutes.
+Woodside,Scarborough,IMMS,,1244,HELI SHR,ft/s,Significant Heave Rate (2x stdev).
+Woodside,Scarborough,IMMS,,1245,HELI MAHR,ft/s,Maximum Average Heave Rate (‘Norwegian Method’) over the previous 20 minutes (no longer used in HMS standard 9c).
+Woodside,Scarborough,IMMS,,1246,HELI MaxDA Heave,ft,Maximum Double Amplitude Heave over the previous 20 minutes (no longer used in HMS Standard 9c).
+Woodside,Scarborough,IMMS,,1247,HELI MaxDA Period,Sec,Period associated with MaxDA Heave (no longer used in HMS Standard 9c).
+Woodside,Scarborough,IMMS,,1248,HELI MSI,deg,"Measure of Motion Severity (MMS) is the instantaneous value of the ratio of the total acceleration in the plane of the helideck divided by the component of the total acceleration normal to the helideck. Motion Severity Index is the maximum value of MMS measured during the previous 20 minutes, converted to the form of a dynamic helideck slope in degrees, and then multiplied by 10 and rounded to the nearest whole number."
+Woodside,Scarborough,IMMS,,1249,HELI Wind Spd,knots,Quality controlled Best Wind speed scaled to 10m above the helideck height.
+Woodside,Scarborough,IMMS,,1250,HELI Wind Dir,degT,Quality controlled Best Wind direction.
+Woodside,Scarborough,IMMS,,1251,HELI Wind Spd 2MIN,knots,2-minute running average of the HELI Wind Spd.
+Woodside,Scarborough,IMMS,,1252,HELI Wind Dir 2MIN,degT,"2-minute running average of the wind direction FROM measured clockwise relative to North, at the helideck location."
+Woodside,Scarborough,IMMS,,1253,HELI Wind Gust 2MIN,knots,"2-minute maximum value of wind gust, scaled to 10 meters above helideck."
+Woodside,Scarborough,IMMS,,1254,HELI Wind Spd 10MIN,knots,10-minute running average of the HELI Wind Spd.
+Woodside,Scarborough,IMMS,,1255,HELI Wind Dir 10MIN,degT,"10-minute running average of the wind direction FROM measured clockwise relative to North, at the helideck location."
+Woodside,Scarborough,IMMS,,1256,HELI Wind Gust 10MIN,knots,"10-minute maximum value of wind gust, scaled to 10 meters above helideck."
+Woodside,Scarborough,IMMS,,1257,HELI WSI,percent,The WSI is defined as the 10-minute mean ‘apparent’ wind speed measured in knots converted to a percent of maximum WSI.
+Woodside,Scarborough,IMMS,,1258,HELI RWD,deg,Relative Wind Direction of wind to the helicopter when in On-Deck mode.
+Woodside,Scarborough,IMMS,,1259,HELI Heading,degT,Heading of the Helideck.
+Woodside,Scarborough,IMMS,,1260,HELO Heading,degT,Heading of the Helicopter in On-Deck mode.
+Woodside,Scarborough,IMMS,,1261,HELI 2min Heading,degT,2-min running average of the heading of the Helideck.
+Woodside,Scarborough,IMMS,,1262,HELO 2min Heading,degT,2-min running average of the heading of the Helicopter when in On-Deck mode.
+Woodside,Scarborough,IMMS,,1263,HELI 10min Heading,degT,10-min running average of the heading of the Helideck.
+Woodside,Scarborough,IMMS,,1264,HELO 10min Heading,degT,10-min running average of the heading of the Helicopter when in On-Deck mode.
+Woodside,Scarborough,IMMS,,1265,HELI Wind Dir Changed,deg,Change in Wind Direction from when the Helicopter landed in On-Deck mode.
+Woodside,Scarborough,IMMS,,1266,FPSO Heading Changed,deg,Change in Platform Heading from when the Helicopter landed in On-Deck mode.
+Woodside,Scarborough,IMMS,,1267,HELI Wind Spd 2MIN MD,knots,2-minute running average of the HELI Wind Spd include adjustments for Marked Discontinuity (MD).
+Woodside,Scarborough,IMMS,,1268,HELI Wind Dir 2MIN MD,degT,"2-minute running average of the wind direction FROM measured clockwise relative to North, at the helideck location, include adjustments for Marked Discontinuity (MD)."
+Woodside,Scarborough,IMMS,,1269,HELI Wind Spd 10MIN MD,knots,10-minute running average of the HELI Wind Spd include adjustments for Marked Discontinuity (MD).
+Woodside,Scarborough,IMMS,,1270,HELI Wind Dir 10MIN MD,degT,"10-minute running average of the wind direction FROM measured clockwise relative to North, at the helideck location, include adjustments for Marked Discontinuity (MD)."
+Woodside,Scarborough,IMMS,,1271,HELI Alrm Status,bits,HELI Alrm Status
+Woodside,Scarborough,IMMS,,1272,HELI Light CMD,code,Repeater Light Command. 129 Steady Blue; 130 Steady Amber; 131 Steady Red; 132 Flash Blue; 133 Flash Amber; 134 Flash Red.
+Woodside,Scarborough,IMMS,,1273,ML 1 Tension,tonnes,Mooring line ML 1 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1274,ML 2 Tension,tonnes,Mooring line ML 2 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1275,ML 3 Tension,tonnes,Mooring line ML 3 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1276,ML 4 Tension,tonnes,Mooring line ML 4 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1277,ML 5 Tension,tonnes,Mooring line ML 5 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1278,ML 6 Tension,tonnes,Mooring line ML 6 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1279,ML 7 Tension,tonnes,Mooring line ML 7 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1280,ML 8 Tension,tonnes,Mooring line ML 8 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1281,ML 9 Tension,tonnes,Mooring line ML 9 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1282,ML 10 Tension,tonnes,Mooring line ML 10 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1283,ML 11 Tension,tonnes,Mooring line ML 11 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1284,ML 12 Tension,tonnes,Mooring line ML 12 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1285,ML 13 Tension,tonnes,Mooring line ML 13 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1286,ML 14 Tension,tonnes,Mooring line ML 14 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1287,ML 15 Tension,tonnes,Mooring line ML 15 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1288,ML 16 Tension,tonnes,Mooring line ML 16 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1289,ML 17 Tension,tonnes,Mooring line ML 17 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1290,ML 18 Tension,tonnes,Mooring line ML 18 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1291,ML 19 Tension,tonnes,Mooring line ML 19 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1292,ML 20 Tension,tonnes,Mooring line ML 20 tension at fairlead. Selected or combined from active sensor (1 and/or 2).
+Woodside,Scarborough,IMMS,,1293,ML 1 Tension 20min,tonnes,20-minute running average of combined mooring line ML 1 tension.
+Woodside,Scarborough,IMMS,,1294,ML 2 Tension 20min,tonnes,20-minute running average of combined mooring line ML 2 tension.
+Woodside,Scarborough,IMMS,,1295,ML 3 Tension 20min,tonnes,20-minute running average of combined mooring line ML 3 tension.
+Woodside,Scarborough,IMMS,,1296,ML 4 Tension 20min,tonnes,20-minute running average of combined mooring line ML 4 tension.
+Woodside,Scarborough,IMMS,,1297,ML 5 Tension 20min,tonnes,20-minute running average of combined mooring line ML 5 tension.
+Woodside,Scarborough,IMMS,,1298,ML 6 Tension 20min,tonnes,20-minute running average of combined mooring line ML 6 tension.
+Woodside,Scarborough,IMMS,,1299,ML 7 Tension 20min,tonnes,20-minute running average of combined mooring line ML 7 tension.
+Woodside,Scarborough,IMMS,,1300,ML 8 Tension 20min,tonnes,20-minute running average of combined mooring line ML 8 tension.
+Woodside,Scarborough,IMMS,,1301,ML 9 Tension 20min,tonnes,20-minute running average of combined mooring line ML 9 tension.
+Woodside,Scarborough,IMMS,,1302,ML 10 Tension 20min,tonnes,20-minute running average of combined mooring line ML 10 tension.
+Woodside,Scarborough,IMMS,,1303,ML 11 Tension 20min,tonnes,20-minute running average of combined mooring line ML 11 tension.
+Woodside,Scarborough,IMMS,,1304,ML 12 Tension 20min,tonnes,20-minute running average of combined mooring line ML 12 tension.
+Woodside,Scarborough,IMMS,,1305,ML 13 Tension 20min,tonnes,20-minute running average of combined mooring line ML 13 tension.
+Woodside,Scarborough,IMMS,,1306,ML 14 Tension 20min,tonnes,20-minute running average of combined mooring line ML 14 tension.
+Woodside,Scarborough,IMMS,,1307,ML 15 Tension 20min,tonnes,20-minute running average of combined mooring line ML 15 tension.
+Woodside,Scarborough,IMMS,,1308,ML 16 Tension 20min,tonnes,20-minute running average of combined mooring line ML 16 tension.
+Woodside,Scarborough,IMMS,,1309,ML 17 Tension 20min,tonnes,20-minute running average of combined mooring line ML 17 tension.
+Woodside,Scarborough,IMMS,,1310,ML 18 Tension 20min,tonnes,20-minute running average of combined mooring line ML 18 tension.
+Woodside,Scarborough,IMMS,,1311,ML 19 Tension 20min,tonnes,20-minute running average of combined mooring line ML 19 tension.
+Woodside,Scarborough,IMMS,,1312,ML 20 Tension 20min,tonnes,20-minute running average of combined mooring line ML 20 tension.
+Woodside,Scarborough,IMMS,,1313,ML 1 Broken Status,bool,Mooring line ML 1 broken status indicator
+Woodside,Scarborough,IMMS,,1314,ML 2 Broken Status,bool,Mooring line ML 2 broken status indicator
+Woodside,Scarborough,IMMS,,1315,ML 3 Broken Status,bool,Mooring line ML 3 broken status indicator
+Woodside,Scarborough,IMMS,,1316,ML 4 Broken Status,bool,Mooring line ML 4 broken status indicator
+Woodside,Scarborough,IMMS,,1317,ML 5 Broken Status,bool,Mooring line ML 5 broken status indicator
+Woodside,Scarborough,IMMS,,1318,ML 6 Broken Status,bool,Mooring line ML 6 broken status indicator
+Woodside,Scarborough,IMMS,,1319,ML 7 Broken Status,bool,Mooring line ML 7 broken status indicator
+Woodside,Scarborough,IMMS,,1320,ML 8 Broken Status,bool,Mooring line ML 8 broken status indicator
+Woodside,Scarborough,IMMS,,1321,ML 9 Broken Status,bool,Mooring line ML 9 broken status indicator
+Woodside,Scarborough,IMMS,,1322,ML 10 Broken Status,bool,Mooring line ML 10 broken status indicator
+Woodside,Scarborough,IMMS,,1323,ML 11 Broken Status,bool,Mooring line ML 11 broken status indicator
+Woodside,Scarborough,IMMS,,1324,ML 12 Broken Status,bool,Mooring line ML 12 broken status indicator
+Woodside,Scarborough,IMMS,,1325,ML 13 Broken Status,bool,Mooring line ML 13 broken status indicator
+Woodside,Scarborough,IMMS,,1326,ML 14 Broken Status,bool,Mooring line ML 14 broken status indicator
+Woodside,Scarborough,IMMS,,1327,ML 15 Broken Status,bool,Mooring line ML 15 broken status indicator
+Woodside,Scarborough,IMMS,,1328,ML 16 Broken Status,bool,Mooring line ML 16 broken status indicator
+Woodside,Scarborough,IMMS,,1329,ML 17 Broken Status,bool,Mooring line ML 17 broken status indicator
+Woodside,Scarborough,IMMS,,1330,ML 18 Broken Status,bool,Mooring line ML 18 broken status indicator
+Woodside,Scarborough,IMMS,,1331,ML 19 Broken Status,bool,Mooring line ML 19 broken status indicator
+Woodside,Scarborough,IMMS,,1332,ML 20 Broken Status,bool,Mooring line ML 20 broken status indicator
+Woodside,Scarborough,IMMS,,1333,IMMS Watchdog,#,Heartbeat Counter
+Woodside,Scarborough,IMMS,,1334,Incline Alarm Inclination,bool,Roll up alarm - list/trim HI/LO (0 = healthy 1=alarm)
+Woodside,Scarborough,IMMS,,1335,Draft Draft fr Airgap Alar,bool,Roll up alarm - all drafts from airgap HI/LO (0 = healthy 1=alarm)
+Woodside,Scarborough,IMMS,,1336,PQ Position Alarm,bool,Platform position offset HI alarm (0 = healthy 1=alarm)
+Woodside,Scarborough,IMMS,,1337,Mooring Angle Alarm,bool,Roll up alarm - all mooring line angles HI/LO (0 = healthy 1=alarm)
+Woodside,Scarborough,IMMS,,1338,Mooring Tension Alarm,bool,Roll up alarm - all mooring line tension HIHI/HI/LO (0 = healthy 1=alarm)
+Woodside,Scarborough,IMMS,,1339,Mooring Stopper Open,bool,Roll up alarm - all stoppers (0 = closed 1=open)
+Woodside,Scarborough,IMMS,,1340,Statistic Complete,#,Ignore please
+Woodside,Scarborough,IMMS,,1341,Statistic Start Time,Date,Ignore please
+Woodside,Scarborough,IMMS,,1342,Statistic End Time,Date,Ignore please
+Woodside,Scarborough,IMMS,,1343,HULL NW1 Mating Post1,uStrain,HULL NW1 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1344,HULL NW1 Mating Post1 Temp,degC,HULL NW1 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1345,HULL NW1 Mating Post2,uStrain,HULL NW1 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1346,HULL NW1 Mating Post2 Temp,degC,HULL NW1 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1347,HULL NW1 Mating Post3,uStrain,HULL NW1 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1348,HULL NW1 Mating Post3 Temp,degC,HULL NW1 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1349,HULL NW1 Web Frame,uStrain,HULL NW1 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1350,HULL NW1 Web Frame Temp,degC,HULL NW1 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1351,HULL NW1 MP Casting1,uStrain,HULL NW1 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1352,HULL NW1 MP Casting1 Temp,degC,HULL NW1 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1353,HULL NW1 MP Casting2,uStrain,HULL NW1 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1354,HULL NW1 MP Casting2 Temp,degC,HULL NW1 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1355,HULL NW1 MP Casting3,uStrain,HULL NW1 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1356,HULL NW1 MP Casting3 Temp,degC,HULL NW1 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1357,HULL NW1 MP Casting4,uStrain,HULL NW1 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1358,HULL NW1 MP Casting4 Temp,degC,HULL NW1 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1359,HULL NW1 MP Casting5,uStrain,HULL NW1 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1360,HULL NW1 MP Casting5 Temp,degC,HULL NW1 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1361,HULL NW1 O/B Gusset1,uStrain,HULL NW1 O/B Gusset1 Strain.
+Woodside,Scarborough,IMMS,,1362,HULL NW1 O/B Gusset1 Temp,degC,HULL NW1 O/B Gusset1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1363,HULL NW1 I/B BHD BR1,uStrain,HULL NW1 I/B BHD BR1 Strain.
+Woodside,Scarborough,IMMS,,1364,HULL NW1 I/B BHD BR1 Temp,degC,HULL NW1 I/B BHD BR1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1365,HULL NW1 O/B Shell1,uStrain,HULL NW1 O/B Shell1 Strain.
+Woodside,Scarborough,IMMS,,1366,HULL NW1 P-C D Bracket,uStrain,HULL NW1 P-C D Bracket Strain.
+Woodside,Scarborough,IMMS,,1367,HULL NW1 I/B Pontoon T,uStrain,HULL NW1 I/B Pontoon T Strain.
+Woodside,Scarborough,IMMS,,1368,HULL NW1 O/B Gusset2,uStrain,HULL NW1 O/B Gusset2 Strain.
+Woodside,Scarborough,IMMS,,1369,HULL NW1 O/B Gusset2 Temp,degC,HULL NW1 O/B Gusset2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1370,HULL NW1 I/B BHD BR2,uStrain,HULL NW1 I/B BHD BR2 Strain.
+Woodside,Scarborough,IMMS,,1371,HULL NW1 I/B BHD BR2 Temp,degC,HULL NW1 I/B BHD BR2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1372,HULL NW1 O/B Shell2,uStrain,HULL NW1 O/B Shell2 Strain.
+Woodside,Scarborough,IMMS,,1373,HULL NW2 Mating Post1,uStrain,HULL NW2 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1374,HULL NW2 Mating Post1 Temp,degC,HULL NW2 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1375,HULL NW2 Mating Post2,uStrain,HULL NW2 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1376,HULL NW2 Mating Post2 Temp,degC,HULL NW2 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1377,HULL NW2 Mating Post3,uStrain,HULL NW2 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1378,HULL NW2 Mating Post3 Temp,degC,HULL NW2 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1379,HULL NW2 Web Frame,uStrain,HULL NW2 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1380,HULL NW2 Web Frame Temp,degC,HULL NW2 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1381,HULL NW2 MP Casting1,uStrain,HULL NW2 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1382,HULL NW2 MP Casting1 Temp,degC,HULL NW2 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1383,HULL NW2 MP Casting2,uStrain,HULL NW2 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1384,HULL NW2 MP Casting2 Temp,degC,HULL NW2 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1385,HULL NW2 MP Casting3,uStrain,HULL NW2 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1386,HULL NW2 MP Casting3 Temp,degC,HULL NW2 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1387,HULL NW2 MP Casting4,uStrain,HULL NW2 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1388,HULL NW2 MP Casting4 Temp,degC,HULL NW2 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1389,HULL NW2 MP Casting5,uStrain,HULL NW2 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1390,HULL NW2 MP Casting5 Temp,degC,HULL NW2 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1391,HULL NW Interior 1,uStrain,HULL NW Interior 1 Strain.
+Woodside,Scarborough,IMMS,,1392,HULL NW Interior 2,uStrain,HULL NW Interior 2 Strain.
+Woodside,Scarborough,IMMS,,1393,HULL NW Interior Temp,degC,HULL NW Interior Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1394,HULL NW Interior 3,uStrain,HULL NW Interior 3 Strain.
+Woodside,Scarborough,IMMS,,1395,HULL NW Pontoon Int 1,uStrain,HULL NW Pontoon Int 1 Strain.
+Woodside,Scarborough,IMMS,,1396,HULL NW Pontoon Int 2,uStrain,HULL NW Pontoon Int 2 Strain.
+Woodside,Scarborough,IMMS,,1397,HULL NW Pontoon Int Temp 1,degC,HULL NW Pontoon Int Temp 1erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1398,HULL NW Interior 4,uStrain,HULL NW Interior 4 Strain.
+Woodside,Scarborough,IMMS,,1399,HULL NW Pontoon Int 3,uStrain,HULL NW Pontoon Int 3 Strain.
+Woodside,Scarborough,IMMS,,1400,HULL NW Pontoon Int Temp 2,degC,HULL NW Pontoon Int Temp 2erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1401,HULL NW Pontoon Interior 4,uStrain,HULL NW Pontoon Interior 4 Strain.
+Woodside,Scarborough,IMMS,,1402,HULL NE1 Mating Post1,uStrain,HULL NE1 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1403,HULL NE1 Mating Post1 Temp,degC,HULL NE1 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1404,HULL NE1 Mating Post2,uStrain,HULL NE1 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1405,HULL NE1 Mating Post2 Temp,degC,HULL NE1 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1406,HULL NE1 Mating Post3,uStrain,HULL NE1 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1407,HULL NE1 Mating Post3 Temp,degC,HULL NE1 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1408,HULL NE1 Web Frame,uStrain,HULL NE1 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1409,HULL NE1 Web Frame Temp,degC,HULL NE1 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1410,HULL NE1 MP Casting1,uStrain,HULL NE1 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1411,HULL NE1 MP Casting1 Temp,degC,HULL NE1 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1412,HULL NE1 MP Casting2,uStrain,HULL NE1 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1413,HULL NE1 MP Casting2 Temp,degC,HULL NE1 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1414,HULL NE1 MP Casting3,uStrain,HULL NE1 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1415,HULL NE1 MP Casting3 Temp,degC,HULL NE1 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1416,HULL NE1 MP Casting4,uStrain,HULL NE1 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1417,HULL NE1 MP Casting4 Temp,degC,HULL NE1 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1418,HULL NE1 MP Casting5,uStrain,HULL NE1 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1419,HULL NE1 MP Casting5 Temp,degC,HULL NE1 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1420,HULL NE1 O/B Gusset1,uStrain,HULL NE1 O/B Gusset1 Strain.
+Woodside,Scarborough,IMMS,,1421,HULL NE1 O/B Gusset1 Temp,degC,HULL NE1 O/B Gusset1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1422,HULL NE1 I/B BHD BR1,uStrain,HULL NE1 I/B BHD BR1 Strain.
+Woodside,Scarborough,IMMS,,1423,HULL NE1 I/B BHD BR1 Temp,degC,HULL NE1 I/B BHD BR1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1424,HULL NE1 O/B Shell1,uStrain,HULL NE1 O/B Shell1 Strain.
+Woodside,Scarborough,IMMS,,1425,HULL NE1 P-C D Bracket,uStrain,HULL NE1 P-C D Bracket Strain.
+Woodside,Scarborough,IMMS,,1426,HULL NE1 I/B Pontoon T,uStrain,HULL NE1 I/B Pontoon T Strain.
+Woodside,Scarborough,IMMS,,1427,HULL NE1 O/B Gusset2,uStrain,HULL NE1 O/B Gusset2 Strain.
+Woodside,Scarborough,IMMS,,1428,HULL NE1 O/B Gusset2 Temp,degC,HULL NE1 O/B Gusset2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1429,HULL NE1 I/B BHD BR2,uStrain,HULL NE1 I/B BHD BR2 Strain.
+Woodside,Scarborough,IMMS,,1430,HULL NE1 I/B BHD BR2 Temp,degC,HULL NE1 I/B BHD BR2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1431,HULL NE1 O/B Shell2,uStrain,HULL NE1 O/B Shell2 Strain.
+Woodside,Scarborough,IMMS,,1432,HULL NE2 Mating Post1,uStrain,HULL NE2 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1433,HULL NE2 Mating Post1 Temp,degC,HULL NE2 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1434,HULL NE2 Mating Post2,uStrain,HULL NE2 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1435,HULL NE2 Mating Post2 Temp,degC,HULL NE2 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1436,HULL NE2 Mating Post3,uStrain,HULL NE2 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1437,HULL NE2 Mating Post3 Temp,degC,HULL NE2 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1438,HULL NE2 Web Frame,uStrain,HULL NE2 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1439,HULL NE2 Web Frame Temp,degC,HULL NE2 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1440,HULL NE2 MP Casting1,uStrain,HULL NE2 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1441,HULL NE2 MP Casting1 Temp,degC,HULL NE2 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1442,HULL NE2 MP Casting2,uStrain,HULL NE2 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1443,HULL NE2 MP Casting2 Temp,degC,HULL NE2 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1444,HULL NE2 MP Casting3,uStrain,HULL NE2 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1445,HULL NE2 MP Casting3 Temp,degC,HULL NE2 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1446,HULL NE2 MP Casting4,uStrain,HULL NE2 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1447,HULL NE2 MP Casting4 Temp,degC,HULL NE2 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1448,HULL NE2 MP Casting5,uStrain,HULL NE2 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1449,HULL NE2 MP Casting5 Temp,degC,HULL NE2 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1450,HULL NE Interior 1,uStrain,HULL NE Interior 1 Strain.
+Woodside,Scarborough,IMMS,,1451,HULL NE Interior 2,uStrain,HULL NE Interior 2 Strain.
+Woodside,Scarborough,IMMS,,1452,HULL NE Interior Temp,degC,HULL NE Interior Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1453,HULL NE Interior 3,uStrain,HULL NE Interior 3 Strain.
+Woodside,Scarborough,IMMS,,1454,HULL NE Pontoon Int 1,uStrain,HULL NE Pontoon Int 1 Strain.
+Woodside,Scarborough,IMMS,,1455,HULL NE Pontoon Int 2,uStrain,HULL NE Pontoon Int 2 Strain.
+Woodside,Scarborough,IMMS,,1456,HULL NE Pontoon Int Temp 1,degC,HULL NE Pontoon Int Temp 1erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1457,HULL NE Interior 4,uStrain,HULL NE Interior 4 Strain.
+Woodside,Scarborough,IMMS,,1458,HULL NE Pontoon Int 3,uStrain,HULL NE Pontoon Int 3 Strain.
+Woodside,Scarborough,IMMS,,1459,HULL NE Pontoon Int Temp 2,degC,HULL NE Pontoon Int Temp 2erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1460,HULL NE Pontoon Int 4,uStrain,HULL NE Pontoon Int 4 Strain.
+Woodside,Scarborough,IMMS,,1461,HULL SW1 Mating Post1,uStrain,HULL SW1 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1462,HULL SW1 Mating Post1 Temp,degC,HULL SW1 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1463,HULL SW1 Mating Post2,uStrain,HULL SW1 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1464,HULL SW1 Mating Post2 Temp,degC,HULL SW1 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1465,HULL SW1 Mating Post3,uStrain,HULL SW1 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1466,HULL SW1 Mating Post3 Temp,degC,HULL SW1 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1467,HULL SW1 Web Frame,uStrain,HULL SW1 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1468,HULL SW1 Web Frame Temp,degC,HULL SW1 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1469,HULL SW1 MP Casting1,uStrain,HULL SW1 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1470,HULL SW1 MP Casting1 Temp,degC,HULL SW1 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1471,HULL SW1 MP Casting2,uStrain,HULL SW1 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1472,HULL SW1 MP Casting2 Temp,degC,HULL SW1 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1473,HULL SW1 MP Casting3,uStrain,HULL SW1 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1474,HULL SW1 MP Casting3 Temp,degC,HULL SW1 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1475,HULL SW1 MP Casting4,uStrain,HULL SW1 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1476,HULL SW1 MP Casting4 Temp,degC,HULL SW1 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1477,HULL SW1 MP Casting5,uStrain,HULL SW1 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1478,HULL SW1 MP Casting5 Temp,degC,HULL SW1 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1479,HULL SW1 O/B Gusset1,uStrain,HULL SW1 O/B Gusset1 Strain.
+Woodside,Scarborough,IMMS,,1480,HULL SW1 O/B Gusset1 Temp,degC,HULL SW1 O/B Gusset1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1481,HULL SW1 I/B BHD BR1,uStrain,HULL SW1 I/B BHD BR1 Strain.
+Woodside,Scarborough,IMMS,,1482,HULL SW1 I/B BHD BR1 Temp,degC,HULL SW1 I/B BHD BR1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1483,HULL SW1 O/B Shell1,uStrain,HULL SW1 O/B Shell1 Strain.
+Woodside,Scarborough,IMMS,,1484,HULL SW1 P-C D Bracket,uStrain,HULL SW1 P-C D Bracket Strain.
+Woodside,Scarborough,IMMS,,1485,HULL SW1 I/B Pontoon T,uStrain,HULL SW1 I/B Pontoon T Strain.
+Woodside,Scarborough,IMMS,,1486,HULL SW1 O/B Gusset2,uStrain,HULL SW1 O/B Gusset2 Strain.
+Woodside,Scarborough,IMMS,,1487,HULL SW1 O/B Gusset2 Temp,degC,HULL SW1 O/B Gusset2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1488,HULL SW1 I/B BHD BR2,uStrain,HULL SW1 I/B BHD BR2 Strain.
+Woodside,Scarborough,IMMS,,1489,HULL SW1 I/B BHD BR2 Temp,degC,HULL SW1 I/B BHD BR2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1490,HULL SW1 O/B Shell2,uStrain,HULL SW1 O/B Shell2 Strain.
+Woodside,Scarborough,IMMS,,1491,HULL SW2 Mating Post1,uStrain,HULL SW2 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1492,HULL SW2 Mating Post1 Temp,degC,HULL SW2 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1493,HULL SW2 Mating Post2,uStrain,HULL SW2 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1494,HULL SW2 Mating Post2 Temp,degC,HULL SW2 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1495,HULL SW2 Mating Post3,uStrain,HULL SW2 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1496,HULL SW2 Mating Post3 Temp,degC,HULL SW2 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1497,HULL SW2 Web Frame,uStrain,HULL SW2 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1498,HULL SW2 Web Frame Temp,degC,HULL SW2 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1499,HULL SW2 MP Casting1,uStrain,HULL SW2 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1500,HULL SW2 MP Casting1 Temp,degC,HULL SW2 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1501,HULL SW2 MP Casting2,uStrain,HULL SW2 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1502,HULL SW2 MP Casting2 Temp,degC,HULL SW2 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1503,HULL SW2 MP Casting3,uStrain,HULL SW2 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1504,HULL SW2 MP Casting3 Temp,degC,HULL SW2 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1505,HULL SW2 MP Casting4,uStrain,HULL SW2 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1506,HULL SW2 MP Casting4 Temp,degC,HULL SW2 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1507,HULL SW2 MP Casting5,uStrain,HULL SW2 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1508,HULL SW2 MP Casting5 Temp,degC,HULL SW2 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1509,HULL SW Interior 1,uStrain,HULL SW Interior 1 Strain.
+Woodside,Scarborough,IMMS,,1510,HULL SW Interior 2,uStrain,HULL SW Interior 2 Strain.
+Woodside,Scarborough,IMMS,,1511,HULL SW Interior Temp,degC,HULL SW Interior Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1512,HULL SW Interior 3,uStrain,HULL SW Interior 3 Strain.
+Woodside,Scarborough,IMMS,,1513,HULL SW Pontoon Int 1,uStrain,HULL SW Pontoon Int 1 Strain.
+Woodside,Scarborough,IMMS,,1514,HULL SW Pontoon Int 2,uStrain,HULL SW Pontoon Int 2 Strain.
+Woodside,Scarborough,IMMS,,1515,HULL SW Pontoon Int Temp 1,degC,HULL SW Pontoon Int Temp 1erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1516,HULL SW Interior 4,uStrain,HULL SW Interior 4 Strain.
+Woodside,Scarborough,IMMS,,1517,HULL SW Pontoon Int 3,uStrain,HULL SW Pontoon Int 3 Strain.
+Woodside,Scarborough,IMMS,,1518,HULL SW Pontoon Int Temp 2,degC,HULL SW Pontoon Int Temp 2erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1519,HULL SW Pontoon Int 4,uStrain,HULL SW Pontoon Int 4 Strain.
+Woodside,Scarborough,IMMS,,1520,HULL SE1 Mating Post1,uStrain,HULL SE1 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1521,HULL SE1 Mating Post1 Temp,degC,HULL SE1 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1522,HULL SE1 Mating Post2,uStrain,HULL SE1 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1523,HULL SE1 Mating Post2 Temp,degC,HULL SE1 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1524,HULL SE1 Mating Post3,uStrain,HULL SE1 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1525,HULL SE1 Mating Post3 Temp,degC,HULL SE1 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1526,HULL SE1 Web Frame,uStrain,HULL SE1 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1527,HULL SE1 Web Frame Temp,degC,HULL SE1 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1528,HULL SE1 MP Casting1,uStrain,HULL SE1 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1529,HULL SE1 MP Casting1 Temp,degC,HULL SE1 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1530,HULL SE1 MP Casting2,uStrain,HULL SE1 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1531,HULL SE1 MP Casting2 Temp,degC,HULL SE1 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1532,HULL SE1 MP Casting3,uStrain,HULL SE1 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1533,HULL SE1 MP Casting3 Temp,degC,HULL SE1 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1534,HULL SE1 MP Casting4,uStrain,HULL SE1 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1535,HULL SE1 MP Casting4 Temp,degC,HULL SE1 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1536,HULL SE1 MP Casting5,uStrain,HULL SE1 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1537,HULL SE1 MP Casting5 Temp,degC,HULL SE1 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1538,HULL SE1 O/B Gusset1,uStrain,HULL SE1 O/B Gusset1 Strain.
+Woodside,Scarborough,IMMS,,1539,HULL SE1 O/B Gusset1 Temp,degC,HULL SE1 O/B Gusset1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1540,HULL SE1 I/B BHD BR1,uStrain,HULL SE1 I/B BHD BR1 Strain.
+Woodside,Scarborough,IMMS,,1541,HULL SE1 I/B BHD BR1 Temp,degC,HULL SE1 I/B BHD BR1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1542,HULL SE1 O/B Shell1,uStrain,HULL SE1 O/B Shell1 Strain.
+Woodside,Scarborough,IMMS,,1543,HULL SE1 P-C D Bracket,uStrain,HULL SE1 P-C D Bracket Strain.
+Woodside,Scarborough,IMMS,,1544,HULL SE1 I/B Pontoon T,uStrain,HULL SE1 I/B Pontoon T Strain.
+Woodside,Scarborough,IMMS,,1545,HULL SE1 O/B Gusset2,uStrain,HULL SE1 O/B Gusset2 Strain.
+Woodside,Scarborough,IMMS,,1546,HULL SE1 O/B Gusset2 Temp,degC,HULL SE1 O/B Gusset2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1547,HULL SE1 I/B BHD BR2,uStrain,HULL SE1 I/B BHD BR2 Strain.
+Woodside,Scarborough,IMMS,,1548,HULL SE1 I/B BHD BR2 Temp,degC,HULL SE1 I/B BHD BR2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1549,HULL SE1 O/B Shell2,uStrain,HULL SE1 O/B Shell2 Strain.
+Woodside,Scarborough,IMMS,,1550,HULL SE2 Mating Post1,uStrain,HULL SE2 Mating Post1 Strain.
+Woodside,Scarborough,IMMS,,1551,HULL SE2 Mating Post1 Temp,degC,HULL SE2 Mating Post1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1552,HULL SE2 Mating Post2,uStrain,HULL SE2 Mating Post2 Strain.
+Woodside,Scarborough,IMMS,,1553,HULL SE2 Mating Post2 Temp,degC,HULL SE2 Mating Post2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1554,HULL SE2 Mating Post3,uStrain,HULL SE2 Mating Post3 Strain.
+Woodside,Scarborough,IMMS,,1555,HULL SE2 Mating Post3 Temp,degC,HULL SE2 Mating Post3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1556,HULL SE2 Web Frame,uStrain,HULL SE2 Web Frame Strain.
+Woodside,Scarborough,IMMS,,1557,HULL SE2 Web Frame Temp,degC,HULL SE2 Web Frame Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1558,HULL SE2 MP Casting1,uStrain,HULL SE2 MP Casting1 Strain.
+Woodside,Scarborough,IMMS,,1559,HULL SE2 MP Casting1 Temp,degC,HULL SE2 MP Casting1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1560,HULL SE2 MP Casting2,uStrain,HULL SE2 MP Casting2 Strain.
+Woodside,Scarborough,IMMS,,1561,HULL SE2 MP Casting2 Temp,degC,HULL SE2 MP Casting2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1562,HULL SE2 MP Casting3,uStrain,HULL SE2 MP Casting3 Strain.
+Woodside,Scarborough,IMMS,,1563,HULL SE2 MP Casting3 Temp,degC,HULL SE2 MP Casting3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1564,HULL SE2 MP Casting4,uStrain,HULL SE2 MP Casting4 Strain.
+Woodside,Scarborough,IMMS,,1565,HULL SE2 MP Casting4 Temp,degC,HULL SE2 MP Casting4 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1566,HULL SE2 MP Casting5,uStrain,HULL SE2 MP Casting5 Strain.
+Woodside,Scarborough,IMMS,,1567,HULL SE2 MP Casting5 Temp,degC,HULL SE2 MP Casting5 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1568,HULL SE Interior 1,uStrain,HULL SE Interior 1 Strain.
+Woodside,Scarborough,IMMS,,1569,HULL SE Interior 2,uStrain,HULL SE Interior 2 Strain.
+Woodside,Scarborough,IMMS,,1570,HULL SE Interior Temp,degC,HULL SE Interior Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1571,HULL SE Interior 3,uStrain,HULL SE Interior 3 Strain.
+Woodside,Scarborough,IMMS,,1572,HULL SE Pontoon Int 1,uStrain,HULL SE Pontoon Int 1 Strain.
+Woodside,Scarborough,IMMS,,1573,HULL SE Pontoon Int 2,uStrain,HULL SE Pontoon Int 2 Strain.
+Woodside,Scarborough,IMMS,,1574,HULL SE Pontoon Int Temp 1,degC,HULL SE Pontoon Int Temp 1erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1575,HULL SE Interior 4,uStrain,HULL SE Interior 4 Strain.
+Woodside,Scarborough,IMMS,,1576,HULL SE Pontoon Int 3,uStrain,HULL SE Pontoon Int 3 Strain.
+Woodside,Scarborough,IMMS,,1577,HULL SE Pontoon Int Temp 2,degC,HULL SE Pontoon Int Temp 2erature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1578,HULL SE Pontoon Int 4,uStrain,HULL SE Pontoon Int 4 Strain.
+Woodside,Scarborough,IMMS,,1579,PRY/SQ Q1 Girder1,uStrain,PRY/SQ Q1 Girder1 Strain.
+Woodside,Scarborough,IMMS,,1580,PRY/SQ Q1 Girder1 Temp,degC,PRY/SQ Q1 Girder1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1581,PRY/SQ Q1 Girder2,uStrain,PRY/SQ Q1 Girder2 Strain.
+Woodside,Scarborough,IMMS,,1582,PRY/SQ Q1 Girder2 Temp,degC,PRY/SQ Q1 Girder2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1583,PRY/SQ Q1 Girder3,uStrain,PRY/SQ Q1 Girder3 Strain.
+Woodside,Scarborough,IMMS,,1584,PRY/SQ Q1 Girder3 Temp,degC,PRY/SQ Q1 Girder3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1585,PRY/SQ Q2 Girder1,uStrain,PRY/SQ Q2 Girder1 Strain.
+Woodside,Scarborough,IMMS,,1586,PRY/SQ Q2 Girder1 Temp,degC,PRY/SQ Q2 Girder1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1587,PRY/SQ Q2 Girder2,uStrain,PRY/SQ Q2 Girder2 Strain.
+Woodside,Scarborough,IMMS,,1588,PRY/SQ Q2 Girder2 Temp,degC,PRY/SQ Q2 Girder2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1589,PRY/SQ Q2 Girder3,uStrain,PRY/SQ Q2 Girder3 Strain.
+Woodside,Scarborough,IMMS,,1590,PRY/SQ Q2 Girder3 Temp,degC,PRY/SQ Q2 Girder3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1591,PRY/SQ Q3 Girder1,uStrain,PRY/SQ Q3 Girder1 Strain.
+Woodside,Scarborough,IMMS,,1592,PRY/SQ Q3 Girder1 Temp,degC,PRY/SQ Q3 Girder1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1593,PRY/SQ Q3 Girder2,uStrain,PRY/SQ Q3 Girder2 Strain.
+Woodside,Scarborough,IMMS,,1594,PRY/SQ Q3 Girder2 Temp,degC,PRY/SQ Q3 Girder2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1595,PRY/SQ Q3 Girder3,uStrain,PRY/SQ Q3 Girder3 Strain.
+Woodside,Scarborough,IMMS,,1596,PRY/SQ Q3 Girder3 Temp,degC,PRY/SQ Q3 Girder3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1597,PRY/SQ Q4 Girder1,uStrain,PRY/SQ Q4 Girder1 Strain.
+Woodside,Scarborough,IMMS,,1598,PRY/SQ Q4 Girder1 Temp,degC,PRY/SQ Q4 Girder1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1599,PRY/SQ Q4 Girder2,uStrain,PRY/SQ Q4 Girder2 Strain.
+Woodside,Scarborough,IMMS,,1600,PRY/SQ Q4 Girder2 Temp,degC,PRY/SQ Q4 Girder2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1601,PRY/SQ Q4 Girder3,uStrain,PRY/SQ Q4 Girder3 Strain.
+Woodside,Scarborough,IMMS,,1602,PRY/SQ Q4 Girder3 Temp,degC,PRY/SQ Q4 Girder3 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1603,Flare Tower N1 TOP,uStrain,Flare Tower N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1604,Flare Tower N1 TOP Temp,degC,Flare Tower N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1605,Flare Tower N1 BOT,uStrain,Flare Tower N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1606,Flare Tower N1 BOT Temp,degC,Flare Tower N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1607,Flare Tower N2 TOP,uStrain,Flare Tower N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1608,Flare Tower N2 TOP Temp,degC,Flare Tower N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1609,Flare Tower N2 BOT,uStrain,Flare Tower N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1610,Flare Tower N2 BOT Temp,degC,Flare Tower N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1611,Flare Tower N3 TOP,uStrain,Flare Tower N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1612,Flare Tower N3 TOP Temp,degC,Flare Tower N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1613,Flare Tower N3 BOT,uStrain,Flare Tower N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1614,Flare Tower N3 BOT Temp,degC,Flare Tower N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1615,Flare Tower N4 TOP,uStrain,Flare Tower N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1616,Flare Tower N4 TOP Temp,degC,Flare Tower N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1617,Flare Tower N4 BOT,uStrain,Flare Tower N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1618,Flare Tower N4 BOT Temp,degC,Flare Tower N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1619,Crane GL-C1 TOP,uStrain,Crane GL-C1 TOP Strain.
+Woodside,Scarborough,IMMS,,1620,Crane GL-C1 TOP Temp,degC,Crane GL-C1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1621,Crane GL-C1 SIDE1,uStrain,Crane GL-C1 SIDE1 Strain.
+Woodside,Scarborough,IMMS,,1622,Crane GL-C1 SIDE1 Temp,degC,Crane GL-C1 SIDE1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1623,Crane GL-C1 SIDE2,uStrain,Crane GL-C1 SIDE2 Strain.
+Woodside,Scarborough,IMMS,,1624,Crane GL-C1 SIDE2 Temp,degC,Crane GL-C1 SIDE2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1625,Crane GL-C1 BOT,uStrain,Crane GL-C1 BOT Strain.
+Woodside,Scarborough,IMMS,,1626,Crane GL-C1 BOT Temp,degC,Crane GL-C1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1627,Crane GL-C2 TOP,uStrain,Crane GL-C2 TOP Strain.
+Woodside,Scarborough,IMMS,,1628,Crane GL-C2 TOP Temp,degC,Crane GL-C2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1629,Crane GL-C2 SIDE1,uStrain,Crane GL-C2 SIDE1 Strain.
+Woodside,Scarborough,IMMS,,1630,Crane GL-C2 SIDE1 Temp,degC,Crane GL-C2 SIDE1 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1631,Crane GL-C2 SIDE2,uStrain,Crane GL-C2 SIDE2 Strain.
+Woodside,Scarborough,IMMS,,1632,Crane GL-C2 SIDE2 Temp,degC,Crane GL-C2 SIDE2 Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1633,Crane GL-C2 BOT,uStrain,Crane GL-C2 BOT Strain.
+Woodside,Scarborough,IMMS,,1634,Crane GL-C2 BOT Temp,degC,Crane GL-C2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1635,LQ GL-A N1 TOP,uStrain,LQ GL-A N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1636,LQ GL-A N1 TOP Temp,degC,LQ GL-A N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1637,LQ GL-A N1 BOT,uStrain,LQ GL-A N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1638,LQ GL-A N1 BOT Temp,degC,LQ GL-A N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1639,LQ GL-A N2 TOP,uStrain,LQ GL-A N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1640,LQ GL-A N2 TOP Temp,degC,LQ GL-A N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1641,LQ GL-A N2 BOT,uStrain,LQ GL-A N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1642,LQ GL-A N2 BOT Temp,degC,LQ GL-A N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1643,LQ GL-A N3 TOP,uStrain,LQ GL-A N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1644,LQ GL-A N3 TOP Temp,degC,LQ GL-A N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1645,LQ GL-A N3 BOT,uStrain,LQ GL-A N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1646,LQ GL-A N3 BOT Temp,degC,LQ GL-A N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1647,LQ GL-A N4 TOP,uStrain,LQ GL-A N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1648,LQ GL-A N4 TOP Temp,degC,LQ GL-A N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1649,LQ GL-A N4 BOT,uStrain,LQ GL-A N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1650,LQ GL-A N4 BOT Temp,degC,LQ GL-A N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1651,LQ GL-A N5 TOP,uStrain,LQ GL-A N5 TOP Strain.
+Woodside,Scarborough,IMMS,,1652,LQ GL-A N5 TOP Temp,degC,LQ GL-A N5 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1653,LQ GL-A N5 BOT,uStrain,LQ GL-A N5 BOT Strain.
+Woodside,Scarborough,IMMS,,1654,LQ GL-A N5 BOT Temp,degC,LQ GL-A N5 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1655,LQ GL-A N6 TOP,uStrain,LQ GL-A N6 TOP Strain.
+Woodside,Scarborough,IMMS,,1656,LQ GL-A N6 TOP Temp,degC,LQ GL-A N6 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1657,LQ GL-A N6 BOT,uStrain,LQ GL-A N6 BOT Strain.
+Woodside,Scarborough,IMMS,,1658,LQ GL-A N6 BOT Temp,degC,LQ GL-A N6 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1659,LQ GL-A N7 TOP,uStrain,LQ GL-A N7 TOP Strain.
+Woodside,Scarborough,IMMS,,1660,LQ GL-A N7 TOP Temp,degC,LQ GL-A N7 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1661,LQ GL-A N7 BOT,uStrain,LQ GL-A N7 BOT Strain.
+Woodside,Scarborough,IMMS,,1662,LQ GL-A N7 BOT Temp,degC,LQ GL-A N7 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1663,LQ GL-A N8 TOP,uStrain,LQ GL-A N8 TOP Strain.
+Woodside,Scarborough,IMMS,,1664,LQ GL-A N8 TOP Temp,degC,LQ GL-A N8 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1665,LQ GL-A N8 BOT,uStrain,LQ GL-A N8 BOT Strain.
+Woodside,Scarborough,IMMS,,1666,LQ GL-A N8 BOT Temp,degC,LQ GL-A N8 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1667,MBT GL-B N1 TOP,uStrain,MBT GL-B N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1668,MBT GL-B N1 TOP Temp,degC,MBT GL-B N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1669,MBT GL-B N1 BOT,uStrain,MBT GL-B N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1670,MBT GL-B N1 BOT Temp,degC,MBT GL-B N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1671,MBT GL-B N2 TOP,uStrain,MBT GL-B N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1672,MBT GL-B N2 TOP Temp,degC,MBT GL-B N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1673,MBT GL-B N2 BOT,uStrain,MBT GL-B N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1674,MBT GL-B N2 BOT Temp,degC,MBT GL-B N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1675,MBT GL-B N3 TOP,uStrain,MBT GL-B N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1676,MBT GL-B N3 TOP Temp,degC,MBT GL-B N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1677,MBT GL-B N3 BOT,uStrain,MBT GL-B N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1678,MBT GL-B N3 BOT Temp,degC,MBT GL-B N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1679,MBT GL-B N4 TOP,uStrain,MBT GL-B N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1680,MBT GL-B N4 TOP Temp,degC,MBT GL-B N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1681,MBT GL-B N4 BOT,uStrain,MBT GL-B N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1682,MBT GL-B N4 BOT Temp,degC,MBT GL-B N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1683,MBT GL-D N1 TOP,uStrain,MBT GL-D N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1684,MBT GL-D N1 TOP Temp,degC,MBT GL-D N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1685,MBT GL-D N1 BOT,uStrain,MBT GL-D N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1686,MBT GL-D N1 BOT Temp,degC,MBT GL-D N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1687,MBT GL-D N2 TOP,uStrain,MBT GL-D N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1688,MBT GL-D N2 TOP Temp,degC,MBT GL-D N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1689,MBT GL-D N2 BOT,uStrain,MBT GL-D N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1690,MBT GL-D N2 BOT Temp,degC,MBT GL-D N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1691,MBT GL-D N3 TOP,uStrain,MBT GL-D N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1692,MBT GL-D N3 TOP Temp,degC,MBT GL-D N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1693,MBT GL-D N3 BOT,uStrain,MBT GL-D N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1694,MBT GL-D N3 BOT Temp,degC,MBT GL-D N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1695,MBT GL-D N4 TOP,uStrain,MBT GL-D N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1696,MBT GL-D N4 TOP Temp,degC,MBT GL-D N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1697,MBT GL-D N4 BOT,uStrain,MBT GL-D N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1698,MBT GL-D N4 BOT Temp,degC,MBT GL-D N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1699,MBT GL-1 N1 TOP,uStrain,MBT GL-1 N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1700,MBT GL-1 N1 TOP Temp,degC,MBT GL-1 N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1701,MBT GL-1 N1 BOT,uStrain,MBT GL-1 N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1702,MBT GL-1 N1 BOT Temp,degC,MBT GL-1 N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1703,MBT GL-1 N2 TOP,uStrain,MBT GL-1 N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1704,MBT GL-1 N2 TOP Temp,degC,MBT GL-1 N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1705,MBT GL-1 N2 BOT,uStrain,MBT GL-1 N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1706,MBT GL-1 N2 BOT Temp,degC,MBT GL-1 N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1707,MBT GL-1 N3 TOP,uStrain,MBT GL-1 N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1708,MBT GL-1 N3 TOP Temp,degC,MBT GL-1 N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1709,MBT GL-1 N3 BOT,uStrain,MBT GL-1 N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1710,MBT GL-1 N3 BOT Temp,degC,MBT GL-1 N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1711,MBT GL-1 N4 TOP,uStrain,MBT GL-1 N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1712,MBT GL-1 N4 TOP Temp,degC,MBT GL-1 N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1713,MBT GL-1 N4 BOT,uStrain,MBT GL-1 N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1714,MBT GL-1 N4 BOT Temp,degC,MBT GL-1 N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1715,MBT GL-4 N1 TOP,uStrain,MBT GL-4 N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1716,MBT GL-4 N1 TOP Temp,degC,MBT GL-4 N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1717,MBT GL-4 N1 BOT,uStrain,MBT GL-4 N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1718,MBT GL-4 N1 BOT Temp,degC,MBT GL-4 N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1719,MBT GL-4 N2 TOP,uStrain,MBT GL-4 N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1720,MBT GL-4 N2 TOP Temp,degC,MBT GL-4 N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1721,MBT GL-4 N2 BOT,uStrain,MBT GL-4 N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1722,MBT GL-4 N2 BOT Temp,degC,MBT GL-4 N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1723,MBT GL-4 N3 TOP,uStrain,MBT GL-4 N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1724,MBT GL-4 N3 TOP Temp,degC,MBT GL-4 N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1725,MBT GL-4 N3 BOT,uStrain,MBT GL-4 N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1726,MBT GL-4 N3 BOT Temp,degC,MBT GL-4 N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1727,MBT GL-5 N1 TOP,uStrain,MBT GL-5 N1 TOP Strain.
+Woodside,Scarborough,IMMS,,1728,MBT GL-5 N1 TOP Temp,degC,MBT GL-5 N1 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1729,MBT GL-5 N1 BOT,uStrain,MBT GL-5 N1 BOT Strain.
+Woodside,Scarborough,IMMS,,1730,MBT GL-5 N1 BOT Temp,degC,MBT GL-5 N1 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1731,MBT GL-5 N2 TOP,uStrain,MBT GL-5 N2 TOP Strain.
+Woodside,Scarborough,IMMS,,1732,MBT GL-5 N2 TOP Temp,degC,MBT GL-5 N2 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1733,MBT GL-5 N2 BOT,uStrain,MBT GL-5 N2 BOT Strain.
+Woodside,Scarborough,IMMS,,1734,MBT GL-5 N2 BOT Temp,degC,MBT GL-5 N2 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1735,MBT GL-5 N3 TOP,uStrain,MBT GL-5 N3 TOP Strain.
+Woodside,Scarborough,IMMS,,1736,MBT GL-5 N3 TOP Temp,degC,MBT GL-5 N3 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1737,MBT GL-5 N3 BOT,uStrain,MBT GL-5 N3 BOT Strain.
+Woodside,Scarborough,IMMS,,1738,MBT GL-5 N3 BOT Temp,degC,MBT GL-5 N3 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1739,MBT GL-5 N4 TOP,uStrain,MBT GL-5 N4 TOP Strain.
+Woodside,Scarborough,IMMS,,1740,MBT GL-5 N4 TOP Temp,degC,MBT GL-5 N4 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1741,MBT GL-5 N4 BOT,uStrain,MBT GL-5 N4 BOT Strain.
+Woodside,Scarborough,IMMS,,1742,MBT GL-5 N4 BOT Temp,degC,MBT GL-5 N4 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1743,MBT GL-5 N5 TOP,uStrain,MBT GL-5 N5 TOP Strain.
+Woodside,Scarborough,IMMS,,1744,MBT GL-5 N5 TOP Temp,degC,MBT GL-5 N5 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1745,MBT GL-5 N5 BOT,uStrain,MBT GL-5 N5 BOT Strain.
+Woodside,Scarborough,IMMS,,1746,MBT GL-5 N5 BOT Temp,degC,MBT GL-5 N5 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1747,MBT GL-5 N6 TOP,uStrain,MBT GL-5 N6 TOP Strain.
+Woodside,Scarborough,IMMS,,1748,MBT GL-5 N6 TOP Temp,degC,MBT GL-5 N6 TOP Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1749,MBT GL-5 N6 BOT,uStrain,MBT GL-5 N6 BOT Strain.
+Woodside,Scarborough,IMMS,,1750,MBT GL-5 N6 BOT Temp,degC,MBT GL-5 N6 BOT Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1751,PR-A 0 DEG,uStrain,PR-A 0 DEG Strain.
+Woodside,Scarborough,IMMS,,1752,PR-A 0 DEG Temp,degC,PR-A 0 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1753,PR-A 90 DEG,uStrain,PR-A 90 DEG Strain.
+Woodside,Scarborough,IMMS,,1754,PR-A 90 DEG Temp,degC,PR-A 90 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1755,PR-A 180 DEG,uStrain,PR-A 180 DEG Strain.
+Woodside,Scarborough,IMMS,,1756,PR-A 180 DEG Temp,degC,PR-A 180 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1757,PR-A 270 DEG,uStrain,PR-A 270 DEG Strain.
+Woodside,Scarborough,IMMS,,1758,PR-A 270 DEG Temp,degC,PR-A 270 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1759,PR-B 0 DEG,uStrain,PR-B 0 DEG Strain.
+Woodside,Scarborough,IMMS,,1760,PR-B 0 DEG Temp,degC,PR-B 0 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1761,PR-B 90 DEG,uStrain,PR-B 90 DEG Strain.
+Woodside,Scarborough,IMMS,,1762,PR-B 90 DEG Temp,degC,PR-B 90 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1763,PR-B 180 DEG,uStrain,PR-B 180 DEG Strain.
+Woodside,Scarborough,IMMS,,1764,PR-B 180 DEG Temp,degC,PR-B 180 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1765,PR-B 270 DEG,uStrain,PR-B 270 DEG Strain.
+Woodside,Scarborough,IMMS,,1766,PR-B 270 DEG Temp,degC,PR-B 270 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1767,PR-C 0 DEG,uStrain,PR-C 0 DEG Strain.
+Woodside,Scarborough,IMMS,,1768,PR-C 0 DEG Temp,degC,PR-C 0 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1769,PR-C 90 DEG,uStrain,PR-C 90 DEG Strain.
+Woodside,Scarborough,IMMS,,1770,PR-C 90 DEG Temp,degC,PR-C 90 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1771,PR-C 180 DEG,uStrain,PR-C 180 DEG Strain.
+Woodside,Scarborough,IMMS,,1772,PR-C 180 DEG Temp,degC,PR-C 180 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1773,PR-C 270 DEG,uStrain,PR-C 270 DEG Strain.
+Woodside,Scarborough,IMMS,,1774,PR-C 270 DEG Temp,degC,PR-C 270 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1775,ER-1 0 DEG,uStrain,ER-1 0 DEG Strain.
+Woodside,Scarborough,IMMS,,1776,ER-1 0 DEG Temp,degC,ER-1 0 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1777,ER-1 90 DEG,uStrain,ER-1 90 DEG Strain.
+Woodside,Scarborough,IMMS,,1778,ER-1 90 DEG Temp,degC,ER-1 90 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1779,ER-1 180 DEG,uStrain,ER-1 180 DEG Strain.
+Woodside,Scarborough,IMMS,,1780,ER-1 180 DEG Temp,degC,ER-1 180 DEG Temperature. Used for temperature correction of strain.
+Woodside,Scarborough,IMMS,,1781,ER-1 270 DEG,uStrain,ER-1 270 DEG Strain.
+Woodside,Scarborough,IMMS,,1782,ER-1 270 DEG Temp,degC,ER-1 270 DEG Temperature. Used for temperature correction of strain.
+,,,,1783,ER-2 0 DEG,uStrain,ER-2 0 DEG Strain.
+,,,,1784,ER-2 0 DEG Temp,degC,ER-2 0 DEG Temperature. Used for temperature correction of strain.
+,,,,1785,ER-2 90 DEG,uStrain,ER-2 90 DEG Strain.
+,,,,1786,ER-2 90 DEG Temp,degC,ER-2 90 DEG Temperature. Used for temperature correction of strain.
+,,,,1787,ER-2 180 DEG,uStrain,ER-2 180 DEG Strain.
+,,,,1788,ER-2 180 DEG Temp,degC,ER-2 180 DEG Temperature. Used for temperature correction of strain.
+,,,,1789,ER-2 270 DEG,uStrain,ER-2 270 DEG Strain.
+,,,,1790,ER-2 270 DEG Temp,degC,ER-2 270 DEG Temperature. Used for temperature correction of strain.
+,,,,1791,ER-3 0 DEG,uStrain,ER-3 0 DEG Strain.
+,,,,1792,ER-3 0 DEG Temp,degC,ER-3 0 DEG Temperature. Used for temperature correction of strain.
+,,,,1793,ER-3 90 DEG,uStrain,ER-3 90 DEG Strain.
+,,,,1794,ER-3 90 DEG Temp,degC,ER-3 90 DEG Temperature. Used for temperature correction of strain.
+,,,,1795,ER-3 180 DEG,uStrain,ER-3 180 DEG Strain.
+,,,,1796,ER-3 180 DEG Temp,degC,ER-3 180 DEG Temperature. Used for temperature correction of strain.
+,,,,1797,ER-3 270 DEG,uStrain,ER-3 270 DEG Strain.
+,,,,1798,ER-3 270 DEG Temp,degC,ER-3 270 DEG Temperature. Used for temperature correction of strain.
+,,,,1799,Lower Deck GL-D1 TOP,uStrain,Lower Deck GL-D1 TOP Strain.
+,,,,1800,Lower Deck GL-D1 TOP Temp,degC,Lower Deck GL-D1 TOP Temperature. Used for temperature correction of strain.
+,,,,1801,Lower Deck GL-D1 BOT,uStrain,Lower Deck GL-D1 BOT Strain.
+,,,,1802,Lower Deck GL-D1 BOT Temp,degC,Lower Deck GL-D1 BOT Temperature. Used for temperature correction of strain.
+,,,,1803,Lower Deck GL-DC1 TOP,uStrain,Lower Deck GL-DC1 TOP Strain.
+,,,,1804,Lower Deck GL-DC1 TOP Temp,degC,Lower Deck GL-DC1 TOP Temperature. Used for temperature correction of strain.
+,,,,1805,Lower Deck GL-DC1 BOT,uStrain,Lower Deck GL-DC1 BOT Strain.
+,,,,1806,Lower Deck GL-DC1 BOT Temp,degC,Lower Deck GL-DC1 BOT Temperature. Used for temperature correction of strain.
+,,,,1807,Mid Deck GL-D1 TOP,uStrain,Mid Deck GL-D1 TOP Strain.
+,,,,1808,Mid Deck GL-D1 TOP Temp,degC,Mid Deck GL-D1 TOP Temperature. Used for temperature correction of strain.
+,,,,1809,Mid Deck GL-D1 BOT,uStrain,Mid Deck GL-D1 BOT Strain.
+,,,,1810,Mid Deck GL-D1 BOT Temp,degC,Mid Deck GL-D1 BOT Temperature. Used for temperature correction of strain.
+,,,,1811,Mid Deck GL-DC1 TOP,uStrain,Mid Deck GL-DC1 TOP Strain.
+,,,,1812,Mid Deck GL-DC1 TOP Temp,degC,Mid Deck GL-DC1 TOP Temperature. Used for temperature correction of strain.
+,,,,1813,Mid Deck GL-DC1 BOT,uStrain,Mid Deck GL-DC1 BOT Strain.
+,,,,1814,Mid Deck GL-DC1 BOT Temp,degC,Mid Deck GL-DC1 BOT Temperature. Used for temperature correction of strain.

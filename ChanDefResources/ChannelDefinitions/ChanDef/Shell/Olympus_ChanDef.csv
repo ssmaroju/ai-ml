@@ -1,0 +1,1483 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Shell,Olympus,MIS,6DOF,1,PQ Roll,deg,Calculated inside 6DoF of roll angle of rotation about the local body longitudinal (x) axis. +ve Roll is Starboard Down.
+Shell,Olympus,MIS,6DOF,2,PQ Pitch,deg,Calculated inside 6DoF of pitch angle of rotation about the local body transverse (y) axis. +ve Pitch is Bow Down.
+Shell,Olympus,MIS,6DOF,3,PQ Heave,deg,"Calculated inside 6DoF of vertical offset at the device location, along the local body vertical (z) axis. +ve Heave is upwards."
+Shell,Olympus,MIS,6DOF,4,PQ Roll Rate,deg/s,"Measured roll angular rate, +ve Roll is Starboard Down."
+Shell,Olympus,MIS,6DOF,5,PQ Pitch Rate,deg/s,"Measured pitch angular rate, +ve Pitch is Bow Down."
+Shell,Olympus,MIS,6DOF,6,PQ Heading Rate,deg/s,"Measured yaw angular rate, +ve Yaw is Bow towards Port."
+Shell,Olympus,MIS,6DOF,7,PQ Surge Acc,ft/s^2,"Measured surge acceleration, +ve Surge is along longitudinal (x) axis."
+Shell,Olympus,MIS,6DOF,8,PQ Sway Acc,ft/s^2,"Measured sway acceleration, +ve Sway is along transverse (y) axis."
+Shell,Olympus,MIS,6DOF,9,PQ Heave Acc,ft/s^2,"Measured heave acceleration, +ve Heave is along vertical (z) axis."
+Shell,Olympus,MIS,6DOF,10,PQ Heading,deg,"Calculated inside 6DoF of heading of the vessel, +ve heading is vessel Bow (x-axis) clockwise of True North."
+Shell,Olympus,MIS,6DOF,11,6DOF Sensor Status,code,The status flag value of the Attitude and Heading Reference measurement device.
+Shell,Olympus,MIS,2DOF,12,2DOF Surge Accel,ft/s^2,"Measured surge acceleration, +ve Surge is along longitudinal (x) axis."
+Shell,Olympus,MIS,2DOF,13,2DOF Sway Accel,ft/s^2,"Measured sway acceleration, +ve Sway is along transverse (y) axis."
+Shell,Olympus,MIS,2DOF,14,Not Used,none,
+Shell,Olympus,MIS,2DOF,15,2DOF Surge Accel Temp,degF,Measured surge acceleration temperature.
+Shell,Olympus,MIS,2DOF,16,2DOF Sway Accel Temp,degF,Measured sway acceleration temperature.
+Shell,Olympus,MIS,6DOF GPS,17,Orion Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Olympus,MIS,6DOF GPS,18,Orion Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,6DOF GPS,19,Orion Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,6DOF GPS,20,Orion Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Olympus,MIS,6DOF GPS,21,Orion Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,6DOF GPS,22,Orion Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,6DOF GPS,23,Orion Altitude 1,ft,Altitude measurement at the antenna location in terms of integer meters
+Shell,Olympus,MIS,6DOF GPS,24,Orion Altitude 2,ft*10000,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Olympus,MIS,6DOF GPS,25,Orion GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Olympus,MIS,6DOF GPS,26,Orion Number of Satellites,#,Number of Satellites available for position measurement.
+Shell,Olympus,MIS,GPS,27,Fugro Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Olympus,MIS,GPS,28,Fugro Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,GPS,29,Fugro Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,GPS,30,Fugro Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Olympus,MIS,GPS,31,Fugro Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,GPS,32,Fugro Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Olympus,MIS,GPS,33,Fugro Altitude 1,ft,Altitude measurement at the antenna location in terms of integer meters
+Shell,Olympus,MIS,GPS,34,Fugro Altitude 2,ft*10000,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Olympus,MIS,GPS,35,Fugro GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Olympus,MIS,GPS,36,Fugro Number of Satellites,#,Number of Satellites available for position measurement.
+Shell,Olympus,MIS,Airgap PN,37,North Raw Airgap,ft,Measured distance from North Airgap sensor head to water surface..
+Shell,Olympus,MIS,Airgap PE,38,East Raw Airgap,ft,Measured distance from East Airgap sensor head to water surface.
+Shell,Olympus,MIS,Airgap PS,39,South Raw Airgap,ft,Measured distance from South Airgap sensor head to water surface.
+Shell,Olympus,MIS,Airgap PW,40,West Raw Airgap,ft,Measured distance from West Airgap sensor head to water surface.
+Shell,Olympus,MIS,MIROS,41,Sig Wave Height,ft,Measured significant wave height.
+Shell,Olympus,MIS,MIROS,42,Max Wave Height,ft,Measured maximum wave height.
+Shell,Olympus,MIS,MIROS,43,Pri Wave Peak Period,sec,Measured primary wave peak period Tp1.
+Shell,Olympus,MIS,MIROS,44,Pri Wave Peak Dir,deg,"Measured wave direction from, true."
+Shell,Olympus,MIS,MIROS,45,Pri Wave Dir Spread,deg,Direction spreading of the wave spectrum's primary peak energy.
+Shell,Olympus,MIS,MIROS,46,Wave Steepness,none,Measured wave steepness.
+Shell,Olympus,MIS,MIROS,47,Mean 0-Upcrossing Period,sec,Measured average wave zero up-crossing period.
+Shell,Olympus,MIS,MIROS,48,Sec Wave Peak Dir,deg,"Measured secondary wave peak direction from, true."
+Shell,Olympus,MIS,MIROS,49,Wave HI Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Olympus,MIS,MIROS,50,Wave LO Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Olympus,MIS,MIROS,51,Surface Current Spd,knots,Measured surface current speed.
+Shell,Olympus,MIS,MIROS,52,Surface Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Olympus,MIS,MIROS,53,Current HI Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Olympus,MIS,MIROS,54,Current LO Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Olympus,MIS,MIROS,55,MET Watchdog,counter,Indicate whether the metocean computer is communicating to BMT WinMon or not.
+Shell,Olympus,MIS,Riser,56,Riser A PT1,psi,Measured riser load from Riser A PT1.
+Shell,Olympus,MIS,Riser,57,Riser A PT2,psi,Measured riser load from Riser A PT2.
+Shell,Olympus,MIS,Riser,58,Riser A PT3,psi,Measured riser load from Riser A PT3.
+Shell,Olympus,MIS,Riser,59,Riser A PT4,psi,Measured riser load from Riser A PT4.
+Shell,Olympus,MIS,Riser,60,Riser A PT5,psi,Measured riser load from Riser A PT5.
+Shell,Olympus,MIS,Riser,61,Riser A PT6,psi,Measured riser load from Riser A PT6.
+Shell,Olympus,MIS,Riser,62,Riser A PT7,psi,Measured riser load from Riser A PT7.
+Shell,Olympus,MIS,Riser,63,Riser A PT8,psi,Measured riser load from Riser A PT8.
+Shell,Olympus,MIS,Riser,64,Riser B PT1,psi,Measured riser load from Riser B PT1.
+Shell,Olympus,MIS,Riser,65,Riser B PT2,psi,Measured riser load from Riser B PT2.
+Shell,Olympus,MIS,Riser,66,Riser B PT3,psi,Measured riser load from Riser B PT3.
+Shell,Olympus,MIS,Riser,67,Riser B PT4,psi,Measured riser load from Riser B PT4.
+Shell,Olympus,MIS,Riser,68,Riser B PT5,psi,Measured riser load from Riser B PT5.
+Shell,Olympus,MIS,Riser,69,Riser B PT6,psi,Measured riser load from Riser B PT6.
+Shell,Olympus,MIS,Riser,70,Riser B PT7,psi,Measured riser load from Riser B PT7.
+Shell,Olympus,MIS,Riser,71,Riser B PT8,psi,Measured riser load from Riser B PT8.
+Shell,Olympus,MIS,Riser,72,Riser C PT1,psi,Measured riser load from Riser C PT1.
+Shell,Olympus,MIS,Riser,73,Riser C PT2,psi,Measured riser load from Riser C PT2.
+Shell,Olympus,MIS,Riser,74,Riser C PT3,psi,Measured riser load from Riser C PT3.
+Shell,Olympus,MIS,Riser,75,Riser C PT4,psi,Measured riser load from Riser C PT4.
+Shell,Olympus,MIS,Riser,76,Riser C PT5,psi,Measured riser load from Riser C PT5.
+Shell,Olympus,MIS,Riser,77,Riser C PT6,psi,Measured riser load from Riser C PT6.
+Shell,Olympus,MIS,Riser,78,Riser C PT7,psi,Measured riser load from Riser C PT7.
+Shell,Olympus,MIS,Riser,79,Riser C PT8,psi,Measured riser load from Riser C PT8.
+Shell,Olympus,MIS,Riser,80,Riser D PT1,psi,Measured riser load from Riser D PT1.
+Shell,Olympus,MIS,Riser,81,Riser D PT2,psi,Measured riser load from Riser D PT2.
+Shell,Olympus,MIS,Riser,82,Riser D PT3,psi,Measured riser load from Riser D PT3.
+Shell,Olympus,MIS,Riser,83,Riser D PT4,psi,Measured riser load from Riser D PT4.
+Shell,Olympus,MIS,Riser,84,Riser D PT5,psi,Measured riser load from Riser D PT5.
+Shell,Olympus,MIS,Riser,85,Riser D PT6,psi,Measured riser load from Riser D PT6.
+Shell,Olympus,MIS,Riser,86,Riser D PT7,psi,Measured riser load from Riser D PT7.
+Shell,Olympus,MIS,Riser,87,Riser D PT8,psi,Measured riser load from Riser D PT8.
+Shell,Olympus,MIS,Riser,88,Riser E PT1,psi,Measured riser load from Riser E PT1.
+Shell,Olympus,MIS,Riser,89,Riser E PT2,psi,Measured riser load from Riser E PT2.
+Shell,Olympus,MIS,Riser,90,Riser E PT3,psi,Measured riser load from Riser E PT3.
+Shell,Olympus,MIS,Riser,91,Riser E PT4,psi,Measured riser load from Riser E PT4.
+Shell,Olympus,MIS,Riser,92,Riser F PT1,psi,Measured riser load from Riser F PT1.
+Shell,Olympus,MIS,Riser,93,Riser F PT2,psi,Measured riser load from Riser F PT2.
+Shell,Olympus,MIS,Riser,94,Riser F PT3,psi,Measured riser load from Riser F PT3.
+Shell,Olympus,MIS,Riser,95,Riser F PT4,psi,Measured riser load from Riser F PT4.
+Shell,Olympus,MIS,Riser,96,Riser I PT1,psi,Measured riser load from Riser I PT1.
+Shell,Olympus,MIS,Riser,97,Riser I PT2,psi,Measured riser load from Riser I PT2.
+Shell,Olympus,MIS,Riser,98,Riser I PT3,psi,Measured riser load from Riser I PT3.
+Shell,Olympus,MIS,Riser,99,Riser I PT4,psi,Measured riser load from Riser I PT4.
+Shell,Olympus,MIS,Riser,100,Riser J PT1,psi,Measured riser load from Riser J PT1.
+Shell,Olympus,MIS,Riser,101,Riser J PT2,psi,Measured riser load from Riser J PT2.
+Shell,Olympus,MIS,Riser,102,Riser J PT3,psi,Measured riser load from Riser J PT3.
+Shell,Olympus,MIS,Riser,103,Riser J PT4,psi,Measured riser load from Riser J PT4.
+Shell,Olympus,MIS,Riser,104,Riser K PT1,psi,Measured riser load from Riser K PT1.
+Shell,Olympus,MIS,Riser,105,Riser K PT2,psi,Measured riser load from Riser K PT2.
+Shell,Olympus,MIS,Riser,106,Riser K PT3,psi,Measured riser load from Riser K PT3.
+Shell,Olympus,MIS,Riser,107,Riser K PT4,psi,Measured riser load from Riser K PT4.
+Shell,Olympus,MIS,Riser,108,Riser k PT5,psi,Measured riser load from Riser k PT5.
+Shell,Olympus,MIS,Riser,109,Riser K PT6,psi,Measured riser load from Riser K PT6.
+Shell,Olympus,MIS,Riser,110,Riser K PT7,psi,Measured riser load from Riser K PT7.
+Shell,Olympus,MIS,Riser,111,Riser K PT8,psi,Measured riser load from Riser K PT8.
+Shell,Olympus,MIS,Riser,112,Riser L PT1,psi,Measured riser load from Riser L PT1.
+Shell,Olympus,MIS,Riser,113,Riser L PT2,psi,Measured riser load from Riser L PT2.
+Shell,Olympus,MIS,Riser,114,Riser L PT3,psi,Measured riser load from Riser L PT3.
+Shell,Olympus,MIS,Riser,115,Riser L PT4,psi,Measured riser load from Riser L PT4.
+Shell,Olympus,MIS,Riser,116,Riser Q PT1,psi,Measured riser load from Riser Q PT1.
+Shell,Olympus,MIS,Riser,117,Riser Q PT2,psi,Measured riser load from Riser Q PT2.
+Shell,Olympus,MIS,Riser,118,Riser Q PT3,psi,Measured riser load from Riser Q PT3.
+Shell,Olympus,MIS,Riser,119,Riser Q PT4,psi,Measured riser load from Riser Q PT4.
+Shell,Olympus,MIS,Riser,120,Riser G PT1,psi,Measured riser load from Riser G PT1.
+Shell,Olympus,MIS,Riser,121,Riser G PT2,psi,Measured riser load from Riser G PT2.
+Shell,Olympus,MIS,Riser,122,Riser G PT3,psi,Measured riser load from Riser G PT3.
+Shell,Olympus,MIS,Riser,123,Riser G PT4,psi,Measured riser load from Riser G PT4.
+Shell,Olympus,MIS,Riser,124,Riser G PT5,psi,Measured riser load from Riser G PT5.
+Shell,Olympus,MIS,Riser,125,Riser G PT6,psi,Measured riser load from Riser G PT6.
+Shell,Olympus,MIS,Riser,126,Riser G PT7,psi,Measured riser load from Riser G PT7.
+Shell,Olympus,MIS,Riser,127,Riser G PT8,psi,Measured riser load from Riser G PT8.
+Shell,Olympus,MIS,Riser,128,Riser H PT1,psi,Measured riser load from Riser H PT1.
+Shell,Olympus,MIS,Riser,129,Riser H PT2,psi,Measured riser load from Riser H PT2.
+Shell,Olympus,MIS,Riser,130,Riser H PT3,psi,Measured riser load from Riser H PT3.
+Shell,Olympus,MIS,Riser,131,Riser H PT4,psi,Measured riser load from Riser H PT4.
+Shell,Olympus,MIS,Riser,132,Riser M PT1,psi,Measured riser load from Riser M PT1.
+Shell,Olympus,MIS,Riser,133,Riser M PT2,psi,Measured riser load from Riser M PT2.
+Shell,Olympus,MIS,Riser,134,Riser M PT3,psi,Measured riser load from Riser M PT3.
+Shell,Olympus,MIS,Riser,135,Riser M PT4,psi,Measured riser load from Riser M PT4.
+Shell,Olympus,MIS,Riser,136,Riser N PT1,psi,Measured riser load from Riser N PT1.
+Shell,Olympus,MIS,Riser,137,Riser N PT2,psi,Measured riser load from Riser N PT2.
+Shell,Olympus,MIS,Riser,138,Riser N PT3,psi,Measured riser load from Riser N PT3.
+Shell,Olympus,MIS,Riser,139,Riser N PT4,psi,Measured riser load from Riser N PT4.
+Shell,Olympus,MIS,Riser,140,Riser N PT5,psi,Measured riser load from Riser N PT5.
+Shell,Olympus,MIS,Riser,141,Riser N PT6,psi,Measured riser load from Riser N PT6.
+Shell,Olympus,MIS,Riser,142,Riser N PT7,psi,Measured riser load from Riser N PT7.
+Shell,Olympus,MIS,Riser,143,Riser N PT8,psi,Measured riser load from Riser N PT8.
+Shell,Olympus,MIS,Riser,144,Riser O PT1,psi,Measured riser load from Riser O PT1.
+Shell,Olympus,MIS,Riser,145,Riser O PT2,psi,Measured riser load from Riser O PT2.
+Shell,Olympus,MIS,Riser,146,Riser O PT3,psi,Measured riser load from Riser O PT3.
+Shell,Olympus,MIS,Riser,147,Riser O PT4,psi,Measured riser load from Riser O PT4.
+Shell,Olympus,MIS,Riser,148,Riser O PT5,psi,Measured riser load from Riser O PT5.
+Shell,Olympus,MIS,Riser,149,Riser O PT6,psi,Measured riser load from Riser O PT6.
+Shell,Olympus,MIS,Riser,150,Riser O PT7,psi,Measured riser load from Riser O PT7.
+Shell,Olympus,MIS,Riser,151,Riser O PT8,psi,Measured riser load from Riser O PT8.
+Shell,Olympus,MIS,Riser,152,Riser P PT1,psi,Measured riser load from Riser P PT1.
+Shell,Olympus,MIS,Riser,153,Riser P PT2,psi,Measured riser load from Riser P PT2.
+Shell,Olympus,MIS,Riser,154,Riser P PT3,psi,Measured riser load from Riser P PT3.
+Shell,Olympus,MIS,Riser,155,Riser P PT4,psi,Measured riser load from Riser P PT4.
+Shell,Olympus,MIS,Riser,156,Riser R PT1,psi,Measured riser load from Riser R PT1.
+Shell,Olympus,MIS,Riser,157,Riser R PT2,psi,Measured riser load from Riser R PT2.
+Shell,Olympus,MIS,Riser,158,Riser R PT3,psi,Measured riser load from Riser R PT3.
+Shell,Olympus,MIS,Riser,159,Riser R PT4,psi,Measured riser load from Riser R PT4.
+Shell,Olympus,MIS,Riser,160,Riser S PT1,psi,Measured riser load from Riser S PT1.
+Shell,Olympus,MIS,Riser,161,Riser S PT2,psi,Measured riser load from Riser S PT2.
+Shell,Olympus,MIS,Riser,162,Riser S PT3,psi,Measured riser load from Riser S PT3.
+Shell,Olympus,MIS,Riser,163,Riser S PT4,psi,Measured riser load from Riser S PT4.
+Shell,Olympus,MIS,Riser,164,Riser S PT5,psi,Measured riser load from Riser S PT5.
+Shell,Olympus,MIS,Riser,165,Riser S PT6,psi,Measured riser load from Riser S PT6.
+Shell,Olympus,MIS,Riser,166,Riser S PT7,psi,Measured riser load from Riser S PT7.
+Shell,Olympus,MIS,Riser,167,Riser S PT8,psi,Measured riser load from Riser S PT8.
+Shell,Olympus,MIS,Riser,168,Riser T PT1,psi,Measured riser load from Riser T PT1.
+Shell,Olympus,MIS,Riser,169,Riser T PT2,psi,Measured riser load from Riser T PT2.
+Shell,Olympus,MIS,Riser,170,Riser T PT3,psi,Measured riser load from Riser T PT3.
+Shell,Olympus,MIS,Riser,171,Riser T PT4,psi,Measured riser load from Riser T PT4.
+Shell,Olympus,MIS,Riser,172,Riser T PT5,psi,Measured riser load from Riser T PT5.
+Shell,Olympus,MIS,Riser,173,Riser T PT6,psi,Measured riser load from Riser T PT6.
+Shell,Olympus,MIS,Riser,174,Riser T PT7,psi,Measured riser load from Riser T PT7.
+Shell,Olympus,MIS,Riser,175,Riser T PT8,psi,Measured riser load from Riser T PT8.
+Shell,Olympus,MIS,Riser,176,Riser U PT1,psi,Measured riser load from Riser U PT1.
+Shell,Olympus,MIS,Riser,177,Riser U PT2,psi,Measured riser load from Riser U PT2.
+Shell,Olympus,MIS,Riser,178,Riser U PT3,psi,Measured riser load from Riser U PT3.
+Shell,Olympus,MIS,Riser,179,Riser U PT4,psi,Measured riser load from Riser U PT4.
+Shell,Olympus,MIS,Riser,180,Riser V PT1,psi,Measured riser load from Riser V PT1.
+Shell,Olympus,MIS,Riser,181,Riser V PT2,psi,Measured riser load from Riser V PT2.
+Shell,Olympus,MIS,Riser,182,Riser V PT3,psi,Measured riser load from Riser V PT3.
+Shell,Olympus,MIS,Riser,183,Riser V PT4,psi,Measured riser load from Riser V PT4.
+Shell,Olympus,MIS,Riser,184,Riser W PT1,psi,Measured riser load from Riser W PT1.
+Shell,Olympus,MIS,Riser,185,Riser W PT2,psi,Measured riser load from Riser W PT2.
+Shell,Olympus,MIS,Riser,186,Riser W PT3,psi,Measured riser load from Riser W PT3.
+Shell,Olympus,MIS,Riser,187,Riser W PT4,psi,Measured riser load from Riser W PT4.
+Shell,Olympus,MIS,Riser,188,Riser X PT1,psi,Measured riser load from Riser X PT1.
+Shell,Olympus,MIS,Riser,189,Riser X PT2,psi,Measured riser load from Riser X PT2.
+Shell,Olympus,MIS,Riser,190,Riser X PT3,psi,Measured riser load from Riser X PT3.
+Shell,Olympus,MIS,Riser,191,Riser X PT4,psi,Measured riser load from Riser X PT4.
+Shell,Olympus,MIS,Riser,192,Temp JB4700A,degF,Measured temperature from Temp JB4700A.
+Shell,Olympus,MIS,Riser,193,Temp JB4700B,degF,Measured temperature from Temp JB4700B.
+Shell,Olympus,MIS,DCS (Tanks),194,ILST-100B1 FWKO,%,Output ILST-100B1 FWKO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),195,ILST-100B2 FWKO,%,Output ILST-100B2 FWKO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),196,ILST-100B3 FWKO,%,Output ILST-100B3 FWKO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),197,ILST-300B BOT,%,Output ILST-300B BOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),198,ILT-100B1 FWKO,%,Output ILT-100B1 FWKO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),199,ILT-1150A1 SMP,%,Output ILT-1150A1 SMP from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),200,ILT-1166B1 SLOP TNK,%,Output ILT-1166B1 SLOP TNK from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),201,ILT-120B1 TEST SEP,%,Output ILT-120B1 TEST SEP from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),202,ILT-300B1 BOT,%,Output ILT-300B1 BOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),203,ILT-320B1 WOT,%,Output ILT-320B1 WOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),204,LST-1007A FGC A1,%,Output LST-1007A FGC A1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),205,LST-100A FWKO,%,Output LST-100A FWKO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),206,LST-1016A FGC A2,%,Output LST-1016A FGC A2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),207,LST-1057A FGC B1,%,Output LST-1057A FGC B1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),208,LST-1066A FGC B2,%,Output LST-1066A FGC B2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),209,LST-1091A SEAL GAS,%,Output LST-1091A SEAL GAS from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),210,LST-1092A SEAL GAS,%,Output LST-1092A SEAL GAS from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),211,LST-1101A GLC,%,Output LST-1101A GLC from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),212,LST-110A HP SEP,%,Output LST-110A HP SEP from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),213,LST-1110A SEAL GAS,%,Output LST-1110A SEAL GAS from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),214,LST-1150A SMP CAISSON,%,Output LST-1150A SMP CAISSON from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),215,LST-1153A PRE SMP OIL,%,Output LST-1153A PRE SMP OIL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),216,LST-1166A OIL BUCKET,%,Output LST-1166A OIL BUCKET from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),217,LST-1166C SLOP TNK,%,Output LST-1166C SLOP TNK from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),218,LST-120A TEST SEP OIL,%,Output LST-120A TEST SEP OIL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),219,LST-120B TEST SEP WTR,%,Output LST-120B TEST SEP WTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),220,LST-1901A Methanol,%,Output LST-1901A Methanol from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),221,LST-206A PL PMP LO,%,Output LST-206A PL PMP LO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),222,LST-2084A FG SCRUB,%,Output LST-2084A FG SCRUB from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),223,LST-2086A FG FLTR,%,Output LST-2086A FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),224,LST-2087A FG FLTR,%,Output LST-2087A FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),225,LST-2170A DSL FUEL,%,Output LST-2170A DSL FUEL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),226,LST-2230A STEAM SEP,%,Output LST-2230A STEAM SEP from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),227,LST-2251A MAKE-UP WTR,%,Output LST-2251A MAKE-UP WTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),228,LST-226A PL PMP LO,%,Output LST-226A PL PMP LO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),229,LST-246A PL PMP LO,%,Output LST-246A PL PMP LO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),230,LST-2491A DRILL RIG,%,Output LST-2491A DRILL RIG from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),231,LST-2605A LDHI TNK,%,Output LST-2605A LDHI TNK from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),232,LST-2831A Glycol,%,Output LST-2831A Glycol from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),233,LST-2840A GLY COND,%,Output LST-2840A GLY COND from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),234,LST-300A BOT GAS SIDE,%,Output LST-300A BOT GAS SIDE from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),235,LST-300C BOT GRID,%,Output LST-300C BOT GRID from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),236,LST-320A WOT,%,Output LST-320A WOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),237,LST-330A DOT,%,Output LST-330A DOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),238,LST-410A FU,%,Output LST-410A FU from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),239,LST-410B FU OIL,%,Output LST-410B FU OIL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),240,LST-420A FU,%,Output LST-420A FU from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),241,LST-420B FU,%,Output LST-420B FU from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),242,LST-500A1 FLARE,%,Output LST-500A1 FLARE from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),243,LST-500A2 FLARE,%,Output LST-500A2 FLARE from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),244,LST-500A3 FLARE,%,Output LST-500A3 FLARE from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),245,LST-5360A DSL TNK,%,Output LST-5360A DSL TNK from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),246,LST-600A HP CLSCNG,%,Output LST-600A HP CLSCNG from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),247,LST-610A GLY CNTCR,%,Output LST-610A GLY CNTCR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),248,LST-903A VRU A1,%,Output LST-903A VRU A1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),249,LST-907A VRU A1 DSCH,%,Output LST-907A VRU A1 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),250,LST-908A VRU A2,%,Output LST-908A VRU A2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),251,LST-913A VRU A2 DSCH,%,Output LST-913A VRU A2 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),252,LST-920A VRU A LO,%,Output LST-920A VRU A LO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),253,LST-953A VRU B1,%,Output LST-953A VRU B1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),254,LST-957A VRU B1 DSCH,%,Output LST-957A VRU B1 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),255,LST-958A VRU B2,%,Output LST-958A VRU B2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),256,LST-963A VRU B2 DSCH,%,Output LST-963A VRU B2 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),257,LST-970A VRU B LO,%,Output LST-970A VRU B LO from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),258,LT-1007A1 FGC A1,%,Output LT-1007A1 FGC A1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),259,LT-100A1 Freewtr,%,Output LT-100A1 Freewtr from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),260,LT-1016A1 FGC A2,%,Output LT-1016A1 FGC A2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),261,LT-1057A1 FGC B1,%,Output LT-1057A1 FGC B1 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),262,LT-1066A1 FGC B2,%,Output LT-1066A1 FGC B2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),263,LT-1101A1 GLC,%,Output LT-1101A1 GLC from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),264,LT-110A1 HP Sep,%,Output LT-110A1 HP Sep from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),265,LT-1153A1 PRE SMP OIL,%,Output LT-1153A1 PRE SMP OIL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),266,LT-1153B1 PRE SMP,%,Output LT-1153B1 PRE SMP from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),267,LT-1166A1 Dry Oil,%,Output LT-1166A1 Dry Oil from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),268,LT-120A1 Well Test,%,Output LT-120A1 Well Test from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),269,LT-130A WB HYD,%,Output LT-130A WB HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),270,LT-130B PT BLKG PNL,%,Output LT-130B PT BLKG PNL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),271,LT-2084A1 FG SCRUB,%,Output LT-2084A1 FG SCRUB from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),272,LT-2086A1 FG FLTR,%,Output LT-2086A1 FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),273,LT-2086B1 FG FLTR,%,Output LT-2086B1 FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),274,LT-2087A1 FG FLTR,%,Output LT-2087A1 FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),275,LT-2087B1 FG FLTR,%,Output LT-2087B1 FG FLTR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),276,LT-2170A1 Diesel Fuel,%,Output LT-2170A1 Diesel Fuel from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),277,LT-2601A1 Water,%,Output LT-2601A1 Water from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),278,LT-2602A1 Biocide,%,Output LT-2602A1 Biocide from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),279,LT-2603A1 Asphaltn,%,Output LT-2603A1 Asphaltn from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),280,LT-2604A1 SCALE INH,%,Output LT-2604A1 SCALE INH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),281,LT-2606A1 Sili Def,%,Output LT-2606A1 Sili Def from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),282,LT-2607A1 Asphaltn,%,Output LT-2607A1 Asphaltn from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),283,LT-2608A1 Asphaltn,%,Output LT-2608A1 Asphaltn from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),284,LT-2609A1 Asphaltn,%,Output LT-2609A1 Asphaltn from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),285,LT-2610A1 Fluor Def,%,Output LT-2610A1 Fluor Def from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),286,LT-2611A1 CORR INH,%,Output LT-2611A1 CORR INH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),287,LT-2612A1 CORR INH,%,Output LT-2612A1 CORR INH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),288,LT-2613A1 Demulsifier,%,Output LT-2613A1 Demulsifier from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),289,LT-2721A1 Heli Fuel,%,Output LT-2721A1 Heli Fuel from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),290,LT-2722A1 Heli Fuel,%,Output LT-2722A1 Heli Fuel from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),291,LT-2723A1 Heli Fuel,%,Output LT-2723A1 Heli Fuel from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),292,LT-2825A1 GLY RBL,%,Output LT-2825A1 GLY RBL from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),293,LT-2840A1 Separator,%,Output LT-2840A1 Separator from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),294,LT-2840B1 GLY COND,%,Output LT-2840B1 GLY COND from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),295,LT-2881A1 Pot Water,%,Output LT-2881A1 Pot Water from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),296,LT-2882A1 Pot Water,%,Output LT-2882A1 Pot Water from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),297,LT-2883A1 Pot Water,%,Output LT-2883A1 Pot Water from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),298,LT-300A1 Oil Treater,%,Output LT-300A1 Oil Treater from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),299,LT-320A1 Wet Oil,%,Output LT-320A1 Wet Oil from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),300,LT-330A1 Dry Oil,%,Output LT-330A1 Dry Oil from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),301,LT-410A1 Flotation,%,Output LT-410A1 Flotation from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),302,LT-410B1  OIL OUT,%,Output LT-410B1  OIL OUT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),303,LT-420A1 WTR OVERBRD,%,Output LT-420A1 WTR OVERBRD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),304,LT-420B1 OIL TO WOT,%,Output LT-420B1 OIL TO WOT from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),305,LT-500A1 FLR SCRUB,%,Output LT-500A1 FLR SCRUB from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),306,LT-5121A1 De-Watering,ft,Output LT-5121A1 De-Watering from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),307,LT-5160A1 Methanol,%,Output LT-5160A1 Methanol from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),308,LT-5161A1 Methanol,%,Output LT-5161A1 Methanol from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),309,LT-5221A1 De-Watering,ft,Output LT-5221A1 De-Watering from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),310,LT-5321A1 De-Watering,ft,Output LT-5321A1 De-Watering from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),311,LT-5360A1 Diesel Tnk,%,Output LT-5360A1 Diesel Tnk from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),312,LT-5421A1 De-Watering,ft,Output LT-5421A1 De-Watering from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),313,LT-5460A1 Drill Water,%,Output LT-5460A1 Drill Water from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),314,LT-600A1 HP CLSCNG,%,Output LT-600A1 HP CLSCNG from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),315,LT-610A1 GLY CNTCR,%,Output LT-610A1 GLY CNTCR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),316,LT-7101A1 SCSSV HYD,%,Output LT-7101A1 SCSSV HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),317,LT-7101B1 LP HYD,%,Output LT-7101B1 LP HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),318,LT-7102A1 SCSSV HYD,%,Output LT-7102A1 SCSSV HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),319,LT-7102B1 LP HYD,%,Output LT-7102B1 LP HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),320,LT-7103A1 SCSSV HYD,%,Output LT-7103A1 SCSSV HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),321,LT-7103B1 LP HYD,%,Output LT-7103B1 LP HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),322,LT-7104A1 SCSSV HYD,%,Output LT-7104A1 SCSSV HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),323,LT-7104B1 LP HYD,%,Output LT-7104B1 LP HYD from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),324,LT-907A1 VRU A1 DSCH,%,Output LT-907A1 VRU A1 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),325,LT-908A1 VRU A2,%,Output LT-908A1 VRU A2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),326,LT-913A1 VRU A2 DSCH,%,Output LT-913A1 VRU A2 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),327,LT-957A1 VRU B1 DSCH,%,Output LT-957A1 VRU B1 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),328,LT-958A1 VRU B2,%,Output LT-958A1 VRU B2 from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),329,LT-963A1 VRU B2 DSCH,%,Output LT-963A1 VRU B2 DSCH from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),330,LT-X4300 PNL HYD RSVR,%,Output LT-X4300 PNL HYD RSVR from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),331,LT-EPNB Ballast,ft,Output LT-EPNB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),332,LT-EPSB Ballast,ft,Output LT-EPSB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),333,LT-NE0BNE Ballast,ft,Output LT-NE0BNE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),334,LT-NE0BSW Ballast,ft,Output LT-NE0BSW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),335,LT-NE1TE Ballast,ft,Output LT-NE1TE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),336,LT-NE1TN_Ballast,ft,Output LT-NE1TN_Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),337,LT-NE1VS Void,ft,Output LT-NE1VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),338,LT-NE1VW Void,ft,Output LT-NE1VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),339,LT-NE2VE Void,ft,Output LT-NE2VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),340,LT-NE2VN Void,ft,Output LT-NE2VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),341,LT-NE2VS Void,ft,Output LT-NE2VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),342,LT-NE2VW Void,ft,Output LT-NE2VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),343,LT-NEAEC Center Void,ft,Output LT-NEAEC Center Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),344,LT-NPEB Ballast,ft,Output LT-NPEB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),345,LT-NPWB Ballast,ft,Output LT-NPWB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),346,LT-NW0BNW Ballast,ft,Output LT-NW0BNW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),347,LT-NW0BSE Ballast,ft,Output LT-NW0BSE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),348,LT-NW1TN Ballast,ft,Output LT-NW1TN Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),349,LT-NW1TW Ballast,ft,Output LT-NW1TW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),350,LT-NW1VE Void,ft,Output LT-NW1VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),351,LT-NW1VS Void,ft,Output LT-NW1VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),352,LT-NW2VE Void,ft,Output LT-NW2VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),353,LT-NW2VN Void,ft,Output LT-NW2VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),354,LT-NW2VS Void,ft,Output LT-NW2VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),355,LT-NW2VW Void,ft,Output LT-NW2VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),356,LT-NWAEC Center Void,ft,Output LT-NWAEC Center Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),357,LT-SE0BNW Ballast,ft,Output LT-SE0BNW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),358,LT-SE0BSE Ballast,ft,Output LT-SE0BSE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),359,LT-SE1TE Ballast,ft,Output LT-SE1TE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),360,LT-SE1TS Ballast,ft,Output LT-SE1TS Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),361,LT-SE1VN Void,ft,Output LT-SE1VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),362,LT-SE1VW Void,ft,Output LT-SE1VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),363,LT-SE2VE Void,ft,Output LT-SE2VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),364,LT-SE2VN Void,ft,Output LT-SE2VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),365,LT-SE2VS Void,ft,Output LT-SE2VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),366,LT-SE2VW Void,ft,Output LT-SE2VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),367,LT-SEAEC Center Void,ft,Output LT-SEAEC Center Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),368,LT-SPEB Ballast,ft,Output LT-SPEB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),369,LT-SPWB Ballast,ft,Output LT-SPWB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),370,LT-SW0BNE Ballast,ft,Output LT-SW0BNE Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),371,LT-SW0BSW Ballast,ft,Output LT-SW0BSW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),372,LT-SW1TS Ballast,ft,Output LT-SW1TS Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),373,LT-SW1TW Ballast,ft,Output LT-SW1TW Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),374,LT-SW1VE Void,ft,Output LT-SW1VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),375,LT-SW1VN Void,ft,Output LT-SW1VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),376,LT-SW2VE Void,ft,Output LT-SW2VE Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),377,LT-SW2VN Void,ft,Output LT-SW2VN Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),378,LT-SW2VS Void,ft,Output LT-SW2VS Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),379,LT-SW2VW Void,ft,Output LT-SW2VW Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),380,LT-SWAEC Center Void,ft,Output LT-SWAEC Center Void from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),381,LT-WPNB Ballast,ft,Output LT-WPNB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),382,LT-WPSB Ballast,ft,Output LT-WPSB Ballast from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks),383,DCS Watchdog Counter,#,Output DCS Watchdog Counter from 3rd party DCS Tanks.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),384,LT-EPNB Ballast Hi,ft,Alarm limit for LT-EPNB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),385,LT-EPSB Ballast Hi,ft,Alarm limit for LT-EPSB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),386,LT-NE0BNE Ballast Hi,ft,Alarm limit for LT-NE0BNE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),387,LT-NE0BSW Ballast Hi,ft,Alarm limit for LT-NE0BSW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),388,LT-NE1TE Ballast Hi,ft,Alarm limit for LT-NE1TE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),389,LT-NE1TN_Ballast Hi,ft,Alarm limit for LT-NE1TN_Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),390,LT-NPEB Ballast Hi,ft,Alarm limit for LT-NPEB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),391,LT-NPWB Ballast Hi,ft,Alarm limit for LT-NPWB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),392,LT-NW0BNW Ballast Hi,ft,Alarm limit for LT-NW0BNW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),393,LT-NW0BSE Ballast Hi,ft,Alarm limit for LT-NW0BSE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),394,LT-NW1TN Ballast Hi,ft,Alarm limit for LT-NW1TN Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),395,LT-NW1TW Ballast Hi,ft,Alarm limit for LT-NW1TW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),396,LT-SE0BNW Ballast Hi,ft,Alarm limit for LT-SE0BNW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),397,LT-SE0BSE Ballast Hi,ft,Alarm limit for LT-SE0BSE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),398,LT-SE1TE Ballast Hi,ft,Alarm limit for LT-SE1TE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),399,LT-SE1TS Ballast Hi,ft,Alarm limit for LT-SE1TS Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),400,LT-SPEB Ballast Hi,ft,Alarm limit for LT-SPEB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),401,LT-SPWB Ballast Hi,ft,Alarm limit for LT-SPWB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),402,LT-SW0BNE Ballast Hi,ft,Alarm limit for LT-SW0BNE Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),403,LT-SW0BSW Ballast Hi,ft,Alarm limit for LT-SW0BSW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),404,LT-SW1TS Ballast Hi,ft,Alarm limit for LT-SW1TS Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),405,LT-SW1TW Ballast Hi,ft,Alarm limit for LT-SW1TW Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),406,LT-WPNB Ballast Hi,ft,Alarm limit for LT-WPNB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),407,LT-WPSB Ballast Hi,ft,Alarm limit for LT-WPSB Ballast Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),408,LT-5160A1 Methanol Hi,%,Alarm limit for LT-5160A1 Methanol Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),409,LT-5161A1 Methanol Hi,%,Alarm limit for LT-5161A1 Methanol Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),410,LT-5360A1 Diesel Tnk Hi,%,Alarm limit for LT-5360A1 Diesel Tnk Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),411,LT-5460A1 Drill Water Hi,%,Alarm limit for LT-5460A1 Drill Water Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),412,LT_NE1VS Void Hi,ft,Alarm limit for LT_NE1VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),413,LT_NE1VW Void Hi,ft,Alarm limit for LT_NE1VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),414,LT_NE2VE Void Hi,ft,Alarm limit for LT_NE2VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),415,LT_NE2VN Void Hi,ft,Alarm limit for LT_NE2VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),416,LT_NE2VS Void Hi,ft,Alarm limit for LT_NE2VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),417,LT_NE2VW Void Hi,ft,Alarm limit for LT_NE2VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),418,LT_NEAEC Void Hi,ft,Alarm limit for LT_NEAEC Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),419,LT_NW1VE Void Hi,ft,Alarm limit for LT_NW1VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),420,LT_NW1VS Void Hi,ft,Alarm limit for LT_NW1VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),421,LT_NW2VE Void Hi,ft,Alarm limit for LT_NW2VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),422,LT_NW2VN Void Hi,ft,Alarm limit for LT_NW2VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),423,LT_NW2VS Void Hi,ft,Alarm limit for LT_NW2VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),424,LT_NW2VW Void Hi,ft,Alarm limit for LT_NW2VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),425,LT_NWAEC Void Hi,ft,Alarm limit for LT_NWAEC Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),426,LT_SE1VN Void Hi,ft,Alarm limit for LT_SE1VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),427,LT_SE1VW Void Hi,ft,Alarm limit for LT_SE1VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),428,LT_SE2VE Void Hi,ft,Alarm limit for LT_SE2VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),429,LT_SE2VN Void Hi,ft,Alarm limit for LT_SE2VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),430,LT_SE2VS Void Hi,ft,Alarm limit for LT_SE2VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),431,LT_SE2VW Void Hi,ft,Alarm limit for LT_SE2VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),432,LT_SEAEC Void Hi,ft,Alarm limit for LT_SEAEC Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),433,LT_SW1VE Void Hi,ft,Alarm limit for LT_SW1VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),434,LT_SW1VN Void Hi,ft,Alarm limit for LT_SW1VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),435,LT_SW2VE Void Hi,ft,Alarm limit for LT_SW2VE Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),436,LT_SW2VN Void Hi,ft,Alarm limit for LT_SW2VN Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),437,LT_SW2VS Void Hi,ft,Alarm limit for LT_SW2VS Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),438,LT_SW2VW Void Hi,ft,Alarm limit for LT_SW2VW Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),439,LT_SWAEC Void Hi,ft,Alarm limit for LT_SWAEC Void Hi.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),440,LT-EPNB Ballast Lo,ft,Alarm limit for LT-EPNB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),441,LT-EPSB Ballast Lo,ft,Alarm limit for LT-EPSB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),442,LT-NE0BNE Ballast Lo,ft,Alarm limit for LT-NE0BNE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),443,LT-NE0BSW Ballast Lo,ft,Alarm limit for LT-NE0BSW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),444,LT-NE1TE Ballast Lo,ft,Alarm limit for LT-NE1TE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),445,LT-NE1TN_Ballast Lo,ft,Alarm limit for LT-NE1TN_Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),446,LT-NPEB Ballast Lo,ft,Alarm limit for LT-NPEB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),447,LT-NPWB Ballast Lo,ft,Alarm limit for LT-NPWB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),448,LT-NW0BNW Ballast Lo,ft,Alarm limit for LT-NW0BNW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),449,LT-NW0BSE Ballast Lo,ft,Alarm limit for LT-NW0BSE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),450,LT-NW1TN Ballast Lo,ft,Alarm limit for LT-NW1TN Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),451,LT-NW1TW Ballast Lo,ft,Alarm limit for LT-NW1TW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),452,LT-SE0BNW Ballast Lo,ft,Alarm limit for LT-SE0BNW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),453,LT-SE0BSE Ballast Lo,ft,Alarm limit for LT-SE0BSE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),454,LT-SE1TE Ballast Lo,ft,Alarm limit for LT-SE1TE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),455,LT-SE1TS Ballast Lo,ft,Alarm limit for LT-SE1TS Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),456,LT-SPEB Ballast Lo,ft,Alarm limit for LT-SPEB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),457,LT-SPWB Ballast Lo,ft,Alarm limit for LT-SPWB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),458,LT-SW0BNE Ballast Lo,ft,Alarm limit for LT-SW0BNE Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),459,LT-SW0BSW Ballast Lo,ft,Alarm limit for LT-SW0BSW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),460,LT-SW1TS Ballast Lo,ft,Alarm limit for LT-SW1TS Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),461,LT-SW1TW Ballast Lo,ft,Alarm limit for LT-SW1TW Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),462,LT-WPNB Ballast Lo,ft,Alarm limit for LT-WPNB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),463,LT-WPSB Ballast Lo,ft,Alarm limit for LT-WPSB Ballast Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),464,LT-5160A1 Methanol Lo,%,Alarm limit for LT-5160A1 Methanol Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),465,LT-5161A1 Methanol Lo,%,Alarm limit for LT-5161A1 Methanol Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),466,LT-5360A1 Diesel Tnk Lo,%,Alarm limit for LT-5360A1 Diesel Tnk Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),467,LT-5460A1 Drill Water Lo,%,Alarm limit for LT-5460A1 Drill Water Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),468,LT_NE1VS Void Lo,ft,Alarm limit for LT_NE1VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),469,LT_NE1VW Void Lo,ft,Alarm limit for LT_NE1VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),470,LT_NE2VE Void Lo,ft,Alarm limit for LT_NE2VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),471,LT_NE2VN Void Lo,ft,Alarm limit for LT_NE2VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),472,LT_NE2VS Void Lo,ft,Alarm limit for LT_NE2VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),473,LT_NE2VW Void Lo,ft,Alarm limit for LT_NE2VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),474,LT_NEAEC Void Lo,ft,Alarm limit for LT_NEAEC Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),475,LT_NW1VE Void Lo,ft,Alarm limit for LT_NW1VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),476,LT_NW1VS Void Lo,ft,Alarm limit for LT_NW1VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),477,LT_NW2VE Void Lo,ft,Alarm limit for LT_NW2VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),478,LT_NW2VN Void Lo,ft,Alarm limit for LT_NW2VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),479,LT_NW2VS Void Lo,ft,Alarm limit for LT_NW2VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),480,LT_NW2VW Void Lo,ft,Alarm limit for LT_NW2VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),481,LT_NWAEC Void Lo,ft,Alarm limit for LT_NWAEC Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),482,LT_SE1VN Void Lo,ft,Alarm limit for LT_SE1VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),483,LT_SE1VW Void Lo,ft,Alarm limit for LT_SE1VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),484,LT_SE2VE Void Lo,ft,Alarm limit for LT_SE2VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),485,LT_SE2VN Void Lo,ft,Alarm limit for LT_SE2VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),486,LT_SE2VS Void Lo,ft,Alarm limit for LT_SE2VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),487,LT_SE2VW Void Lo,ft,Alarm limit for LT_SE2VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),488,LT_SEAEC Void Lo,ft,Alarm limit for LT_SEAEC Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),489,LT_SW1VE Void Lo,ft,Alarm limit for LT_SW1VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),490,LT_SW1VN Void Lo,ft,Alarm limit for LT_SW1VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),491,LT_SW2VE Void Lo,ft,Alarm limit for LT_SW2VE Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),492,LT_SW2VN Void Lo,ft,Alarm limit for LT_SW2VN Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),493,LT_SW2VS Void Lo,ft,Alarm limit for LT_SW2VS Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),494,LT_SW2VW Void Lo,ft,Alarm limit for LT_SW2VW Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarm Set Points),495,LT_SWAEC Void Lo,ft,Alarm limit for LT_SWAEC Void Lo.
+Shell,Olympus,MIS,DCS (Tanks Alarms),496,LT-EPNB Ballast Hlth,bool,"LT-EPNB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),497,LT-EPSB Ballast Hlth,bool,"LT-EPSB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),498,LT-NE0BNE Ballast Hlth,bool,"LT-NE0BNE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),499,LT-NE0BSW Ballast Hlth,bool,"LT-NE0BSW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),500,LT-NE1TE Ballast Hlth,bool,"LT-NE1TE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),501,LT-NE1TN_Ballast Hlth,bool,"LT-NE1TN_Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),502,LT-NE1VS Void Hlth,bool,"LT-NE1VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),503,LT-NE1VW Void Hlth,bool,"LT-NE1VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),504,LT-NE2VE Void Hlth,bool,"LT-NE2VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),505,LT-NE2VN Void Hlth,bool,"LT-NE2VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),506,LT-NE2VS Void Hlth,bool,"LT-NE2VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),507,LT-NE2VW Void Hlth,bool,"LT-NE2VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),508,LT-NEAEC Center Void Hlth,bool,"LT-NEAEC Center Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),509,LT-NPEB Ballast Hlth,bool,"LT-NPEB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),510,LT-NPWB Ballast Hlth,bool,"LT-NPWB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),511,LT-NW0BNW Ballast Hlth,bool,"LT-NW0BNW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),512,LT-NW0BSE Ballast Hlth,bool,"LT-NW0BSE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),513,LT-NW1TN Ballast Hlth,bool,"LT-NW1TN Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),514,LT-NW1TW Ballast Hlth,bool,"LT-NW1TW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),515,LT-NW1VE Void Hlth,bool,"LT-NW1VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),516,LT-NW1VS Void Hlth,bool,"LT-NW1VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),517,LT-NW2VE Void Hlth,bool,"LT-NW2VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),518,LT-NW2VN Void Hlth,bool,"LT-NW2VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),519,LT-NW2VS Void Hlth,bool,"LT-NW2VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),520,LT-NW2VW Void Hlth,bool,"LT-NW2VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),521,LT-NWAEC Center Void Hlth,bool,"LT-NWAEC Center Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),522,LT-SE0BNW Ballast Hlth,bool,"LT-SE0BNW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),523,LT-SE0BSE Ballast Hlth,bool,"LT-SE0BSE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),524,LT-SE1TE Ballast Hlth,bool,"LT-SE1TE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),525,LT-SE1TS Ballast Hlth,bool,"LT-SE1TS Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),526,LT-SE1VN Void Hlth,bool,"LT-SE1VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),527,LT-SE1VW Void Hlth,bool,"LT-SE1VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),528,LT-SE2VE Void Hlth,bool,"LT-SE2VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),529,LT-SE2VN Void Hlth,bool,"LT-SE2VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),530,LT-SE2VS Void Hlth,bool,"LT-SE2VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),531,LT-SE2VW Void Hlth,bool,"LT-SE2VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),532,LT-SEAEC Center Void Hlth,bool,"LT-SEAEC Center Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),533,LT-SPEB Ballast Hlth,bool,"LT-SPEB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),534,LT-SPWB Ballast Hlth,bool,"LT-SPWB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),535,LT-SW0BNE Ballast Hlth,bool,"LT-SW0BNE Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),536,LT-SW0BSW Ballast Hlth,bool,"LT-SW0BSW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),537,LT-SW1TS Ballast Hlth,bool,"LT-SW1TS Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),538,LT-SW1TW Ballast Hlth,bool,"LT-SW1TW Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),539,LT-SW1VE Void Hlth,bool,"LT-SW1VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),540,LT-SW1VN Void Hlth,bool,"LT-SW1VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),541,LT-SW2VE Void Hlth,bool,"LT-SW2VE Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),542,LT-SW2VN Void Hlth,bool,"LT-SW2VN Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),543,LT-SW2VS Void Hlth,bool,"LT-SW2VS Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),544,LT-SW2VW Void Hlth,bool,"LT-SW2VW Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),545,LT-SWAEC Center Void Hlth,bool,"LT-SWAEC Center Void Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),546,LT-WPNB Ballast Hlth,bool,"LT-WPNB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),547,LT-WPSB Ballast Hlth,bool,"LT-WPSB Ballast Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),548,LT-5160A1 Methanol Hlth,bool,"LT-5160A1 Methanol Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),549,LT-5161A1 Methanol Hlth,bool,"LT-5161A1 Methanol Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),550,LT-5360A1 Diesel Tnk Hlth,bool,"LT-5360A1 Diesel Tnk Hlth, output 0 or 1."
+Shell,Olympus,MIS,DCS (Tanks Alarms),551,LT-5460A1 Drill Water Hlth,bool,"LT-5460A1 Drill Water Hlth, output 0 or 1."
+Shell,Olympus,MIS,MAWS,552,MAWS Cloud Height,ft,Measured cloud height on the 1st cloud layer
+Shell,Olympus,MIS,MAWS,553,Sky Condition 1,#,"Measured sky condition on the 1st cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Olympus,MIS,MAWS,554,Cloud Ht 2,ft,Measured cloud height on the 2nd cloud layer
+Shell,Olympus,MIS,MAWS,555,Sky Condition 2,#,"Measured sky condition on the 2nd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Olympus,MIS,MAWS,556,Cloud Ht 3,ft,Measured cloud height on the 3rd cloud layer
+Shell,Olympus,MIS,MAWS,557,Sky Condition 3,#,"Measured sky condition on the 3rd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Olympus,MIS,MAWS,558,MAWS Visibility,miles,Measured visibility.
+Shell,Olympus,MIS,MAWS,559,Rain Last Hour,in,"Measured the amount of precipitation measured during the past hour, counting from the beginning of the hour."
+Shell,Olympus,MIS,MAWS,560,MAWS Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Olympus,MIS,MAWS,561,Dew Point,degF,Measured dew point at sensor location.
+Shell,Olympus,MIS,MAWS,562,MAWSA Raw Wind Dir,degT,Measured raw wind direction from at sensor location 1.
+Shell,Olympus,MIS,MAWS,563,Wind Dir Mag 1,degT,Measured raw wind speed at the sensor location 1.
+Shell,Olympus,MIS,MAWS,564,MAWSA Raw Wind Spd,knot,
+Shell,Olympus,MIS,MAWS,565,Wind Spd Max 1,knot,
+Shell,Olympus,MIS,MAWS,566,MAWSB Raw Wind Dir,degT,
+Shell,Olympus,MIS,MAWS,567,Wind Dir Mag 2,degT,
+Shell,Olympus,MIS,MAWS,568,MAWSB Raw Wind Spd,knot,
+Shell,Olympus,MIS,MAWS,569,Wind Spd Max 2,knot,
+Shell,Olympus,MIS,MAWS,570,MAWS Baro Pressure,InHg,Measured barometric pressure.
+Shell,Olympus,MIS,MAWS,571,Density Alt,ft,"Derived from barometric pressure, is an aeronautical code Q code,
+indicating the atmospheric pressure adjusted to mean sea level."
+Shell,Olympus,MIS,MAWS,572,Altimeter,mBar,Measured altitude above the MSL (mean sea level) elevation.
+Shell,Olympus,MIS,MAWS,573,Present Weather,#,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Olympus,MIS,ADCP,574,VADCP Current Speed,knots,Max VADCP Current Speed from configured bin ranges.
+Shell,Olympus,MIS,ADCP,575,VADCP Current Direction,deg,Corresponding Direction to the Max VADCP Current Speed.
+Shell,Olympus,MIS,ADCP,576,VADCP Water Temp,degC,Measured sea water temperature at sensor location.
+Shell,Olympus,MIS,Drilling,577,Activity Code,none,"Output Activity Code, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,578,Depth Bit,ft,"Output Depth Bit, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,579,Rate of Penetration,ft/hr,"Output Rate of Penetration, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,580,Hookload,kips,"Output Hookload, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,581,Weight on Bit,kips,"Output Weight on Bit, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,582,Rotary Torque,ft-kips,"Output Rotary Torque, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,583,Rotary Speed,rpm,"Output Rotary Speed, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,584,Mud Weight Out,ppg,"Output Mud Weight Out, from drilling system, RTOC."
+Shell,Olympus,MIS,Drilling,585,Mud Weight In,ppg,"Output Mud Weight In, from drilling system, RTOC."
+Shell,Olympus,MIS,Riser Wear,586,Max DLS Near Keel,deg/ft,
+Shell,Olympus,MIS,Riser Wear,587,Max DLS Near Stressjoint,deg/ft,
+Shell,Olympus,MIS,Riser Wear,588,RSM Error Code,#,
+Shell,Olympus,MIS,Riser Wear,589,Riser Wear Error Code,#,This input is used to communicate errors from the Riser Wear Module. It will normally be a value of 0 and positive values will be used to identify various errors. A high alarm will be set on this channel to produce an alarm that can be seen on any screen or passed to the DCS as a roll up alarm. An error message corresponding to the error code can be viewed on the Riser Wear Summary display for diagnostic troubleshooting.
+Shell,Olympus,MIS,Riser Wear,590,Max Riser Wear,inches,
+Shell,Olympus,MIS,Riser Wear,591,Max Riser Wear Rate,in/24hrs,
+Shell,Olympus,MIS,Riser Wear,592,Keel Riser Wear,inches,
+Shell,Olympus,MIS,Riser Wear,593,Keel Riser Wear Rate,in/24hrs,
+Shell,Olympus,MIS,Riser Wear,594,Stressjnt Riser Wear,inches,
+Shell,Olympus,MIS,Riser Wear,595,Stressjnt Riser wear Rate,in/24hrs,
+Shell,Olympus,MIS,POW Wind,596,POW Raw Wind Dir,deg,Measured raw wind direction at POW sensor location.
+Shell,Olympus,MIS,POW Wind,597,POW Raw Wind Spd,knots,Measured raw wind speed at POW sensor location.
+Shell,Olympus,MIS,POW Wind,598,POW Enc Heading,deg,Measured raw encoder heading at POW sensor location.
+Shell,Olympus,MIS,PRO Wind,599,PRO Raw Wind Dir,deg,Measured raw wind direction at PRO sensor location.
+Shell,Olympus,MIS,PRO Wind,600,PRO Raw Wind Spd,knots,Measured raw wind speed at PRO sensor location.
+Shell,Olympus,MIS,PRO Wind,601,PRO Enc Heading,deg,Measured raw encoder heading at PRO sensor location.
+Shell,Olympus,MIS,DRL Wind,602,DRL Raw Wind Dir,deg,Measured raw wind direction at DRL sensor location.
+Shell,Olympus,MIS,DRL Wind,603,DRL Raw Wind Spd,knots,Measured raw wind speed at DRL sensor location.
+Shell,Olympus,MIS,DRL Wind,604,DRL Enc Heading,deg,Measured raw encoder heading at DRL sensor location.
+Shell,Olympus,MIS,Met,605,MIS Baro Pressure,mbar,Measured barometric pressure.
+Shell,Olympus,MIS,TIS,606,Tendon Bending 1,kips-ft,Output Tendon Bending 1 from TIS.
+Shell,Olympus,MIS,TIS,607,Tendon Tension 1,kips,Output Tendon Tension 1 from TIS.
+Shell,Olympus,MIS,TIS,608,Tendon Status 1,bits,Output Tendon Status 1 from TIS.
+Shell,Olympus,MIS,TIS,609,Tendon Angle 1,deg,Output Tendon Angle 1 from TIS.
+Shell,Olympus,MIS,TIS,610,Tendon Bending 4,kips-ft,Output Tendon Bending 4 from TIS.
+Shell,Olympus,MIS,TIS,611,Tendon Tension 4,kips,Output Tendon Tension 4 from TIS.
+Shell,Olympus,MIS,TIS,612,Tendon Status 4,bits,Output Tendon Status 4 from TIS.
+Shell,Olympus,MIS,TIS,613,Tendon Angle 4,deg,Output Tendon Angle 4 from TIS.
+Shell,Olympus,MIS,TIS,614,Tendon Bending 5,kips-ft,Output Tendon Bending 5 from TIS.
+Shell,Olympus,MIS,TIS,615,Tendon Tension 5,kips,Output Tendon Tension 5 from TIS.
+Shell,Olympus,MIS,TIS,616,Tendon Status 5,bits,Output Tendon Status 5 from TIS.
+Shell,Olympus,MIS,TIS,617,Tendon Angle 5,deg,Output Tendon Angle 5 from TIS.
+Shell,Olympus,MIS,TIS,618,Tendon Bending 8,kips-ft,Output Tendon Bending 8 from TIS.
+Shell,Olympus,MIS,TIS,619,Tendon Tension 8,kips,Output Tendon Tension 8 from TIS.
+Shell,Olympus,MIS,TIS,620,Tendon Status 8,bits,Output Tendon Status 8 from TIS.
+Shell,Olympus,MIS,TIS,621,Tendon Angle 8,deg,Output Tendon Angle 8 from TIS.
+Shell,Olympus,MIS,TIS,622,Tendon Bending 9,kips-ft,Output Tendon Bending 9 from TIS.
+Shell,Olympus,MIS,TIS,623,Tendon Tension 9,kips,Output Tendon Tension 9 from TIS.
+Shell,Olympus,MIS,TIS,624,Tendon Status 9,bits,Output Tendon Status 9 from TIS.
+Shell,Olympus,MIS,TIS,625,Tendon Angle 9,deg,Output Tendon Angle 9 from TIS.
+Shell,Olympus,MIS,TIS,626,Tendon Bending 12,kips-ft,Output Tendon Bending 12 from TIS.
+Shell,Olympus,MIS,TIS,627,Tendon Tension 12,kips,Output Tendon Tension 12 from TIS.
+Shell,Olympus,MIS,TIS,628,Tendon Status 12,bits,Output Tendon Status 12 from TIS.
+Shell,Olympus,MIS,TIS,629,Tendon Angle 12,deg,Output Tendon Angle 12 from TIS.
+Shell,Olympus,MIS,TIS,630,Tendon Bending 13,kips-ft,Output Tendon Bending 13 from TIS.
+Shell,Olympus,MIS,TIS,631,Tendon Tension 13,kips,Output Tendon Tension 13 from TIS.
+Shell,Olympus,MIS,TIS,632,Tendon Status 13,bits,Output Tendon Status 13 from TIS.
+Shell,Olympus,MIS,TIS,633,Tendon Angle 13,deg,Output Tendon Angle 13 from TIS.
+Shell,Olympus,MIS,TIS,634,Tendon Bending 16,kips-ft,Output Tendon Bending 16 from TIS.
+Shell,Olympus,MIS,TIS,635,Tendon Tension 16,kips,Output Tendon Tension 16 from TIS.
+Shell,Olympus,MIS,TIS,636,Tendon Status 16,bits,Output Tendon Status 16 from TIS.
+Shell,Olympus,MIS,TIS,637,Tendon Angle 16,deg,Output Tendon Angle 16 from TIS.
+Shell,Olympus,MIS,TIS,638,TIS Status,bits,Output TIS Status from TIS.
+Shell,Olympus,MIS,MAS,639,Apparent Draft,ft,"Calculated Draft, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,640,Apparent Tendon 1,kips,"Calculated Tendon 1, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,641,Apparent Tendon 10,kips,"Calculated Tendon 10, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,642,Apparent Tendon 11,kips,"Calculated Tendon 11, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,643,Apparent Tendon 12,kips,"Calculated Tendon 12, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,644,Apparent Tendon 13,kips,"Calculated Tendon 13, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,645,Apparent Tendon 14,kips,"Calculated Tendon 14, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,646,Apparent Tendon 15,kips,"Calculated Tendon 15, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,647,Apparent Tendon 16,kips,"Calculated Tendon 16, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,648,Apparent Tendon 2,kips,"Calculated Tendon 2, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,649,Apparent Tendon 3,kips,"Calculated Tendon 3, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,650,Apparent Tendon 4,kips,"Calculated Tendon 4, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,651,Apparent Tendon 5,kips,"Calculated Tendon 5, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,652,Apparent Tendon 6,kips,"Calculated Tendon 6, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,653,Apparent Tendon 7,kips,"Calculated Tendon 7, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,654,Apparent Tendon 8,kips,"Calculated Tendon 8, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,655,Apparent Tendon 9,kips,"Calculated Tendon 9, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,656,Apparent TLP Incli EW,deg,"Calculated TLP Incli EW, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,657,Apparent TLP Incli NS,deg,"Calculated TLP Incli NS, from 3rd party Herbert-ABS LMP system."
+Shell,Olympus,MIS,MAS,658,Calculation Flag,ND,"Data QA applied on Calculation Flag, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,659,EPN-B,ft,"Data QA applied on EPN-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,660,EPS-B,ft,"Data QA applied on EPS-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,661,KG Allow Hurricane,ft,"Data QA applied on KG Allow Hurricane, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,662,KG Allow Winter Storm,ft,"Data QA applied on KG Allow Winter Storm, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,663,Lateral Phantom Force EW,kips,"Data QA applied on Lateral Phantom Force EW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,664,Lateral Phantom Force NS,kips,"Data QA applied on Lateral Phantom Force NS, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,665,LPF Moment EW,ft-kips,"Data QA applied on LPF Moment EW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,666,LPF Moment NS,ft-kips,"Data QA applied on LPF Moment NS, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,667,NE0-BNE,ft,"Data QA applied on NE0-BNE, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,668,NE0-BSW,ft,"Data QA applied on NE0-BSW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,669,NPE-B,ft,"Data QA applied on NPE-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,670,NPW-B,ft,"Data QA applied on NPW-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,671,NW0-BNW,ft,"Data QA applied on NW0-BNW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,672,NW0-BSE,ft,"Data QA applied on NW0-BSE, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,673,Phantom Weight,kips,"Data QA applied on Phantom Weight, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,674,Phantom Weight CG EW,ft,"Data QA applied on Phantom Weight CG EW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,675,Phantom Weight CG NS,ft,"Data QA applied on Phantom Weight CG NS, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,676,Rig Location,a-n,"Data QA applied on Rig Location, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,677,Rig Location EW,ft,"Data QA applied on Rig Location EW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,678,Rig Location NS,ft,"Data QA applied on Rig Location NS, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,679,SE0-BNW,ft,"Data QA applied on SE0-BNW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,680,SE0-BSE,ft,"Data QA applied on SE0-BSE, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,681,SPE-B,ft,"Data QA applied on SPE-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,682,SPW-B,ft,"Data QA applied on SPW-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,683,SW0-BNE,ft,"Data QA applied on SW0-BNE, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,684,SW0-BSW,ft,"Data QA applied on SW0-BSW, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,685,Target Tendon 1,kips,"Data QA applied on Target Tendon 1, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,686,Target Tendon 10,kips,"Data QA applied on Target Tendon 10, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,687,Target Tendon 11,kips,"Data QA applied on Target Tendon 11, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,688,Target Tendon 12,kips,"Data QA applied on Target Tendon 12, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,689,Target Tendon 13,kips,"Data QA applied on Target Tendon 13, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,690,Target Tendon 14,kips,"Data QA applied on Target Tendon 14, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,691,Target Tendon 15,kips,"Data QA applied on Target Tendon 15, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,692,Target Tendon 16,kips,"Data QA applied on Target Tendon 16, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,693,Target Tendon 2,kips,"Data QA applied on Target Tendon 2, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,694,Target Tendon 3,kips,"Data QA applied on Target Tendon 3, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,695,Target Tendon 4,kips,"Data QA applied on Target Tendon 4, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,696,Target Tendon 5,kips,"Data QA applied on Target Tendon 5, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,697,Target Tendon 6,kips,"Data QA applied on Target Tendon 6, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,698,Target Tendon 7,kips,"Data QA applied on Target Tendon 7, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,699,Target Tendon 8,kips,"Data QA applied on Target Tendon 8, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,700,Target Tendon 9,kips,"Data QA applied on Target Tendon 9, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,701,Platform KG,ft,"Data QA applied on Platform KG, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,702,MAS Watchdog,#,Indicates whether the MAS software is communicating to BMT WinMon or not.
+Shell,Olympus,MIS,MAS,703,WPN-B,ft,"Data QA applied on WPN-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,704,WPS-B,ft,"Data QA applied on WPS-B, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,705,DECK SURVEY Weight HI,kips,"Data QA applied on DECK SURVEY Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,706,DECK SURVEY Weight LO,kips,"Data QA applied on DECK SURVEY Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,707,DECK SURVEY VCG PV,ft,"Data QA applied on DECK SURVEY VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,708,DECK SURVEY CG EW PV,ft,"Data QA applied on DECK SURVEY CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,709,DECK SURVEY CG NS PV,ft,"Data QA applied on DECK SURVEY CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,710,DECK SURVEY VMOM PV,ft-kips,"Data QA applied on DECK SURVEY VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,711,DECK SURVEY EW MOM PV,ft-kips,"Data QA applied on DECK SURVEY EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,712,DECK SURVEY NS MOM PV,ft-kips,"Data QA applied on DECK SURVEY NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,713,BAL Weight HI,kips,"Data QA applied on BAL Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,714,BAL Weight LO,kips,"Data QA applied on BAL Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,715,BAL VCG PV,ft,"Data QA applied on BAL VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,716,BAL CG EW PV,ft,"Data QA applied on BAL CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,717,BAL CG NS PV,ft,"Data QA applied on BAL CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,718,BAL VMOM PV,ft-kips,"Data QA applied on BAL VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,719,BAL EW MOM PV,ft-kips,"Data QA applied on BAL EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,720,BAL NS MOM PV,ft-kips,"Data QA applied on BAL NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,721,BAL EW FS MOM PV,ft-kips,"Data QA applied on BAL EW FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,722,BAL NS FS MOM PV,ft-kips,"Data QA applied on BAL NS FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,723,VOID Weight HI,kips,"Data QA applied on VOID Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,724,VOID Weight LO,kips,"Data QA applied on VOID Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,725,VOID VCG PV,ft,"Data QA applied on VOID VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,726,VOID CG EW PV,ft,"Data QA applied on VOID CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,727,VOID CG NS PV,ft,"Data QA applied on VOID CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,728,VOID VMOM PV,ft-kips,"Data QA applied on VOID VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,729,VOID EW MOM PV,ft-kips,"Data QA applied on VOID EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,730,VOID NS MOM PV,ft-kips,"Data QA applied on VOID NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,731,VOID EW FS MOM PV,ft-kips,"Data QA applied on VOID EW FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,732,VOID NS FS MOM PV,ft-kips,"Data QA applied on VOID NS FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,733,HULL FLUIDS Weight HI,kips,"Data QA applied on HULL FLUIDS Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,734,HULL FLUIDS Weight LO,kips,"Data QA applied on HULL FLUIDS Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,735,HULL FLUIDS VCG PV,ft,"Data QA applied on HULL FLUIDS VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,736,HULL FLUIDS CG EW PV,ft,"Data QA applied on HULL FLUIDS CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,737,HULL FLUIDS CG NS PV,ft,"Data QA applied on HULL FLUIDS CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,738,HULL FLUIDS VMOM PV,ft-kips,"Data QA applied on HULL FLUIDS VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,739,HULL FLUIDS EW MOM PV,ft-kips,"Data QA applied on HULL FLUIDS EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,740,HULL FLUIDS NS MOM PV,ft-kips,"Data QA applied on HULL FLUIDS NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,741,HULL FLUIDS EW FS MOM PV,ft-kips,"Data QA applied on HULL FLUIDS EW FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,742,HULL FLUIDS NS FS MOM PV,ft-kips,"Data QA applied on HULL FLUIDS NS FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,743,DRILL TANKS Weight HI,kips,"Data QA applied on DRILL TANKS Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,744,DRILL TANKS Weight LO,kips,"Data QA applied on DRILL TANKS Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,745,DRILL TANKS VCG PV,ft,"Data QA applied on DRILL TANKS VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,746,DRILL TANKS CG EW PV,ft,"Data QA applied on DRILL TANKS CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,747,DRILL TANKS CG NS PV,ft,"Data QA applied on DRILL TANKS CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,748,DRILL TANKS VMOM PV,ft-kips,"Data QA applied on DRILL TANKS VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,749,DRILL TANKS EW MOM PV,ft-kips,"Data QA applied on DRILL TANKS EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,750,DRILL TANKS NS MOM PV,ft-kips,"Data QA applied on DRILL TANKS NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,751,DRILL TANKS EW FS MOM PV,ft-kips,"Data QA applied on DRILL TANKS EW FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,752,DRILL TANKS NS FS MOM PV,ft-kips,"Data QA applied on DRILL TANKS NS FS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,753,LSMOD Weight HI,kips,"Data QA applied on LSMOD Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,754,LSMOD Weight LO,kips,"Data QA applied on LSMOD Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,755,LSMOD VCG PV,ft,"Data QA applied on LSMOD VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,756,LSMOD CG EW PV,ft,"Data QA applied on LSMOD CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,757,LSMOD CG NS PV,ft,"Data QA applied on LSMOD CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,758,LSMOD VMOM PV,ft-kips,"Data QA applied on LSMOD VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,759,LSMOD EW MOM PV,ft-kips,"Data QA applied on LSMOD EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,760,LSMOD NS MOM PV,ft-kips,"Data QA applied on LSMOD NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,761,DRILL LOAD Weight HI,kips,"Data QA applied on DRILL LOAD Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,762,DRILL LOAD Weight LO,kips,"Data QA applied on DRILL LOAD Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,763,DRILL LOAD VCG PV,ft,"Data QA applied on DRILL LOAD VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,764,DRILL LOAD CG EW PV,ft,"Data QA applied on DRILL LOAD CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,765,DRILL LOAD CG NS PV,ft,"Data QA applied on DRILL LOAD CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,766,DRILL LOAD VMOM PV,ft-kips,"Data QA applied on DRILL LOAD VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,767,DRILL LOAD EW MOM PV,ft-kips,"Data QA applied on DRILL LOAD EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,768,DRILL LOAD NS MOM PV,ft-kips,"Data QA applied on DRILL LOAD NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,769,LIVE LOAD Weight HI,kips,"Data QA applied on LIVE LOAD Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,770,LIVE LOAD Weight LO,kips,"Data QA applied on LIVE LOAD Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,771,LIVE LOAD VCG PV,ft,"Data QA applied on LIVE LOAD VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,772,LIVE LOAD CG EW PV,ft,"Data QA applied on LIVE LOAD CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,773,LIVE LOAD CG NS PV,ft,"Data QA applied on LIVE LOAD CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,774,LIVE LOAD VMOM PV,ft-kips,"Data QA applied on LIVE LOAD VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,775,LIVE LOAD EW MOM PV,ft-kips,"Data QA applied on LIVE LOAD EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,776,LIVE LOAD NS MOM PV,ft-kips,"Data QA applied on LIVE LOAD NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,777,SCR Weight HI,kips,"Data QA applied on SCR Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,778,SCR Weight LO,kips,"Data QA applied on SCR Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,779,SCR VCG PV,ft,"Data QA applied on SCR VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,780,SCR CG EW PV,ft,"Data QA applied on SCR CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,781,SCR CG NS PV,ft,"Data QA applied on SCR CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,782,SCR VMOM PV,ft-kips,"Data QA applied on SCR VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,783,SCR EW MOM PV,ft-kips,"Data QA applied on SCR EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,784,SCR NS MOM PV,ft-kips,"Data QA applied on SCR NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,785,BIAS LINE Weight HI,kips,"Data QA applied on BIAS LINE Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,786,BIAS LINE Weight LO,kips,"Data QA applied on BIAS LINE Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,787,BIAS LINE VCG PV,ft,"Data QA applied on BIAS LINE VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,788,BIAS LINE CG EW PV,ft,"Data QA applied on BIAS LINE CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,789,BIAS LINE CG NS PV,ft,"Data QA applied on BIAS LINE CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,790,BIAS LINE VMOM PV,ft-kips,"Data QA applied on BIAS LINE VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,791,BIAS LINE EW MOM PV,ft-kips,"Data QA applied on BIAS LINE EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,792,BIAS LINE NS MOM PV,ft-kips,"Data QA applied on BIAS LINE NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,793,TENDON Weight HI,kips,"Data QA applied on TENDON Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,794,TENDON Weight LO,kips,"Data QA applied on TENDON Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,795,TENDON VCG PV,ft,"Data QA applied on TENDON VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,796,TENDON CG EW PV,ft,"Data QA applied on TENDON CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,797,TENDON CG NS PV,ft,"Data QA applied on TENDON CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,798,TENDON VMOM PV,ft-kips,"Data QA applied on TENDON VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,799,TENDON EW MOM PV,ft-kips,"Data QA applied on TENDON EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,800,TENDON NS MOM PV,ft-kips,"Data QA applied on TENDON NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,801,TTR Weight HI,kips,"Data QA applied on TTR Weight HI, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,802,TTR Weight LO,kips,"Data QA applied on TTR Weight LO, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,803,TTR VCG PV,ft,"Data QA applied on TTR VCG PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,804,TTR CG EW PV,ft,"Data QA applied on TTR CG EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,805,TTR CG NS PV,ft,"Data QA applied on TTR CG NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,806,TTR VMOM PV,ft-kips,"Data QA applied on TTR VMOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,807,TTR EW MOM PV,ft-kips,"Data QA applied on TTR EW MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,808,TTR NS MOM PV,ft-kips,"Data QA applied on TTR NS MOM PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,809,KG Corrected EW PV,ft,"Data QA applied on KG Corrected EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,810,KG Corrected NS PV,ft,"Data QA applied on KG Corrected NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,811,GM Corrected EW PV,ft,"Data QA applied on GM Corrected EW PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MAS,812,GM Corrected NS PV,ft,"Data QA applied on GM Corrected NS PV, computed by BMT WinMon."
+Shell,Olympus,MIS,MIS Status,813,Overall Operational Status,Bool,
+Shell,Olympus,MIS,MIS Status,814,Overall System Status,Bool,
+Shell,Olympus,MIS,PRO Wireless Wind,815,PRO Wireless Wind Dir,deg,Output wind direction from PRO wirelessly.
+Shell,Olympus,MIS,PRO Wireless Wind,816,PRO Wireless Wind Spd,knots,Output wind speed from PRO wirelessly.
+Shell,Olympus,MIS,PRO Wireless Wind,817,PRO Wireless Enc Heading,deg,Output encoder heading from PRO wirelessly.
+Shell,Olympus,MIS,DRL Wireless Wind,818,DRL Wireless Wind Dir,deg,Output wind direction from DRL wirelessly.
+Shell,Olympus,MIS,DRL Wireless Wind,819,DRL Wireless Wind Spd,knots,Output wind speed from DRL wirelessly.
+Shell,Olympus,MIS,DRL Wireless Wind,820,DRL Wireless Enc Heading,deg,Output encoder heading from DRL wirelessly.
+Shell,Olympus,MIS,POW Wireless Wind,821,POW Wireless Wind Dir,deg,Output wind direction from POW wirelessly.
+Shell,Olympus,MIS,POW Wireless Wind,822,POW Wireless Wind Spd,knots,Output wind speed from POW wirelessly.
+Shell,Olympus,MIS,POW Wireless Wind,823,POW Wireless Enc Heading,deg,Output encoder heading from POW wirelessly.
+Shell,Olympus,MIS,Derived,824,POW Wind Spd,knots,POW wind speed at the sensor location.
+Shell,Olympus,MIS,Derived,825,POW True Wind Dir,degT,POW wind direction from true north at the sensor location.
+Shell,Olympus,MIS,Derived,826,POW North Wind Spd,knots,POW wind speed component along True North Direction at the sensor location. POW North Wind Spd = derived(POW Wind Spd) * cos(derived(POW Wind Dir)).
+Shell,Olympus,MIS,Derived,827,POW East Wind Spd,knots,POW wind speed component along True East Direction at the sensor location. POW East Wind Spd = derived(POW Wind Spd) * sin(derived(POW Wind Dir)).
+Shell,Olympus,MIS,Derived,828,POW 3sec Wind Spd,knots,The 3 seconds running average of derived(POW Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,829,POW 3sec Wind Dir,degT,"The 3 seconds running average of derived(POW Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,830,POW 1min Wind Spd,knots,The 1 minutes running average of derived(POW Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,831,POW 1min Wind Dir,degT,"The 1 minutes running average of derived(POW Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,832,POW 1hr Wind Spd,knots,The 1 hour running average of derived(POW Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,833,POW 1hr Wind Dir,degT,"The 1 hour running average of derived(POW Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,834,PRO Wind Spd,knots,PRO wind speed at the sensor location.
+Shell,Olympus,MIS,Derived,835,PRO True Wind Dir,degT,PRO wind direction from true north at the sensor location.
+Shell,Olympus,MIS,Derived,836,PRO North Wind Spd,knots,PRO wind speed component along True North Direction at the sensor location. PRO North Wind Spd = derived(PRO Wind Spd) * cos(derived(PRO Wind Dir)).
+Shell,Olympus,MIS,Derived,837,PRO East Wind Spd,knots,PRO wind speed component along True East Direction at the sensor location. PRO East Wind Spd = derived(PRO Wind Spd) * sin(derived(PRO Wind Dir)).
+Shell,Olympus,MIS,Derived,838,PRO 3sec Wind Spd,knots,The 3 seconds running average of derived(PRO Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,839,PRO 3sec Wind Dir,degT,"The 3 seconds running average of derived(PRO Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,840,PRO 1min Wind Spd,knots,The 1 minutes running average of derived(PRO Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,841,PRO 1min Wind Dir,degT,"The 1 minutes running average of derived(PRO Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,842,PRO 1hr Wind Spd,knots,The 1 hour running average of derived(PRO Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,843,PRO 1hr Wind Dir,degT,"The 1 hour running average of derived(PRO Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,844,DRL Wind Spd,knots,DRL wind speed at the sensor location.
+Shell,Olympus,MIS,Derived,845,DRL True Wind Dir,degT,DRL wind direction from true north at the sensor location.
+Shell,Olympus,MIS,Derived,846,DRL North Wind Spd,knots,DRL wind speed component along True North Direction at the sensor location. DRL North Wind Spd = derived(DRL Wind Spd) * cos(derived(DRL Wind Dir)).
+Shell,Olympus,MIS,Derived,847,DRL East Wind Spd,knots,DRL wind speed component along True East Direction at the sensor location. DRL East Wind Spd = derived(DRL Wind Spd) * sin(derived(DRL Wind Dir)).
+Shell,Olympus,MIS,Derived,848,DRL 3sec Wind Spd,knots,The 3 seconds running average of derived(DRL Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,849,DRL 3sec Wind Dir,degT,"The 3 seconds running average of derived(DRL Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,850,DRL 1min Wind Spd,knots,The 1 minutes running average of derived(DRL Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,851,DRL 1min Wind Dir,degT,"The 1 minutes running average of derived(DRL Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,852,DRL 1hr Wind Spd,knots,The 1 hour running average of derived(DRL Wind Spd) at the sensor location.
+Shell,Olympus,MIS,Derived,853,DRL 1hr Wind Dir,degT,"The 1 hour running average of derived(DRL Wind Dir), referring to the true north at the sensor location."
+Shell,Olympus,MIS,Derived,854,MAS Wind Spd,knots,"Best wind speed from derived channels POW Wind Spd, PRO Wind Spd, DRL Wind Spd."
+Shell,Olympus,MIS,Derived,855,MAS True Wind Dir,degT,True wind direction associated with MAS Wind Spd.
+Shell,Olympus,MIS,Derived,856,MAS North Wind Spd,knots,MAS wind speed component along True North Direction. MAS North Wind Spd = derived(MAS Wind Spd) * cos(derived(MAS Wind Dir)).
+Shell,Olympus,MIS,Derived,857,MAS East Wind Spd,knots,MAS wind speed component along True East Direction. MAS East Wind Spd = derived(MAS Wind Spd) * sin(derived(MAS Wind Dir)).
+Shell,Olympus,MIS,Derived,858,MAS 3sec Wind Spd,knots,The 3 seconds running average of derived(MAS Wind Spd).
+Shell,Olympus,MIS,Derived,859,MAS 3sec Wind Dir,degT,"The 3 seconds running average of derived(MAS Wind Dir), referring to the true north ."
+Shell,Olympus,MIS,Derived,860,MAS 1min Wind Spd,knots,The 1 minutes running average of derived(MAS Wind Spd) .
+Shell,Olympus,MIS,Derived,861,MAS 1min Wind Dir,degT,"The 1 minutes running average of derived(MAS Wind Dir), referring to the true north ."
+Shell,Olympus,MIS,Derived,862,MAS 1hr Wind Spd,knots,The 1 hour running average of derived(MAS Wind Spd) .
+Shell,Olympus,MIS,Derived,863,MAS 1hr Wind Dir,degT,"The 1 hour running average of derived(MAS Wind Dir), referring to the true north ."
+Shell,Olympus,MIS,Derived,864,MAS Sensor Mask,bits,
+Shell,Olympus,MIS,Derived,865,Fugro GPS Lat,deg,Fugro GPS latitude position in deg decimal.
+Shell,Olympus,MIS,Derived,866,Fugro GPS Lon,deg,Fugro GPS longitude position in deg decimal.
+Shell,Olympus,MIS,Derived,867,Fugro GPS Altitude,ft,Fugro altitude reading at GPS height.
+Shell,Olympus,MIS,Derived,868,Fugro GPS Northings,ft,Fugro Northings measured from local GPS position.
+Shell,Olympus,MIS,Derived,869,Fugro GPS Eastings,ft,Fugro Eastings measured from local GPS position.
+Shell,Olympus,MIS,Derived,870,Fugro PQ Northings,ft,Fugro Northings measured from platform reference position.
+Shell,Olympus,MIS,Derived,871,Fugro PQ Eastings,ft,Fugro Eastings measured from platform reference position.
+Shell,Olympus,MIS,Derived,872,Fugro PQ Offset,ft,Distance of Fugro offset from the platform reference position.
+Shell,Olympus,MIS,Derived,873,Fugro PQ Offset Dir,degT,Direction from true north to Fugro offset position.
+Shell,Olympus,MIS,Derived,874,Fugro PQ Northings AVG,ft,20 minutes running average of Fugro PQ Northings.
+Shell,Olympus,MIS,Derived,875,Fugro PQ Eastings AVG,ft,20 minutes running average of Fugro PQ Eastings.
+Shell,Olympus,MIS,Derived,876,Fugro PQ UTM North,ft,Fugro PQ Northings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,877,Fugro PQ UTM East,ft,Fugro PQ Eastings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,878,Orion GPS Lat,deg,Orion GPS latitude position in deg decimal.
+Shell,Olympus,MIS,Derived,879,Orion GPS Lon,deg,Orion GPS longitude position in deg decimal.
+Shell,Olympus,MIS,Derived,880,Orion GPS Altitude,ft,Orion altitude reading at GPS height.
+Shell,Olympus,MIS,Derived,881,Orion GPS Northings,ft,Orion Northings measured from local GPS position.
+Shell,Olympus,MIS,Derived,882,Orion GPS Eastings,ft,Orion Eastings measured from local GPS position.
+Shell,Olympus,MIS,Derived,883,Orion PQ Northings,ft,Orion Northings measured from platform reference position.
+Shell,Olympus,MIS,Derived,884,Orion PQ Eastings,ft,Orion Eastings measured from platform reference position.
+Shell,Olympus,MIS,Derived,885,Orion PQ Offset,ft,Distance of Orion offset from the platform reference position.
+Shell,Olympus,MIS,Derived,886,Orion PQ Offset Dir,degT,Direction from true north to Orion offset position.
+Shell,Olympus,MIS,Derived,887,Orion PQ Northings AVG,ft,20 minutes running average of Orion PQ Northings.
+Shell,Olympus,MIS,Derived,888,Orion PQ Eastings AVG,ft,20 minutes running average of Orion PQ Eastings.
+Shell,Olympus,MIS,Derived,889,Orion PQ UTM North,ft,Orion PQ Northings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,890,Orion PQ UTM East,ft,Orion PQ Eastings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,891,Combo GPS Lat,deg,Best of Fugro and Orion PQ Lat channels.
+Shell,Olympus,MIS,Derived,892,Combo GPS Lon,deg,Best of Fugro and Orion PQ Lon channels.
+Shell,Olympus,MIS,Derived,893,Combo GPS Altitude,ft,Best of Fugro and Orion PQ Altitude channels.
+Shell,Olympus,MIS,Derived,894,Combo PQ Northings,ft,Best of Fugro and Orion PQ Northings channels.
+Shell,Olympus,MIS,Derived,895,Combo PQ Eastings,ft,Best of Fugro and Orion PQ Eastings channels.
+Shell,Olympus,MIS,Derived,896,Combo PQ Offset,ft,Best of Fugro and Orion PQ Offset channels.
+Shell,Olympus,MIS,Derived,897,Combo PQ Offset Dir,degT,Best of Fugro and Orion PQ Offset Dir channels.
+Shell,Olympus,MIS,Derived,898,Combo PQ Northings Avg,ft,Best of Fugro and Orion PQ Northings AVG channels.
+Shell,Olympus,MIS,Derived,899,Combo PQ Eastings Avg,ft,Best of Fugro and Orion PQ Eastings AVG channels.
+Shell,Olympus,MIS,Derived,900,Combo GPS Quality,degT,Best of Fugro and Orion GPS Quality channels.
+Shell,Olympus,MIS,Derived,901,Combo No of Satellites,none,Best of Fugro and Orion GPS No. of Sats channels.
+Shell,Olympus,MIS,Derived,902,Combo PQ Northings WC,#,Best of Fugro and Orion PQ Northings channels (WC: Watch-circle shown on WinMon display).
+Shell,Olympus,MIS,Derived,903,Combo PQ Eastings WC,ft,Best of Fugro and Orion PQ Eastings channels (WC: Watch-circle shown on WinMon display).
+Shell,Olympus,MIS,Derived,904,Combo PQ Offset WC,ft,Best of Fugro and Orion PQ Offset channels (WC: Watch-circle shown on WinMon display).
+Shell,Olympus,MIS,Derived,905,Combo PQ Bearing WC,ft,Best of Fugro and Orion bearing from platform reference position (WC: Watch-circle shown on WinMon display).
+Shell,Olympus,MIS,Derived,906,Combo PQ UTM North,deg,Best of Fugro and Orion PQ Northings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,907,Combo PQ UTM East,ft,Best of Fugro and Orion PQ Eastings in UTM coordinate system.
+Shell,Olympus,MIS,Derived,908,2DOF Trim,deg,20 minutes running average of 2DoF roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,909,2DOF List,deg,20 minutes running average of 2DoF pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,910,PQ List,deg,20 minutes running average of 6DoF roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,911,PQ Trim,deg,20 minutes running average of 6DoF pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,912,PQ Roll RMS,deg,Root mean square of 20 minutes 6DoF roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,913,PQ Pitch RMS,deg,Root mean square of 20 minutes 6DoF pitch angle of rotation about the local body transverse (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,914,PQ Tilt,deg,Derived from PQ Roll and PQ Pitch. PQ Tilt = sqrt(PQ Roll)2 + sqrt(PQ Pitch)2
+Shell,Olympus,MIS,Derived,915,PQ Tilt Dir,degT,Derived tilt direction from PQ Roll and PQ Pitch. PQ Tilt Dir = atan[(PQ Roll)2 + (PQ Pitch)2] + PQ Heading
+Shell,Olympus,MIS,Derived,916,PQ Surge Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Surge Acc along the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,917,PQ Sway Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Sway Acc along the local body transverse (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,918,PQ Heave Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Heave Acc along the local body vertical (z) axis at vessel origin.
+Shell,Olympus,MIS,Derived,919,PQ Deck Acc RMS,ft/s^2,Root mean square of 20 minutes ???? axis at vessel origin.
+Shell,Olympus,MIS,Derived,920,PQ List 5min,deg,Running average of 5 minutes PQ List about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,921,PQ Trim 5min,deg,Running average of  5 minutes PQ Trim about the local body longitudinal (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,922,PQ Roll RMS 5min,deg,Root mean square of 5 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,923,PQ Pitch RMS 5min,deg,Root mean square of 5 minutes pitch angle of rotation about the local body transverse (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,924,MIS Watchdog,#,Indicate whether the MIS computer is communicating to BMT WinMon or not.
+Shell,Olympus,MIS,Derived,925,MAWS Air Temperature Avg,degF,Running average of 20 minutes MAWS Air Temperature.
+Shell,Olympus,MIS,Derived,926,MAWS Baro Pressure Avg,inHg,Running average of 20 minutes MAWS Baro Pressure.
+Shell,Olympus,MIS,Derived,927,MAWS Cloud Height Avg,ft,Running average of 20 minutes MAWS Cloud Height.
+Shell,Olympus,MIS,Derived,928,MAWS Visibility Avg,mile,Running average of 20 minutes MAWS Visibility.
+Shell,Olympus,MIS,Derived,929,Riser A Load PT1,kips,"Output Riser A Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,930,Riser A Load PT2,kips,"Output Riser A Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,931,Riser A Load PT3,kips,"Output Riser A Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,932,Riser A Load PT4,kips,"Output Riser A Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,933,Riser A Load PT5,kips,"Output Riser A Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,934,Riser A Load PT6,kips,"Output Riser A Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,935,Riser A Load PT7,kips,"Output Riser A Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,936,Riser A Load PT8,kips,"Output Riser A Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,937,Riser A PT1 Diff,psi,"Output Riser A PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,938,Riser A PT2 Diff,psi,"Output Riser A PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,939,Riser A PT3 Diff,psi,"Output Riser A PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,940,Riser A PT4 Diff,psi,"Output Riser A PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,941,Riser A PT5 Diff,psi,"Output Riser A PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,942,Riser A PT6 Diff,psi,"Output Riser A PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,943,Riser A PT7 Diff,psi,"Output Riser A PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,944,Riser A PT8 Diff,psi,"Output Riser A PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,945,Riser A Tension,kips,"Output Riser A Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,946,Riser B Load PT1,kips,"Output Riser B Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,947,Riser B Load PT2,kips,"Output Riser B Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,948,Riser B Load PT3,kips,"Output Riser B Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,949,Riser B Load PT4,kips,"Output Riser B Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,950,Riser B Load PT5,kips,"Output Riser B Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,951,Riser B Load PT6,kips,"Output Riser B Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,952,Riser B Load PT7,kips,"Output Riser B Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,953,Riser B Load PT8,kips,"Output Riser B Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,954,Riser B PT1 Diff,psi,"Output Riser B PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,955,Riser B PT2 Diff,psi,"Output Riser B PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,956,Riser B PT3 Diff,psi,"Output Riser B PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,957,Riser B PT4 Diff,psi,"Output Riser B PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,958,Riser B PT5 Diff,psi,"Output Riser B PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,959,Riser B PT6 Diff,psi,"Output Riser B PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,960,Riser B PT7 Diff,psi,"Output Riser B PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,961,Riser B PT8 Diff,psi,"Output Riser B PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,962,Riser B Tension,kips,"Output Riser B Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,963,Riser C Load PT1,kips,"Output Riser C Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,964,Riser C Load PT2,kips,"Output Riser C Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,965,Riser C Load PT3,kips,"Output Riser C Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,966,Riser C Load PT4,kips,"Output Riser C Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,967,Riser C Load PT5,kips,"Output Riser C Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,968,Riser C Load PT6,kips,"Output Riser C Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,969,Riser C Load PT7,kips,"Output Riser C Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,970,Riser C Load PT8,kips,"Output Riser C Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,971,Riser C PT1 Diff,psi,"Output Riser C PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,972,Riser C PT2 Diff,psi,"Output Riser C PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,973,Riser C PT3 Diff,psi,"Output Riser C PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,974,Riser C PT4 Diff,psi,"Output Riser C PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,975,Riser C PT5 Diff,psi,"Output Riser C PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,976,Riser C PT6 Diff,psi,"Output Riser C PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,977,Riser C PT7 Diff,psi,"Output Riser C PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,978,Riser C PT8 Diff,psi,"Output Riser C PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,979,Riser C Tension,kips,"Output Riser C Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,980,Riser D Load PT1,kips,"Output Riser D Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,981,Riser D Load PT2,kips,"Output Riser D Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,982,Riser D Load PT3,kips,"Output Riser D Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,983,Riser D Load PT4,kips,"Output Riser D Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,984,Riser D Load PT5,kips,"Output Riser D Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,985,Riser D Load PT6,kips,"Output Riser D Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,986,Riser D Load PT7,kips,"Output Riser D Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,987,Riser D Load PT8,kips,"Output Riser D Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,988,Riser D PT1 Diff,psi,"Output Riser D PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,989,Riser D PT2 Diff,psi,"Output Riser D PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,990,Riser D PT3 Diff,psi,"Output Riser D PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,991,Riser D PT4 Diff,psi,"Output Riser D PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,992,Riser D PT5 Diff,psi,"Output Riser D PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,993,Riser D PT6 Diff,psi,"Output Riser D PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,994,Riser D PT7 Diff,psi,"Output Riser D PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,995,Riser D PT8 Diff,psi,"Output Riser D PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,996,Riser D Tension,kips,"Output Riser D Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,997,Riser E Load PT1,kips,"Output Riser E Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,998,Riser E Load PT2,kips,"Output Riser E Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,999,Riser E Load PT3,kips,"Output Riser E Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1000,Riser E Load PT4,kips,"Output Riser E Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1001,Riser E PT1 Diff,psi,"Output Riser E PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1002,Riser E PT2 Diff,psi,"Output Riser E PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1003,Riser E PT3 Diff,psi,"Output Riser E PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1004,Riser E PT4 Diff,psi,"Output Riser E PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1005,Riser E Tension,kips,"Output Riser E Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1006,Riser F Load PT1,kips,"Output Riser F Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1007,Riser F Load PT2,kips,"Output Riser F Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1008,Riser F Load PT3,kips,"Output Riser F Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1009,Riser F Load PT4,kips,"Output Riser F Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1010,Riser F PT1 Diff,psi,"Output Riser F PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1011,Riser F PT2 Diff,psi,"Output Riser F PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1012,Riser F PT3 Diff,psi,"Output Riser F PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1013,Riser F PT4 Diff,psi,"Output Riser F PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1014,Riser F Tension,kips,"Output Riser F Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1015,Riser G Load PT1,kips,"Output Riser G Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1016,Riser G Load PT2,kips,"Output Riser G Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1017,Riser G Load PT3,kips,"Output Riser G Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1018,Riser G Load PT4,kips,"Output Riser G Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1019,Riser G Load PT5,kips,"Output Riser G Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1020,Riser G Load PT6,kips,"Output Riser G Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1021,Riser G Load PT7,kips,"Output Riser G Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1022,Riser G Load PT8,kips,"Output Riser G Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1023,Riser G PT1 Diff,psi,"Output Riser G PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1024,Riser G PT2 Diff,psi,"Output Riser G PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1025,Riser G PT3 Diff,psi,"Output Riser G PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1026,Riser G PT4 Diff,psi,"Output Riser G PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1027,Riser G PT5 Diff,psi,"Output Riser G PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1028,Riser G PT6 Diff,psi,"Output Riser G PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1029,Riser G PT7 Diff,psi,"Output Riser G PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1030,Riser G PT8 Diff,psi,"Output Riser G PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1031,Riser G Tension,kips,"Output Riser G Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1032,Riser H Load PT1,kips,"Output Riser H Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1033,Riser H Load PT2,kips,"Output Riser H Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1034,Riser H Load PT3,kips,"Output Riser H Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1035,Riser H Load PT4,kips,"Output Riser H Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1036,Riser H PT1 Diff,psi,"Output Riser H PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1037,Riser H PT2 Diff,psi,"Output Riser H PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1038,Riser H PT3 Diff,psi,"Output Riser H PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1039,Riser H PT4 Diff,psi,"Output Riser H PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1040,Riser H Tension,kips,"Output Riser H Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1041,Riser I Load PT1,kips,"Output Riser I Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1042,Riser I Load PT2,kips,"Output Riser I Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1043,Riser I Load PT3,kips,"Output Riser I Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1044,Riser I Load PT4,kips,"Output Riser I Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1045,Riser I PT1 Diff,psi,"Output Riser I PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1046,Riser I PT2 Diff,psi,"Output Riser I PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1047,Riser I PT3 Diff,psi,"Output Riser I PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1048,Riser I PT4 Diff,psi,"Output Riser I PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1049,Riser I Tension,kips,"Output Riser I Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1050,Riser J Load PT1,kips,"Output Riser J Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1051,Riser J Load PT2,kips,"Output Riser J Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1052,Riser J Load PT3,kips,"Output Riser J Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1053,Riser J Load PT4,kips,"Output Riser J Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1054,Riser J PT1 Diff,psi,"Output Riser J PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1055,Riser J PT2 Diff,psi,"Output Riser J PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1056,Riser J PT3 Diff,psi,"Output Riser J PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1057,Riser J PT4 Diff,psi,"Output Riser J PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1058,Riser J Tension,kips,"Output Riser J Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1059,Riser K Load PT1,kips,"Output Riser K Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1060,Riser K Load PT2,kips,"Output Riser K Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1061,Riser K Load PT3,kips,"Output Riser K Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1062,Riser K Load PT4,kips,"Output Riser K Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1063,Riser K PT1 Diff,psi,"Output Riser K PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1064,Riser K PT2 Diff,psi,"Output Riser K PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1065,Riser K PT3 Diff,psi,"Output Riser K PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1066,Riser K PT4 Diff,psi,"Output Riser K PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1067,Riser K Tension,kips,"Output Riser K Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1068,Riser L Load PT1,kips,"Output Riser L Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1069,Riser L Load PT2,kips,"Output Riser L Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1070,Riser L Load PT3,kips,"Output Riser L Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1071,Riser L Load PT4,kips,"Output Riser L Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1072,Riser L PT1 Diff,psi,"Output Riser L PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1073,Riser L PT2 Diff,psi,"Output Riser L PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1074,Riser L PT3 Diff,psi,"Output Riser L PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1075,Riser L PT4 Diff,psi,"Output Riser L PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1076,Riser L Tension,kips,"Output Riser L Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1077,Riser M Load PT1,kips,"Output Riser M Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1078,Riser M Load PT2,kips,"Output Riser M Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1079,Riser M Load PT3,kips,"Output Riser M Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1080,Riser M Load PT4,kips,"Output Riser M Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1081,Riser M PT1 Diff,psi,"Output Riser M PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1082,Riser M PT2 Diff,psi,"Output Riser M PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1083,Riser M PT3 Diff,psi,"Output Riser M PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1084,Riser M PT4 Diff,psi,"Output Riser M PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1085,Riser M Tension,kips,"Output Riser M Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1086,Riser N Load PT1,kips,"Output Riser N Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1087,Riser N Load PT2,kips,"Output Riser N Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1088,Riser N Load PT3,kips,"Output Riser N Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1089,Riser N Load PT4,kips,"Output Riser N Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1090,Riser N Load PT5,kips,"Output Riser N Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1091,Riser N Load PT6,kips,"Output Riser N Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1092,Riser N Load PT7,kips,"Output Riser N Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1093,Riser N Load PT8,kips,"Output Riser N Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1094,Riser N PT1 Diff,psi,"Output Riser N PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1095,Riser N PT2 Diff,psi,"Output Riser N PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1096,Riser N PT3 Diff,psi,"Output Riser N PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1097,Riser N PT4 Diff,psi,"Output Riser N PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1098,Riser N PT5 Diff,psi,"Output Riser N PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1099,Riser N PT6 Diff,psi,"Output Riser N PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1100,Riser N PT7 Diff,psi,"Output Riser N PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1101,Riser N PT8 Diff,psi,"Output Riser N PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1102,Riser N Tension,kips,"Output Riser N Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1103,Riser O Load PT1,kips,"Output Riser O Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1104,Riser O Load PT2,kips,"Output Riser O Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1105,Riser O Load PT3,kips,"Output Riser O Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1106,Riser O Load PT4,kips,"Output Riser O Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1107,Riser O Load PT5,kips,"Output Riser O Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1108,Riser O Load PT6,kips,"Output Riser O Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1109,Riser O Load PT7,kips,"Output Riser O Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1110,Riser O Load PT8,kips,"Output Riser O Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1111,Riser O PT1 Diff,psi,"Output Riser O PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1112,Riser O PT2 Diff,psi,"Output Riser O PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1113,Riser O PT3 Diff,psi,"Output Riser O PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1114,Riser O PT4 Diff,psi,"Output Riser O PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1115,Riser O PT5 Diff,psi,"Output Riser O PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1116,Riser O PT6 Diff,psi,"Output Riser O PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1117,Riser O PT7 Diff,psi,"Output Riser O PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1118,Riser O PT8 Diff,psi,"Output Riser O PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1119,Riser O Tension,kips,"Output Riser O Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1120,Riser P Load PT1,kips,"Output Riser P Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1121,Riser P Load PT2,kips,"Output Riser P Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1122,Riser P Load PT3,kips,"Output Riser P Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1123,Riser P Load PT4,kips,"Output Riser P Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1124,Riser P PT1 Diff,psi,"Output Riser P PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1125,Riser P PT2 Diff,psi,"Output Riser P PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1126,Riser P PT3 Diff,psi,"Output Riser P PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1127,Riser P PT4 Diff,psi,"Output Riser P PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1128,Riser P Tension,kips,"Output Riser P Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1129,Riser Q Load PT1,kips,"Output Riser Q Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1130,Riser Q Load PT2,kips,"Output Riser Q Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1131,Riser Q Load PT3,kips,"Output Riser Q Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1132,Riser Q Load PT4,kips,"Output Riser Q Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1133,Riser Q PT1 Diff,psi,"Output Riser Q PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1134,Riser Q PT2 Diff,psi,"Output Riser Q PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1135,Riser Q PT3 Diff,psi,"Output Riser Q PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1136,Riser Q PT4 Diff,psi,"Output Riser Q PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1137,Riser Q Tension,kips,"Output Riser Q Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1138,Riser R Load PT1,kips,"Output Riser R Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1139,Riser R Load PT2,kips,"Output Riser R Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1140,Riser R Load PT3,kips,"Output Riser R Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1141,Riser R Load PT4,kips,"Output Riser R Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1142,Riser R PT1 Diff,psi,"Output Riser R PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1143,Riser R PT2 Diff,psi,"Output Riser R PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1144,Riser R PT3 Diff,psi,"Output Riser R PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1145,Riser R PT4 Diff,psi,"Output Riser R PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1146,Riser R Tension,kips,"Output Riser R Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1147,Riser S Load PT1,kips,"Output Riser S Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1148,Riser S Load PT2,kips,"Output Riser S Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1149,Riser S Load PT3,kips,"Output Riser S Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1150,Riser S Load PT4,kips,"Output Riser S Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1151,Riser S Load PT5,kips,"Output Riser S Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1152,Riser S Load PT6,kips,"Output Riser S Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1153,Riser S Load PT7,kips,"Output Riser S Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1154,Riser S Load PT8,kips,"Output Riser S Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1155,Riser S PT1 Diff,psi,"Output Riser S PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1156,Riser S PT2 Diff,psi,"Output Riser S PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1157,Riser S PT3 Diff,psi,"Output Riser S PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1158,Riser S PT4 Diff,psi,"Output Riser S PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1159,Riser S PT5 Diff,psi,"Output Riser S PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1160,Riser S PT6 Diff,psi,"Output Riser S PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1161,Riser S PT7 Diff,psi,"Output Riser S PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1162,Riser S PT8 Diff,psi,"Output Riser S PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1163,Riser S Tension,kips,"Output Riser S Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1164,Riser T Load PT1,kips,"Output Riser T Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1165,Riser T Load PT2,kips,"Output Riser T Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1166,Riser T Load PT3,kips,"Output Riser T Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1167,Riser T Load PT4,kips,"Output Riser T Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1168,Riser T Load PT5,kips,"Output Riser T Load PT5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1169,Riser T Load PT6,kips,"Output Riser T Load PT6, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1170,Riser T Load PT7,kips,"Output Riser T Load PT7, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1171,Riser T Load PT8,kips,"Output Riser T Load PT8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1172,Riser T PT1 Diff,psi,"Output Riser T PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1173,Riser T PT2 Diff,psi,"Output Riser T PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1174,Riser T PT3 Diff,psi,"Output Riser T PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1175,Riser T PT4 Diff,psi,"Output Riser T PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1176,Riser T PT5 Diff,psi,"Output Riser T PT5 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1177,Riser T PT6 Diff,psi,"Output Riser T PT6 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1178,Riser T PT7 Diff,psi,"Output Riser T PT7 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1179,Riser T PT8 Diff,psi,"Output Riser T PT8 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1180,Riser T Tension,kips,"Output Riser T Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1181,Riser U Load PT1,kips,"Output Riser U Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1182,Riser U Load PT2,kips,"Output Riser U Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1183,Riser U Load PT3,kips,"Output Riser U Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1184,Riser U Load PT4,kips,"Output Riser U Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1185,Riser U PT1 Diff,psi,"Output Riser U PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1186,Riser U PT2 Diff,psi,"Output Riser U PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1187,Riser U PT3 Diff,psi,"Output Riser U PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1188,Riser U PT4 Diff,psi,"Output Riser U PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1189,Riser U Tension,kips,"Output Riser U Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1190,Riser V Load PT1,kips,"Output Riser V Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1191,Riser V Load PT2,kips,"Output Riser V Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1192,Riser V Load PT3,kips,"Output Riser V Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1193,Riser V Load PT4,kips,"Output Riser V Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1194,Riser V PT1 Diff,psi,"Output Riser V PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1195,Riser V PT2 Diff,psi,"Output Riser V PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1196,Riser V PT3 Diff,psi,"Output Riser V PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1197,Riser V PT4 Diff,psi,"Output Riser V PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1198,Riser V Tension,kips,"Output Riser V Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1199,Riser W Load PT1,kips,"Output Riser W Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1200,Riser W Load PT2,kips,"Output Riser W Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1201,Riser W Load PT3,kips,"Output Riser W Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1202,Riser W Load PT4,kips,"Output Riser W Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1203,Riser W PT1 Diff,psi,"Output Riser W PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1204,Riser W PT2 Diff,psi,"Output Riser W PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1205,Riser W PT3 Diff,psi,"Output Riser W PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1206,Riser W PT4 Diff,psi,"Output Riser W PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1207,Riser W Tension,kips,"Output Riser W Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1208,Riser X Load PT1,kips,"Output Riser X Load PT1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1209,Riser X Load PT2,kips,"Output Riser X Load PT2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1210,Riser X Load PT3,kips,"Output Riser X Load PT3, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1211,Riser X Load PT4,kips,"Output Riser X Load PT4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1212,Riser X PT1 Diff,psi,"Output Riser X PT1 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1213,Riser X PT2 Diff,psi,"Output Riser X PT2 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1214,Riser X PT3 Diff,psi,"Output Riser X PT3 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1215,Riser X PT4 Diff,psi,"Output Riser X PT4 Diff, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1216,Riser X Tension,kips,"Output Riser X Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1217,DCS Link Health,bool,
+Shell,Olympus,MIS,Derived,1218,North Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Olympus,MIS,Derived,1219,North Sig Wave Ht,ft,4*standard deviation of derive(North Airgap). A 20 minute running value of standar deviation is used.
+Shell,Olympus,MIS,Derived,1220,North Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Olympus,MIS,Derived,1221,North Draft,ft,"Draft at the X,Y position of the North Airgap sensor."
+Shell,Olympus,MIS,Derived,1222,East Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Olympus,MIS,Derived,1223,East Sig Wave Ht,ft,4*standard deviation of derive(East Airgap). A 20 minute running value of standar deviation is used.
+Shell,Olympus,MIS,Derived,1224,East Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Olympus,MIS,Derived,1225,East Draft,ft,"Draft at the X,Y position of the East Airgap sensor."
+Shell,Olympus,MIS,Derived,1226,South Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Olympus,MIS,Derived,1227,South Sig Wave Ht,ft,4*standard deviation of derive(South Airgap). A 20 minute running value of standar deviation is used.
+Shell,Olympus,MIS,Derived,1228,South Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Olympus,MIS,Derived,1229,South Draft,ft,"Draft at the X,Y position of the South Airgap sensor."
+Shell,Olympus,MIS,Derived,1230,West Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Olympus,MIS,Derived,1231,West Sig Wave Ht,ft,4*standard deviation of derive(West Airgap). A 20 minute running value of standar deviation is used.
+Shell,Olympus,MIS,Derived,1232,West Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Olympus,MIS,Derived,1233,West Draft,ft,"Draft at the X,Y position of the West Airgap sensor."
+Shell,Olympus,MIS,Derived,1234,Best Sig Wave Ht,ft,Best significant wave height from 4 airgaps.
+Shell,Olympus,MIS,Derived,1235,Best Wave Period,sec,Best mean zero-upcrossing wave period from 4 airgaps.
+Shell,Olympus,MIS,Derived,1236,CL Draft from Airgaps,ft,"Draft at the 0,0 position of the platform."
+Shell,Olympus,MIS,Derived,1237,List from Airgaps,deg,Derived from airgap running average of 20 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,1238,Trim from Airgaps,deg,Derived from airgap running average of 20 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,1239,CL Draft from 6DOF,ft,"Derived draft from 6DoF at the 0,0 position of the platform."
+Shell,Olympus,MIS,Derived,1240,List From Drafts,deg,Derived from drafts running average of 20 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Olympus,MIS,Derived,1241,Trim From Drafts,deg,Derived from drafts running average of 20 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Olympus,MIS,Derived,1242,CL Draft,ft,"Derived draft at the 0,0 position of the platform, computed from 4 airgaps and 6DoF."
+Shell,Olympus,MIS,Derived,1243,North Draft Delta,ft,
+Shell,Olympus,MIS,Derived,1244,East Draft Delta,ft,
+Shell,Olympus,MIS,Derived,1245,West Draft Delta,ft,
+Shell,Olympus,MIS,Derived,1246,South Draft Delta,ft,
+Shell,Olympus,MIS,Derived,1247,MAS Tendon Tension 1,kips,"Data QA applied on Tendon Tension 1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1248,MAS Tendon Tension 4,kips,"Data QA applied on Tendon Tension 4, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1249,MAS Tendon Tension 5,kips,"Data QA applied on Tendon Tension 5, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1250,MAS Tendon Tension 8,kips,"Data QA applied on Tendon Tension 8, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1251,MAS Tendon Tension 9,kips,"Data QA applied on Tendon Tension 9, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1252,MAS Tendon Tension 12,kips,"Data QA applied on Tendon Tension 12, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1253,MAS Tendon Tension 13,kips,"Data QA applied on Tendon Tension 13, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1254,MAS Tendon Tension 16,kips,"Data QA applied on Tendon Tension 16, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1255,MAS Riser A Tension,kips,"Data QA applied on Riser A Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1256,MAS Riser B Tension,kips,"Data QA applied on Riser B Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1257,MAS Riser C Tension,kips,"Data QA applied on Riser C Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1258,MAS Riser D Tension,kips,"Data QA applied on Riser D Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1259,MAS Riser E Tension,kips,"Data QA applied on Riser E Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1260,MAS Riser F Tension,kips,"Data QA applied on Riser F Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1261,MAS Riser G Tension,kips,"Data QA applied on Riser G Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1262,MAS Riser H Tension,kips,"Data QA applied on Riser H Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1263,MAS Riser I Tension,kips,"Data QA applied on Riser I Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1264,MAS Riser J Tension,kips,"Data QA applied on Riser J Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1265,MAS Riser K Tension,kips,"Data QA applied on Riser K Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1266,MAS Riser L Tension,kips,"Data QA applied on Riser L Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1267,MAS Riser M Tension,kips,"Data QA applied on Riser M Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1268,MAS Riser N Tension,kips,"Data QA applied on Riser N Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1269,MAS Riser O Tension,kips,"Data QA applied on Riser O Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1270,MAS Riser P Tension,kips,"Data QA applied on Riser P Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1271,MAS Riser Q Tension,kips,"Data QA applied on Riser Q Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1272,MAS Riser R Tension,kips,"Data QA applied on Riser R Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1273,MAS Riser S Tension,kips,"Data QA applied on Riser S Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1274,MAS Riser T Tension,kips,"Data QA applied on Riser T Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1275,MAS Riser U Tension,kips,"Data QA applied on Riser U Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1276,MAS Riser V Tension,kips,"Data QA applied on Riser V Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1277,MAS Riser W Tension,kips,"Data QA applied on Riser W Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1278,MAS Riser X Tension,kips,"Data QA applied on Riser X Tension, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1279,OL ILST_100B1_FWKO,%,"Data QA applied on ILST_100B1_FWKO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1280,OL ILST_100B2_FWKO,%,"Data QA applied on ILST_100B2_FWKO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1281,OL ILST_100B3_FWKO,%,"Data QA applied on ILST_100B3_FWKO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1282,OL ILST_300B_BOT,%,"Data QA applied on ILST_300B_BOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1283,OL ILT_100B1_FWKO,%,"Data QA applied on ILT_100B1_FWKO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1284,OL ILT_1150A1_SMP,%,"Data QA applied on ILT_1150A1_SMP, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1285,OL ILT_1166B1_SLOP_TNK,%,"Data QA applied on ILT_1166B1_SLOP_TNK, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1286,OL ILT_120B1_TEST_SEP,%,"Data QA applied on ILT_120B1_TEST_SEP, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1287,OL ILT_300B1_BOT,%,"Data QA applied on ILT_300B1_BOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1288,OL ILT_320B1_WOT,%,"Data QA applied on ILT_320B1_WOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1289,OL LST_1007A_FGC_A1,%,"Data QA applied on LST_1007A_FGC_A1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1290,OL LST_100A_FWKO,%,"Data QA applied on LST_100A_FWKO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1291,OL LST_1016A_FGC_A2,%,"Data QA applied on LST_1016A_FGC_A2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1292,OL LST_1057A_FGC_B1,%,"Data QA applied on LST_1057A_FGC_B1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1293,OL LST_1066A_FGC_B2,%,"Data QA applied on LST_1066A_FGC_B2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1294,OL LST_1091A_SEAL_GAS,%,"Data QA applied on LST_1091A_SEAL_GAS, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1295,OL LST_1092A_SEAL_GAS,%,"Data QA applied on LST_1092A_SEAL_GAS, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1296,OL LST_1101A_GLC,%,"Data QA applied on LST_1101A_GLC, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1297,OL LST_110A_HP_SEP,%,"Data QA applied on LST_110A_HP_SEP, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1298,OL LST_1110A_SEAL_GAS,%,"Data QA applied on LST_1110A_SEAL_GAS, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1299,OL LST_1150A_SMP_CAISSON,%,"Data QA applied on LST_1150A_SMP_CAISSON, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1300,OL LST_1153A_PRE_SMP_OIL,%,"Data QA applied on LST_1153A_PRE_SMP_OIL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1301,OL LST_1166A_OIL_BUCKET,%,"Data QA applied on LST_1166A_OIL_BUCKET, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1302,OL LST_1166C_SLOP_TNK,%,"Data QA applied on LST_1166C_SLOP_TNK, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1303,OL LST_120A_TEST_SEP_OIL,%,"Data QA applied on LST_120A_TEST_SEP_OIL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1304,OL LST_120B_TEST_SEP_WTR,%,"Data QA applied on LST_120B_TEST_SEP_WTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1305,OL LST_1901A_Methanol,%,"Data QA applied on LST_1901A_Methanol, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1306,OL LST_206A_PL_PMP_LO,%,"Data QA applied on LST_206A_PL_PMP_LO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1307,OL LST_2084A_FG_SCRUB,%,"Data QA applied on LST_2084A_FG_SCRUB, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1308,OL LST_2086A_FG_FLTR,%,"Data QA applied on LST_2086A_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1309,OL LST_2087A_FG_FLTR,%,"Data QA applied on LST_2087A_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1310,OL LST_2170A_DSL_FUEL,%,"Data QA applied on LST_2170A_DSL_FUEL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1311,OL LST_2230A_STEAM_SEP,%,"Data QA applied on LST_2230A_STEAM_SEP, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1312,OL LST_2251A_MAKE_UP_WTR,%,"Data QA applied on LST_2251A_MAKE_UP_WTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1313,OL LST_226A_PL_PMP_LO,%,"Data QA applied on LST_226A_PL_PMP_LO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1314,OL LST_246A_PL_PMP_LO,%,"Data QA applied on LST_246A_PL_PMP_LO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1315,OL LST_2491A_DRILL_RIG,%,"Data QA applied on LST_2491A_DRILL_RIG, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1316,OL LST_2605A_LDHI_TNK,%,"Data QA applied on LST_2605A_LDHI_TNK, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1317,OL LST_2831A_Glycol,%,"Data QA applied on LST_2831A_Glycol, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1318,OL LST_2840A_GLY_COND,%,"Data QA applied on LST_2840A_GLY_COND, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1319,OL LST_300A_BOT_GAS_SIDE,%,"Data QA applied on LST_300A_BOT_GAS_SIDE, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1320,OL LST_300C_BOT_GRID,%,"Data QA applied on LST_300C_BOT_GRID, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1321,OL LST_320A_WOT,%,"Data QA applied on LST_320A_WOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1322,OL LST_330A_DOT,%,"Data QA applied on LST_330A_DOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1323,OL LST_410A_FU,%,"Data QA applied on LST_410A_FU, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1324,OL LST_410B_FU_OIL,%,"Data QA applied on LST_410B_FU_OIL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1325,OL LST_420A_FU,%,"Data QA applied on LST_420A_FU, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1326,OL LST_420B_FU,%,"Data QA applied on LST_420B_FU, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1327,OL LST_500A1_FLARE,%,"Data QA applied on LST_500A1_FLARE, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1328,OL LST_500A2_FLARE,%,"Data QA applied on LST_500A2_FLARE, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1329,OL LST_500A3_FLARE,%,"Data QA applied on LST_500A3_FLARE, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1330,OL LST_5360A_DSL_TNK,%,"Data QA applied on LST_5360A_DSL_TNK, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1331,OL LST_600A_HP_CLSCNG,%,"Data QA applied on LST_600A_HP_CLSCNG, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1332,OL LST_610A_GLY_CNTCR,%,"Data QA applied on LST_610A_GLY_CNTCR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1333,OL LST_903A_VRU_A1,%,"Data QA applied on LST_903A_VRU_A1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1334,OL LST_907A_VRU_A1_DSCH,%,"Data QA applied on LST_907A_VRU_A1_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1335,OL LST_908A_VRU_A2,%,"Data QA applied on LST_908A_VRU_A2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1336,OL LST_913A_VRU_A2_DSCH,%,"Data QA applied on LST_913A_VRU_A2_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1337,OL LST_920A_VRU_A_LO,%,"Data QA applied on LST_920A_VRU_A_LO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1338,OL LST_953A_VRU_B1,%,"Data QA applied on LST_953A_VRU_B1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1339,OL LST_957A_VRU_B1_DSCH,%,"Data QA applied on LST_957A_VRU_B1_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1340,OL LST_958A_VRU_B2,%,"Data QA applied on LST_958A_VRU_B2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1341,OL LST_963A_VRU_B2_DSCH,%,"Data QA applied on LST_963A_VRU_B2_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1342,OL LST_970A_VRU_B_LO,%,"Data QA applied on LST_970A_VRU_B_LO, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1343,OL LT_1007A1_FGC_A1,%,"Data QA applied on LT_1007A1_FGC_A1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1344,OL LT_100A1_Freewtr,%,"Data QA applied on LT_100A1_Freewtr, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1345,OL LT_1016A1_FGC_A2,%,"Data QA applied on LT_1016A1_FGC_A2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1346,OL LT_1057A1_FGC_B1,%,"Data QA applied on LT_1057A1_FGC_B1, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1347,OL LT_1066A1_FGC_B2,%,"Data QA applied on LT_1066A1_FGC_B2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1348,OL LT_1101A1_GLC,%,"Data QA applied on LT_1101A1_GLC, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1349,OL LT_110A1_HP_Sep,%,"Data QA applied on LT_110A1_HP_Sep, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1350,OL LT_1153A1_PRE_SMP_OIL,%,"Data QA applied on LT_1153A1_PRE_SMP_OIL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1351,OL LT_1153B1_PRE_SMP,%,"Data QA applied on LT_1153B1_PRE_SMP, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1352,OL LT_1166A1_Dry_Oil,%,"Data QA applied on LT_1166A1_Dry_Oil, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1353,OL LT_120A1_Well_Test,%,"Data QA applied on LT_120A1_Well_Test, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1354,OL LT_130A_WB_HYD,%,"Data QA applied on LT_130A_WB_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1355,OL LT_130B_PT_BLKG_PNL,%,"Data QA applied on LT_130B_PT_BLKG_PNL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1356,OL LT_2084A1_FG_SCRUB,%,"Data QA applied on LT_2084A1_FG_SCRUB, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1357,OL LT_2086A1_FG_FLTR,%,"Data QA applied on LT_2086A1_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1358,OL LT_2086B1_FG_FLTR,%,"Data QA applied on LT_2086B1_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1359,OL LT_2087A1_FG_FLTR,%,"Data QA applied on LT_2087A1_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1360,OL LT_2087B1_FG_FLTR,%,"Data QA applied on LT_2087B1_FG_FLTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1361,OL LT_2170A1_Diesel_Fuel,%,"Data QA applied on LT_2170A1_Diesel_Fuel, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1362,OL LT_2601A1_Water,%,"Data QA applied on LT_2601A1_Water, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1363,OL LT_2602A1_Biocide,%,"Data QA applied on LT_2602A1_Biocide, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1364,OL LT_2603A1_Asphaltn,%,"Data QA applied on LT_2603A1_Asphaltn, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1365,OL LT_2604A1_SCALE_INH,%,"Data QA applied on LT_2604A1_SCALE_INH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1366,OL LT_2606A1_Sili_Def,%,"Data QA applied on LT_2606A1_Sili_Def, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1367,OL LT_2607A1_Asphaltn,%,"Data QA applied on LT_2607A1_Asphaltn, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1368,OL LT_2608A1_Asphaltn,%,"Data QA applied on LT_2608A1_Asphaltn, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1369,OL LT_2609A1_Asphaltn,%,"Data QA applied on LT_2609A1_Asphaltn, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1370,OL LT_2610A1_Fluor_Def,%,"Data QA applied on LT_2610A1_Fluor_Def, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1371,OL LT_2611A1_CORR_INH,%,"Data QA applied on LT_2611A1_CORR_INH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1372,OL LT_2612A1_CORR_INH,%,"Data QA applied on LT_2612A1_CORR_INH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1373,OL LT_2613A1_Demulsifier,%,"Data QA applied on LT_2613A1_Demulsifier, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1374,OL LT_2721A1_Heli_Fuel,%,"Data QA applied on LT_2721A1_Heli_Fuel, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1375,OL LT_2722A1_Heli_Fuel,%,"Data QA applied on LT_2722A1_Heli_Fuel, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1376,OL LT_2723A1_Heli_Fuel,%,"Data QA applied on LT_2723A1_Heli_Fuel, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1377,OL LT_2825A1_GLY_RBL,%,"Data QA applied on LT_2825A1_GLY_RBL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1378,OL LT_2840A1_Separator,%,"Data QA applied on LT_2840A1_Separator, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1379,OL LT_2840B1_GLY_COND,%,"Data QA applied on LT_2840B1_GLY_COND, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1380,OL LT_2881A1_Pot_Water,%,"Data QA applied on LT_2881A1_Pot_Water, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1381,OL LT_2882A1_Pot_Water,%,"Data QA applied on LT_2882A1_Pot_Water, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1382,OL LT_2883A1_Pot_Water,%,"Data QA applied on LT_2883A1_Pot_Water, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1383,OL LT_300A1_Oil_Treater,%,"Data QA applied on LT_300A1_Oil_Treater, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1384,OL LT_320A1_Wet_Oil,%,"Data QA applied on LT_320A1_Wet_Oil, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1385,OL LT_330A1_Dry_Oil,%,"Data QA applied on LT_330A1_Dry_Oil, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1386,OL LT_410A1_Flotation,%,"Data QA applied on LT_410A1_Flotation, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1387,OL LT_410B1__OIL_OUT,%,"Data QA applied on LT_410B1__OIL_OUT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1388,OL LT_420A1_WTR_OVERBRD,%,"Data QA applied on LT_420A1_WTR_OVERBRD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1389,OL LT_420B1_OIL_TO_WOT,%,"Data QA applied on LT_420B1_OIL_TO_WOT, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1390,OL LT_500A1_FLR_SCRUB,%,"Data QA applied on LT_500A1_FLR_SCRUB, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1391,OL LT_5121A1_De_Watering,ft,"Data QA applied on LT_5121A1_De_Watering, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1392,OL LT_5160A1_METH_STRG,%,"Data QA applied on LT_5160A1_METH_STRG, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1393,OL LT_5161A1_METH_STRG,%,"Data QA applied on LT_5161A1_METH_STRG, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1394,OL LT_5221A1_De_Watering,ft,"Data QA applied on LT_5221A1_De_Watering, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1395,OL LT_5321A1_De_Watering,ft,"Data QA applied on LT_5321A1_De_Watering, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1396,OL LT_5360A1_DSL,%,"Data QA applied on LT_5360A1_DSL, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1397,OL LT_5421A1_De_Watering,ft,"Data QA applied on LT_5421A1_De_Watering, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1398,OL LT_5460A1_DRILL_WTR,%,"Data QA applied on LT_5460A1_DRILL_WTR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1399,OL LT_600A1_HP_CLSCNG,%,"Data QA applied on LT_600A1_HP_CLSCNG, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1400,OL LT_610A1_GLY_CNTCR,%,"Data QA applied on LT_610A1_GLY_CNTCR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1401,OL LT_7101A1_SCSSV_HYD,%,"Data QA applied on LT_7101A1_SCSSV_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1402,OL LT_7101B1_LP_HYD,%,"Data QA applied on LT_7101B1_LP_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1403,OL LT_7102A1_SCSSV_HYD,%,"Data QA applied on LT_7102A1_SCSSV_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1404,OL LT_7102B1_LP_HYD,%,"Data QA applied on LT_7102B1_LP_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1405,OL LT_7103A1_SCSSV_HYD,%,"Data QA applied on LT_7103A1_SCSSV_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1406,OL LT_7103B1_LP_HYD,%,"Data QA applied on LT_7103B1_LP_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1407,OL LT_7104A1_SCSSV_HYD,%,"Data QA applied on LT_7104A1_SCSSV_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1408,OL LT_7104B1_LP_HYD,%,"Data QA applied on LT_7104B1_LP_HYD, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1409,OL LT_907A1_VRU_A1_DSCH,%,"Data QA applied on LT_907A1_VRU_A1_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1410,OL LT_908A1_VRU_A2,%,"Data QA applied on LT_908A1_VRU_A2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1411,OL LT_913A1_VRU_A2_DSCH,%,"Data QA applied on LT_913A1_VRU_A2_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1412,OL LT_957A1_VRU_B1_DSCH,%,"Data QA applied on LT_957A1_VRU_B1_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1413,OL LT_958A1_VRU_B2,%,"Data QA applied on LT_958A1_VRU_B2, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1414,OL LT_963A1_VRU_B2_DSCH,%,"Data QA applied on LT_963A1_VRU_B2_DSCH, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1415,OL LT_X4300_PNL_HYD_RSVR,%,"Data QA applied on LT_X4300_PNL_HYD_RSVR, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1416,OL LT_EPNB_Ballast,ft,"Data QA applied on LT_EPNB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1417,OL LT_EPSB_Ballast,ft,"Data QA applied on LT_EPSB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1418,OL LT_NE0BNE_Ballast,ft,"Data QA applied on LT_NE0BNE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1419,OL LT_NE0BSW_Ballast,ft,"Data QA applied on LT_NE0BSW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1420,OL LT_NE1TE_Ballast,ft,"Data QA applied on LT_NE1TE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1421,OL LT_NE1TN_Ballast,ft,"Data QA applied on LT_NE1TN_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1422,OL LT_NPEB_Ballast,ft,"Data QA applied on LT_NPEB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1423,OL LT_NPWB_Ballast,ft,"Data QA applied on LT_NPWB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1424,OL LT_NW0BNW_Ballast,ft,"Data QA applied on LT_NW0BNW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1425,OL LT_NW0BSE_Ballast,ft,"Data QA applied on LT_NW0BSE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1426,OL LT_NW1TN_Ballast,ft,"Data QA applied on LT_NW1TN_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1427,OL LT_NW1TW_Ballast,ft,"Data QA applied on LT_NW1TW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1428,OL LT_SE0BNW_Ballast,ft,"Data QA applied on LT_SE0BNW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1429,OL LT_SE0BSE_Ballast,ft,"Data QA applied on LT_SE0BSE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1430,OL LT_SE1TE_Ballast,ft,"Data QA applied on LT_SE1TE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1431,OL LT_SE1TS_Ballast,ft,"Data QA applied on LT_SE1TS_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1432,OL LT_SPEB_Ballast,ft,"Data QA applied on LT_SPEB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1433,OL LT_SPWB_Ballast,ft,"Data QA applied on LT_SPWB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1434,OL LT_SW0BNE_Ballast,ft,"Data QA applied on LT_SW0BNE_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1435,OL LT_SW0BSW_Ballast,ft,"Data QA applied on LT_SW0BSW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1436,OL LT_SW1TS_Ballast,ft,"Data QA applied on LT_SW1TS_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1437,OL LT_SW1TW_Ballast,ft,"Data QA applied on LT_SW1TW_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1438,OL LT_WPNB_Ballast,ft,"Data QA applied on LT_WPNB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1439,OL LT_WPSB_Ballast,ft,"Data QA applied on LT_WPSB_Ballast, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1440,OL LT_5160A1_Methanol,%,"Data QA applied on LT_5160A1_Methanol, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1441,OL LT_5161A1_Methanol,%,"Data QA applied on LT_5161A1_Methanol, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1442,OL LT_5360A1_Diesel_Tnk,%,"Data QA applied on LT_5360A1_Diesel_Tnk, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1443,OL LT_5460A1_Drill_Water,%,"Data QA applied on LT_5460A1_Drill_Water, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1444,OL North_Draft,ft,"Data QA and 1-min running average applied on North_Draft, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1445,OL East_Draft,ft,"Data QA and 1-min running average applied on East_Draft, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1446,OL South_Draft,ft,"Data QA and 1-min running average applied on South_Draft, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1447,OL West_Draft,ft,"Data QA and 1-min running average applied on West_Draft, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1448,OL Combo_PQ_Northings,ft,"Data QA applied on Combo_PQ_Northings, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1449,OL Combo_PQ_Eastings,ft,"Data QA applied on Combo_PQ_Eastings, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1450,OL Surface_Current_Spd,knots,"Data QA applied on Surface_Current_Spd, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1451,OL Surface_Current_Dir,degT,"Data QA applied on Surface_Current_Dir, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1452,OL MIS_Baro_Pressure,mbar,"Data QA applied on MIS_Baro_Pressure, computed by BMT WinMon."
+Shell,Olympus,MIS,Derived,1453,Riser Alarm,#,Number of sum of any alarm from Riser A Tension to Riser X Tension.
+Shell,Olympus,MIS,Derived,1454,Draft LL Alarm,#,"Number of sum of Low alarm from North Draft, East Draft, South Draft, and West Draft."
+Shell,Olympus,MIS,Derived,1455,Draft HH Alarm,#,"Number of sum of High alarm from North Draft, East Draft, South Draft, and West Draft."
+Shell,Olympus,MIS,Derived,1456,Tendon Tension Alarm,#,"Number of sum of any alarm from Tendon Tension 1, 4, 5, 8, 9, 12, 13, 16."
+Shell,Olympus,MIS,Derived,1457,Current Spd Alarm,#,Number of sum of High alarm from Surface Current Spd and VADCP Current Speed.
+Shell,Olympus,MIS,Derived,1458,TLP Position Alarm,#,Number of sum of High alarm from Combo_PQ_Offset_WC.
+Shell,Olympus,MIS,Derived,1459,MAS Trim 1min,deg,"Best Trim from 2DoF Trim, PQ Trim, Trim From Drafts."
+Shell,Olympus,MIS,Derived,1460,MAS List 1min,deg,"Best List from 2DoF List, PQ List, List From Drafts."
+Shell,Olympus,MIS,Derived,1461,MAS Sig Wave Ht,ft,"Best Sig Wave Ht from Miros, and 4 airgaps."
+Shell,Olympus,MIS,Derived,1462,MAS Wave Period,sec,"Best Wave Period from Miros, and 4 airgaps."
+Shell,Olympus,MIS,Derived,1463,Statistic Complete,#,Indicates whether statistic is completed and starts calculation from BMT MIS to MAS.
+Shell,Olympus,MIS,Derived,1464,Statistic Start Time,Date,Start time for statistic.
+Shell,Olympus,MIS,Derived,1465,Statistic End Time,Date,End time for statistic.
+Shell,Olympus,MIS,Derived,1466,Keel PQ Northings,ft,"Derived northings at platform keel location, computed using Combo PQ Northings, Combo PQ Eastings, PQ Roll, PQ Pitch, PQ Heading, and Fugro GPS Distance Z."
+Shell,Olympus,MIS,Derived,1467,Keel PQ Eastings,ft,"Derived eastings at platform keel location, computed using Combo PQ Northings, Combo PQ Eastings, PQ Roll, PQ Pitch, PQ Heading, and Fugro GPS Distance Z."
+Shell,Olympus,MIS,Derived,1468,Tide,ft,Derived tide from given constituent parameters and OL_MIS_Baro_Pressure.
+Shell,Olympus,MIS,Derived,1469,CL Draft 1min,ft,Derived 1 minute running average of CL Draft.
+Shell,Olympus,MIS,Derived,1470,CL Draft 5min,ft,Derived 5 minutes running average of CL Draft.
+Shell,Olympus,MIS,Derived,1471,CL Draft 20min,ft,Derived 20 minutes running average of CL Draft.
+Shell,Olympus,MIS,Derived,1472,BAL Weight PV,kips,Output BAL Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1473,VOID Weight PV,kips,Output VOID Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1474,HULL FLUIDS Weight PV,kips,Output HULL FLUIDS Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1475,DRILL TANKS Weight PV,kips,Output DRILL TANKS Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1476,LSMOD Weight PV,kips,Output LSMOD Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1477,DRILL LOAD Weight PV,kips,Output DRILL LOAD Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1478,SCR Weight PV,kips,Output SCR Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1479,BIAS LINE Weight PV,kips,Output BIAS LINE Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1480,TENDON Weight PV,kips,Output TENDON Weight PV from 3rd party Tanks.
+Shell,Olympus,MIS,Derived,1481,TTR Weight PV,kips,Output TTR Weight PV from 3rd party Tanks.

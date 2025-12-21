@@ -1,0 +1,499 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Shell,Ursa,MIS,GPS,1,Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Ursa,MIS,GPS,2,Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Ursa,MIS,GPS,3,Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Ursa,MIS,GPS,4,Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Ursa,MIS,GPS,5,Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Ursa,MIS,GPS,6,Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Ursa,MIS,GPS,7,Altitude 1,m,Altitude measurement at the antenna location in terms of integer meters
+Shell,Ursa,MIS,GPS,8,Altitude 2,mm*10,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Ursa,MIS,GPS,9,GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Ursa,MIS,GPS,10,Number of Satellites,#,Number of Satellites available for position measurement.
+Shell,Ursa,MIS,GPS,11,HDOP,#,Horizontal dilution of precision
+Shell,Ursa,MIS,GPS,12,Age of Diff Corr,sec,Time lag of the correction signal in seconds.
+Shell,Ursa,MIS,TIS,13,NE Tendon 2 Bending,kips-ft,Output NE Tendon 2 Bending from TIS.
+Shell,Ursa,MIS,TIS,14,NE Tendon 2 Tension,kips,Output NE Tendon 2 Tension from TIS.
+Shell,Ursa,MIS,TIS,15,NE Tendon 2 Angle,deg,Output NE Tendon 2 Angle from TIS.
+Shell,Ursa,MIS,TIS,16,NE Tendon 2 Status,bits,Output NE Tendon 2 Status from TIS.
+Shell,Ursa,MIS,TIS,17,SE Tendon 7 Bending,kips-ft,Output SE Tendon 7 Bending from TIS.
+Shell,Ursa,MIS,TIS,18,SE Tendon 7 Tension,kips,Output SE Tendon 7 Tension from TIS.
+Shell,Ursa,MIS,TIS,19,SE Tendon 7 Angle,deg,Output SE Tendon 7 Angle from TIS.
+Shell,Ursa,MIS,TIS,20,SE Tendon 7 Status,bits,Output SE Tendon 7 Status from TIS.
+Shell,Ursa,MIS,TIS,21,SW Tendon 10 Bending,kips-ft,Output SW Tendon 10 Bending from TIS.
+Shell,Ursa,MIS,TIS,22,SW Tendon 10 Tension,kips,Output SW Tendon 10 Tension from TIS.
+Shell,Ursa,MIS,TIS,23,SW Tendon 10 Angle,deg,Output SW Tendon 10 Angle from TIS.
+Shell,Ursa,MIS,TIS,24,SW Tendon 10 Status,bits,Output SW Tendon 10 Status from TIS.
+Shell,Ursa,MIS,TIS,25,NW Tendon 15 Bending,kips-ft,Output NW Tendon 15 Bending from TIS.
+Shell,Ursa,MIS,TIS,26,NW Tendon 15 Tension,kips,Output NW Tendon 15 Tension from TIS.
+Shell,Ursa,MIS,TIS,27,NW Tendon 15 Angle,deg,Output NW Tendon 15 Angle from TIS.
+Shell,Ursa,MIS,TIS,28,NW Tendon 15 Status,bits,Output NW Tendon 15 Status from TIS.
+Shell,Ursa,MIS,TIS,29,TIS Status,bits,Output TIS Status from TIS.
+Shell,Ursa,MIS,AWOS,30,AWOS Cloud Coverage,none,"Measured types of cloud cover conditions include SKC (sky clear), FEW (trace), SCT (scattered), BKN (broken) and OVC (overcast). Cloud cover is reported in terms of 1/8th of sky cover with 1-2/8th being FEW, 3-4/8th being SCT, 5-7/8th being BKN and 8/8 denoted at OVC."
+Shell,Ursa,MIS,AWOS,31,AWOS Cloud Height,ft,Measured cloud height on the 1st cloud layer.
+Shell,Ursa,MIS,AWOS,32,AWOS Visibility,mile,Measured visibility.
+Shell,Ursa,MIS,AWOS,33,AWOS Rain Accumulation,in/hr,"Measured the amount of precipitation measured during the past hour, counting from the beginning of the hour."
+Shell,Ursa,MIS,AWOS,34,AWOS Present Weather1,none,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Ursa,MIS,AWOS,35,AWOS Present Weather2,none,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Ursa,MIS,AWOS,36,AWOS Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Ursa,MIS,AWOS,37,AWOS Dew Point,degF,Measured dew point at sensor location.
+Shell,Ursa,MIS,AWOS,38,AWOS Raw Wind Dir,deg,"Measured raw wind direction from, at sensor location."
+Shell,Ursa,MIS,AWOS,39,AWOS Raw Wind Spd,knot,Measured raw wind speed at the sensor location.
+Shell,Ursa,MIS,AWOS,40,AWOS Raw Wind Spd Gust,knot,Derived wind gust speed computed during the previous AWOS Raw Wind Spd.
+Shell,Ursa,MIS,AWOS,41,AWOS Baro Pressure,inHg,Measured barometric pressure.
+Shell,Ursa,MIS,AWOS,42,AWOS Sensor Status,none,Measured AWOS sensor status.
+Shell,Ursa,MIS,ADCP,43,ADCP Max Current Spd,knots,Max ADCP Current Speed
+Shell,Ursa,MIS,ADCP,44,ADCP Max Current Dir,degT,Max ADCP Current Direction towards
+Shell,Ursa,MIS,ADCP,45,ADCP Temperature,degF,ADCP Temperature
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),46,ABJ-SE4-51 Level,ft,Output ABJ-SE4-51 Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),47,ABJ-SE4-61 Level,ft,Output ABJ-SE4-61 Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),48,BAL-EPN Level,ft,Output BAL-EPN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),49,BAL-EPS Level,ft,Output BAL-EPS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),50,BAL-NE0-BN Level,ft,Output BAL-NE0-BN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),51,BAL-NE0-BS Level,ft,Output BAL-NE0-BS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),52,BAL-NE1-TE Level,ft,Output BAL-NE1-TE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),53,BAL-NE1-TN Level,ft,Output BAL-NE1-TN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),54,BAL-NE1-TS Level,ft,Output BAL-NE1-TS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),55,BAL-NE1-TW Level,ft,Output BAL-NE1-TW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),56,BAL-NPE Level,ft,Output BAL-NPE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),57,BAL-SE0-BN Level,ft,Output BAL-SE0-BN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),58,BAL-SE0-BS Level,ft,Output BAL-SE0-BS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),59,BAL-SE1-TE Level,ft,Output BAL-SE1-TE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),60,BAL-SE1-TN Level,ft,Output BAL-SE1-TN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),61,BAL-SE1-TS Level,ft,Output BAL-SE1-TS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),62,BAL-SE1-TW Level,ft,Output BAL-SE1-TW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),63,BAL-SPE Level,ft,Output BAL-SPE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SE Hull (Tanks & Draft),64,SE Draft,ft,Output SE Draft from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),65,ABJ-SE4-51 Vol,bbls,Output ABJ-SE4-51 Vol from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),66,ABJ-SE4-61 Vol,gallons,Output ABJ-SE4-61 Vol from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),67,ABJ-SW4-01 Level,ft,Output ABJ-SW4-01 Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),68,ABJ-SW4-02 Level,ft,Output ABJ-SW4-02 Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),69,ABJ-SW4-03 Level,ft,Output ABJ-SW4-03 Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),70,BAL-NPW Level,ft,Output BAL-NPW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),71,BAL-NW0-BN Level,ft,Output BAL-NW0-BN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),72,BAL-NW0-BS Level,ft,Output BAL-NW0-BS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),73,BAL-NW1-TE Level,ft,Output BAL-NW1-TE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),74,BAL-NW1-TN Level,ft,Output BAL-NW1-TN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),75,BAL-NW1-TS Level,ft,Output BAL-NW1-TS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),76,BAL-NW1-TW Level,ft,Output BAL-NW1-TW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),77,BAL-SPW Level,ft,Output BAL-SPW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),78,BAL-SW0-BN Level,ft,Output BAL-SW0-BN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),79,BAL-SW0-BS Level,ft,Output BAL-SW0-BS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),80,BAL-SW1-TE Level,ft,Output BAL-SW1-TE Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),81,BAL-SW1-TN Level,ft,Output BAL-SW1-TN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),82,BAL-SW1-TS Level,ft,Output BAL-SW1-TS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),83,BAL-SW1-TW Level,ft,Output BAL-SW1-TW Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),84,BAL-WPN Level,ft,Output BAL-WPN Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),85,BAL-WPS Level,ft,Output BAL-WPS Level from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),86,SW Draft,ft,Output SW Draft from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),87,ABJ-SW4-01 Vol,gallons,Output ABJ-SW4-01 Vol from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),88,ABJ-SW4-02 Vol,gallons,Output ABJ-SW4-02 Vol from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,SW Hull (Tanks & Draft),89,ABJ-SW4-03 Vol,gallons,Output ABJ-SW4-03 Vol from 3rd party Tanks & Drafts.
+Shell,Ursa,MIS,MAS,90,Apparent Draft,ft,"Calculated Draft, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,91,Apparent Tendon Tension 1,kips,"Calculated Tendon Tension 1, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,92,Apparent Tendon Tension 10,kips,"Calculated Tendon Tension 10, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,93,Apparent Tendon Tension 11,kips,"Calculated Tendon Tension 11, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,94,Apparent Tendon Tension 12,kips,"Calculated Tendon Tension 12, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,95,Apparent Tendon Tension 13,kips,"Calculated Tendon Tension 13, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,96,Apparent Tendon Tension 14,kips,"Calculated Tendon Tension 14, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,97,Apparent Tendon Tension 15,kips,"Calculated Tendon Tension 15, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,98,Apparent Tendon Tension 16,kips,"Calculated Tendon Tension 16, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,99,Apparent Tendon Tension 2,kips,"Calculated Tendon Tension 2, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,100,Apparent Tendon Tension 3,kips,"Calculated Tendon Tension 3, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,101,Apparent Tendon Tension 4,kips,"Calculated Tendon Tension 4, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,102,Apparent Tendon Tension 5,kips,"Calculated Tendon Tension 5, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,103,Apparent Tendon Tension 6,kips,"Calculated Tendon Tension 6, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,104,Apparent Tendon Tension 7,kips,"Calculated Tendon Tension 7, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,105,Apparent Tendon Tension 8,kips,"Calculated Tendon Tension 8, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,106,Apparent Tendon Tension 9,kips,"Calculated Tendon Tension 9, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,107,Apparent TLP Inclination E,ft,"Calculated TLP Inclination E, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,MAS,108,Apparent TLP Inclination N,ft,"Calculated TLP Inclination N, from 3rd party Herbert-ABS LMP system."
+Shell,Ursa,MIS,Derived,109,Ballast Tanks Ttl FSl,ft-kips,Output Ballast Tanks Ttl FSl from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,110,Ballast Tanks Ttl LCG,ft,Output Ballast Tanks Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,111,Ballast Tanks Ttl TCG,ft,Output Ballast Tanks Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,112,Ballast Tanks Ttl VCG,ft,Output Ballast Tanks Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,113,Ballast Tanks Ttl Wt Hi,kips,Output Ballast Tanks Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,114,Ballast Tanks Ttl Wt Lo,kips,Output Ballast Tanks Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,115,Ballast Tanks Ttl FSt,ft-kips,Output Ballast Tanks Ttl FSt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,116,Bias Line Ttl LCG,ft,Output Bias Line Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,117,Bias Line Ttl TCG,ft,Output Bias Line Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,118,Bias Line Ttl VCG,ft,Output Bias Line Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,119,Bias Line Ttl Wt Hi,kips,Output Bias Line Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,120,Bias Line Ttl Wt Lo,kips,Output Bias Line Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,121,Calculation Flag,#,Output Calculation Flag from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,122,Column Voids Ttl FSl,ft-kips,Output Column Voids Ttl FSl from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,123,Column Voids Ttl LCG,ft,Output Column Voids Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,124,Column Voids Ttl TCG,ft,Output Column Voids Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,125,Column Voids Ttl VCG,ft,Output Column Voids Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,126,Column Voids Ttl Wt Hi,kips,Output Column Voids Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,127,Column Voids Ttl Wt Lo,kips,Output Column Voids Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,128,Column Voids Ttl FSt,ft-kips,Output Column Voids Ttl FSt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,129,Columns Loads Ttl LCG,ft,Output Columns Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,130,Columns Loads Ttl TCG,ft,Output Columns Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,131,Columns Loads Ttl VCG,ft,Output Columns Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,132,Columns Loads Ttl Wt Hi,kips,Output Columns Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,133,Columns Loads Ttl Wt Lo,kips,Output Columns Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,134,Drilling Loads Ttl LCG,ft,Output Drilling Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,135,Drilling Loads Ttl TCG,ft,Output Drilling Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,136,Drilling Loads Ttl VCG,ft,Output Drilling Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,137,Drilling Loads Ttl Wt Hi,kips,Output Drilling Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,138,Drilling Loads Ttl Wt Lo,kips,Output Drilling Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,139,Hull Consumables Ttl FSl,ft-kips,Output Hull Consumables Ttl FSl from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,140,Hull Consumables Ttl LCG,ft,Output Hull Consumables Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,141,Hull Consumables Ttl TCG,ft,Output Hull Consumables Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,142,Hull Consumables Ttl VCG,ft,Output Hull Consumables Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,143,Hull Consumables Ttl Wt Hi,kips,Output Hull Consumables Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,144,Hull Consumables Ttl Wt Lo,kips,Output Hull Consumables Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,145,Hull Consumables t Ttl FSt,ft-kips,Output Hull Consumables t Ttl FSt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,146,Interm. Deck Loads Ttl LCG,ft,Output Interm. Deck Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,147,Interm. Deck Loads Ttl TCG,ft,Output Interm. Deck Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,148,Interm. Deck Loads Ttl VCG,ft,Output Interm. Deck Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,149,Interm Deck Loads Ttl Wt H,kips,Output Interm Deck Loads Ttl Wt H from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,150,Interm.Deck Loads Ttl Wt L,kips,Output Interm.Deck Loads Ttl Wt L from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,151,KG Allow Hurricane,ft,Output KG Allow Hurricane from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,152,KG Allow Winter Storm,ft,Output KG Allow Winter Storm from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,153,Lateral Phantom Force EW,kips,Output Lateral Phantom Force EW from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,154,Lateral Phantom Force NS,kips,Output Lateral Phantom Force NS from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,155,Lightship Changes LCG,ft,Output Lightship Changes LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,156,Lightship Changes TCG,ft,Output Lightship Changes TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,157,Lightship Changes VCG,ft,Output Lightship Changes VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,158,Lightship Changes Wt Hi,kips,Output Lightship Changes Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,159,Lightship Changes Wt Lo,kips,Output Lightship Changes Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,160,Lower Deck Loads Ttl LCG,ft,Output Lower Deck Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,161,Lower Deck Loads Ttl TCG,ft,Output Lower Deck Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,162,Lower Deck Loads Ttl VCG,ft,Output Lower Deck Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,163,Lower Deck Loads Ttl Wt Hi,kips,Output Lower Deck Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,164,Lower Deck Loads Ttl Wt Lo,kips,Output Lower Deck Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,165,LPF Moment EW,kips,Output LPF Moment EW from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,166,LPF Moment NS,kips,Output LPF Moment NS from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,167,Mezz Deck Loads Ttl LCG,ft,Output Mezz Deck Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,168,Mezz Deck Loads Ttl TCG,ft,Output Mezz Deck Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,169,Mezz Deck Loads Ttl VCG,ft,Output Mezz Deck Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,170,Mezz Deck Loads Ttl Wt Hi,kips,Output Mezz Deck Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,171,Mezz Deck Loads Ttl Wt Lo,kips,Output Mezz Deck Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,172,Discrepancy Wt,kips,Output Discrepancy Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,173,Discrepancy Wt CG EW,ft,Output Discrepancy Wt CG EW from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,174,Discrepancy Wt CG NS,ft,Output Discrepancy Wt CG NS from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,175,Process Tanks Ttl FSl,ft,Output Process Tanks Ttl FSl from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,176,Process Tanks Ttl LCG,ft,Output Process Tanks Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,177,Process Tanks Ttl TCG,ft,Output Process Tanks Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,178,Process Tanks Ttl VCG,ft,Output Process Tanks Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,179,Process Tanks Ttl Wt Hi,kips,Output Process Tanks Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,180,Process Tanks Ttl Wt Lo,kips,Output Process Tanks Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,181,Process Tanks Ttl FSt,ft-kips,Output Process Tanks Ttl FSt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,182,Quarters Loads Ttl LCG,ft,Output Quarters Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,183,Quarters Loads Ttl TCG,ft,Output Quarters Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,184,Quarters Loads Ttl VCG,ft,Output Quarters Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,185,Quarters Loads Ttl Wt Hi,kips,Output Quarters Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,186,Quarters Loads Ttl Wt Lo,kips,Output Quarters Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,187,Rig Location EW,ft,Output Rig Location EW from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,188,Rig Location Index,#,Output Rig Location Index from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,189,Rig Location NS,ft,Output Rig Location NS from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,190,SCRS Ttl LCG,ft,Output SCRS Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,191,SCRS Ttl TCG,ft,Output SCRS Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,192,SCRS Ttl VCG,ft,Output SCRS Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,193,SCRS Ttl Wt Hi,kips,Output SCRS Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,194,SCRS Ttl Wt Lo,kips,Output SCRS Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,195,Target Tendon Tension 1,kips,Output Target Tendon Tension 1 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,196,Target Tendon Tension 10,kips,Output Target Tendon Tension 10 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,197,Target Tendon Tension 11,kips,Output Target Tendon Tension 11 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,198,Target Tendon Tension 12,kips,Output Target Tendon Tension 12 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,199,Target Tendon Tension 13,kips,Output Target Tendon Tension 13 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,200,Target Tendon Tension 14,kips,Output Target Tendon Tension 14 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,201,Target Tendon Tension 15,kips,Output Target Tendon Tension 15 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,202,Target Tendon Tension 16,kips,Output Target Tendon Tension 16 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,203,Target Tendon Tension 2,kips,Output Target Tendon Tension 2 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,204,Target Tendon Tension 3,kips,Output Target Tendon Tension 3 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,205,Target Tendon Tension 4,kips,Output Target Tendon Tension 4 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,206,Target Tendon Tension 5,kips,Output Target Tendon Tension 5 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,207,Target Tendon Tension 6,kips,Output Target Tendon Tension 6 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,208,Target Tendon Tension 7,kips,Output Target Tendon Tension 7 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,209,Target Tendon Tension 8,kips,Output Target Tendon Tension 8 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,210,Target Tendon Tension 9,kips,Output Target Tendon Tension 9 from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,211,Tendons Ttl LCG,ft,Output Tendons Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,212,Tendons Ttl TCG,ft,Output Tendons Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,213,Tendons Ttl VCG,ft,Output Tendons Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,214,Ttl Platform KG,ft,Output Ttl Platform KG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,215,TTRS Ttl LCG,ft,Output TTRS Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,216,TTRS Ttl TCG,ft,Output TTRS Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,217,TTRS Ttl VCG,ft,Output TTRS Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,218,TTRS Ttl Wt HI,kips,Output TTRS Ttl Wt HI from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,219,TTRS Ttl Wt Lo,kips,Output TTRS Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,220,Upper Deck Loads Ttl LCG,ft,Output Upper Deck Loads Ttl LCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,221,Upper Deck Loads Ttl TCG,ft,Output Upper Deck Loads Ttl TCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,222,Upper Deck Loads Ttl VCG,ft,Output Upper Deck Loads Ttl VCG from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,223,Upper Deck Loads Ttl Wt Hi,kips,Output Upper Deck Loads Ttl Wt Hi from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,224,Upper Deck Loads Ttl Wt Lo,kips,Output Upper Deck Loads Ttl Wt Lo from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,225,MAS Watchdog,#,Indicates whether the MAS computer is communicating to BMT WinMon or not.
+Shell,Ursa,MIS,Airgap,226,North Raw Airgap,ft,Measured distance from North Airgap sensor head to water surface..
+Shell,Ursa,MIS,Airgap,227,East Raw Airgap,ft,Measured distance from East Airgap sensor head to water surface.
+Shell,Ursa,MIS,Airgap,228,South Raw Airgap,ft,Measured distance from South Airgap sensor head to water surface.
+Shell,Ursa,MIS,Airgap,229,West Raw Airgap,ft,Measured distance from West Airgap sensor head to water surface.
+Shell,Ursa,MIS,Miros,230,Sig Wave Height,ft,Measured significant wave height.
+Shell,Ursa,MIS,Miros,231,Max Wave Height,ft,Measured maximum wave height.
+Shell,Ursa,MIS,Miros,232,Wave Period,sec,Measured wave peak period.
+Shell,Ursa,MIS,Miros,233,Wave Dir,deg,"Measured wave direction from, true."
+Shell,Ursa,MIS,Miros,234,Pri Wave Dir Spread,deg,Direction spreading of the wave spectrum's primary peak energy.
+Shell,Ursa,MIS,Miros,235,Wave Steepness,none,Measured wave steepness.
+Shell,Ursa,MIS,Miros,236,Mean 0-Upcrossing Period,sec,Measured average wave zero up-crossing period.
+Shell,Ursa,MIS,Miros,237,Sec Wave Peak Dir,deg,"Measured secondary wave peak direction from, true."
+Shell,Ursa,MIS,Miros,238,Wave HI Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,Miros,239,Wave LO Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,Miros,240,Surface Current Spd,knots,Measured surface current speed.
+Shell,Ursa,MIS,Miros,241,Surface Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Ursa,MIS,Miros,242,Current HI Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,Miros,243,Current LO Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,LIDAR,244,Lidar Ht1 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 1.
+Shell,Ursa,MIS,LIDAR,245,Lidar Ht1 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 1.
+Shell,Ursa,MIS,LIDAR,246,Lidar Ht1 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 1."
+Shell,Ursa,MIS,LIDAR,247,Lidar Height 1,ft,Lidar configured height 1.
+Shell,Ursa,MIS,LIDAR,248,Lidar Ht2 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 2.
+Shell,Ursa,MIS,LIDAR,249,Lidar Ht2 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 2.
+Shell,Ursa,MIS,LIDAR,250,Lidar Ht2 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 2."
+Shell,Ursa,MIS,LIDAR,251,Lidar Height 2,ft,Lidar configured height 2.
+Shell,Ursa,MIS,LIDAR,252,Lidar Ht3 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 3.
+Shell,Ursa,MIS,LIDAR,253,Lidar Ht3 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 3.
+Shell,Ursa,MIS,LIDAR,254,Lidar Ht3 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 3."
+Shell,Ursa,MIS,LIDAR,255,Lidar Height 3,ft,Lidar configured height 3.
+Shell,Ursa,MIS,LIDAR,256,Lidar Ht4 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 4.
+Shell,Ursa,MIS,LIDAR,257,Lidar Ht4 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 4.
+Shell,Ursa,MIS,LIDAR,258,Lidar Ht4 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 4."
+Shell,Ursa,MIS,LIDAR,259,Lidar Height 4,ft,Lidar configured height 4.
+Shell,Ursa,MIS,LIDAR,260,Lidar Ht5 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 5.
+Shell,Ursa,MIS,LIDAR,261,Lidar Ht5 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 5.
+Shell,Ursa,MIS,LIDAR,262,Lidar Ht5 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 5."
+Shell,Ursa,MIS,LIDAR,263,Lidar Height 5,ft,Lidar configured height 5.
+Shell,Ursa,MIS,LIDAR,264,Lidar Ht6 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 6.
+Shell,Ursa,MIS,LIDAR,265,Lidar Ht6 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 6.
+Shell,Ursa,MIS,LIDAR,266,Lidar Ht6 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 6."
+Shell,Ursa,MIS,LIDAR,267,Lidar Height 6,ft,Lidar configured height 6.
+Shell,Ursa,MIS,LIDAR,268,Lidar Ht7 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 7.
+Shell,Ursa,MIS,LIDAR,269,Lidar Ht7 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 7.
+Shell,Ursa,MIS,LIDAR,270,Lidar Ht7 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 7."
+Shell,Ursa,MIS,LIDAR,271,Lidar Height 7,ft,Lidar configured height 7.
+Shell,Ursa,MIS,LIDAR,272,Lidar Ht8 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 8.
+Shell,Ursa,MIS,LIDAR,273,Lidar Ht8 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 8.
+Shell,Ursa,MIS,LIDAR,274,Lidar Ht8 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 8."
+Shell,Ursa,MIS,LIDAR,275,Lidar Height 8,ft,Lidar configured height 8.
+Shell,Ursa,MIS,LIDAR,276,Lidar Ht9 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 9.
+Shell,Ursa,MIS,LIDAR,277,Lidar Ht9 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 9.
+Shell,Ursa,MIS,LIDAR,278,Lidar Ht9 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 9."
+Shell,Ursa,MIS,LIDAR,279,Lidar Height 9,ft,Lidar configured height 9.
+Shell,Ursa,MIS,LIDAR,280,Lidar Ht10 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 10.
+Shell,Ursa,MIS,LIDAR,281,Lidar Ht10 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 10.
+Shell,Ursa,MIS,LIDAR,282,Lidar Ht10 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 10."
+Shell,Ursa,MIS,LIDAR,283,Lidar Height 10,ft,Lidar configured height 10.
+Shell,Ursa,MIS,LIDAR,284,Lidar Ht11 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 11.
+Shell,Ursa,MIS,LIDAR,285,Lidar Ht11 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 11.
+Shell,Ursa,MIS,LIDAR,286,Lidar Ht11 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 11."
+Shell,Ursa,MIS,LIDAR,287,Lidar Height 11,ft,Lidar configured height 11.
+Shell,Ursa,MIS,LIDAR,288,Lidar Info Flag 10min Avg,bits,General information relating to the operational mode of the ZephIR.
+Shell,Ursa,MIS,LIDAR,289,Lidar Status Flag 10min Av,bits,"Internal ZephIR status, relating to the operational state of the ZephIR. For Z150/175: Red/Amber/Green."
+Shell,Ursa,MIS,LIDAR,290,Lidar Batt 10min Avg,Volts,Internal battery voltage.
+Shell,Ursa,MIS,LIDAR,291,Lidar Generator 10min Avg,Volts,"External supply voltage, if present."
+Shell,Ursa,MIS,LIDAR,292,Lidar Reference,#,"Each un-averaged (1sec or 3sec) record has an associated reference. The reference starts at zero and increments with each record. If the ZephIR’s internal storage is cleared, the reference resets to zero."
+Shell,Ursa,MIS,LIDAR,293,Lidar Air Temp,degF,Ambient temperature measured by the Lidar station.
+Shell,Ursa,MIS,LIDAR,294,Lidar Air Pressure,inHg,Ambient pressure measured by the Lidar station.
+Shell,Ursa,MIS,LIDAR,295,Lidar Upper Temp,degF,Internal pod temperature as measured by internal sensor located near the window.
+Shell,Ursa,MIS,LIDAR,296,Lidar Lower Temp,degF,Internal pod temperature as measured by internal sensor located near the external heat sink.
+Shell,Ursa,MIS,LIDAR,297,Lidar Raining Flag,bool,"Flag indicating if the rain sensor detected rain (0 – Off, 1 – On)."
+Shell,Ursa,MIS,LIDAR,298,Lidar Tilt,deg,Maximum magnitude of pitch or roll away from horizontal as measured by the Lidar station.
+Shell,Ursa,MIS,LIDAR,299,Lidar ZephIR bearing,deg,"Bearing of Lidar station with respect to True North, measured by the Lidar station. I.e. 5 degrees would be 5 degrees East of True North."
+Shell,Ursa,MIS,LIDAR,300,Lidar ZephIR Offset,deg,
+Shell,Ursa,MIS,LIDAR,301,Lidar ZephIR Mode,index,
+Shell,Ursa,MIS,LIDAR,302,Lidar Firmware Version,#,Firmware version.
+Shell,Ursa,MIS,LIDAR,303,Num Configured Heights,#,Number of configured heights.
+Shell,Ursa,MIS,LIDAR,304,Lidar Lense Height,ft,Lidar lense height from deck.
+Shell,Ursa,MIS,LIDAR,305,Lidar HI Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,LIDAR,306,Lidar LO Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Ursa,MIS,Misc,307,MET Watchdog,counter,Indicate whether the metocean computer is communicating to BMT WinMon or not.
+Shell,Ursa,MIS,Derived,308,HADCP Temperature,degC,Measured sea water temperature at sensor location.
+Shell,Ursa,MIS,Derived,309,HADCP Surface Curr Spd,knots,Max HADCP Current Speed from configured bin ranges or the best bin.
+Shell,Ursa,MIS,Derived,310,HADCP Surface Curr Dir,degT,Corresponding Direction to the Max HADCP Current Speed.
+Shell,Ursa,MIS,WXT Weather,311,WXT Rain Accumulation,in/hr,Measured the amount of precipitation measured.
+Shell,Ursa,MIS,WXT Weather,312,WXT Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Ursa,MIS,WXT Weather,313,WXT Dew Point,degF,Measured dew point at sensor location.
+Shell,Ursa,MIS,WXT Weather,314,WXT 2min Wind Dir,degT,Measured 2-minute average relative wind direction at sensor location.
+Shell,Ursa,MIS,WXT Weather,315,WXT 2min Wind Spd,knots,Measured 2-minute average wind speed at the sensor location.
+Shell,Ursa,MIS,WXT Weather,316,WXT Altimeter,inHg,Measured altitude above the MSL (mean sea level) elevation.
+Shell,Ursa,MIS,WXT Weather,317,WXT Density Alt,ft,Measured altitude in the standard atmosphere where air density is equivalent to that of the airport.
+Shell,Ursa,MIS,WXT Weather,318,WXT Baro Pressure,inHg,Measured barometric pressure.
+Shell,Ursa,MIS,WXT Weather,319,WXT Humidity,%,Measured relative humidity at sensor location.
+Shell,Ursa,MIS,WXT Weather,320,WXT 2min Wind Gust,knots,Derived wind gust speed computed during the previous 2 minutes.
+Shell,Ursa,MIS,Derived,321,Barometric Pressure,mbar,"Derived barometric pressure, uses AWOS Baro Pressure as input as of derive_230130.dll."
+Shell,Ursa,MIS,Derived,322,GPS Lat,deg,GPS latitude position in deg decimal.
+Shell,Ursa,MIS,Derived,323,GPS Lon,deg,GPS longitude position in deg decimal.
+Shell,Ursa,MIS,Derived,324,GPS Altitude,ft,altitude reading at GPS height.
+Shell,Ursa,MIS,Derived,325,GPS Northings,ft,Northings measured from local GPS position.
+Shell,Ursa,MIS,Derived,326,GPS Eastings,ft,Eastings measured from local GPS position.
+Shell,Ursa,MIS,Derived,327,PQ Northings,ft,Northings measured from platform reference position.
+Shell,Ursa,MIS,Derived,328,PQ Eastings,ft,Eastings measured from platform reference position.
+Shell,Ursa,MIS,Derived,329,PQ Altitude,ft,Altitude reading from platform reference position.
+Shell,Ursa,MIS,Derived,330,PQ Offset,ft,Distance of offset from the platform reference position.
+Shell,Ursa,MIS,Derived,331,PQ Bearing,degT,Direction from true north to offset position.
+Shell,Ursa,MIS,Derived,332,PQ Northings AVG,ft,20 minutes running average of PQ Northings.
+Shell,Ursa,MIS,Derived,333,PQ Eastings AVG,ft,20 minutes running average of PQ Eastings.
+Shell,Ursa,MIS,Derived,334,PQ Quality,none,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS.
+Shell,Ursa,MIS,Derived,335,WCC Offset,ft,Offset measured from watch circle position.
+Shell,Ursa,MIS,Derived,336,WCC Bearing,degT,Bearing measured from watch circle position.
+Shell,Ursa,MIS,Derived,337,AWOS Wind Spd,knots,AWOS wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,338,AWOS Wind Dir,degT,AWOS wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,339,AWOS North Wind Spd,knots,AWOS wind speed component at north direction at the sensor location.
+Shell,Ursa,MIS,Derived,340,AWOS East Wind Spd,knots,AWOS wind speed component at east direction at the sensor location.
+Shell,Ursa,MIS,Derived,341,AWOS 3sec Wind Spd,knots,AWOS running average of 3 seconds wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,342,AWOS 3sec Wind Dir,degT,AWOS running average of 3 seconds wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,343,AWOS 2min Wind Spd,knots,AWOS running average of 10 minutes wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,344,AWOS 2min Wind Dir,degT,AWOS running average of 10 minutes wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,345,AWOS 1hr Wind Spd,knots,AWOS running average of 1 hour wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,346,AWOS 1hr Wind Dir,degT,AWOS running average of 1 hour wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,347,Tide,ft,Derived tide from given constituent parameters.
+Shell,Ursa,MIS,Derived,348,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,349,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,350,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,351,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,352,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,353,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,354,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,355,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,356,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,357,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,358,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,359,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,360,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,361,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,362,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,363,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,364,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,365,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,366,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,367,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,368,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,369,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,370,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,371,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,372,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,373,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,374,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,375,VOID NEA-VC,bool,Output VOID NEA-VC from 3rd party Ballast Tanks system (0 or 1 indicates whether it's void or not).
+Shell,Ursa,MIS,Derived,376,North Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Ursa,MIS,Derived,377,North Sig Wave Ht,ft,4*standard deviation of derive(North Airgap). A 20 minute running value of standar deviation is used.
+Shell,Ursa,MIS,Derived,378,North Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Ursa,MIS,Derived,379,North Draft,ft,"Draft at the X,Y position of the North Airgap sensor."
+Shell,Ursa,MIS,Derived,380,East Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Ursa,MIS,Derived,381,East Sig Wave Ht,ft,4*standard deviation of derive(East Airgap). A 20 minute running value of standar deviation is used.
+Shell,Ursa,MIS,Derived,382,East Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Ursa,MIS,Derived,383,East Draft,ft,"Draft at the X,Y position of the East Airgap sensor."
+Shell,Ursa,MIS,Derived,384,South Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Ursa,MIS,Derived,385,South Sig Wave Ht,ft,4*standard deviation of derive(South Airgap). A 20 minute running value of standar deviation is used.
+Shell,Ursa,MIS,Derived,386,South Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Ursa,MIS,Derived,387,South Draft,ft,"Draft at the X,Y position of the South Airgap sensor."
+Shell,Ursa,MIS,Derived,388,West Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Ursa,MIS,Derived,389,West Sig Wave Ht,ft,4*standard deviation of derive(West Airgap). A 20 minute running value of standar deviation is used.
+Shell,Ursa,MIS,Derived,390,West Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Ursa,MIS,Derived,391,West Draft,ft,"Draft at the X,Y position of the West Airgap sensor."
+Shell,Ursa,MIS,Derived,392,Best Airgap Sig Wave Ht,ft,Best significant wave height from 4 airgaps.
+Shell,Ursa,MIS,Derived,393,Best Airgap Wave Period,sec,Best mean zero-upcrossing wave period from 4 airgaps.
+Shell,Ursa,MIS,Derived,394,CL Draft Fr Airgaps,ft,"Draft at the 0,0 position of the platform."
+Shell,Ursa,MIS,Derived,395,List Fr Airgaps,deg,Derived from airgap running average of 20 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Ursa,MIS,Derived,396,Trim Fr Airgaps,deg,Derived from airgap running average of 20 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Ursa,MIS,Derived,397,Lidar Wind Spd,knots,Lidar wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,398,Lidar Wind Dir,degT,Lidar wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,399,Lidar North Wind Spd,knots,Lidar wind speed component along True North Direction at the sensor location. Lidar North Wind Spd = derived(Lidar Wind Spd) * cos(derived(Lidar Wind Dir)).
+Shell,Ursa,MIS,Derived,400,Lidar East Wind Spd,knots,Lidar wind speed component along True East Direction at the sensor location. Lidar East Wind Spd = derived(Lidar Wind Spd) * sin(derived(Lidar Wind Dir)).
+Shell,Ursa,MIS,Derived,401,Lidar 3sec Wind Spd,knots,The 3 seconds running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,402,Lidar 3sec Wind Dir,degT,"The 3 seconds running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,403,Lidar 2min Wind Spd,knots,The 2 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,404,Lidar 2min Wind Dir,degT,"The 2 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,405,Lidar 10min Wind Spd,knots,The 10 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,406,Lidar 10min Wind Dir,degT,"The 10 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,407,Lidar 1hr Wind Spd,knots,The 1 hour running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,408,Lidar 1hr Wind Dir,degT,"The 1 hour running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,409,Lidar 3sec Wind Spd 10m,knots,"The 3 seconds running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Ursa,MIS,Derived,410,Lidar 2min Wind Spd 10m,knots,"The 2 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Ursa,MIS,Derived,411,Lidar 10min Wind Spd 10m,knots,"The 10 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Ursa,MIS,Derived,412,Lidar 1hr Wind Spd 10m,knots,"The 1 hour running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Ursa,MIS,Derived,413,Statistic Complete,#,Indicates whether statistic is completed and starts calculation from BMT MIS to MAS.
+Shell,Ursa,MIS,Derived,414,Statistic Start Time,Date,Start time for statistic.
+Shell,Ursa,MIS,Derived,415,Statistic End Time,Date,End time for statistic.
+Shell,Ursa,MIS,Derived,416,MAS PQ Northings,ft,"Data QA applied on PQ Northings, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,417,MAS PQ Eastings,ft,"Data QA applied on PQ Eastings, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,418,MAS Wind Spd,knots,"Data QA applied on Wind Spd, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,419,MAS Wind Dir,degT,"Data QA applied on Wind Dir, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,420,MAS Max Current Spd,knots,"Data QA applied on Max Current Spd, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,421,MAS Max Current Dir,degT,"Data QA applied on Max Current Dir, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,422,MAS Sig Wave Ht,ft,"Data QA applied on Sig Wave Ht, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,423,MAS Wave Period,sec,"Data QA applied on Wave Period, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,424,MAS Wave Dir,degT,"Data QA applied on Wave Dir, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,425,MAS NE Tendon 2 Tension,kips,"Data QA applied on NE Tendon 2 Tension, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,426,MAS SE Tendon 7 Tension,kips,"Data QA applied on SE Tendon 7 Tension, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,427,MAS SW Tendon 10 Tension,kips,"Data QA applied on SW Tendon 10 Tension, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,428,MAS NW Tendon 15 Tension,kips,"Data QA applied on NW Tendon 15 Tension, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,429,MAS BAL-EPN Level,ft,"Data QA applied on BAL-EPN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,430,MAS BAL-EPS Level,ft,"Data QA applied on BAL-EPS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,431,MAS BAL-WPN Level,ft,"Data QA applied on BAL-WPN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,432,MAS BAL-WPS Level,ft,"Data QA applied on BAL-WPS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,433,MAS BAL-SPE Level,ft,"Data QA applied on BAL-SPE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,434,MAS BAL-SPW Level,ft,"Data QA applied on BAL-SPW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,435,MAS BAL-NPE Level,ft,"Data QA applied on BAL-NPE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,436,MAS BAL-NPW Level,ft,"Data QA applied on BAL-NPW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,437,MAS BAL-NE0-BN Level,ft,"Data QA applied on BAL-NE0-BN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,438,MAS BAL-NE0-BS Level,ft,"Data QA applied on BAL-NE0-BS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,439,MAS BAL-SE0-BN Level,ft,"Data QA applied on BAL-SE0-BN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,440,MAS BAL-SE0-BS Level,ft,"Data QA applied on BAL-SE0-BS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,441,MAS BAL-NW0-BN Level,ft,"Data QA applied on BAL-NW0-BN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,442,MAS BAL-NW0-BS Level,ft,"Data QA applied on BAL-NW0-BS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,443,MAS BAL-SW0-BN Level,ft,"Data QA applied on BAL-SW0-BN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,444,MAS BAL-SW0-BS Level,ft,"Data QA applied on BAL-SW0-BS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,445,MAS BAL-NE1-TN Level,ft,"Data QA applied on BAL-NE1-TN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,446,MAS BAL-NE1-TE Level,ft,"Data QA applied on BAL-NE1-TE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,447,MAS BAL-NE1-TS Level,ft,"Data QA applied on BAL-NE1-TS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,448,MAS BAL-NE1-TW Level,ft,"Data QA applied on BAL-NE1-TW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,449,MAS BAL-SE1-TN Level,ft,"Data QA applied on BAL-SE1-TN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,450,MAS BAL-SE1-TE Level,ft,"Data QA applied on BAL-SE1-TE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,451,MAS BAL-SE1-TS Level,ft,"Data QA applied on BAL-SE1-TS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,452,MAS BAL-SE1-TW Level,ft,"Data QA applied on BAL-SE1-TW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,453,MAS BAL-NW1-TN Level,ft,"Data QA applied on BAL-NW1-TN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,454,MAS BAL-NW1-TE Level,ft,"Data QA applied on BAL-NW1-TE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,455,MAS BAL-NW1-TS Level,ft,"Data QA applied on BAL-NW1-TS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,456,MAS BAL-NW1-TW Level,ft,"Data QA applied on BAL-NW1-TW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,457,MAS BAL-SW1-TN Level,ft,"Data QA applied on BAL-SW1-TN Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,458,MAS BAL-SW1-TE Level,ft,"Data QA applied on BAL-SW1-TE Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,459,MAS BAL-SW1-TS Level,ft,"Data QA applied on BAL-SW1-TS Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,460,MAS BAL-SW1-TW Level,ft,"Data QA applied on BAL-SW1-TW Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,461,MAS ABJ-SE4-51 Level,ft,"Data QA applied on ABJ-SE4-51 Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,462,MAS ABJ-SE4-61 Level,ft,"Data QA applied on ABJ-SE4-61 Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,463,MAS ABJ-SW4-01 Level,ft,"Data QA applied on ABJ-SW4-01 Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,464,MAS ABJ-SW4-02 Level,ft,"Data QA applied on ABJ-SW4-02 Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,465,MAS ABJ-SW4-03 Level,ft,"Data QA applied on ABJ-SW4-03 Level, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,466,MAS SW Draft,ft,"Data QA applied on SW Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,467,MAS SE Draft,ft,"Data QA applied on SE Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,468,MAS North Draft,ft,"Data QA applied on North Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,469,MAS East Draft,ft,"Data QA applied on East Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,470,MAS South Draft,ft,"Data QA applied on South Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,471,MAS West Draft,ft,"Data QA applied on West Draft, computed by BMT WinMon."
+Shell,Ursa,MIS,Derived,472,TIS Watchdog,#,Indicate whether the TIS is communicating to BMT WinMon or not.
+Shell,Ursa,MIS,Derived,473,WXT Wind Spd,knots,AWOS wind speed at the sensor location.
+Shell,Ursa,MIS,Derived,474,WXT Wind Dir,degT,AWOS wind direction from true north at the sensor location.
+Shell,Ursa,MIS,Derived,475,WXT North Wind Spd,knots,WXT wind speed component along True North Direction at the sensor location. WXT North Wind Spd = derived(WXT Wind Spd) * cos(derived(WXT Wind Dir)).
+Shell,Ursa,MIS,Derived,476,WXT East Wind Spd,knots,WXT wind speed component along True East Direction at the sensor location. WXT East Wind Spd = derived(WXT Wind Spd) * sin(derived(WXT Wind Dir)).
+Shell,Ursa,MIS,Derived,477,WXT 10min Wind Spd,knots,The 10 minutes running average of derived(WXT Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,478,WXT 10min Wind Dir,degT,"The 10 minutes running average of derived(WXT Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,479,WXT 1hr Wind Spd,knots,The 1 hour running average of derived(WXT Wind Spd) at the sensor location.
+Shell,Ursa,MIS,Derived,480,WXT 1hr Wind Dir,degT,"The 1 hour running average of derived(WXT Wind Dir), referring to the true north at the sensor location."
+Shell,Ursa,MIS,Derived,481,Lidar 2min Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 2 minutes at the sensor location.
+Shell,Ursa,MIS,Derived,482,Lidar 10min Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 10 minutes at the sensor location.
+Shell,Ursa,MIS,Derived,483,Lidar 1hr Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 1 hour at the sensor location.
+Shell,Ursa,MIS,Derived,484,Ballast Tanks Ttl Wt,kips,Output Ballast Tanks Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,485,Bias Line Ttl Wt,kips,Output Bias Line Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,486,Column Voids Ttl Wt,kips,Output Column Voids Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,487,Columns Loads Ttl Wt,kips,Output Columns Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,488,Drilling Loads Ttl Wt,kips,Output Drilling Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,489,Hull Consumables Ttl Wt,kips,Output Hull Consumables Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,490,Interm Deck Loads Ttl Wt,kips,Output Interm Deck Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,491,Lightship Changes Wt,kips,Output Lightship Changes Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,492,Lower Deck Loads Ttl Wt,kips,Output Lower Deck Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,493,Mezz Deck Loads Ttl Wt,kips,Output Mezz Deck Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,494,Process Tanks Ttl Wt,kips,Output Process Tanks Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,495,Quarters Loads Ttl Wt,kips,Output Quarters Loads Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,496,SCRS Ttl Wt,kips,Output SCRS Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,497,TTRS Ttl Wt,kips,Output TTRS Ttl Wt from 3rd party Herbert-ABS system.
+Shell,Ursa,MIS,Derived,498,Upper Deck Loads Ttl Wt,kips,Output Upper Deck Loads Ttl Wt from 3rd party Herbert-ABS system.

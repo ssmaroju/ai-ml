@@ -1,0 +1,722 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Shell,Auger,MIS,GPS,1,Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Auger,MIS,GPS,2,Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Auger,MIS,GPS,3,Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Auger,MIS,GPS,4,Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Auger,MIS,GPS,5,Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Auger,MIS,GPS,6,Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Auger,MIS,GPS,7,Altitude 1,m,Altitude measurement at the antenna location in terms of integer meters
+Shell,Auger,MIS,GPS,8,Altitude 2,mm*10,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Auger,MIS,GPS,9,GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Auger,MIS,GPS,10,Number of Satellites,#,Number of Satellites available for position measurement.
+Shell,Auger,MIS,GPS,11,HDOP,#,Horizontal dilution of precision
+Shell,Auger,MIS,GPS,12,Age of Diff Corr,sec,Time lag of the correction signal in seconds.
+Shell,Auger,MIS,TIS,13,E1 Tendon 1 Bending,kips-ft,Output E1 Tendon 1 Bending from TIS.
+Shell,Auger,MIS,TIS,14,E1 Tendon 1 Tension,kips,Output E1 Tendon 1 Tension from TIS.
+Shell,Auger,MIS,TIS,15,E1 Tendon 1 Angle,deg,Output E1 Tendon 1 Angle from TIS.
+Shell,Auger,MIS,TIS,16,E1 Tendon 1 Status,bits,Output E1 Tendon 1 Status from TIS.
+Shell,Auger,MIS,TIS,17,E1 Tendon 2 Bending,kips-ft,Output E1 Tendon 2 Bending from TIS.
+Shell,Auger,MIS,TIS,18,E1 Tendon 2 Tension,kips,Output E1 Tendon 2 Tension from TIS.
+Shell,Auger,MIS,TIS,19,E1 Tendon 2 Angle,deg,Output E1 Tendon 2 Angle from TIS.
+Shell,Auger,MIS,TIS,20,E1 Tendon 2 Status,bits,Output E1 Tendon 2 Status from TIS.
+Shell,Auger,MIS,TIS,21,E1 Tendon 3 Bending,kips-ft,Output E1 Tendon 3 Bending from TIS.
+Shell,Auger,MIS,TIS,22,E1 Tendon 3 Tension,kips,Output E1 Tendon 3 Tension from TIS.
+Shell,Auger,MIS,TIS,23,E1 Tendon 3 Angle,deg,Output E1 Tendon 3 Angle from TIS.
+Shell,Auger,MIS,TIS,24,E1 Tendon 3 Status,bits,Output E1 Tendon 3 Status from TIS.
+Shell,Auger,MIS,TIS,25,A1 Tendon 4 Bending,kips-ft,Output A1 Tendon 4 Bending from TIS.
+Shell,Auger,MIS,TIS,26,A1 Tendon 4 Tension,kips,Output A1 Tendon 4 Tension from TIS.
+Shell,Auger,MIS,TIS,27,A1 Tendon 4 Angle,deg,Output A1 Tendon 4 Angle from TIS.
+Shell,Auger,MIS,TIS,28,A1 Tendon 4 Status,bits,Output A1 Tendon 4 Status from TIS.
+Shell,Auger,MIS,TIS,29,A1 Tendon 5 Bending,kips-ft,Output A1 Tendon 5 Bending from TIS.
+Shell,Auger,MIS,TIS,30,A1 Tendon 5 Tension,kips,Output A1 Tendon 5 Tension from TIS.
+Shell,Auger,MIS,TIS,31,A1 Tendon 5 Angle,deg,Output A1 Tendon 5 Angle from TIS.
+Shell,Auger,MIS,TIS,32,A1 Tendon 5 Status,bits,Output A1 Tendon 5 Status from TIS.
+Shell,Auger,MIS,TIS,33,A1 Tendon 6 Bending,kips-ft,Output A1 Tendon 6 Bending from TIS.
+Shell,Auger,MIS,TIS,34,A1 Tendon 6 Tension,kips,Output A1 Tendon 6 Tension from TIS.
+Shell,Auger,MIS,TIS,35,A1 Tendon 6 Angle,deg,Output A1 Tendon 6 Angle from TIS.
+Shell,Auger,MIS,TIS,36,A1 Tendon 6 Status,bits,Output A1 Tendon 6 Status from TIS.
+Shell,Auger,MIS,TIS,37,A5 Tendon 7 Bending,kips-ft,Output A5 Tendon 7 Bending from TIS.
+Shell,Auger,MIS,TIS,38,A5 Tendon 7 Tension,kips,Output A5 Tendon 7 Tension from TIS.
+Shell,Auger,MIS,TIS,39,A5 Tendon 7 Angle,deg,Output A5 Tendon 7 Angle from TIS.
+Shell,Auger,MIS,TIS,40,A5 Tendon 7 Status,bits,Output A5 Tendon 7 Status from TIS.
+Shell,Auger,MIS,TIS,41,A5 Tendon 8 Bending,kips-ft,Output A5 Tendon 8 Bending from TIS.
+Shell,Auger,MIS,TIS,42,A5 Tendon 8 Tension,kips,Output A5 Tendon 8 Tension from TIS.
+Shell,Auger,MIS,TIS,43,A5 Tendon 8 Angle,deg,Output A5 Tendon 8 Angle from TIS.
+Shell,Auger,MIS,TIS,44,A5 Tendon 8 Status,bits,Output A5 Tendon 8 Status from TIS.
+Shell,Auger,MIS,TIS,45,A5 Tendon 9 Bending,kips-ft,Output A5 Tendon 9 Bending from TIS.
+Shell,Auger,MIS,TIS,46,A5 Tendon 9 Tension,kips,Output A5 Tendon 9 Tension from TIS.
+Shell,Auger,MIS,TIS,47,A5 Tendon 9 Angle,deg,Output A5 Tendon 9 Angle from TIS.
+Shell,Auger,MIS,TIS,48,A5 Tendon 9 Status,bits,Output A5 Tendon 9 Status from TIS.
+Shell,Auger,MIS,TIS,49,E5 Tendon 10 Bending,kips-ft,Output E5 Tendon 10 Bending from TIS.
+Shell,Auger,MIS,TIS,50,E5 Tendon 10 Tension,kips,Output E5 Tendon 10 Tension from TIS.
+Shell,Auger,MIS,TIS,51,E5 Tendon 10 Angle,deg,Output E5 Tendon 10 Angle from TIS.
+Shell,Auger,MIS,TIS,52,E5 Tendon 10 Status,bits,Output E5 Tendon 10 Status from TIS.
+Shell,Auger,MIS,TIS,53,E5 Tendon 11 Bending,kips-ft,Output E5 Tendon 11 Bending from TIS.
+Shell,Auger,MIS,TIS,54,E5 Tendon 11 Tension,kips,Output E5 Tendon 11 Tension from TIS.
+Shell,Auger,MIS,TIS,55,E5 Tendon 11 Angle,deg,Output E5 Tendon 11 Angle from TIS.
+Shell,Auger,MIS,TIS,56,E5 Tendon 11 Status,bits,Output E5 Tendon 11 Status from TIS.
+Shell,Auger,MIS,TIS,57,E5 Tendon 12 Bending,kips-ft,Output E5 Tendon 12 Bending from TIS.
+Shell,Auger,MIS,TIS,58,E5 Tendon 12 Tension,kips,Output E5 Tendon 12 Tension from TIS.
+Shell,Auger,MIS,TIS,59,E5 Tendon 12 Angle,deg,Output E5 Tendon 12 Angle from TIS.
+Shell,Auger,MIS,TIS,60,E5 Tendon 12 Status,bits,Output E5 Tendon 12 Status from TIS.
+Shell,Auger,MIS,TIS,61,TIS Status 1,bits,
+Shell,Auger,MIS,TIS,62,TIS Status 2,bits,
+Shell,Auger,MIS,TIS,63,TIS Status 3,bits,
+Shell,Auger,MIS,AWOS,64,AWOS Cloud Height,ft,Measured cloud height on the 1st cloud layer.
+Shell,Auger,MIS,AWOS,65,AWOS Cloud Coverage,code,"Measured types of cloud cover conditions include SKC (sky clear), FEW (trace), SCT (scattered), BKN (broken) and OVC (overcast). Cloud cover is reported in terms of 1/8th of sky cover with 1-2/8th being FEW, 3-4/8th being SCT, 5-7/8th being BKN and 8/8 denoted at OVC."
+Shell,Auger,MIS,AWOS,66,AWOS Cloud Ht 2,ft,Measured cloud height on the 2nd cloud layer
+Shell,Auger,MIS,AWOS,67,AWOS Sky Cond 2,code,"Measured sky condition on the 2nd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Auger,MIS,AWOS,68,AWOS Cloud Ht 3,ft,Measured cloud height on the 3rd cloud layer
+Shell,Auger,MIS,AWOS,69,AWOS Sky Cond 3,code,"Measured sky condition on the 3rd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Auger,MIS,AWOS,70,AWOS Visibility,mile,Measured visibility.
+Shell,Auger,MIS,AWOS,71,AWOS Rain Accumulation,in/hr,"Measured the amount of precipitation measured during the past hour, counting from the beginning of the hour."
+Shell,Auger,MIS,AWOS,72,AWOS Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Auger,MIS,AWOS,73,AWOS Dew Point,degF,Measured dew point at sensor location.
+Shell,Auger,MIS,AWOS,74,AWOS 2min Wind Dir,degT,"Measured 2-minute average relative wind direction from, at sensor location."
+Shell,Auger,MIS,AWOS,75,AWOS 2min Wind Spd,knots,Measured 2-minute average wind speed at the sensor location.
+Shell,Auger,MIS,AWOS,76,AWOS Altimeter,inHg,Measured altitude above the MSL (mean sea level) elevation.
+Shell,Auger,MIS,AWOS,77,AWOS Density Alt,ft,Measured altitude in the standard atmosphere where air density is equivalent to that of the airport.
+Shell,Auger,MIS,AWOS,78,AWOS Baro Pressure,inHg,Measured barometric pressure.
+Shell,Auger,MIS,AWOS,79,AWOS Present Weather1,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Auger,MIS,AWOS,80,AWOS Present Weather2,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Auger,MIS,AWOS,81,AWOS Present Weather3,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Auger,MIS,AWOS,82,AWOS Humidity,percent,Measured relative humidity at sensor location.
+Shell,Auger,MIS,AWOS,83,AWOS 2min Wind Spd Gust,knots,Derived wind gust speed computed during the previous 2 minutes.
+Shell,Auger,MIS,Waves,84,Sig Wave Height,ft,Measured significant wave height.
+Shell,Auger,MIS,Waves,85,Max Sig Wave Height,ft,Measured maximum wave height.
+Shell,Auger,MIS,Waves,86,Wave Period,sec,Measured wave peak period.
+Shell,Auger,MIS,Waves,87,Wave Dir,deg,"Measured wave direction from, true."
+Shell,Auger,MIS,Waves,88,Pri Wave Dir Spread,deg,Direction spreading of the wave spectrum's primary peak energy.
+Shell,Auger,MIS,Waves,89,Wave Steepness,none,Measured wave steepness.
+Shell,Auger,MIS,Waves,90,Mean 0 Upcrossing Period,sec,Measured average wave zero up-crossing period.
+Shell,Auger,MIS,Waves,91,Sec Wave Peak Dir,deg,"Measured secondary wave peak direction from, true."
+Shell,Auger,MIS,Waves,92,Wave HI Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Auger,MIS,Waves,93,Wave LO Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Auger,MIS,Surface Currnet Speed,94,Surface Current Spd,knots,Measured surface current speed.
+Shell,Auger,MIS,Surface Currnet Speed,95,Surface Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Auger,MIS,Surface Currnet Speed,96,Current HI Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Auger,MIS,Surface Currnet Speed,97,Current LO Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Auger,MIS,Watchdog,98,MET WatchDog,counter,Indicates whether the metocean computer is communicating to BMT WinMon or not.
+Shell,Auger,MIS,OSD,99,Oil Spill Detection,bool,Measured whether oil is spilled.
+Shell,Auger,MIS,ADCP,100,ADCP Max Current Spd,knots,Max VADCP Current Speed from configured bin ranges.
+Shell,Auger,MIS,ADCP,101,ADCP Max Current Dir,degT,Corresponding Direction to the Max VADCP Current Speed.
+Shell,Auger,MIS,ADCP,102,ADCP Temperature,degF,Measured sea water temperature at sensor location.
+Shell,Auger,MIS,"Mooring, Draft & Tanks",103,ABJ-1004 Level,ft,Ballast Tank Level.
+Shell,Auger,MIS,"Mooring, Draft & Tanks",104,ML 3 Line Out,ft,"Output ML 3 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",105,ML 3 Tension A,kips,"Output ML 3 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",106,ML 3 Tension B,kips,"Output ML 3 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",107,ML 4 Line Out,ft,"Output ML 4 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",108,ML 4 Tension A,kips,"Output ML 4 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",109,ML 4 Tension B,kips,"Output ML 4 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",110,BAL-CA1-B0 Level,ft,"Output BAL-CA1-B0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",111,BAL-CA1-C0 Level,ft,"Output BAL-CA1-C0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",112,BAL-CA1-D0 Level,ft,"Output BAL-CA1-D0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",113,BAL-CA1-E0 Level,ft,"Output BAL-CA1-E0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",114,BAL-CA1-F0 Level,ft,"Output BAL-CA1-F0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",115,BAL-P1A Level,ft,"Output BAL-P1A Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",116,BAL-P1B Level,ft,"Output BAL-P1B Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",117,BAL-PAA Level,ft,"Output BAL-PAA Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",118,ABJ-810 Level,ft,"Output ABJ-810 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",119,ML 5 Line Out,ft,"Output ML 5 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",120,ML 5 Tension A,kips,"Output ML 5 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",121,ML 5 Tension B,kips,"Output ML 5 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",122,ML 6 Line Out,ft,"Output ML 6 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",123,ML 6 Tension A,kips,"Output ML 6 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",124,ML 6 Tension B,kips,"Output ML 6 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",125,A5 Draft,ft,"Output A5 Draft, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",126,BAL-CA5-B0 Level,ft,"Output BAL-CA5-B0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",127,BAL-CA5-C0 Level,ft,"Output BAL-CA5-C0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",128,BAL-CA5-D0 Level,ft,"Output BAL-CA5-D0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",129,BAL-CA5-E0 Level,ft,"Output BAL-CA5-E0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",130,BAL-CA5-F0 Level,ft,"Output BAL-CA5-F0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",131,BAL-P5A Level,ft,"Output BAL-P5A Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",132,BAL-P5B Level,ft,"Output BAL-P5B Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",133,BAL-PAB Level,ft,"Output BAL-PAB Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",134,NS Inclination,deg,"Output NS Inclination, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",135,EW Inclination,deg,"Output EW Inclination, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",136,ABJ-1006 Level,ft,"Output ABJ-1006 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",137,ML 1 Line Out,ft,"Output ML 1 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",138,ML 1 Tension A,kips,"Output ML 1 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",139,ML 1 Tension B,kips,"Output ML 1 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",140,ML 2 Line Out,ft,"Output ML 2 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",141,ML 2 Tension A,kips,"Output ML 2 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",142,ML 2 Tension B,kips,"Output ML 2 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",143,E1 Draft,ft,"Output E1 Draft, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",144,ABJ-1005 Level,ft,"Output ABJ-1005 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",145,ABJ-1250 Level,ft,"Output ABJ-1250 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",146,BAL-CE1-B0 Level,ft,"Output BAL-CE1-B0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",147,BAL-CE1-C0 Level,ft,"Output BAL-CE1-C0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",148,BAL-CE1-D0 Level,ft,"Output BAL-CE1-D0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",149,BAL-CE1-E0 Level,ft,"Output BAL-CE1-E0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",150,BAL-CE1-F0 Level,ft,"Output BAL-CE1-F0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",151,BAL-P1C Level,ft,"Output BAL-P1C Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",152,BAL-PEA Level,ft,"Output BAL-PEA Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",153,ML 7 Line Out,ft,"Output ML 7 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",154,ML 7 Tension A,kips,"Output ML 7 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",155,ML 7 Tension B,kips,"Output ML 7 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",156,ML 8 Line Out,ft,"Output ML 8 Line Out, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",157,ML 8 Tension A,kips,"Output ML 8 Tension A, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",158,ML 8 Tension B,kips,"Output ML 8 Tension B, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",159,ABJ-1007 Level,ft,"Output ABJ-1007 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",160,ABJ-1008 Level,ft,"Output ABJ-1008 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",161,BAL-CE5-B0 Level,ft,"Output BAL-CE5-B0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",162,BAL-CE5-C0 Level,ft,"Output BAL-CE5-C0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",163,BAL-CE5-D0 Level,ft,"Output BAL-CE5-D0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",164,BAL-CE5-E0 Level,ft,"Output BAL-CE5-E0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",165,BAL-CE5-F0 Level,ft,"Output BAL-CE5-F0 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",166,BAL-P5C Level,ft,"Output BAL-P5C Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",167,BAL-PEB Level,ft,"Output BAL-PEB Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",168,ABJ-710 Level,ft,"Output ABJ-710 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",169,ABJ-720 Level,ft,"Output ABJ-720 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",170,ABJ-1004 Vol BBLS,bbls,"Output ABJ-1004 Vol BBLS, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",171,ABJ-1005 Vol Gals,gals,"Output ABJ-1005 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",172,ABJ-1006 Vol BBLS,bbls,"Output ABJ-1006 Vol BBLS, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",173,ABJ-1007 Vol Gals,gals,"Output ABJ-1007 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",174,ABJ-1008 Vol Gals,gals,"Output ABJ-1008 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",175,ABJ-1250 Vol Gals,gals,"Output ABJ-1250 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",176,ABJ-710 Vol Gals,gals,"Output ABJ-710 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",177,ABJ-720 Vol Gals,gals,"Output ABJ-720 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",178,ABJ-810 Vol Gals,gals,"Output ABJ-810 Vol Gals, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",179,E1 A Loss of Comms,bool,"Output E1 A Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",180,E1 B Loss of Comms,bool,"Output E1 B Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",181,E1 C Loss of Comms,bool,"Output E1 C Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",182,A1 A Loss of Comms,bool,"Output A1 A Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",183,A1 B Loss of Comms,bool,"Output A1 B Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",184,A1 C Loss of Comms,bool,"Output A1 C Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",185,A5 A Loss of Comms,bool,"Output A5 A Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",186,A5 B Loss of Comms,bool,"Output A5 B Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",187,A5 C Loss of Comms,bool,"Output A5 C Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",188,E5 A Loss of Comms,bool,"Output E5 A Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",189,E5 B Loss of Comms,bool,"Output E5 B Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",190,E5 C Loss of Comms,bool,"Output E5 C Loss of Comms, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",191,ABJ-820 Level,ft,"Output ABJ-820 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",192,MBJ-809 Level,ft,"Output MBJ-809 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",193,ABJ-310 Level,ft,"Output ABJ-310 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,"Mooring, Draft & Tanks",194,ABJ-320 Level,ft,"Output ABJ-320 Level, from Mooring, Draft & Tanks."
+Shell,Auger,MIS,Derived,195,A1 DLR Fault CP1-CP3,bool,
+Shell,Auger,MIS,Derived,196,A1 DLR Fault CP1-CP4,booll,
+Shell,Auger,MIS,Derived,197,A1 DLR Fault CP3-CP2,bool,
+Shell,Auger,MIS,Derived,198,A1 DLR Fault CP4-CP2,bool,
+Shell,Auger,MIS,Derived,199,A5 DLR Fault CP1-CP3,bool,
+Shell,Auger,MIS,Derived,200,A5 DLR Fault CP1-CP4,bool,
+Shell,Auger,MIS,Derived,201,A5 DLR Fault CP3-CP2,bool,
+Shell,Auger,MIS,Derived,202,A5 DLR Fault CP4-CP2,bool,
+Shell,Auger,MIS,Derived,203,E1 DLR Fault CP1-CP3,bool,
+Shell,Auger,MIS,Derived,204,E1 DLR Fault CP1-CP4,bool,
+Shell,Auger,MIS,Derived,205,E1 DLR Fault CP3-CP2,bool,
+Shell,Auger,MIS,Derived,206,E1 DLR Fault CP4-CP2,bool,
+Shell,Auger,MIS,Derived,207,E5 DLR Fault CP1-CP3,bool,
+Shell,Auger,MIS,Derived,208,E5 DLR Fault CP1-CP4,bool,
+Shell,Auger,MIS,Derived,209,E5 DLR Fault CP3-CP2,bool,
+Shell,Auger,MIS,Derived,210,E5 DLR Fault CP4-CP2,bool,
+Shell,Auger,MIS,MAS Tendons,211,MAS Watchdog,#,Indicates whether the MAS software is communicating to BMT WinMon or not.
+Shell,Auger,MIS,MAS Tendons,212,Calculation Flag,ND,
+Shell,Auger,MIS,MAS Tendons,213,Target Tendon 1,kips,
+Shell,Auger,MIS,MAS Tendons,214,Target Tendon 2,kips,
+Shell,Auger,MIS,MAS Tendons,215,Target Tendon 3,kips,
+Shell,Auger,MIS,MAS Tendons,216,Target Tendon 4,kips,
+Shell,Auger,MIS,MAS Tendons,217,Target Tendon 5,kips,
+Shell,Auger,MIS,MAS Tendons,218,Target Tendon 6,kips,
+Shell,Auger,MIS,MAS Tendons,219,Target Tendon 7,kips,
+Shell,Auger,MIS,MAS Tendons,220,Target Tendon 8,kips,
+Shell,Auger,MIS,MAS Tendons,221,Target Tendon 9,kips,
+Shell,Auger,MIS,MAS Tendons,222,Target Tendon 10,kips,
+Shell,Auger,MIS,MAS Tendons,223,Target Tendon 11,kips,
+Shell,Auger,MIS,MAS Tendons,224,Target Tendon 12,kips,
+Shell,Auger,MIS,MAS Tendons,225,Apparent Tendon 1,kips,"Calculated Tendon 1, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,226,Apparent Tendon 2,kips,"Calculated Tendon 2, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,227,Apparent Tendon 3,kips,"Calculated Tendon 3, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,228,Apparent Tendon 4,kips,"Calculated Tendon 4, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,229,Apparent Tendon 5,kips,"Calculated Tendon 5, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,230,Apparent Tendon 6,kips,"Calculated Tendon 6, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,231,Apparent Tendon 7,kips,"Calculated Tendon 7, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,232,Apparent Tendon 8,kips,"Calculated Tendon 8, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,233,Apparent Tendon 9,kips,"Calculated Tendon 9, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,234,Apparent Tendon 10,kips,"Calculated Tendon 10, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,235,Apparent Tendon 11,kips,"Calculated Tendon 11, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,236,Apparent Tendon 12,kips,"Calculated Tendon 12, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,237,Phantom Weight,kips,Discrepancy weight.
+Shell,Auger,MIS,MAS Tendons,238,Phantom Weight CG EW,ft,"Discrepancy weight CG in EW direction, computed from LMP MAS software."
+Shell,Auger,MIS,MAS Tendons,239,Phantom Weight CG NS,ft,"Discrepancy weight CG in NS direction, computed from LMP MAS software."
+Shell,Auger,MIS,MAS Tendons,240,Lateral Phantom Force EW,kips,Output lateral phantorm force in EW direction from the “Equilibrium Calculation Subroutine” from LMP. 
+Shell,Auger,MIS,MAS Tendons,241,Lateral Phantom Force NS,kips,Output lateral phantorm force in NS direction from the “Equilibrium Calculation Subroutine” from LMP. 
+Shell,Auger,MIS,MAS Tendons,242,LPF Moment EW,ft-kips,Output lateral phantorm force moment in EW direction from the “Equilibrium Calculation Subroutine” from LMP. 
+Shell,Auger,MIS,MAS Tendons,243,LPF Moment NS,ft-kips,Output lateral phantorm force moment in NS direction from the “Equilibrium Calculation Subroutine” from LMP. 
+Shell,Auger,MIS,MAS Tendons,244,Apparent Draft,ft,"Calculated Draft, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,245,Apparent TLP Incli EW,deg,"Calculated TLP Incli EW, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,246,Apparent TLP Incli NS,deg,"Calculated TLP Incli NS, from 3rd party Herbert-ABS LMP system."
+Shell,Auger,MIS,MAS Tendons,247,Platform KG,ft,"The vertical center of gravity above the baseline, computed from LMP MAS software."
+Shell,Auger,MIS,MAS Tendons,248,KG Allow Hurricane,ft,
+Shell,Auger,MIS,MAS Tendons,249,KG Allow Winter Storm,ft,
+Shell,Auger,MIS,MAS Tendons,250,Rig Location EW,ft,
+Shell,Auger,MIS,MAS Tendons,251,Rig Location NS,ft,
+Shell,Auger,MIS,MAS Advisor Level,252,P1A Advisor Level,ft,"Data QA applied on P1A Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,253,P1B Advisor Level,ft,"Data QA applied on P1B Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,254,P1C Advisor Level,ft,"Data QA applied on P1C Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,255,P5A Advisor Level,ft,"Data QA applied on P5A Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,256,P5B Advisor Level,ft,"Data QA applied on P5B Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,257,P5C Advisor Level,ft,"Data QA applied on P5C Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,258,PAA Advisor Level,ft,"Data QA applied on PAA Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,259,PAB Advisor Level,ft,"Data QA applied on PAB Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,260,PEA Advisor Level,ft,"Data QA applied on PEA Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,261,PEB Advisor Level,ft,"Data QA applied on PEB Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,262,CA1-B0 Advisor Level,ft,"Data QA applied on CA1-B0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,263,CA1-C0 Advisor Level,ft,"Data QA applied on CA1-C0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,264,CA1-D0 Advisor Level,ft,"Data QA applied on CA1-D0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,265,CA1-E0 Advisor Level,ft,"Data QA applied on CA1-E0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,266,CA1-F0 Advisor Level,ft,"Data QA applied on CA1-F0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,267,CA5-B0 Advisor Level,ft,"Data QA applied on CA5-B0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,268,CA5-C0 Advisor Level,ft,"Data QA applied on CA5-C0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,269,CA5-D0 Advisor Level,ft,"Data QA applied on CA5-D0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,270,CA5-E0 Advisor Level,ft,"Data QA applied on CA5-E0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,271,CA5-F0 Advisor Level,ft,"Data QA applied on CA5-F0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,272,CE1-B0 Advisor Level,ft,"Data QA applied on CE1-B0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,273,CE1-C0 Advisor Level,ft,"Data QA applied on CE1-C0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,274,CE1-D0 Advisor Level,ft,"Data QA applied on CE1-D0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,275,CE1-E0 Advisor Level,ft,"Data QA applied on CE1-E0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,276,CE1-F0 Advisor Level,ft,"Data QA applied on CE1-F0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,277,CE5-B0 Advisor Level,ft,"Data QA applied on CE5-B0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,278,CE5-C0 Advisor Level,ft,"Data QA applied on CE5-C0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,279,CE5-D0 Advisor Level,ft,"Data QA applied on CE5-D0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,280,CE5-E0 Advisor Level,ft,"Data QA applied on CE5-E0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,281,CE5-F0 Advisor Level,ft,"Data QA applied on CE5-F0 Advisor Level, computed by BMT WinMon."
+Shell,Auger,MIS,MAS Advisor Level,282,Rig Location Index,index,"Data QA applied on Rig Location Index, computed by BMT WinMon."
+Shell,Auger,MIS,MAS A1,283,A1 Heat Exchr Status,bool,"Tendon A1 Channels, from TIS."
+Shell,Auger,MIS,MAS A1,284,A1 Heat Exchr Byp Status,bool,
+Shell,Auger,MIS,MAS A1,285,A1 Rsvr Oil Tmp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A1,286,A1 Rsvr Oil Lvl Lo Alrm,bool,
+Shell,Auger,MIS,MAS A1,287,A1 Rsvr Oil Lvl LoLo Alrm,bool,
+Shell,Auger,MIS,MAS A1,288,A1 Rsvr Oil Tmp Lo Alrm,bool,
+Shell,Auger,MIS,MAS A1,289,A1 Lft Wnch Alrm,bool,
+Shell,Auger,MIS,MAS A1,290,A1 Lft Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS A1,291,A1 Lft Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,292,A1 Lft Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS A1,293,A1 Lft Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS A1,294,A1 Lft Wnch Status 0,bool,
+Shell,Auger,MIS,MAS A1,295,A1 Lft Wnch Status 1,bool,
+Shell,Auger,MIS,MAS A1,296,A1 Rt Wnch Alrm,bool,
+Shell,Auger,MIS,MAS A1,297,A1 Rt Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS A1,298,A1 Rt Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,299,A1 Rt Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS A1,300,A1 Rt Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS A1,301,A1 Rt Wnch Status 0,bool,
+Shell,Auger,MIS,MAS A1,302,A1 Rt Wnch Status 1,bool,
+Shell,Auger,MIS,MAS A1,303,A1 Aux Pmp M1 Status,bool,
+Shell,Auger,MIS,MAS A1,304,A1 Aux Pmp M1 Byp Status,bool,
+Shell,Auger,MIS,MAS A1,305,A1 Aux Pmp M1 Start Cmd,bool,
+Shell,Auger,MIS,MAS A1,306,A1 Aux Pmp M1 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,307,A1 Aux Pmp M3 Status,bool,
+Shell,Auger,MIS,MAS A1,308,A1 Aux Pmp M3 Byp Status,bool,
+Shell,Auger,MIS,MAS A1,309,A1 Aux Pmp M3 Start Cmd,bool,
+Shell,Auger,MIS,MAS A1,310,A1 Aux Pmp M3 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,311,A1 Main Pmp M2 Status,bool,
+Shell,Auger,MIS,MAS A1,312,A1 Main Pmp M2 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS A1,313,A1 Main Pmp M2 Start Cmd,bool,
+Shell,Auger,MIS,MAS A1,314,A1 Main Pmp M2 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,315,A1 Main Pmp M2 Byp Status,bool,
+Shell,Auger,MIS,MAS A1,316,A1 M2 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A1,317,A1 Main Pmp M4 Status,bool,
+Shell,Auger,MIS,MAS A1,318,A1 Main Pmp M4 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS A1,319,A1 Main Pmp M4 Start Cmd,bool,
+Shell,Auger,MIS,MAS A1,320,A1 Main Pmp M4 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A1,321,A1 Main Pmp M4 Byp Status,bool,
+Shell,Auger,MIS,MAS A1,322,A1 M4 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A1,323,A1 Lft Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS A1,324,A1 Lft Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS A1,325,A1 Lft Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS A1,326,A1 Lft Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS A1,327,A1 Lft Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS A1,328,A1 Rt Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS A1,329,A1 Rt Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS A1,330,A1 Rt Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS A1,331,A1 Rt Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS A1,332,A1 Rt Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS A1,333,A1 Combiner Vlv Status,bool,
+Shell,Auger,MIS,MAS A1,334,A1 Combiner Vlv Opn/Cls,bool,
+Shell,Auger,MIS,MAS A1,335,A1 Lft Wnch Control Loc,bool,
+Shell,Auger,MIS,MAS A1,336,A1 Lft Wnch Delta,ft,
+Shell,Auger,MIS,MAS A1,337,A1 Lft Wnch Speed,percent,
+Shell,Auger,MIS,MAS A1,338,A1 Lft Wnch Direction,code,
+Shell,Auger,MIS,MAS A1,339,A1 Rt Wnch Delta,ft,
+Shell,Auger,MIS,MAS A1,340,A1 Rt Wnch Speed,percent,
+Shell,Auger,MIS,MAS A1,341,A1 Rt Wnch Direction,code,
+Shell,Auger,MIS,MAS A1,342,A1 Lft Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS A1,343,A1 Lft Wnch Move Status,bool,
+Shell,Auger,MIS,MAS A1,344,A1 Rt Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS A1,345,A1 Rt Wnch Move Status,bool,
+Shell,Auger,MIS,MAS A1,346,A1 Lft Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS A1,347,A1 Rt Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS A2,348,A5 Heat Exchr Status,bool,"Tendon A5 Channels, from TIS."
+Shell,Auger,MIS,MAS A2,349,A5 Heat Exchr Byp Status,bool,
+Shell,Auger,MIS,MAS A2,350,A5 Rsvr Oil Tmp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A2,351,A5 Rsvr Oil Lvl Lo Alrm,bool,
+Shell,Auger,MIS,MAS A2,352,A5 Rsvr Oil Lvl LoLo Alrm,bool,
+Shell,Auger,MIS,MAS A2,353,A5 Rsvr Oil Tmp Lo Alrm,bool,
+Shell,Auger,MIS,MAS A2,354,A5 Lft Wnch Alrm,bool,
+Shell,Auger,MIS,MAS A2,355,A5 Lft Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS A2,356,A5 Lft Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,357,A5 Lft Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS A2,358,A5 Lft Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS A2,359,A5 Lft Wnch Status 0,bool,
+Shell,Auger,MIS,MAS A2,360,A5 Lft Wnch Status 1,bool,
+Shell,Auger,MIS,MAS A2,361,A5 Rt Wnch Alrm,bool,
+Shell,Auger,MIS,MAS A2,362,A5 Rt Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS A2,363,A5 Rt Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,364,A5 Rt Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS A2,365,A5 Rt Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS A2,366,A5 Rt Wnch Status 0,bool,
+Shell,Auger,MIS,MAS A2,367,A5 Rt Wnch Status 1,bool,
+Shell,Auger,MIS,MAS A2,368,A5 Aux Pmp M1 Status,bool,
+Shell,Auger,MIS,MAS A2,369,A5 Aux Pmp M1 Byp Status,bool,
+Shell,Auger,MIS,MAS A2,370,A5 Aux Pmp M1 Start Cmd,bool,
+Shell,Auger,MIS,MAS A2,371,A5 Aux Pmp M1 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,372,A5 Aux Pmp M3 Status,bool,
+Shell,Auger,MIS,MAS A2,373,A5 Aux Pmp M3 Byp Status,bool,
+Shell,Auger,MIS,MAS A2,374,A5 Aux Pmp M3 Start Cmd,bool,
+Shell,Auger,MIS,MAS A2,375,A5 Aux Pmp M3 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,376,A5 Main Pmp M2 Status,bool,
+Shell,Auger,MIS,MAS A2,377,A5 Main Pmp M2 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS A2,378,A5 Main Pmp M2 Start Cmd,bool,
+Shell,Auger,MIS,MAS A2,379,A5 Main Pmp M2 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,380,A5 Main Pmp M2 Byp Status,bool,
+Shell,Auger,MIS,MAS A2,381,A5 M2 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A2,382,A5 Main Pmp M4 Status,bool,
+Shell,Auger,MIS,MAS A2,383,A5 Main Pmp M4 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS A2,384,A5 Main Pmp M4 Start Cmd,bool,
+Shell,Auger,MIS,MAS A2,385,A5 Main Pmp M4 Stop Cmd,bool,
+Shell,Auger,MIS,MAS A2,386,A5 Main Pmp M4 Byp Status,bool,
+Shell,Auger,MIS,MAS A2,387,A5 M4 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS A2,388,A5 Lft Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS A2,389,A5 Lft Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS A2,390,A5 Lft Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS A2,391,A5 Lft Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS A2,392,A5 Lft Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS A2,393,A5 Rt Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS A2,394,A5 Rt Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS A2,395,A5 Rt Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS A2,396,A5 Rt Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS A2,397,A5 Rt Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS A2,398,A5 Combiner Vlv Status,bool,
+Shell,Auger,MIS,MAS A2,399,A5 Combiner Vlv Opn/Cls,bool,
+Shell,Auger,MIS,MAS A2,400,A5 Lft Wnch Control Loc,bool,
+Shell,Auger,MIS,MAS A2,401,A5 Lft Wnch Delta,ft,
+Shell,Auger,MIS,MAS A2,402,A5 Lft Wnch Speed,percent,
+Shell,Auger,MIS,MAS A2,403,A5 Lft Wnch Direction,code,
+Shell,Auger,MIS,MAS A2,404,A5 Rt Wnch Delta,ft,
+Shell,Auger,MIS,MAS A2,405,A5 Rt Wnch Speed,percent,
+Shell,Auger,MIS,MAS A2,406,A5 Rt Wnch Direction,code,
+Shell,Auger,MIS,MAS A2,407,A5 Lft Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS A2,408,A5 Lft Wnch Move Status,bool,
+Shell,Auger,MIS,MAS A2,409,A5 Rt Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS A2,410,A5 Rt Wnch Move Status,bool,
+Shell,Auger,MIS,MAS A2,411,A5 Lft Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS A2,412,A5 Rt Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS E1,413,E1 Heat Exchr Status,bool,"Tendon E1 Channels, from TIS."
+Shell,Auger,MIS,MAS E1,414,E1 Heat Exchr Byp Status,bool,
+Shell,Auger,MIS,MAS E1,415,E1 Rsvr Oil Tmp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E1,416,E1 Rsvr Oil Lvl Lo Alrm,bool,
+Shell,Auger,MIS,MAS E1,417,E1 Rsvr Oil Lvl LoLo Alrm,bool,
+Shell,Auger,MIS,MAS E1,418,E1 Rsvr Oil Tmp Lo Alrm,bool,
+Shell,Auger,MIS,MAS E1,419,E1 Lft Wnch Alrm,bool,
+Shell,Auger,MIS,MAS E1,420,E1 Lft Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS E1,421,E1 Lft Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,422,E1 Lft Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS E1,423,E1 Lft Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS E1,424,E1 Lft Wnch Status 0,bool,
+Shell,Auger,MIS,MAS E1,425,E1 Lft Wnch Status 1,bool,
+Shell,Auger,MIS,MAS E1,426,E1 Rt Wnch Alrm,bool,
+Shell,Auger,MIS,MAS E1,427,E1 Rt Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS E1,428,E1 Rt Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,429,E1 Rt Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS E1,430,E1 Rt Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS E1,431,E1 Rt Wnch Status 0,bool,
+Shell,Auger,MIS,MAS E1,432,E1 Rt Wnch Status 1,bool,
+Shell,Auger,MIS,MAS E1,433,E1 Aux Pmp M1 Status,bool,
+Shell,Auger,MIS,MAS E1,434,E1 Aux Pmp M1 Byp Status,bool,
+Shell,Auger,MIS,MAS E1,435,E1 Aux Pmp M1 Start Cmd,bool,
+Shell,Auger,MIS,MAS E1,436,E1 Aux Pmp M1 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,437,E1 Aux Pmp M3 Status,bool,
+Shell,Auger,MIS,MAS E1,438,E1 Aux Pmp M3 Byp Status,bool,
+Shell,Auger,MIS,MAS E1,439,E1 Aux Pmp M3 Start Cmd,bool,
+Shell,Auger,MIS,MAS E1,440,E1 Aux Pmp M3 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,441,E1 Main Pmp M2 Status,bool,
+Shell,Auger,MIS,MAS E1,442,E1 Main Pmp M2 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS E1,443,E1 Main Pmp M2 Start Cmd,bool,
+Shell,Auger,MIS,MAS E1,444,E1 Main Pmp M2 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,445,E1 Main Pmp M2 Byp Status,bool,
+Shell,Auger,MIS,MAS E1,446,E1 M2 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E1,447,E1 Main Pmp M4 Status,bool,
+Shell,Auger,MIS,MAS E1,448,E1 Main Pmp M4 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS E1,449,E1 Main Pmp M4 Start Cmd,bool,
+Shell,Auger,MIS,MAS E1,450,E1 Main Pmp M4 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E1,451,E1 Main Pmp M4 Byp Status,bool,
+Shell,Auger,MIS,MAS E1,452,E1 M4 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E1,453,E1 Lft Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS E1,454,E1 Lft Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS E1,455,E1 Lft Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS E1,456,E1 Lft Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS E1,457,E1 Lft Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS E1,458,E1 Rt Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS E1,459,E1 Rt Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS E1,460,E1 Rt Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS E1,461,E1 Rt Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS E1,462,E1 Rt Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS E1,463,E1 Combiner Vlv Status,bool,
+Shell,Auger,MIS,MAS E1,464,E1 Combiner Vlv Opn/Cls,bool,
+Shell,Auger,MIS,MAS E1,465,E1 Lft Wnch Control Loc,bool,
+Shell,Auger,MIS,MAS E1,466,E1 Lft Wnch Delta,ft,
+Shell,Auger,MIS,MAS E1,467,E1 Lft Wnch Speed,percent,
+Shell,Auger,MIS,MAS E1,468,E1 Lft Wnch Direction,code,
+Shell,Auger,MIS,MAS E1,469,E1 Rt Wnch Delta,ft,
+Shell,Auger,MIS,MAS E1,470,E1 Rt Wnch Speed,percent,
+Shell,Auger,MIS,MAS E1,471,E1 Rt Wnch Direction,code,
+Shell,Auger,MIS,MAS E1,472,E1 Lft Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS E1,473,E1 Lft Wnch Move Status,bool,
+Shell,Auger,MIS,MAS E1,474,E1 Rt Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS E1,475,E1 Rt Wnch Move Status,bool,
+Shell,Auger,MIS,MAS E1,476,E1 Lft Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS E1,477,E1 Rt Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS E5,478,E5 Heat Exchr Status,bool,"Tendon E5 Channels, from TIS."
+Shell,Auger,MIS,MAS E5,479,E5 Heat Exchr Byp Status,bool,
+Shell,Auger,MIS,MAS E5,480,E5 Rsvr Oil Tmp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E5,481,E5 Rsvr Oil Lvl Lo Alrm,bool,
+Shell,Auger,MIS,MAS E5,482,E5 Rsvr Oil Lvl LoLo Alrm,bool,
+Shell,Auger,MIS,MAS E5,483,E5 Rsvr Oil Tmp Lo Alrm,bool,
+Shell,Auger,MIS,MAS E5,484,E5 Lft Wnch Alrm,bool,
+Shell,Auger,MIS,MAS E5,485,E5 Lft Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS E5,486,E5 Lft Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,487,E5 Lft Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS E5,488,E5 Lft Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS E5,489,E5 Lft Wnch Status 0,bool,
+Shell,Auger,MIS,MAS E5,490,E5 Lft Wnch Status 1,bool,
+Shell,Auger,MIS,MAS E5,491,E5 Rt Wnch Alrm,bool,
+Shell,Auger,MIS,MAS E5,492,E5 Rt Wnch Pendant Status,bool,
+Shell,Auger,MIS,MAS E5,493,E5 Rt Wnch Start/Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,494,E5 Rt Wnch Park Cmd,bool,
+Shell,Auger,MIS,MAS E5,495,E5 Rt Wnch Slack Alrm,bool,
+Shell,Auger,MIS,MAS E5,496,E5 Rt Wnch Status 0,bool,
+Shell,Auger,MIS,MAS E5,497,E5 Rt Wnch Status 1,bool,
+Shell,Auger,MIS,MAS E5,498,E5 Aux Pmp M1 Status,bool,
+Shell,Auger,MIS,MAS E5,499,E5 Aux Pmp M1 Byp Status,bool,
+Shell,Auger,MIS,MAS E5,500,E5 Aux Pmp M1 Start Cmd,bool,
+Shell,Auger,MIS,MAS E5,501,E5 Aux Pmp M1 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,502,E5 Aux Pmp M3 Status,bool,
+Shell,Auger,MIS,MAS E5,503,E5 Aux Pmp M3 Byp Status,bool,
+Shell,Auger,MIS,MAS E5,504,E5 Aux Pmp M3 Start Cmd,bool,
+Shell,Auger,MIS,MAS E5,505,E5 Aux Pmp M3 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,506,E5 Main Pmp M2 Status,bool,
+Shell,Auger,MIS,MAS E5,507,E5 Main Pmp M2 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS E5,508,E5 Main Pmp M2 Start Cmd,bool,
+Shell,Auger,MIS,MAS E5,509,E5 Main Pmp M2 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,510,E5 Main Pmp M2 Byp Status,bool,
+Shell,Auger,MIS,MAS E5,511,E5 M2 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E5,512,E5 Main Pmp M4 Status,bool,
+Shell,Auger,MIS,MAS E5,513,E5 Main Pmp M4 Intlk Alrm,bool,
+Shell,Auger,MIS,MAS E5,514,E5 Main Pmp M4 Start Cmd,bool,
+Shell,Auger,MIS,MAS E5,515,E5 Main Pmp M4 Stop Cmd,bool,
+Shell,Auger,MIS,MAS E5,516,E5 Main Pmp M4 Byp Status,bool,
+Shell,Auger,MIS,MAS E5,517,E5 M4 Mot Temp Hi Alrm,bool,
+Shell,Auger,MIS,MAS E5,518,E5 Lft Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS E5,519,E5 Lft Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS E5,520,E5 Lft Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS E5,521,E5 Lft Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS E5,522,E5 Lft Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS E5,523,E5 Rt Wnch Reel Pend Stat,bool,
+Shell,Auger,MIS,MAS E5,524,E5 Rt Wnch Reel Dog Stat,bool,
+Shell,Auger,MIS,MAS E5,525,E5 Rt Wnch Reel Brk Stat,bool,
+Shell,Auger,MIS,MAS E5,526,E5 Rt Wnch Reel Oil Lo,bool,
+Shell,Auger,MIS,MAS E5,527,E5 Rt Wnch Bitter End,bool,
+Shell,Auger,MIS,MAS E5,528,E5 Combiner Vlv Status,bool,
+Shell,Auger,MIS,MAS E5,529,E5 Combiner Vlv Opn/Cls,bool,
+Shell,Auger,MIS,MAS E5,530,E5 Lft Wnch Control Loc,bool,
+Shell,Auger,MIS,MAS E5,531,E5 Lft Wnch Delta,ft,
+Shell,Auger,MIS,MAS E5,532,E5 Lft Wnch Speed,percent,
+Shell,Auger,MIS,MAS E5,533,E5 Lft Wnch Direction,code,
+Shell,Auger,MIS,MAS E5,534,E5 Rt Wnch Delta,ft,
+Shell,Auger,MIS,MAS E5,535,E5 Rt Wnch Speed,percent,
+Shell,Auger,MIS,MAS E5,536,E5 Rt Wnch Direction,code,
+Shell,Auger,MIS,MAS E5,537,E5 Lft Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS E5,538,E5 Lft Wnch Move Status,bool,
+Shell,Auger,MIS,MAS E5,539,E5 Rt Wnch Reset Cmd,bool,
+Shell,Auger,MIS,MAS E5,540,E5 Rt Wnch Move Status,bool,
+Shell,Auger,MIS,MAS E5,541,E5 Lft Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,MAS E5,542,E5 Rt Wnch Ft Down Cntr,ft,
+Shell,Auger,MIS,Airgap,543,North Raw Airgap,ft,Measured distance from North Airgap sensor head to water surface..
+Shell,Auger,MIS,Airgap,544,East Raw Airgap,ft,Measured distance from East Airgap sensor head to water surface.
+Shell,Auger,MIS,Airgap,545,South Raw Airgap,ft,Measured distance from South Airgap sensor head to water surface.
+Shell,Auger,MIS,Airgap,546,West Raw Airgap,ft,Measured distance from West Airgap sensor head to water surface.
+Shell,Auger,MIS,HADCP,547,HADCP Temperature,degC,Measured sea water temperature at sensor location.
+Shell,Auger,MIS,HADCP,548,HADCP Surface Curr Spd,knots,Max HADCP Current Speed from configured bin ranges or the best bin.
+Shell,Auger,MIS,HADCP,549,HADCP Surface Curr Dir,degT,Corresponding Direction to the Max HADCP Current Speed.
+Shell,Auger,MIS,Derived Baro Pr,550,Barometric Pressure,mbar,Barometric pressure
+Shell,Auger,MIS,Derived GPS,551,GPS Lat,deg,GPS latitude position in deg decimal.
+Shell,Auger,MIS,Derived GPS,552,GPS Lon,deg,GPS longitude position in deg decimal.
+Shell,Auger,MIS,Derived GPS,553,GPS Altitude,ft,Altitude reading at GPS height.
+Shell,Auger,MIS,Derived GPS,554,GPS Northings,ft,Northings measured from local GPS position.
+Shell,Auger,MIS,Derived GPS,555,GPS Eastings,ft,Eastings measured from local GPS position.
+Shell,Auger,MIS,Derived GPS,556,PQ Northings,ft,Northings measured from platform reference position.
+Shell,Auger,MIS,Derived GPS,557,PQ Eastings,ft,Eastings measured from platform reference position.
+Shell,Auger,MIS,Derived GPS,558,PQ Altitude,ft,Altitude reading from platform reference position.
+Shell,Auger,MIS,Derived GPS,559,PQ Offset,ft,Distance of offset from the platform reference position.
+Shell,Auger,MIS,Derived GPS,560,PQ Bearing,degT,Direction from true north to offset position.
+Shell,Auger,MIS,Derived GPS,561,PQ Northings AVG,ft,20 minutes running average of PQ Northings.
+Shell,Auger,MIS,Derived GPS,562,PQ Eastings AVG,ft,20 minutes running average of PQ Eastings.
+Shell,Auger,MIS,Derived GPS,563,PQ Quality,none,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS.
+Shell,Auger,MIS,Derived GPS,564,WCC Offset,ft,PQ Offset channels. (WCC: Watch-circle shown on WinMon display)
+Shell,Auger,MIS,Derived GPS,565,WCC Bearing,degT,Bearing from platform reference position.
+Shell,Auger,MIS,Derived Wind,566,AWOS Wind Spd,knots,AWOS wind speed at the sensor location.
+Shell,Auger,MIS,Derived Wind,567,AWOS Wind Dir,degT,AWOS wind direction from true north at the sensor location.
+Shell,Auger,MIS,Derived Wind,568,AWOS North Wind Spd,knots,AWOS wind speed component along True North Direction at the sensor location. AWOS North Wind Spd = derived(AWOS Wind Spd) * cos(derived(AWOS Wind Dir)).
+Shell,Auger,MIS,Derived Wind,569,AWOS East Wind Spd,knots,AWOS wind speed component along True East Direction at the sensor location. AWOS East Wind Spd = derived(AWOS Wind Spd) * sin(derived(AWOS Wind Dir)).
+Shell,Auger,MIS,Derived Wind,570,AWOS 10min Wind Spd,knots,The 10 minutes running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Auger,MIS,Derived Wind,571,AWOS 10min Wind Dir,degT,"The 10 minutes running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Auger,MIS,Derived Wind,572,AWOS 1hr Wind Spd,knots,The 1 hour running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Auger,MIS,Derived Wind,573,AWOS 1hr Wind Dir,degT,"The 1 hour running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Auger,MIS,Derived Tide,574,Tide,ft,Derived tide from given constituent parameters.
+Shell,Auger,MIS,Derived ML,575,ML 1 Tension,kips,Output Mooring Line 1 tension.
+Shell,Auger,MIS,Derived ML,576,ML 1 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,577,ML 2 Tension,kips,Output Mooring Line 2 tension.
+Shell,Auger,MIS,Derived ML,578,ML 2 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,579,ML 3 Tension,kips,Output Mooring Line 3 tension.
+Shell,Auger,MIS,Derived ML,580,ML 3 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,581,ML 4 Tension,kips,Output Mooring Line 4 tension.
+Shell,Auger,MIS,Derived ML,582,ML 4 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,583,ML 5 Tension,kips,Output Mooring Line 5 tension.
+Shell,Auger,MIS,Derived ML,584,ML 5 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,585,ML 6 Tension,kips,Output Mooring Line 6 tension.
+Shell,Auger,MIS,Derived ML,586,ML 6 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,587,ML 7 Tension,kips,Output Mooring Line 7 tension.
+Shell,Auger,MIS,Derived ML,588,ML 7 Tension Mask,bits,
+Shell,Auger,MIS,Derived ML,589,ML 8 Tension,kips,Output Mooring Line 8 tension.
+Shell,Auger,MIS,Derived ML,590,ML 8 Tension Mask,bits,
+Shell,Auger,MIS,Derived Airgap,591,North Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Auger,MIS,Derived Airgap,592,North Sig Wave Ht,ft,4*standard deviation of derive(North Airgap). A 20 minute running value of standar deviation is used.
+Shell,Auger,MIS,Derived Airgap,593,North Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Auger,MIS,Derived Airgap,594,North Draft,ft,"Draft at the X,Y position of the North Airgap sensor."
+Shell,Auger,MIS,Derived Airgap,595,East Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Auger,MIS,Derived Airgap,596,East Sig Wave Ht,ft,4*standard deviation of derive(East Airgap). A 20 minute running value of standar deviation is used.
+Shell,Auger,MIS,Derived Airgap,597,East Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Auger,MIS,Derived Airgap,598,East Draft,ft,"Draft at the X,Y position of the East Airgap sensor."
+Shell,Auger,MIS,Derived Airgap,599,South Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Auger,MIS,Derived Airgap,600,South Sig Wave Ht,ft,4*standard deviation of derive(South Airgap). A 20 minute running value of standar deviation is used.
+Shell,Auger,MIS,Derived Airgap,601,South Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Auger,MIS,Derived Airgap,602,South Draft,ft,"Draft at the X,Y position of the South Airgap sensor."
+Shell,Auger,MIS,Derived Airgap,603,West Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Auger,MIS,Derived Airgap,604,West Sig Wave Ht,ft,4*standard deviation of derive(West Airgap). A 20 minute running value of standar deviation is used.
+Shell,Auger,MIS,Derived Airgap,605,West Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Auger,MIS,Derived Airgap,606,West Draft,ft,"Draft at the X,Y position of the West Airgap sensor."
+Shell,Auger,MIS,Derived Airgap,607,Best Airgap Sig Wave Ht,ft,Best significant wave height from 4 airgaps.
+Shell,Auger,MIS,Derived Airgap,608,Best Airgap Wave Period,sec,Best mean zero-upcrossing wave period from 4 airgaps.
+Shell,Auger,MIS,Derived Airgap,609,CL Draft Fr Airgaps,ft,"Draft at the 0,0 position of the platform."
+Shell,Auger,MIS,Derived Airgap,610,List Fr Airgaps,deg,Derived from airgap running average of 20 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Auger,MIS,Derived Airgap,611,Trim Fr Airgaps,deg,Derived from airgap running average of 20 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Auger,MIS,Derived Airgap,612,Statistic Complete,#,Indicates whether statistic is completed and starts calculation from BMT MIS to MAS.
+Shell,Auger,MIS,Derived Airgap,613,Statistic Start Time,Date,Start time for statistic.
+Shell,Auger,MIS,Derived Airgap,614,Statistic End Time,Date,End time for statistic.
+Shell,Auger,MIS,Derived MAS,615,MAS PQ Northings,ft,"Data QA applied on PQ Northings, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,616,MAS PQ Eastings,ft,"Data QA applied on PQ Eastings, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,617,MAS Wind Spd,knots,"Data QA applied on Wind Spd, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,618,MAS Wind Dir,degT,"Data QA applied on Wind Dir, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,619,MAS Max Current Spd,knots,"Data QA applied on Max Current Spd, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,620,MAS Max Current Dir,degT,"Data QA applied on Max Current Dir, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,621,MAS Sig Wave Ht,ft,"Data QA applied on Sig Wave Ht, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,622,MAS Wave Period,sec,"Data QA applied on Wave Period, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS,623,MAS Wave Dir,degT,"Data QA applied on Wave Dir, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,624,MAS E1 Tendon 1 Tension,kips,"Data QA applied on E1 Tendon 1 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,625,MAS E1 Tendon 2 Tension,kips,"Data QA applied on E1 Tendon 2 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,626,MAS E1 Tendon 3 Tension,kips,"Data QA applied on E1 Tendon 3 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,627,MAS A1 Tendon 4 Tension,kips,"Data QA applied on A1 Tendon 4 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,628,MAS A1 Tendon 5 Tension,kips,"Data QA applied on A1 Tendon 5 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,629,MAS A1 Tendon 6 Tension,kips,"Data QA applied on A1 Tendon 6 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,630,MAS A5 Tendon 7 Tension,kips,"Data QA applied on A5 Tendon 7 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,631,MAS A5 Tendon 8 Tension,kips,"Data QA applied on A5 Tendon 8 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,632,MAS A5 Tendon 9 Tension,kips,"Data QA applied on A5 Tendon 9 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,633,MAS E5 Tendon 10 Tension,kips,"Data QA applied on E5 Tendon 10 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,634,MAS E5 Tendon 11 Tension,kips,"Data QA applied on E5 Tendon 11 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Tendon,635,MAS E5 Tendon 12 Tension,kips,"Data QA applied on E5 Tendon 12 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,636,MAS BAL-CA1-B0 Level,ft,"Data QA applied on BAL-CA1-B0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,637,MAS BAL-CA1-C0 Level,ft,"Data QA applied on BAL-CA1-C0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,638,MAS BAL-CA1-D0 Level,ft,"Data QA applied on BAL-CA1-D0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,639,MAS BAL-CA1-E0 Level,ft,"Data QA applied on BAL-CA1-E0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,640,MAS BAL-CA1-F0 Level,ft,"Data QA applied on BAL-CA1-F0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,641,MAS BAL-P1A Level,ft,"Data QA applied on BAL-P1A Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,642,MAS BAL-P1B Level,ft,"Data QA applied on BAL-P1B Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,643,MAS BAL-PAA Level,ft,"Data QA applied on BAL-PAA Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,644,MAS BAL-CA5-B0 Level,ft,"Data QA applied on BAL-CA5-B0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,645,MAS BAL-CA5-C0 Level,ft,"Data QA applied on BAL-CA5-C0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,646,MAS BAL-CA5-D0 Level,ft,"Data QA applied on BAL-CA5-D0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,647,MAS BAL-CA5-E0 Level,ft,"Data QA applied on BAL-CA5-E0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,648,MAS BAL-CA5-F0 Level,ft,"Data QA applied on BAL-CA5-F0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,649,MAS BAL-P5A Level,ft,"Data QA applied on BAL-P5A Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,650,MAS BAL-P5B Level,ft,"Data QA applied on BAL-P5B Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,651,MAS BAL-PAB Level,ft,"Data QA applied on BAL-PAB Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,652,MAS BAL-CE1-B0 Level,ft,"Data QA applied on BAL-CE1-B0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,653,MAS BAL-CE1-C0 Level,ft,"Data QA applied on BAL-CE1-C0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,654,MAS BAL-CE1-D0 Level,ft,"Data QA applied on BAL-CE1-D0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,655,MAS BAL-CE1-E0 Level,ft,"Data QA applied on BAL-CE1-E0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,656,MAS BAL-CE1-F0 Level,ft,"Data QA applied on BAL-CE1-F0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,657,MAS BAL-P1C Level,ft,"Data QA applied on BAL-P1C Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,658,MAS BAL-PEA Level,ft,"Data QA applied on BAL-PEA Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,659,MAS BAL-CE5-B0 Level,ft,"Data QA applied on BAL-CE5-B0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,660,MAS BAL-CE5-C0 Level,ft,"Data QA applied on BAL-CE5-C0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,661,MAS BAL-CE5-D0 Level,ft,"Data QA applied on BAL-CE5-D0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,662,MAS BAL-CE5-E0 Level,ft,"Data QA applied on BAL-CE5-E0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,663,MAS BAL-CE5-F0 Level,ft,"Data QA applied on BAL-CE5-F0 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,664,MAS BAL-P5C Level,ft,"Data QA applied on BAL-P5C Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,665,MAS BAL-PEB Level,ft,"Data QA applied on BAL-PEB Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,666,MAS ABJ-1004 Level,ft,"Data QA applied on ABJ-1004 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,667,MAS ABJ-1005 Level,ft,"Data QA applied on ABJ-1005 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,668,MAS ABJ-1006 Level,ft,"Data QA applied on ABJ-1006 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,669,MAS ABJ-1007 Level,ft,"Data QA applied on ABJ-1007 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,670,MAS ABJ-1008 Level,ft,"Data QA applied on ABJ-1008 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,671,MAS ABJ-1250 Level,ft,"Data QA applied on ABJ-1250 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,672,MAS ABJ-710 Level,ft,"Data QA applied on ABJ-710 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,673,MAS ABJ-720 Level,ft,"Data QA applied on ABJ-720 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS BAL,674,MAS ABJ-810 Level,ft,"Data QA applied on ABJ-810 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,675,MAS A5 Draft,ft,"Data QA applied on A5 Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,676,MAS E1 Draft,ft,"Data QA applied on E1 Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,677,MAS NS Inclination,deg,"Data QA applied on NS Inclination, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,678,MAS EW Inclination,deg,"Data QA applied on EW Inclination, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,679,MAS ML 1 Tension,kips,"Data QA applied on ML 1 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,680,MAS ML 1 Line Out,#,"Data QA applied on ML 1 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,681,MAS ML 2 Tension,kips,"Data QA applied on ML 2 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,682,MAS ML 2 Line Out,#,"Data QA applied on ML 2 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,683,MAS ML 3 Tension,kips,"Data QA applied on ML 3 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,684,MAS ML 3 Line Out,#,"Data QA applied on ML 3 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,685,MAS ML 4 Tension,kips,"Data QA applied on ML 4 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,686,MAS ML 4 Line Out,#,"Data QA applied on ML 4 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,687,MAS ML 5 Tension,kips,"Data QA applied on ML 5 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,688,MAS ML 5 Line Out,#,"Data QA applied on ML 5 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,689,MAS ML 6 Tension,kips,"Data QA applied on ML 6 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,690,MAS ML 6 Line Out,#,"Data QA applied on ML 6 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,691,MAS ML 7 Tension,kips,"Data QA applied on ML 7 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,692,MAS ML 7 Line Out,#,"Data QA applied on ML 7 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,693,MAS ML 8 Tension,kips,"Data QA applied on ML 8 Tension, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS ML,694,MAS ML 8 Line Out,#,"Data QA applied on ML 8 Line Out, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,695,MAS ABJ-820 Level,ft,"Data QA applied on ABJ-820 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,696,MAS MBJ-809 Level,ft,"Data QA applied on MBJ-809 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,697,MAS ABJ-310 Level,ft,"Data QA applied on ABJ-310 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,698,MAS ABJ-320 Level,ft,"Data QA applied on ABJ-320 Level, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,699,MAS North Draft,ft,"Data QA applied on North Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,700,MAS East Draft,ft,"Data QA applied on East Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,701,MAS South Draft,ft,"Data QA applied on South Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived MAS Level,702,MAS West Draft,ft,"Data QA applied on West Draft, computed by BMT WinMon."
+Shell,Auger,MIS,Derived Winch,703,Winch 1 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,704,Winch 1 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,705,Winch 2 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,706,Winch 2 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,707,Winch 3 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,708,Winch 3 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,709,Winch 4 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,710,Winch 4 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,711,Winch 5 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,712,Winch 5 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,713,Winch 6 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,714,Winch 6 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,715,Winch 7 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,716,Winch 7 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,717,Winch 8 Brake Alarm,bool,
+Shell,Auger,MIS,Derived Winch,718,Winch 8 Dog Alarm,bool,
+Shell,Auger,MIS,Derived Winch,719,TIS Watchdog,#,Indicates whether the TIS is communicating to BMT WinMon or not.
+Shell,Auger,MIS,Derived AWOS,720,AWOS 10min Wind Spd Gust,knots,Derived AWOS wind gust speed computed during the previous 10 minutes at the sensor location.
+Shell,Auger,MIS,Derived AWOS,721,AWOS 1hr Wind Spd Gust,knots,Derived AWOS wind gust speed computed during the previous 1 hour at the sensor location.

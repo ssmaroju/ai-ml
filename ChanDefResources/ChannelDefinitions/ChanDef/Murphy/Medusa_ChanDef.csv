@@ -1,0 +1,219 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Murphy,Medusa,EPMS,Misc,1,X Accel,ft/s^2,Measured surge acceleration in SMS coordinates
+Murphy,Medusa,EPMS,Misc,2,Y Accel,ft/s^2,Measured sway acceleration in SMS coordinates
+Murphy,Medusa,EPMS,Misc,3,Z Accel,ft/s^2,"Measured heave acceleration, +Z up"
+Murphy,Medusa,EPMS,Misc,4,Air Temperature,deg F,Raw Temperature
+Murphy,Medusa,EPMS,Misc,5,Barometric Pressure,in Hg,Raw Barometric Pressure
+Murphy,Medusa,EPMS,Misc,6,Wind Speed SE,mph,SE anemometer raw wind speed at height of anemometer
+Murphy,Medusa,EPMS,Misc,7,Pitch Rate,deg/sec,Measured pitch rate in SMS coordinates
+Murphy,Medusa,EPMS,Misc,8,Roll Rate,deg/sec,Measured roll rate in SMS coordinates
+Murphy,Medusa,EPMS,Misc,9,Wind Direction SE,deg,SE anemometer relative wind direction to sensor orientation
+Murphy,Medusa,EPMS,Misc,10,Airgap SE,ft,Raw Air Gap - Measured distance from sensor head to water surface
+Murphy,Medusa,EPMS,Misc,11,Airgap NW,ft,Raw Air Gap - Measured distance from sensor head to water surface
+Murphy,Medusa,EPMS,Misc,12,X Accel Temp,deg F,"Measured internal surge acceleration temperature, used to correct temperature sensitive linear accelerometer using algorithm from manufacturer"
+Murphy,Medusa,EPMS,Misc,13,Y Accel Temp,deg F,"Measured internal sway acceleration temperature, used to correct temperature sensitive linear accelerometer using algorithm from manufacturer"
+Murphy,Medusa,EPMS,Misc,14,Z Accel Temp,deg F,"Measured internal  heave acceleration temperature, used to correct temperature sensitive linear accelerometer using algorithm from manufacturer"
+Murphy,Medusa,EPMS,Misc,15,Yaw Rate,deg/sec,"Measured yaw rate in SMS coordinates, + Yaw  Platform West to Platform South"
+Murphy,Medusa,EPMS,Misc,16,Spare 3,ADCS,Spare Channel
+Murphy,Medusa,EPMS,Misc,17,Wind Speed NW,mph,NW anemometer raw wind speed at height of anemometer
+Murphy,Medusa,EPMS,Misc,18,Wind Direction NW,deg,NW anemometer relative wind direction to sensor orientation
+Murphy,Medusa,EPMS,GPS,19,Latitude DegMin,none,Latitude of the antenna; Latitude degrees and integer minutes only raw data – not for general use
+Murphy,Medusa,EPMS,GPS,20,Latitude DecMin,none,Latitude of the antenna; Latitude decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Medusa,EPMS,GPS,21,Longitude DegMin,none,Longitude of the antenna; Longitude degrees and integer minutes only raw data - not for general use
+Murphy,Medusa,EPMS,GPS,22,Longitude DecMin,none,Longitude of the antenna; Longitude decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Medusa,EPMS,GPS,23,GPS Quality,none,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS ; 9 position computed using almanac
+Murphy,Medusa,EPMS,GPS,24,Number of Satellites,none,Number of satellites being used to compute the position by the GPS receiver
+Murphy,Medusa,EPMS,GPS,25,Heading,deg,Heading from True North
+Murphy,Medusa,EPMS,Waves,26,Sig Wave SE,ft,Wave Processor Calculation; 4*stdev of Airgap SE data
+Murphy,Medusa,EPMS,Waves,27,Sig Wave NW,ft,Wave Processor Calculation; 4*stdev of Airgap NW data
+Murphy,Medusa,EPMS,Waves,28,Larger Sig Wave,ft,Wave Processor Calculation; Processor selected larger wave height of the two airgap sensors
+Murphy,Medusa,EPMS,Waves,29,Peak Period SE,sec,Wave Processor Calculation;  Tp (from Airgap SE)
+Murphy,Medusa,EPMS,Waves,30,Peak Period NW,sec,Wave Processor Calculation;  Tp (from Airgap NW)
+Murphy,Medusa,EPMS,Waves,31,Larger Peak Period,sec,Wave Processor Calculation; Processor selected largest peak period of the two airgap sensors
+Murphy,Medusa,EPMS,Waves,32,Wave Direction,deg,"Wave Processor Calculation; Wave direction is where the Wave is coming from, referring to True North. Estimate of wave direction using X Accel, Y Accel, air gap and wind direction data. Processed every 30 minutes"
+Murphy,Medusa,EPMS,ADCP Surface,33,Surface Current Spd,knots,Surface Current Speed (NOTE: HADCP flat-lined since 2006)
+Murphy,Medusa,EPMS,ADCP Surface,34,Surface Current Dir,deg,Surface Current Direction  (NOTE: HADCP flat-lined since 2006)
+Murphy,Medusa,EPMS,ADCP Deep,35,ADCP75Down MaxCurrSpd,knots,75KHz Deep ADCP Max Current Speed
+Murphy,Medusa,EPMS,ADCP Deep,36,ADCP75Down MaxCurrDir,deg,75KHz Deep ADCP Max Current Speed
+Murphy,Medusa,EPMS,ADCP Deep,37,ADCPSpeedBin1,knots,75KHz Deep  Current Speed Bin 1
+Murphy,Medusa,EPMS,ADCP Deep,38,ADCPDirectionBin1,deg,75KHz Deep  Current Direction Bin 1
+Murphy,Medusa,EPMS,ADCP Deep,39,ADCPSpeedBin2,knots,75KHz Deep  Current Speed Bin 2
+Murphy,Medusa,EPMS,ADCP Deep,40,ADCPDirectionBin2,deg,75KHz Deep  Current Direction Bin 2
+Murphy,Medusa,EPMS,ADCP Deep,41,ADCPSpeedBin3,knots,75KHz Deep  Current Speed Bin 3
+Murphy,Medusa,EPMS,ADCP Deep,42,ADCPDirectionBin3,deg,75KHz Deep  Current Direction Bin 3
+Murphy,Medusa,EPMS,ADCP Deep,43,ADCPSpeedBin4,knots,75KHz Deep  Current Speed Bin 4
+Murphy,Medusa,EPMS,ADCP Deep,44,ADCPDirectionBin4,deg,75KHz Deep  Current Direction Bin 4
+Murphy,Medusa,EPMS,ADCP Deep,45,ADCPSpeedBin5,knots,75KHz Deep  Current Speed Bin 5
+Murphy,Medusa,EPMS,ADCP Deep,46,ADCPDirectionBin5,deg,75KHz Deep  Current Direction Bin 5
+Murphy,Medusa,EPMS,ADCP Deep,47,ADCPSpeedBin6,knots,75KHz Deep  Current Speed Bin 6
+Murphy,Medusa,EPMS,ADCP Deep,48,ADCPDirectionBin6,deg,75KHz Deep  Current Direction Bin 6
+Murphy,Medusa,EPMS,ADCP Deep,49,ADCPSpeedBin7,knots,75KHz Deep  Current Speed Bin 7
+Murphy,Medusa,EPMS,ADCP Deep,50,ADCPDirectionBin7,deg,75KHz Deep  Current Direction Bin 7
+Murphy,Medusa,EPMS,ADCP Deep,51,ADCPSpeedBin8,knots,75KHz Deep  Current Speed Bin 8
+Murphy,Medusa,EPMS,ADCP Deep,52,ADCPDirectionBin8,deg,75KHz Deep  Current Direction Bin 8
+Murphy,Medusa,EPMS,ADCP Deep,53,ADCPSpeedBin9,knots,75KHz Deep  Current Speed Bin 9
+Murphy,Medusa,EPMS,ADCP Deep,54,ADCPDirectionBin9,deg,75KHz Deep  Current Direction Bin 9
+Murphy,Medusa,EPMS,ADCP Deep,55,ADCPSpeedBin10,knots,75KHz Deep  Current Speed Bin 10
+Murphy,Medusa,EPMS,ADCP Deep,56,ADCPDirectionBin10,deg,75KHz Deep  Current Direction Bin 10
+Murphy,Medusa,EPMS,ADCP Deep,57,ADCPSpeedBin11,knots,75KHz Deep  Current Speed Bin 11
+Murphy,Medusa,EPMS,ADCP Deep,58,ADCPDirectionBin11,deg,75KHz Deep  Current Direction Bin 11
+Murphy,Medusa,EPMS,ADCP Deep,59,ADCPSpeedBin12,knots,75KHz Deep  Current Speed Bin 12
+Murphy,Medusa,EPMS,ADCP Deep,60,ADCPDirectionBin12,deg,75KHz Deep  Current Direction Bin 12
+Murphy,Medusa,EPMS,ADCP Deep,61,ADCPSpeedBin13,knots,75KHz Deep  Current Speed Bin 13
+Murphy,Medusa,EPMS,ADCP Deep,62,ADCPDirectionBin13,deg,75KHz Deep  Current Direction Bin 13
+Murphy,Medusa,EPMS,ADCP Deep,63,ADCPSpeedBin14,knots,75KHz Deep  Current Speed Bin 14
+Murphy,Medusa,EPMS,ADCP Deep,64,ADCPDirectionBin14,deg,75KHz Deep  Current Direction Bin 14
+Murphy,Medusa,EPMS,ADCP Deep,65,ADCPSpeedBin15,knots,75KHz Deep  Current Speed Bin 15
+Murphy,Medusa,EPMS,ADCP Deep,66,ADCPDirectionBin15,deg,75KHz Deep  Current Direction Bin 15
+Murphy,Medusa,EPMS,ADCP Deep,67,ADCPSpeedBin16,knots,75KHz Deep  Current Speed Bin 16
+Murphy,Medusa,EPMS,ADCP Deep,68,ADCPDirectionBin16,deg,75KHz Deep  Current Direction Bin 16
+Murphy,Medusa,EPMS,ADCP Deep,69,ADCPSpeedBin17,knots,75KHz Deep  Current Speed Bin 17
+Murphy,Medusa,EPMS,ADCP Deep,70,ADCPDirectionBin17,deg,75KHz Deep  Current Direction Bin 17
+Murphy,Medusa,EPMS,ADCP Deep,71,ADCPSpeedBin18,knots,75KHz Deep  Current Speed Bin 18
+Murphy,Medusa,EPMS,ADCP Deep,72,ADCPDirectionBin18,deg,75KHz Deep  Current Direction Bin 18
+Murphy,Medusa,EPMS,ADCP Deep,73,ADCPSpeedBin19,knots,75KHz Deep  Current Speed Bin 19
+Murphy,Medusa,EPMS,ADCP Deep,74,ADCPDirectionBin19,deg,75KHz Deep  Current Direction Bin 19
+Murphy,Medusa,EPMS,ADCP Deep,75,ADCPSpeedBin20,knots,75KHz Deep  Current Speed Bin 20
+Murphy,Medusa,EPMS,ADCP Deep,76,ADCPDirectionBin20,deg,75KHz Deep  Current Direction Bin 20
+Murphy,Medusa,EPMS,ADCP Deep,77,ADCPSpeedBin21,knots,75KHz Deep  Current Speed Bin 21
+Murphy,Medusa,EPMS,ADCP Deep,78,ADCPDirectionBin21,deg,75KHz Deep  Current Direction Bin 21
+Murphy,Medusa,EPMS,ADCP Deep,79,ADCPSpeedBin22,knots,75KHz Deep  Current Speed Bin 22
+Murphy,Medusa,EPMS,ADCP Deep,80,ADCPDirectionBin22,deg,75KHz Deep  Current Direction Bin 22
+Murphy,Medusa,EPMS,ADCP Deep,81,ADCPSpeedBin23,knots,75KHz Deep  Current Speed Bin 23
+Murphy,Medusa,EPMS,ADCP Deep,82,ADCPDirectionBin23,deg,75KHz Deep  Current Direction Bin 23
+Murphy,Medusa,EPMS,ADCP Deep,83,ADCPSpeedBin24,knots,75KHz Deep  Current Speed Bin 24
+Murphy,Medusa,EPMS,ADCP Deep,84,ADCPDirectionBin24,deg,75KHz Deep  Current Direction Bin 24
+Murphy,Medusa,EPMS,ADCP Deep,85,ADCPSpeedBin25,knots,75KHz Deep  Current Speed Bin 25
+Murphy,Medusa,EPMS,ADCP Deep,86,ADCPDirectionBin25,deg,75KHz Deep  Current Direction Bin 25
+Murphy,Medusa,EPMS,ADCP Deep,87,ADCPSpeedBin26,knots,75KHz Deep  Current Speed Bin 26
+Murphy,Medusa,EPMS,ADCP Deep,88,ADCPDirectionBin26,deg,75KHz Deep  Current Direction Bin 26
+Murphy,Medusa,EPMS,ADCP Deep,89,ADCPSpeedBin27,knots,75KHz Deep  Current Speed Bin 27
+Murphy,Medusa,EPMS,ADCP Deep,90,ADCPDirectionBin27,deg,75KHz Deep  Current Direction Bin 27
+Murphy,Medusa,EPMS,ADCP Deep,91,ADCPSpeedBin28,knots,75KHz Deep  Current Speed Bin 28
+Murphy,Medusa,EPMS,ADCP Deep,92,ADCPDirectionBin28,deg,75KHz Deep  Current Direction Bin 28
+Murphy,Medusa,EPMS,ADCP Deep,93,ADCPSpeedBin29,knots,75KHz Deep  Current Speed Bin 29
+Murphy,Medusa,EPMS,ADCP Deep,94,ADCPDirectionBin29,deg,75KHz Deep  Current Direction Bin 29
+Murphy,Medusa,EPMS,ADCP Deep,95,ADCPSpeedBin30,knots,75KHz Deep  Current Speed Bin 30
+Murphy,Medusa,EPMS,ADCP Deep,96,ADCPDirectionBin30,deg,75KHz Deep  Current Direction Bin 30
+Murphy,Medusa,EPMS,ADCP Deep,97,ADCPSpeedBin31,knots,75KHz Deep  Current Speed Bin 31
+Murphy,Medusa,EPMS,ADCP Deep,98,ADCPDirectionBin31,deg,75KHz Deep  Current Direction Bin 31
+Murphy,Medusa,EPMS,ADCP Deep,99,ADCPSpeedBin32,knots,75KHz Deep  Current Speed Bin 32
+Murphy,Medusa,EPMS,ADCP Deep,100,ADCPDirectionBin32,deg,75KHz Deep  Current Direction Bin 3
+Murphy,Medusa,EPMS,Ballast,101,Ballast Tank 1N Level,STon,3rd Party
+Murphy,Medusa,EPMS,Ballast,102,Ballast Tank 1E Level,STon,3rd Party
+Murphy,Medusa,EPMS,Ballast,103,Ballast Tank 1S Level,STon,3rd Party
+Murphy,Medusa,EPMS,Ballast,104,Ballast Tank 1W Level,STon,3rd Party
+Murphy,Medusa,EPMS,Ballast,105,Platform Draft,ft,3rd Party
+Murphy,Medusa,EPMS,Mooring,106,Chain Tension A-1,kips,Mooring Line A-1 Chain Tension
+Murphy,Medusa,EPMS,Mooring,107,Chain Tension B-2,kips,Mooring Line B-2 Chain Tension
+Murphy,Medusa,EPMS,Mooring,108,Chain Tension C-3,kips,Mooring Line C-3 Chain Tension
+Murphy,Medusa,EPMS,Mooring,109,Chain Tension D-4,kips,Mooring Line D-4 Chain Tension
+Murphy,Medusa,EPMS,Mooring,110,Chain Tension E-5,kips,Mooring Line E-5 Chain Tension
+Murphy,Medusa,EPMS,Mooring,111,Chain Tension F-6,kips,Mooring Line F-6 Chain Tension
+Murphy,Medusa,EPMS,Mooring,112,Chain Tension G-7,kips,Mooring Line G-7 Chain Tension
+Murphy,Medusa,EPMS,Mooring,113,Chain Tension H-8,kips,Mooring Line H-8 Chain Tension
+Murphy,Medusa,EPMS,Mooring,114,Chain Tension I-9,kips,Mooring Line I-9 Chain Tension
+Murphy,Medusa,EPMS,Mooring,115,Chain Tension J-10,kips,Mooring Line J-10 Chain Tension
+Murphy,Medusa,EPMS,Mooring,116,Chain Footage A-1,ft,Mooring Line A-1 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,117,Chain Footage B-2,ft,Mooring Line B-2 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,118,Chain Footage C-3,ft,Mooring Line C-3 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,119,Chain Footage D-4,ft,Mooring Line D-4 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,120,Chain Footage E-5,ft,Mooring Line E-5 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,121,Chain Footage F-6,ft,Mooring Line F-6 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,122,Chain Footage G-7,ft,Mooring Line G-7 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,123,Chain Footage H-8,ft,Mooring Line H-8 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,124,Chain Footage I-9,ft,Mooring Line I-9 Chain Pay-out
+Murphy,Medusa,EPMS,Mooring,125,Chain Footage J-10,ft,Mooring Line J-10 Chain Pay-out
+Murphy,Medusa,EPMS,Riser,126,Riser B-A4 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,127,Riser B-A4 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,128,Riser B-A4 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,129,Riser C-A6 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,130,Riser C-A6 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,131,Riser C-A6 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,132,Riser D-A2 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,133,Riser D-A2 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,134,Riser D-A2 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,135,Riser E-A1 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,136,Riser E-A1 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,137,Riser E-A1 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,138,Riser F-A3 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,139,Riser F-A3 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,140,Riser F-A3 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,141,Riser G-A5 LC 1 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,142,Riser G-A5 LC 2 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Riser,143,Riser G-A5 LC 3 Load,kips,3rd Party
+Murphy,Medusa,EPMS,Watchdog,144,Watchdog Counter,#,
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,145,Console Roll(deg),deg,"Measured roll rate in Octans coordinates, + Roll Platform STBD Down"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,146,Console Pitch(deg),deg,"Measured pitch rate in Octans coordinates, + Pitch Platform Bow Down"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,147,Console Heave(ft),ft,"Integrated z accel from accel sensors, +Z up"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,148,Console Heading(degT),degT,"Integrated yaw rate from rate sensors, relative to True North"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,149,Console X Accel(ft/s^2),ft/s^2,"Measured surge acceleration, +X towards Platform N"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,150,Console Y Accel(ft/s^2),ft/s^3,"Measured sway acceleration, +Y towards Platform W"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,151,Console Z Accel(ft/s^2),ft/s^4,"Measured heave acceleration, +Z up"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,152,Console Roll Rate(deg/s),deg/s ,"Measured roll rate in Octans coordinates, + Roll Platform STBD Down"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,153,Console Pitch Rate(deg/s),deg/s ,"Measured pitch rate in Octans coordinates, + Pitch Platform Bow Down"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,154,Console Yaw Rate(deg/s),deg/s ,"Measured yaw rate in Octans coordinates, + Yaw  Platform West to Platform South"
+Murphy,Medusa,EPMS,Ixsea-Octan 6DOF,155,Console 6DOF Status(bits),bits,
+Murphy,Medusa,EPMS,Derived,156,SMS Trim,deg,15 minute running average of pitch estimated from accelerations in SMS coordinates 
+Murphy,Medusa,EPMS,Derived,157,SMS Heel,deg,15 minute running average of roll estimated from accelerations  in SMS coordinates 
+Murphy,Medusa,EPMS,Derived,158,BR2G Latitude,deg, Latitude calculation using Latitude DegMin and Latitude DecMin as measured at BR2G
+Murphy,Medusa,EPMS,Derived,159,BR2G Longitude,deg, Longitude calculation using Longitude DegMin and Longitude DecMin as measured at BR2G
+Murphy,Medusa,EPMS,Derived,160,BR2G Eastings,ft,BR2G Eastings measured from local GPS position
+Murphy,Medusa,EPMS,Derived,161,BR2G Northings,ft,BR2G Northings measured from local GPS position
+Murphy,Medusa,EPMS,Derived,162,Platform Eastings,ft,Platform Eastings measured from platform reference position; Platform North is 24 degrees counter clockwise from True North (336 degrees True)
+Murphy,Medusa,EPMS,Derived,163,Platform Northings,ft,Platform Northings measured from platform reference position; Platform North is 24 degrees counter clockwise from True North (336 degrees True)
+Murphy,Medusa,EPMS,Derived,164,Platform Latitude,deg,Platform Latitude in degrees from platform reference position
+Murphy,Medusa,EPMS,Derived,165,Platform Longitude,deg,Platform Longitude in degrees from platform reference position
+Murphy,Medusa,EPMS,Derived,166,Spar List,deg,15 minute running average of roll in platform  coordinates estimated from accelerations        Spar List  = -1 * SMS Trim
+Murphy,Medusa,EPMS,Derived,167,Spar Trim,deg,15 minute running average of pitch in platform  coordinates estimated from accelerations     Spar Trim  = -1 * SMS Heel
+Murphy,Medusa,EPMS,Derived,168,SMS Roll,deg,Integrated roll from rate sensors in SMS coordinates
+Murphy,Medusa,EPMS,Derived,169,SMS Pitch,deg,Integrated pitch from rate sensors in SMS coordinates
+Murphy,Medusa,EPMS,Derived,170,Expected SMS Roll Max,deg,Expected maximum of  roll in SMS coordinates using  15 minute running average of roll rate
+Murphy,Medusa,EPMS,Derived,171,Expected SMS Pitch Max,deg,Expected maximum of pitch in SMS coordinates using 15 minute running average of pitch rate
+Murphy,Medusa,EPMS,Derived,172,EPMS System Health,bits,Check on System Health
+Murphy,Medusa,EPMS,Derived,173,Spar Roll,deg,Integrated roll from rate sensors in platform coordinates                Spar Roll  = -1 * SMS Pitch
+Murphy,Medusa,EPMS,Derived,174,Spar Pitch,deg,Integrated pitch from rate sensors in platform coordinates            Spar Pitch = -1 * SMS Roll
+Murphy,Medusa,EPMS,Derived,175,Expected Spar Roll Max,deg,Expected 1 hour maximum roll as determined from a 15 minute running average of SMS Pitch
+Murphy,Medusa,EPMS,Derived,176,Expected Spar Pitch Max,deg,Expected 1 hour maximum pitch as determined from a 15 minute running average of SMS Roll 
+Murphy,Medusa,EPMS,Derived,177,Riser B-A4 LC 1 Diff,kips,"Difference between raw channel Riser B-A4 LC 1 Load  and the average of Riser B-A4 LC 1 Load, Riser B-A4 LC 2 Load, Riser B-A4 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,178,Riser B-A4 LC 2 Diff,kips,"Difference between raw channel Riser B-A4 LC 2 Load  and the average of Riser B-A4 LC 1 Load, Riser B-A4 LC 2 Load, Riser B-A4 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,179,Riser B-A4 LC 3 Diff,kips,"Difference between raw channel Riser B-A4 LC 3 Load  and the average of Riser B-A4 LC 1 Load, Riser B-A4 LC 2 Load, Riser B-A4 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,180,Riser B-A4 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,181,Riser B-A4 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,182,Riser B-A4 Load,kips,Sum of measured Load Cells for Riser B-A4 (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,183,Riser C-A6 LC 1 Diff,kips,"Difference between raw channel Riser C-A6 LC 1 Load  and the average of Riser C-A6 LC 1 Load, Riser C-A6 LC 2 Load, Riser C-A6 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,184,Riser C-A6 LC 2 Diff,kips,"Difference between raw channel Riser C-A6 LC 2 Load  and the average of Riser C-A6 LC 1 Load, Riser C-A6 LC 2 Load, Riser C-A6 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,185,Riser C-A6 LC 3 Diff,kips,"Difference between raw channel Riser C-A6 LC 3 Load  and the average of Riser C-A6 LC 1 Load, Riser C-A6 LC 2 Load, Riser C-A6 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,186,Riser C-A6 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,187,Riser C-A6 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,188,Riser C-A6 Load,kips,Sum of measured Load Cells for Riser C-A6 (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,189,Riser D-A2 LC 1 Diff,kips,"Difference between raw channel Riser D-A2 LC 1 Load  and the average of Riser D-A2 LC 1 Load, Riser D-A2 LC 2 Load, Riser D-A2 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,190,Riser D-A2 LC 2 Diff,kips,"Difference between raw channel Riser D-A2 LC 2 Load  and the average of Riser D-A2 LC 1 Load, Riser D-A2 LC 2 Load, Riser D-A2 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,191,Riser D-A2 LC 3 Diff,kips,"Difference between raw channel Riser D-A2 LC 3 Load  and the average of Riser D-A2 LC 1 Load, Riser D-A2 LC 2 Load, Riser D-A2 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,192,Riser D-A2 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,193,Riser D-A2 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,194,Riser D-A2 Load,kips,Sum of measured Load Cells for Riser D-A2 (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,195,Riser E-A1 LC 1 Diff,kips,"Difference between raw channel Riser E-A1 LC 1 Load  and the average of Riser E-A1 LC 1 Load, Riser E-A1 LC 2 Load, Riser E-A1 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,196,Riser E-A1 LC 2 Diff,kips,"Difference between raw channel Riser E-A1 LC 2 Load  and the average of Riser E-A1 LC 1 Load, Riser E-A1 LC 2 Load, Riser E-A1 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,197,Riser E-A1 LC 3 Diff,kips,"Difference between raw channel Riser E-A1 LC 3 Load  and the average of Riser E-A1 LC 1 Load, Riser E-A1 LC 2 Load, Riser E-A1 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,198,Riser E-A1 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,199,Riser E-A1 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,200,Riser E-A1 Load,kips,Sum of measured Load Cells for Riser E-A1 (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,201,Riser F-A3 LC 1 Diff,kips,"Difference between raw channel Riser F-A3 LC 1 Load  and the average of Riser F-A3 LC 1 Load, Riser F-A3 LC 2 Load, Riser F-A3 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,202,Riser F-A3 LC 2 Diff,kips,"Difference between raw channel Riser F-A3 LC 2 Load  and the average of Riser F-A3 LC 1 Load, Riser F-A3 LC 2 Load, Riser F-A3 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,203,Riser F-A3 LC 3 Diff,kips,"Difference between raw channel Riser F-A3 LC 3 Load  and the average of Riser F-A3 LC 1 Load, Riser F-A3 LC 2 Load, Riser F-A3 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,204,Riser F-A3 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,205,Riser F-A3 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,206,Riser F-A3 Load,kips,Sum of measured Load Cells for Riser  F-A3 (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,207,Riser G-A5 LC 1 Diff,kips,"Difference between raw channel Riser G-A5 LC 1 Load  and the average of Riser G-A5 LC 1 Load, Riser G-A5 LC 2 Load, Riser G-A5 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,208,Riser G-A5 LC 2 Diff,kips,"Difference between raw channel Riser G-A5 LC 2 Load  and the average of Riser G-A5 LC 1 Load, Riser G-A5 LC 2 Load, Riser G-A5 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,209,Riser G-A5 LC 3 Diff,kips,"Difference between raw channel Riser G-A5 LC 3 Load  and the average of Riser G-A5 LC 1 Load, Riser G-A5 LC 2 Load, Riser G-A5 LC 3 Load"
+Murphy,Medusa,EPMS,Derived,210,Riser G-A5 X Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  X bending (N/S) "
+Murphy,Medusa,EPMS,Derived,211,Riser G-A5 Y Bending,kip-ft,"Values of Riser LC1, LC2, LC3 headings from Platform North plus the Riser Load cell radius from center of riser (as given in the Constants files) are used to calculate  Y bending (E/W)"
+Murphy,Medusa,EPMS,Derived,212,Riser G-A5 Load,kips,Sum of measured Load Cells for Riser G-A5  (LC 1 Load + LC 2 Load + LC 3 Load)
+Murphy,Medusa,EPMS,Derived,213,Riser B-A4 Load AVG,kips,"1 minute  running average of  Riser B-A4 Load (refer to ""Medusa_derive_171202.CFG"")"
+Murphy,Medusa,EPMS,Derived,214,Riser C-A6 Load AVG,kips,"1 minute  running average of  Riser C-A6 Load (refer to ""Medusa_derive_171202.CFG"")"
+Murphy,Medusa,EPMS,Derived,215,Riser D-A2 Load AVG,kips,"1 minute  running average of  Riser D-A2 Load (refer to ""Medusa_derive_171202.CFG"")"
+Murphy,Medusa,EPMS,Derived,216,Riser E-A1 Load AVG,kips,"1 minute  running average of  Riser E-A1 Load (refer to ""Medusa_derive_171202.CFG"")"
+Murphy,Medusa,EPMS,Derived,217,Riser F-A3 Load AVG,kips,"1 minute running average of  Riser F-A3 Load (refer to ""Medusa_derive_171202.CFG"")"
+Murphy,Medusa,EPMS,Derived,218,Riser G-A5 Load AVG,kips,"1 minute running average of  Riser G-A5 Load (refer to ""Medusa_derive_171202.CFG"")"

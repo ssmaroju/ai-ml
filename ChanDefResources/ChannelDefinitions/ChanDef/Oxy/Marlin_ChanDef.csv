@@ -1,0 +1,143 @@
+﻿client,facility,system,device,channo,channame,description
+Oxy,Marlin,EPRMS,ADACS,1,Spare 1,ADACS Spare Channel 1
+Oxy,Marlin,EPRMS,ADACS,2,Spare 2,ADACS Spare Channel 2
+Oxy,Marlin,EPRMS,ADACS,3,Spare 3,ADACS Spare Channel 3
+Oxy,Marlin,EPRMS,ADACS,4,Spare 4,ADACS Spare Channel 4
+Oxy,Marlin,EPRMS,Atmospheric,5,Barometric Pressure,Barometric Pressure in mbars
+Oxy,Marlin,EPRMS,Atmospheric,6,Air Temperature,Air Temperature in degF
+Oxy,Marlin,EPRMS,Atmospheric,7,Humidity,Humidity in %
+Oxy,Marlin,EPRMS,ADACS,8,Roll Rate,The measured roll rate using orthogonally mounted angular rate sensors; in platform coordinates + Roll Platform East (Starboard) Down
+Oxy,Marlin,EPRMS,ADACS,9,Pitch Rate,The measured pitch rate using orthogonally mounted angular rate sensors; in platform coordinates + Pitch Platform North (Bow) Down
+Oxy,Marlin,EPRMS,ADACS,10,Yaw Rate,The measured yaw rate using orthogonally mounted angular rate sensors; in platform coordinates + Yaw Bow to Port
+Oxy,Marlin,EPRMS,ADACS,11,Surge Accel,Measured surge acceleration using biaxial accelerometers
+Oxy,Marlin,EPRMS,ADACS,12,Sway Accel,Measured sway acceleration using biaxial accelerometers
+Oxy,Marlin,EPRMS,ADACS,13,Heave Accel,Measured heave acceleration using vertical accelerometer
+Oxy,Marlin,EPRMS,ADACS,14,Surge Accel Temp,Measured internal surge acceleration temperature used to correct temperature sensitive linear accelerometer using algorithm from manufacturer
+Oxy,Marlin,EPRMS,ADACS,15,Sway Accel Temp,Measured internal sway acceleration temperature used to correct temperature sensitive linear accelerometer using algorithm from manufacturer
+Oxy,Marlin,EPRMS,ADACS,16,Heave Accel Temp,Measured internal heave acceleration temperature used to correct temperature sensitive linear accelerometer using algorithm from manufacturer
+Oxy,Marlin,EPRMS,GPS,17,EC Latitude DegMin,East Crane Latitude Degrees and Integer Minutes only (raw data – not for general use)
+Oxy,Marlin,EPRMS,GPS,18,EC Latitude DecMin,East Crane Latitude Decimal Minutes only. 1 to 4 decimal places (0 - 0.XXXX minutes (raw data - not for general use))
+Oxy,Marlin,EPRMS,GPS,19,EC Longitude DegMin,East Crane Longitude Degrees and Integer Minutes only (raw data – not for general use)
+Oxy,Marlin,EPRMS,GPS,20,EC Longitude DecMin,East Crane Longitude Decimal Minutes only. 1 to 4 decimal places (0 - 0.XXXX minutes (raw data - not for general use))
+Oxy,Marlin,EPRMS,GPS,21,EC GPS Quality,East Crane GPS Quality
+Oxy,Marlin,EPRMS,GPS,22,EC Number of Satellites,East Crane number of satellites being used to compute the position by the GPS receiver
+Oxy,Marlin,EPRMS,Crane,23,EC Wind Direction,East Crane Wind Sensor Raw Direction
+Oxy,Marlin,EPRMS,Crane,24,EC Wind Speed,East Crane Raw Wind Speed at height of anemometer on East Crane
+Oxy,Marlin,EPRMS,Crane,25,EC Crane Heading,East Crane Heading from Crane Rest
+Oxy,Marlin,EPRMS,GPS,26,WC Latitude DegMin,West Crane Latitude Degrees and Integer Minutes only (raw data – not for general use)
+Oxy,Marlin,EPRMS,GPS,27,WC Latitude DecMin,West Crane Latitude Decimal Minutes only. 1 to 4 decimal places (0 - 0.XXXX minutes (raw data - not for general use))
+Oxy,Marlin,EPRMS,GPS,28,WC Longitude DegMin,West Crane Longitude Degrees and Integer Minutes only (raw data – not for general use)
+Oxy,Marlin,EPRMS,GPS,29,WC Longitude DecMin,West Crane Longitude Decimal Minutes only. 1 to 4 decimal places (0 - 0.XXXX minutes (raw data - not for general use))
+Oxy,Marlin,EPRMS,GPS,30,WC GPS Quality,West Crane GPS Quality
+Oxy,Marlin,EPRMS,GPS,31,WC Number of Satellites,West Crane number of satellites being used to compute the position by the GPS receiver
+Oxy,Marlin,EPRMS,Crane,32,WC Wind Direction,West Crane Wind Sensor Raw Direction
+Oxy,Marlin,EPRMS,Crane,33,WC Wind Speed,West Crane Raw Wind Speed at height of anemometer on West Crane
+Oxy,Marlin,EPRMS,Crane,34,WC Crane Heading,West Crane Heading from Crane Rest
+Oxy,Marlin,EPRMS,Level,35,Draft,Draft level in ft
+Oxy,Marlin,EPRMS,Level,36,Ballast-3 NVB Level,Ballast-3 NVB Level in ft
+Oxy,Marlin,EPRMS,Level,37,Ballast-3 EVB Level,Ballast-3 EVB Level in ft
+Oxy,Marlin,EPRMS,Level,38,Ballast-3 SVB Level,Ballast-3 SVB Level in ft
+Oxy,Marlin,EPRMS,Level,39,Ballast-3 WVB Level,Ballast-3 WVB Level in ft
+Oxy,Marlin,EPRMS,Leak,40,Void-4 NVO Leak,Void-4 NVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,41,Void-5 NVO Leak,Void-5 NVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,42,Void-6 NVO Leak,Void-6 NVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,43,Void-7 NVO Leak,Void-7 NVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,44,Void-4 EVO Leak,Void-4 EVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,45,Void-5 EVO Leak,Void-5 EVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,46,Void-6 EVO Leak,Void-6 EVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,47,Void-7 EVO Leak,Void-7 EVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,48,Void-4 SVO Leak,Void-4 SVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,49,Void-5 SVO Leak,Void-5 SVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,50,Void-6 SVO Leak,Void-6 SVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,51,Void-7 SVO Leak,Void-7 SVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,52,Void-4 WVO Leak,Void-4 WVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,53,Void-5 WVO Leak,Void-5 WVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,54,Void-6 WVO Leak,Void-6 WVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,55,Void-7 WVO Leak,Void-7 WVO Leak boolean
+Oxy,Marlin,EPRMS,Leak,56,Coffer Dam NCO Leak,Coffer Dam NCO Leak boolean
+Oxy,Marlin,EPRMS,Leak,57,Coffer Dam ECO Leak,Coffer Dam ECO Leak boolean
+Oxy,Marlin,EPRMS,Leak,58,Coffer Dam SCO Leak,Coffer Dam SCO Leak boolean
+Oxy,Marlin,EPRMS,Leak,59,Coffer Dam WCO Leak,Coffer Dam WCO Leak boolean
+Oxy,Marlin,EPRMS,Leak,60,NW Access Trunk Leak,NW Access Trunk Leak boolean
+Oxy,Marlin,EPRMS,Leak,61,SE Access Trunk Leak,SE Access Trunk Leak boolean
+Oxy,Marlin,EPRMS,Line,62,Mooring LineOut 1,Mooring LineOut 1 in ft
+Oxy,Marlin,EPRMS,Tension,63,Mooring Tension 1,Mooring Tension 1 in kips
+Oxy,Marlin,EPRMS,Line,64,Mooring LineOut 2,Mooring LineOut 2 in ft
+Oxy,Marlin,EPRMS,Tension,65,Mooring Tension 2,Mooring Tension 2 in kips
+Oxy,Marlin,EPRMS,Line,66,Mooring LineOut 3,Mooring LineOut 3 in ft
+Oxy,Marlin,EPRMS,Tension,67,Mooring Tension 3,Mooring Tension 3 in kips
+Oxy,Marlin,EPRMS,Line,68,Mooring LineOut 4,Mooring LineOut 4 in ft
+Oxy,Marlin,EPRMS,Tension,69,Mooring Tension 4,Mooring Tension 4 in kips
+Oxy,Marlin,EPRMS,Line,70,Mooring LineOut 5,Mooring LineOut 5 in ft
+Oxy,Marlin,EPRMS,Tension,71,Mooring Tension 5,Mooring Tension 5 in kips
+Oxy,Marlin,EPRMS,Line,72,Mooring LineOut 6,Mooring LineOut 6 in ft
+Oxy,Marlin,EPRMS,Tension,73,Mooring Tension 6,Mooring Tension 6 in kips
+Oxy,Marlin,EPRMS,Line,74,Mooring LineOut 7,Mooring LineOut 7 in ft
+Oxy,Marlin,EPRMS,Tension,75,Mooring Tension 7,Mooring Tension 7 in kips
+Oxy,Marlin,EPRMS,Line,76,Mooring LineOut 8,Mooring LineOut 8 in ft
+Oxy,Marlin,EPRMS,Tension,77,Mooring Tension 8,Mooring Tension 8 in kips
+Oxy,Marlin,EPRMS,Line,78,Mooring LineOut 9,Mooring LineOut 9 in ft
+Oxy,Marlin,EPRMS,Tension,79,Mooring Tension 9,Mooring Tension 9 in kips
+Oxy,Marlin,EPRMS,Line,80,Mooring LineOut 10,Mooring LineOut 10 in ft
+Oxy,Marlin,EPRMS,Tension,81,Mooring Tension 10,Mooring Tension 10 in kips
+Oxy,Marlin,EPRMS,Line,82,Mooring LineOut 11,Mooring LineOut 11 in ft
+Oxy,Marlin,EPRMS,Tension,83,Mooring Tension 11,Mooring Tension 11 in kips
+Oxy,Marlin,EPRMS,Line,84,Mooring LineOut 12,Mooring LineOut 12 in ft
+Oxy,Marlin,EPRMS,Tension,85,Mooring Tension 12,Mooring Tension 12 in kips
+Oxy,Marlin,EPRMS,Line,86,Mooring LineOut 13,Mooring LineOut 13 in ft
+Oxy,Marlin,EPRMS,Tension,87,Mooring Tension 13,Mooring Tension 13 in kips
+Oxy,Marlin,EPRMS,Line,88,Mooring LineOut 14,Mooring LineOut 14 in ft
+Oxy,Marlin,EPRMS,Tension,89,Mooring Tension 14,Mooring Tension 14 in kips
+Oxy,Marlin,EPRMS,Line,90,Mooring LineOut 15,Mooring LineOut 15 in ft
+Oxy,Marlin,EPRMS,Tension,91,Mooring Tension 15,Mooring Tension 15 in kips
+Oxy,Marlin,EPRMS,Line,92,Mooring LineOut 16,Mooring LineOut 16 in ft
+Oxy,Marlin,EPRMS,Tension,93,Mooring Tension 16,Mooring Tension 16 in kips
+Oxy,Marlin,EPRMS,Level,94,Base Oil,Base Oil level in ft
+Oxy,Marlin,EPRMS,Level,95,Brine Storage,Brine Storage level in ft
+Oxy,Marlin,EPRMS,Level,96,Diesel Storage,Diesel Storage level in ft
+Oxy,Marlin,EPRMS,Level,97,Potable Water 1,Potable Water 1 level in pct
+Oxy,Marlin,EPRMS,Level,98,Potable Water 2,Potable Water 2 level in pct
+Oxy,Marlin,EPRMS,Level,99,Turbo Run Tank,Turbo Run Tank level in pct
+Oxy,Marlin,EPRMS,Level,100,East Crane Pedistal FO,East Crane Pedistal FO level in pct
+Oxy,Marlin,EPRMS,Level,101,West Crane Pedistal FO,West Crane Pedistal FO level in pct
+Oxy,Marlin,EPRMS,Level,102,Helo Fuel,Helo Fuel level in inches
+Oxy,Marlin,EPRMS,Level,103,Well Clean-up Tank,Well Clean-up Tank level in pct
+Oxy,Marlin,EPRMS,Air Gap,207,Airgap North OL,Raw Air Gap - distance from sensor head to water surface
+Oxy,Marlin,EPRMS,Air Gap,208,Airgap South OL,Raw Air Gap - distance from sensor head to water surface
+Oxy,Marlin,EPRMS,Air Gap,209,Airgap East OL,Raw Air Gap - distance from sensor head to water surface
+Oxy,Marlin,EPRMS,Air Gap,210,Airgap West OL,Raw Air Gap - distance from sensor head to water surface
+Oxy,Marlin,EPRMS,Derived,-1,Surge Accel COR,Measured surge accelerations corrected for temperature using the algorithm from the manufacturer
+Oxy,Marlin,EPRMS,Derived,-2,Sway Accel COR,Measured sway accelerations corrected for temperature using the algorithm from the manufacturer
+Oxy,Marlin,EPRMS,Derived,-3,Heave Accel COR,Measured heave accelerations corrected for temperature using the algorithm from the manufacturer
+Oxy,Marlin,EPRMS,Derived,-4,Spar Roll,Remove mean from the measured roll rate; integrate using trapezoidal rule
+Oxy,Marlin,EPRMS,Derived,-5,Spar Pitch,Remove mean from the measured pitch rate; integrate using trapezoidal rule
+Oxy,Marlin,EPRMS,Derived,-6,RMS Spar Pitch/Roll,Form RMS(Spar Roll) and RMS(Spar Pitch) using a 15 minute running average of each
+Oxy,Marlin,EPRMS,Derived,-7,Spar Tilt Platform North,15 minute running average of pitch calculated from acceleration: pitch = -asin[(Surge Accel COR)/Gravity]
+Oxy,Marlin,EPRMS,Derived,-8,Spar Tilt Platform East,15 minute running average of roll calculated from acceleration: roll = asin[(Sway Accel COR)/Gravity]
+Oxy,Marlin,EPRMS,Derived,-9,Spar Tilt,Spar Tilt = sqrt[(Spar Tilt Platform North)^2 + (Spar Tilt Platform East)^2]
+Oxy,Marlin,EPRMS,Derived,-10,Spar Tilt Direction,Spar Tilt Direction = atan[(Spar Tilt Platform East)/(Spar Tilt Platform North)] + Platform Heading
+Oxy,Marlin,EPRMS,Derived,-11,RMS Deck Acceleration,Form RMS(Surge Accel COR) and RMS(Sway Accel COR) using a 15 minute running average
+Oxy,Marlin,EPRMS,Derived,-12,30 Min Avg Bar. Pressure,30 minute running average of Barometric Pressure
+Oxy,Marlin,EPRMS,Derived,-13,30 Min Avg Air Temp,30 minute running average of Air Temperature
+Oxy,Marlin,EPRMS,Derived,-14,30 Min Avg Humidity,30 minute running average of Humidity
+Oxy,Marlin,EPRMS,Derived,-15,GPS1EC Latitude,Latitude calculated from EC Latitude DegMin and EC Latitude DecMin as measured at EC GPS
+Oxy,Marlin,EPRMS,Derived,-16,GPS1EC Longitude,Longitude calculated from EC Longitude DegMin and EC Longitude DecMin as measured at EC GPS
+Oxy,Marlin,EPRMS,Derived,-17,GPS2WC Latitude,Latitude calculated from WC Latitude DegMin and WC Latitude DecMin as measured at WC GPS
+Oxy,Marlin,EPRMS,Derived,-18,GPS2WC Longitude,Longitude calculated from WC Longitude DegMin and WC Longitude DecMin as measured at WC GPS
+Oxy,Marlin,EPRMS,Derived,-19,GPS1EC Spar Northings,GPS1EC Latitude from Reference Latitude converted to feet rotated to platform coordinates and corrected to the center of the spar
+Oxy,Marlin,EPRMS,Derived,-20,GPS1EC Spar Eastings,GPS1EC Longitude from Reference Longitude converted to feet rotated to platform coordinates and corrected to the center of the spar
+Oxy,Marlin,EPRMS,Derived,-21,GPS2WC Spar Northings,GPS2WC Latitude from Reference Latitude converted to feet rotated to platform coordinates and corrected to the center of the spar
+Oxy,Marlin,EPRMS,Derived,-22,GPS2WC Spar Eastings,GPS2WC Longitude from Reference Longitude converted to feet rotated to platform coordinates and corrected to the center of the spar
+Oxy,Marlin,EPRMS,Derived,-23,COMBO Spar Northings,Picks best of GPS1EC Spar Northings and GPS2WC Spar Northings based on raw Quality channel
+Oxy,Marlin,EPRMS,Derived,-24,COMBO Spar Eastings,Picks best of GPS1EC Spar Eastings and GPS2WC Spar Eastings based on raw Quality channel
+Oxy,Marlin,EPRMS,Derived,-228,Sig. Wave North,4*(standard deviation of derived channel Airgap North data. A 20 minute running value of standard deviation is used
+Oxy,Marlin,EPRMS,Derived,-229,Wave Period North,Average zero upcrossing period determined over a running 20 minute interval of derived channel Airgap North
+Oxy,Marlin,EPRMS,Derived,-230,Sig. Wave South,4*(standard deviation of derived channel Airgap South data. A 20 minute running value of standard deviation is used
+Oxy,Marlin,EPRMS,Derived,-231,Wave Period South,Average zero upcrossing period determined over a running 20 minute interval of derived channel Airgap South
+Oxy,Marlin,EPRMS,Derived,-232,Sig. Wave East,4*(standard deviation of derived channel Airgap East data. A 20 minute running value of standard deviation is used
+Oxy,Marlin,EPRMS,Derived,-233,Wave Period East,Average zero upcrossing period determined over a running 20 minute interval of derived channel Airgap East
+Oxy,Marlin,EPRMS,Derived,-234,Sig. Wave West,4*(standard deviation of derived channel Airgap West data. A 20 minute running value of standard deviation is used
+Oxy,Marlin,EPRMS,Derived,-235,Wave Period West,Average zero upcrossing period determined over a running 20 minute interval of derived channel Airgap West
+Oxy,Marlin,EPRMS,Derived,-236,1min 10m EC Wind Speed,Wind Speeds corrected to a reporting height of 10 meters; then a running average over 1 min interval created
+Oxy,Marlin,EPRMS,Derived,-237,1min 10m WC Wind Speed,Wind Speeds corrected to a reporting height of 10 meters; then a running average over 1 min interval created
+Oxy,Marlin,EPRMS,Derived,-238,1min 10m Best Wind Speed,The largert wind speed between derived channels 1min 10m EC Wind Speed and 1min 10m WC Wind Speed

@@ -1,0 +1,291 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Murphy,Delta House,EFMS,6 DOF,1,Roll Rate,deg/s,"Vessel roll rate, + STBD/PE down"
+Murphy,Delta House,EFMS,6 DOF,2,Pitch Rate,deg/s,"Vessel pitch rate, + BOW/PN down"
+Murphy,Delta House,EFMS,6 DOF,3,Yaw Rate,deg/s,"Vessel yaw rate, + Counterclockwise"
+Murphy,Delta House,EFMS,6 DOF,4,Surge Accel,ft/s^2,"Vessel Surge Acceleration,  +X towards Platform N"
+Murphy,Delta House,EFMS,6 DOF,5,Sway Accel,ft/s^2,"Vessel Sway Acceleration, +Y towards Platform W"
+Murphy,Delta House,EFMS,6 DOF,6,Heave Accel,ft/s^2,"Vessel Heave Acceleration, +Z up"
+Murphy,Delta House,EFMS,6 DOF,7,Surge Accel Temp,degF,Internal temperature of the Surge Accelerometer
+Murphy,Delta House,EFMS,6 DOF,8,Sway Accel Temp,degF,Internal temperature of the Sway Accelerometer  
+Murphy,Delta House,EFMS,6 DOF,9,Heave Accel Temp,degF,Internal temperature of the Heave Accelerometer  
+Murphy,Delta House,EFMS,WC Wind,10,WC Raw Wind Dir,deg,West Crane Relative wind direction
+Murphy,Delta House,EFMS,WC Wind,11,WC Raw Wind Spd,knots,West Crane raw wind speed at the sensor
+Murphy,Delta House,EFMS,WC GPS,12,WC Latitude DegMin,DegMin,Latitude of the antenna; degrees and integer minutes only raw data – not for general use
+Murphy,Delta House,EFMS,WC GPS,13,WC Latitude DecMin,DecMin,Latitude of the antenna; decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,WC GPS,14,WC Latitude DecMin2,DecMin2,Latitude of the antenna; decimal minutes 5 to 8 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,WC GPS,15,WC Longitude DegMin,DegMin,Longitude of the antenna; degrees and integer minutes only raw data - not for general use
+Murphy,Delta House,EFMS,WC GPS,16,WC Longitude DecMin,DecMin,Longitude of the antenna; decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,WC GPS,17,WC Longitude DecMin2,DecMin2,Longitude of the antenna; decimal minutes 5 to 8 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,WC GPS,18,WC Altitude 1,m,West Crane Altitude meters
+Murphy,Delta House,EFMS,WC GPS,19,WC Altitude 2,mm*10,West Crane Altitude centimeters
+Murphy,Delta House,EFMS,WC GPS,20,WC GPS Quality,#,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Murphy,Delta House,EFMS,WC GPS,21,WC Number of Satellites,#,Number of satellites being used to compute the position by the GPS receiver
+Murphy,Delta House,EFMS,WC GPS,22,WC HDOP,#,Horizontal dilution of precision
+Murphy,Delta House,EFMS,WC GPS,23,WC Age of Diff Corr,sec,Age in seconds since last update from differential reference station
+Murphy,Delta House,EFMS,WC GPS,24,WC Enc Heading,deg,West Crane Heading from Crane Rest
+Murphy,Delta House,EFMS,EC Wind,25,EC Raw Wind Dir,deg,East Crane relative wind direction
+Murphy,Delta House,EFMS,EC Wind,26,EC Raw Wind Spd,knots,East Crane raw wind speed at the sensor
+Murphy,Delta House,EFMS,EC GPS,27,EC Latitude DegMin,DegMin,Latitude of the antenna; degrees and integer minutes only raw data – not for general use
+Murphy,Delta House,EFMS,EC GPS,28,EC Latitude DecMin,DecMin,Latitude of the antenna; decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,EC GPS,29,EC Latitude DecMin2,DecMin2,Latitude of the antenna; decimal minutes 5 to 8 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,EC GPS,30,EC Longitude DegMin,DegMin,Longitude of the antenna; degrees and integer minutes only raw data - not for general use
+Murphy,Delta House,EFMS,EC GPS,31,EC Longitude DecMin,DecMin,Longitude of the antenna; decimal minutes 1 to 4 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,EC GPS,32,EC Longitude DecMin2,DecMin2,Longitude of the antenna; decimal minutes 5 to 8 decimal places raw data - not for general use
+Murphy,Delta House,EFMS,EC GPS,33,EC Altitude 1,m,East Crane Altitude meters
+Murphy,Delta House,EFMS,EC GPS,34,EC Altitude 2,mm*10,East Crane Altitude centimeters
+Murphy,Delta House,EFMS,EC GPS,35,EC GPS Quality,#,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Murphy,Delta House,EFMS,EC GPS,36,EC Number of Satellites,#,Number of satellites being used to compute the position by the GPS receiver
+Murphy,Delta House,EFMS,EC GPS,37,EC HDOP,#,Horizontal dilution of precision
+Murphy,Delta House,EFMS,EC GPS,38,EC Age of Diff Corr,sec,Age in seconds since last update from differential reference station
+Murphy,Delta House,EFMS,EC GPS,39,EC Enc Heading,deg,East Crane Heading from Crane Rest
+Murphy,Delta House,EFMS,Environment,40,Air Temperature,degF,Raw Temperature 
+Murphy,Delta House,EFMS,Environment,41,Relative Humidity,%,Raw Humidity
+Murphy,Delta House,EFMS,Environment,42,Barometric Pressure,mbar,Raw Barometric Pressure
+Murphy,Delta House,EFMS,Airgap N,43,North Raw Airgap,ft,Measured distance from North Airgap to water surface
+Murphy,Delta House,EFMS,Airgap S,44,South Raw Airgap,ft,Measured distance from South Airgap to water surface
+Murphy,Delta House,EFMS,VADCP,45,Max Vertial Current Spd,knots,38KHz Deep Max_ADCP Current Speed
+Murphy,Delta House,EFMS,VADCP,46,Max Vertial Current Dir,degT,38KHz Deep Max_ADCP Current Dir
+Murphy,Delta House,EFMS,Mooring,47,Mooring Line 1 Tension,kips,Mooring Line 1 chain tension
+Murphy,Delta House,EFMS,Mooring,48,Mooring Line 2 Tension,kips,Mooring Line 2 chain tension
+Murphy,Delta House,EFMS,Mooring,49,Mooring Line 3 Tension,kips,Mooring Line 3 chain  tension
+Murphy,Delta House,EFMS,Mooring,50,Mooring Line 4 Tension,kips,Mooring Line 4 chain  tension
+Murphy,Delta House,EFMS,Mooring,51,Mooring Line 5 Tension,kips,Mooring Line 5 chain  tension
+Murphy,Delta House,EFMS,Mooring,52,Mooring Line 6 Tension,kips,Mooring Line 6 chain  tension
+Murphy,Delta House,EFMS,Mooring,53,Mooring Line 7 Tension,kips,Mooring Line 7 chain  tension
+Murphy,Delta House,EFMS,Mooring,54,Mooring Line 8 Tension,kips,Mooring Line 8 chain  tension
+Murphy,Delta House,EFMS,Mooring,55,Mooring Line 9 Tension,kips,Mooring Line 9 chain  tension
+Murphy,Delta House,EFMS,Mooring,56,Mooring Line 10 Tension,kips,Mooring Line 10 chain  tension
+Murphy,Delta House,EFMS,Mooring,57,Mooring Line 11 Tension,kips,Mooring Line 11 chain  tension
+Murphy,Delta House,EFMS,Mooring,58,Mooring Line 12 Tension,kips,Mooring Line 12 chain  tension
+Murphy,Delta House,EFMS,Mooring,59,Mooring Line 1 Payout,ft,Mooring Line 1 payout
+Murphy,Delta House,EFMS,Mooring,60,Mooring Line 2 Payout,ft,Mooring Line 2 payout
+Murphy,Delta House,EFMS,Mooring,61,Mooring Line 3 Payout,ft,Mooring Line 3 payout
+Murphy,Delta House,EFMS,Mooring,62,Mooring Line 4 Payout,ft,Mooring Line 4 payout
+Murphy,Delta House,EFMS,Mooring,63,Mooring Line 5 Payout,ft,Mooring Line 5 payout
+Murphy,Delta House,EFMS,Mooring,64,Mooring Line 6 Payout,ft,Mooring Line 6 payout
+Murphy,Delta House,EFMS,Mooring,65,Mooring Line 7 Payout,ft,Mooring Line 7 payout
+Murphy,Delta House,EFMS,Mooring,66,Mooring Line 8 Payout,ft,Mooring Line 8 payout
+Murphy,Delta House,EFMS,Mooring,67,Mooring Line 9 Payout,ft,Mooring Line 9 payout
+Murphy,Delta House,EFMS,Mooring,68,Mooring Line 10 Payout,ft,Mooring Line 10 payout
+Murphy,Delta House,EFMS,Mooring,69,Mooring Line 11 Payout,ft,Mooring Line 11 payout
+Murphy,Delta House,EFMS,Mooring,70,Mooring Line 12 Payout,ft,Mooring Line 12 payout
+Murphy,Delta House,EFMS,Ballast,71,NWC-1B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,72,NWC-1B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,73,NWC-1B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,74,NWC-2B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,75,NWC-MeOH,ft,Methanol
+Murphy,Delta House,EFMS,Ballast,76,NWC-LDHI,ft,LDHI
+Murphy,Delta House,EFMS,Ballast,77,NEC-1B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,78,NEC-1B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,79,NEC-1B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,80,NEC-2B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,81,NEC-MeOH,ft,Methanol
+Murphy,Delta House,EFMS,Ballast,82,NEC-LDHI,ft,LDHI
+Murphy,Delta House,EFMS,Ballast,83,SWC-1B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,84,SWC-1B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,85,SWC-1B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,86,SWC-2B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,87,SEC-1B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,88,SEC-1B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,89,SEC-1B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,90,SEC-2B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,91,NP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,92,NP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,93,NP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,94,NP-B4,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,95,NWP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,96,NWP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,97,NWP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,98,NEP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,99,NEP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,100,NEP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,101,WP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,102,WP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,103,WP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,104,WP-B4,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,105,EP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,106,EP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,107,EP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,108,EP-B4,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,109,SWP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,110,SWP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,111,SWP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,112,SEP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,113,SEP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,114,SEP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,115,SP-B1,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,116,SP-B2,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,117,SP-B3,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,118,SP-B4,ft,Ballast Tank level height
+Murphy,Delta House,EFMS,Ballast,119,NWC-2V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,120,NWC-2V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,121,NWC-3V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,122,NWC-3V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,123,NWC-3V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,124,NWC-4V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,125,NWC-CL1,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,126,NWC-CL2,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,127,NWC-CL3,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,128,NEC-2V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,129,NEC-2V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,130,NEC-3V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,131,NEC-3V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,132,NEC-3V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,133,NEC-4V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,134,NEC-CL1,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,135,NEC-CL2,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,136,NEC-CL3,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,137,SWC-2V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,138,SWC-2V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,139,SWC-3V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,140,SWC-3V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,141,SWC-3V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,142,SWC-CL1,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,143,SWC-CL2,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,144,SWC-CL3,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,145,SEC-2V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,146,SEC-2V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,147,SEC-3V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,148,SEC-3V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,149,SEC-3V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,150,SEC-CL1,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,151,SEC-CL2,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,152,SEC-CL3,bool,Chain Locker
+Murphy,Delta House,EFMS,Ballast,153,NWP-V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,154,NWP-V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,155,NWP-V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,156,NWP-PR-Hi-A,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,157,NWP-PR-Hi-B,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,158,NEP-V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,159,NEP-V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,160,NEP-V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,161,NEP-PR-Hi-A,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,162,NEP-PR-Hi-B,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,163,SWP-V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,164,SWP-V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,165,SWP-V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,166,SWP-PR-Hi-A,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,167,SWP-PR-Hi-B,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,168,SEP-V1,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,169,SEP-V2,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,170,SEP-V3,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,171,SEP-PR-Hi-A,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,172,SEP-PR-Hi-B,bool,Pump Room
+Murphy,Delta House,EFMS,Ballast,173,SP-NW-039,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,174,SP-NW-040,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,175,SP-SE-039,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,176,SP-SW-040,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,177,SP-SW-039,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,178,SP-NE-040,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,179,SP-NE-039,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,180,SP-SE-040,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,181,ELEVATOR PIT SW,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,182,ELEVATOR PIT NE,bool,Void Tank
+Murphy,Delta House,EFMS,Ballast,183,NW Draft,ft,Platform draft at NW location
+Murphy,Delta House,EFMS,Ballast,184,SW Draft,ft,Platform draft at SW location
+Murphy,Delta House,EFMS,Ballast,185,SE Draft,ft,Platform draft at SE location
+Murphy,Delta House,EFMS,Ballast,186,NE Draft,ft,Platform draft at NE location
+Murphy,Delta House,EFMS,Ballast,187,North Heel,deg,Heel computed by 3rd party level transmitter located on the North of the platform
+Murphy,Delta House,EFMS,Ballast,188,South Heel,deg,Heel computed by 3rd party level transmitter located on the South of the platform
+Murphy,Delta House,EFMS,Ballast,189,West trim,deg,Trim computed by 3rd party level transmitter located on the West of the platform
+Murphy,Delta House,EFMS,Ballast,190,East Trim,deg,Trim computed by 3rd party level transmitter located on the East of the platform
+Murphy,Delta House,EFMS,Derived 6DOF,191,Surge Acc COR,ft/s^2,Surge accelerations corrected with temperature at sensor location
+Murphy,Delta House,EFMS,Derived 6DOF,192,Sway Acc COR,ft/s^2,Sway accelerations corrected  with temperature at sensor location
+Murphy,Delta House,EFMS,Derived 6DOF,193,Heave Acc COR,ft/s^3,Heave accelerations corrected with temperature at sensor location
+Murphy,Delta House,EFMS,Derived 6DOF,194,SurgAcc STDEV,ft/s^4,Surge accelerations standard deviation
+Murphy,Delta House,EFMS,Derived 6DOF,195,SwayAcc STDEV,ft/s^5,Sway accelerations standard deviation
+Murphy,Delta House,EFMS,Derived 6DOF,196,HeavAcc STDEV,ft/s^6,Heave accelerations standard deviation
+Murphy,Delta House,EFMS,Derived 6DOF,197,Net Accel STDEV,ft/s^7,Net accelerations standard deviation
+Murphy,Delta House,EFMS,Derived 6DOF,198,Roll,deg,Final Roll (Static + Dynamic)
+Murphy,Delta House,EFMS,Derived 6DOF,199,Pitch,deg,Final Pitch (Static + Dynamic)
+Murphy,Delta House,EFMS,Derived 6DOF,200,Roll STDEV,deg,Final Roll Standard Deviation 
+Murphy,Delta House,EFMS,Derived 6DOF,201,Pitch STDEV,deg,Final Pitch Standard Deviation
+Murphy,Delta House,EFMS,Derived 6DOF,202,Static List,deg,Static roll computed from accelerometer
+Murphy,Delta House,EFMS,Derived 6DOF,203,Static Trim,deg,Static pitch computed from accelerometer
+Murphy,Delta House,EFMS,Derived 6DOF,204,Static Tilt,deg,Combined Heel and Trim
+Murphy,Delta House,EFMS,Derived 6DOF,205,Static Tilt Dir,deg,Tilt direction calculated from Heel and Trim
+Murphy,Delta House,EFMS,Derived Airgap,206,North Airgap,ft,Distance from downwards looking distance North sensor to sea surface
+Murphy,Delta House,EFMS,Derived Airgap,207,North Sig Wave Ht,ft,Significant wave height measured from North Airgap
+Murphy,Delta House,EFMS,Derived Airgap,208,North Wave Period,sec,Mean zero-upcrossing wave period from time domain (North)
+Murphy,Delta House,EFMS,Derived Airgap,209,North Draft,ft,"Draft at the X,Y position of the North Airgap sensor "
+Murphy,Delta House,EFMS,Derived Airgap,210,South Airgap,ft,Distance from downwards looking distance South sensor to sea surface
+Murphy,Delta House,EFMS,Derived Airgap,211,South Sig Wave Ht,ft,Significant wave height measured from South Airgap
+Murphy,Delta House,EFMS,Derived Airgap,212,South Wave Period,sec,Mean zero-upcrossing wave period from time domain (South)
+Murphy,Delta House,EFMS,Derived Airgap,213,South Draft,ft,"Draft at the X,Y position of the South Airgap sensor "
+Murphy,Delta House,EFMS,Derived Wind,214,WC Wind Spd,knots,West Crane wind speed at the sensor location
+Murphy,Delta House,EFMS,Derived Wind,215,WC Wind Dir,degT,West Crane wind direction at the sensor
+Murphy,Delta House,EFMS,Derived Wind,216,WC North Wind Spd,knots,Northenly wind speed measured by the WC anemometer.
+Murphy,Delta House,EFMS,Derived Wind,217,WC East Wind Spd,knots,Easterly wind speed measured by the WC anemometer.
+Murphy,Delta House,EFMS,Derived Wind,218,WC 3sec Wind Spd,knots,"3 second wind speed @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,219,WC 3sec Wind Dir,degT,"3 second wind direction @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,220,WC 1min Wind Spd,knots,"1 minute wind speed @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,221,WC 1min Wind Dir,degT,"1 minute wind direction @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,222,WC 1hr Wind Spd,knots,"1 hour wind speed @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,223,WC 1hr Wind Dir,degT,"1 hour wind direction @ 10 m above MSL, measured by WC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,224,EC Wind Spd,knots,East Crane wind speed - outliers removed
+Murphy,Delta House,EFMS,Derived Wind,225,EC Wind Dir,degT,East Crane wind direction - outliers removed
+Murphy,Delta House,EFMS,Derived Wind,226,EC North Wind Spd,knots,North Component of EC Wind Speed
+Murphy,Delta House,EFMS,Derived Wind,227,EC East Wind Spd,knots,East Component of EC Wind Speed
+Murphy,Delta House,EFMS,Derived Wind,228,EC 3sec Wind Spd,knots,"3 second wind speed @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,229,EC 3sec Wind Dir,degT,"3 second wind direction @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,230,EC 1min Wind Spd,knots,"1 minute wind speed @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,231,EC 1min Wind Dir,degT,"1 minute wind direction @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,232,EC 1hr Wind Spd,knots,"1 hour wind speed @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,233,EC 1hr Wind Dir,degT,"1 hour wind direction @ 10 m above MSL, measured by EC anemometer"
+Murphy,Delta House,EFMS,Derived Wind,234,Best Wind Spd,knots,Highest values of the WC and EC wind speeds
+Murphy,Delta House,EFMS,Derived Wind,235,Best Wind Dir,degT,Corresponding value to the Best Wind Speed
+Murphy,Delta House,EFMS,Derived Wind,236,Best North Wind Spd,knots,Northenly wind speed measured by the WC and EC anemometer.
+Murphy,Delta House,EFMS,Derived Wind,237,Best East Wind Spd,knots,Eastenly wind speed measured by the WC and EC anemometer.
+Murphy,Delta House,EFMS,Derived Wind,238,Best 3sec Wind Spd AVG,knots,"3 second wind speed @ 10 m above MSL, from highest value of EC and WC anemometers"
+Murphy,Delta House,EFMS,Derived Wind,239,Best 3sec Wind Dir AVG,degT,Corresponding value to the Best 3sec Wind Spd AVG
+Murphy,Delta House,EFMS,Derived Wind,240,Best 1min Wind Spd AVG,knots,"1 minute wind speed @ 10 m above MSL, from highest value of EC and WC anemometers"
+Murphy,Delta House,EFMS,Derived Wind,241,Best 1min Wind Dir AVG,degT,Corresponding value to the Best 1min Wind Spd AVG
+Murphy,Delta House,EFMS,Derived Wind,242,Best 1hr Wind Spd AVG,knots,"1 hour wind speed @ 10 m above MSL, from highest value of EC and WC anemometers"
+Murphy,Delta House,EFMS,Derived Wind,243,Best 1hr Wind Dir AVG,degT,Corresponding value to the Best 1hr Wind Spd AVG
+Murphy,Delta House,EFMS,Derived GPS,244,WC GPS Lat,deg,WC GPS latitude position in deg decimal
+Murphy,Delta House,EFMS,Derived GPS,245,WC GPS Lon,deg,WC GPS longitude position in deg decimal
+Murphy,Delta House,EFMS,Derived GPS,246,WC GPS Altitude,ft,WC altitude reading at GPS height
+Murphy,Delta House,EFMS,Derived GPS,247,WC GPS Northings,ft,WC Northings measured from local GPS position
+Murphy,Delta House,EFMS,Derived GPS,248,WC GPS Eastings,ft,WC Eastings measured from local GPS position
+Murphy,Delta House,EFMS,Derived GPS,249,WC PQ Northings,ft,WC Northings measured from platform reference position
+Murphy,Delta House,EFMS,Derived GPS,250,WC PQ Eastings,ft,WC Eastings measured from platform reference position
+Murphy,Delta House,EFMS,Derived GPS,251,WC PQ Altitude,ft,WC altitude reading at mean sea level
+Murphy,Delta House,EFMS,Derived GPS,252,WC PQ Offset,ft,Distance of WC offset from the platform reference position
+Murphy,Delta House,EFMS,Derived GPS,253,WC PQ Bearing,degT,WC bearing from nominal platform reference position
+Murphy,Delta House,EFMS,Derived GPS,254,WC PQ Northings AVG,ft,20min Average of WC PQ Northings
+Murphy,Delta House,EFMS,Derived GPS,255,WC PQ Eastings AVG,ft,20min Average of WC PQ Eastings
+Murphy,Delta House,EFMS,Derived GPS,256,WC PQ Quality,none,Satelites visible to WC GPS
+Murphy,Delta House,EFMS,Derived GPS,257,WC Crane Heading,degT,Measured relative to Platform North
+Murphy,Delta House,EFMS,Derived GPS,258,EC GPS Lat,deg,EC GPS latitude position in deg decimal
+Murphy,Delta House,EFMS,Derived GPS,259,EC GPS Lon,deg,EC GPS longitude position in deg decimal
+Murphy,Delta House,EFMS,Derived GPS,260,EC GPS Altitude,ft,EC altitude reading at GPS height
+Murphy,Delta House,EFMS,Derived GPS,261,EC GPS Northings,ft,EC Northings measured from local GPS position
+Murphy,Delta House,EFMS,Derived GPS,262,EC GPS Eastings,ft,EC Eastings measured from local GPS position
+Murphy,Delta House,EFMS,Derived GPS,263,EC PQ Northings,ft,EC Northings measured from platform reference position
+Murphy,Delta House,EFMS,Derived GPS,264,EC PQ Eastings,ft,EC Eastings measured from platform reference position
+Murphy,Delta House,EFMS,Derived GPS,265,EC PQ Altitude,ft,EC altitude reading at mean sea level
+Murphy,Delta House,EFMS,Derived GPS,266,EC PQ Offset,ft,Distance of EC offset from the platform reference position
+Murphy,Delta House,EFMS,Derived GPS,267,EC PQ Bearing,degT,EC bearing from nominal platform reference position
+Murphy,Delta House,EFMS,Derived GPS,268,EC PQ Northings AVG,ft,20min Average of EC PQ Northings
+Murphy,Delta House,EFMS,Derived GPS,269,EC PQ Eastings AVG,ft,20min Average of EC PQ Eastings
+Murphy,Delta House,EFMS,Derived GPS,270,EC PQ Quality,none,Satelites visible to EC GPS
+Murphy,Delta House,EFMS,Derived GPS,271,EC Crane Heading,degT,Measured relative to Platform North
+Murphy,Delta House,EFMS,Derived GPS,272,Combo PQ Lat,deg,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,273,Combo PQ Lon,deg,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,274,Combo PQ Altitude,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,275,Combo PQ Northings,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,276,Combo PQ Eastings,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,277,Combo PQ Offset,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,278,Combo PQ Bearing,degT,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,279,Combo PQ Northings AVG,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,280,Combo PQ Eastings AVG,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,281,Combo GPS Quality,#,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,282,Combo GPS No of Sats,#,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,283,Combo GPS HDOP,#,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,284,Combo GPS Age of Cor,sec,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,285,Combo GPS Active Mask,bits,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,286,Combo WCC Offset,ft,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived GPS,287,Combo WCC Bearing,degT,Combined GPS channels from best data from EC and WC GPS (average of all good active GPS)
+Murphy,Delta House,EFMS,Derived Env,288,Baro Pressure Avg,mbar,20 minutes mean Barometric pressure
+Murphy,Delta House,EFMS,Derived Env,289,Air Temperature Avg,degF,20 minutes mean air temperature
+Murphy,Delta House,EFMS,Derived Env,290,Rel Humidity Avg,%,20 minutes mean Relative Humidity

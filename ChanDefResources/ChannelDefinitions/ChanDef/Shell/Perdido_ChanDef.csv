@@ -1,0 +1,1177 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Shell,Perdido,MIS,6DOF,1,PQ Roll,deg,Calculated inside 6DoF of roll angle of rotation about the local body longitudinal (x) axis. +ve Roll is Starboard Down.
+Shell,Perdido,MIS,6DOF,2,PQ Pitch,deg,Calculated inside 6DoF of pitch angle of rotation about the local body transverse (y) axis. +ve Pitch is Bow Down.
+Shell,Perdido,MIS,6DOF,3,PQ Heave,ft,"Calculated inside 6DoF of vertical offset at the device location, along the local body vertical (z) axis. +ve Heave is upwards."
+Shell,Perdido,MIS,6DOF,4,PQ Roll Rate,deg/s,"Measured roll angular rate, +ve Roll is Starboard Down."
+Shell,Perdido,MIS,6DOF,5,PQ Pitch Rate,deg/s,"Measured pitch angular rate, +ve Pitch is Bow Down."
+Shell,Perdido,MIS,6DOF,6,PQ Heading Rate,deg/s,"Measured yaw angular rate, +ve Yaw is Bow towards Port."
+Shell,Perdido,MIS,6DOF,7,PQ Surge Acc,ft/s^2,"Measured surge acceleration, +ve Surge is along longitudinal (x) axis."
+Shell,Perdido,MIS,6DOF,8,PQ Sway Acc,ft/s^2,"Measured sway acceleration, +ve Sway is along transverse (y) axis."
+Shell,Perdido,MIS,6DOF,9,PQ Heave Acc,ft/s^2,"Measured heave acceleration, +ve Heave is along vertical (z) axis."
+Shell,Perdido,MIS,6DOF,10,PQ Heading,deg,"Calculated inside 6DoF of heading of the vessel, +ve heading is vessel Bow (x-axis) clockwise of True North."
+Shell,Perdido,MIS,6DOF,11,6DOF Sensor Status,code,The status flag value of the Attitude and Heading Reference measurement device.
+Shell,Perdido,MIS,GPS,12,Fugro Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Perdido,MIS,GPS,13,Fugro Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,GPS,14,Fugro Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,GPS,15,Fugro Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Perdido,MIS,GPS,16,Fugro Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,GPS,17,Fugro Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,GPS,18,Fugro Altitude 1,ft,Altitude measurement at the antenna location in terms of integer meters
+Shell,Perdido,MIS,GPS,19,Fugro Altitude 2,ft*10000,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Perdido,MIS,GPS,20,Fugro GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Perdido,MIS,GPS,21,Fugro No of Satellites,#,Number of Satellites available for position measurement.
+Shell,Perdido,MIS,6DOF GPS,22,Orion Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Perdido,MIS,6DOF GPS,23,Orion Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,6DOF GPS,24,Orion Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,6DOF GPS,25,Orion Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Perdido,MIS,6DOF GPS,26,Orion Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,6DOF GPS,27,Orion Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Perdido,MIS,6DOF GPS,28,Orion Altitude 1,ft,Altitude measurement at the antenna location in terms of integer meters
+Shell,Perdido,MIS,6DOF GPS,29,Orion Altitude 2,ft*10000,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Perdido,MIS,6DOF GPS,30,Orion GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Perdido,MIS,6DOF GPS,31,Orion No of Satellites,#,Number of Satellites available for position measurement.
+Shell,Perdido,MIS,Riser S-A,32,Low Riser S-A PT1,psi,Measured from Pressure Transducer on Riser A cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-A,33,Low Riser S-A PT2,psi,Measured from Pressure Transducer on Riser A cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-A,34,Low Riser S-A PT3,psi,Measured from Pressure Transducer on Riser A cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-A,35,Low Riser S-A PT4,psi,Measured from Pressure Transducer on Riser A cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-A,36,High Riser S-A PT1,psi,Measured from Pressure Transducer on Riser A cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-A,37,High Riser S-A PT2,psi,Measured from Pressure Transducer on Riser A cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-A,38,High Riser S-A PT3,psi,Measured from Pressure Transducer on Riser A cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-A,39,High Riser S-A PT4,psi,Measured from Pressure Transducer on Riser A cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-A,40,Riser S-A Stroke,ft,Riser A stroke measured by string pot 
+Shell,Perdido,MIS,Riser S-B,41,Low Riser S-B PT1,psi,Measured from Pressure Transducer on Riser B cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-B,42,Low Riser S-B PT2,psi,Measured from Pressure Transducer on Riser B cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-B,43,Low Riser S-B PT3,psi,Measured from Pressure Transducer on Riser B cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-B,44,Low Riser S-B PT4,psi,Measured from Pressure Transducer on Riser B cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-B,45,High Riser S-B PT1,psi,Measured from Pressure Transducer on Riser B cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-B,46,High Riser S-B PT2,psi,Measured from Pressure Transducer on Riser B cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-B,47,High Riser S-B PT3,psi,Measured from Pressure Transducer on Riser B cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-B,48,High Riser S-B PT4,psi,Measured from Pressure Transducer on Riser B cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-B,49,Riser S-B Stroke,ft,Riser B stroke measured by string pot 
+Shell,Perdido,MIS,Riser S-C,50,Low Riser S-C PT1,psi,Measured from Pressure Transducer on Riser C cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-C,51,Low Riser S-C PT2,psi,Measured from Pressure Transducer on Riser C cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-C,52,Low Riser S-C PT3,psi,Measured from Pressure Transducer on Riser C cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-C,53,Low Riser S-C PT4,psi,Measured from Pressure Transducer on Riser C cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-C,54,High Riser S-C PT1,psi,Measured from Pressure Transducer on Riser C cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-C,55,High Riser S-C PT2,psi,Measured from Pressure Transducer on Riser C cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-C,56,High Riser S-C PT3,psi,Measured from Pressure Transducer on Riser C cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-C,57,High Riser S-C PT4,psi,Measured from Pressure Transducer on Riser C cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-C,58,Riser S-C Stroke,ft,Riser C stroke measured by string pot 
+Shell,Perdido,MIS,Riser S-D,59,Low Riser S-D PT1,psi,Measured from Pressure Transducer on Riser D cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-D,60,Low Riser S-D PT2,psi,Measured from Pressure Transducer on Riser D cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-D,61,Low Riser S-D PT3,psi,Measured from Pressure Transducer on Riser D cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-D,62,Low Riser S-D PT4,psi,Measured from Pressure Transducer on Riser D cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-D,63,High Riser S-D PT1,psi,Measured from Pressure Transducer on Riser D cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-D,64,High Riser S-D PT2,psi,Measured from Pressure Transducer on Riser D cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-D,65,High Riser S-D PT3,psi,Measured from Pressure Transducer on Riser D cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-D,66,High Riser S-D PT4,psi,Measured from Pressure Transducer on Riser D cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-D,67,Riser S-D Stroke,ft,Riser D stroke measured by string pot 
+Shell,Perdido,MIS,Riser S-E,68,Low Riser S-E PT1,psi,Measured from Pressure Transducer on Riser E cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-E,69,Low Riser S-E PT2,psi,Measured from Pressure Transducer on Riser E cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-E,70,Low Riser S-E PT3,psi,Measured from Pressure Transducer on Riser E cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-E,71,Low Riser S-E PT4,psi,Measured from Pressure Transducer on Riser E cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-E,72,High Riser S-E PT1,psi,Measured from Pressure Transducer on Riser E cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-E,73,High Riser S-E PT2,psi,Measured from Pressure Transducer on Riser E cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-E,74,High Riser S-E PT3,psi,Measured from Pressure Transducer on Riser E cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-E,75,High Riser S-E PT4,psi,Measured from Pressure Transducer on Riser E cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-E,76,Riser S-E Stroke,ft,Riser E stroke measured by string pot 
+Shell,Perdido,MIS,Riser S-DCR,77,Low Riser S-DCR PT1,psi,Measured from Pressure Transducer on Riser DCR cylinder 1 lower part.
+Shell,Perdido,MIS,Riser S-DCR,78,Low Riser S-DCR PT2,psi,Measured from Pressure Transducer on Riser DCR cylinder 2 lower part.
+Shell,Perdido,MIS,Riser S-DCR,79,Low Riser S-DCR PT3,psi,Measured from Pressure Transducer on Riser DCR cylinder 3 lower part.
+Shell,Perdido,MIS,Riser S-DCR,80,Low Riser S-DCR PT4,psi,Measured from Pressure Transducer on Riser DCR cylinder 4 lower part.
+Shell,Perdido,MIS,Riser S-DCR,81,High Riser S-DCR PT1,psi,Measured from Pressure Transducer on Riser DCR cylinder 1 higher part.
+Shell,Perdido,MIS,Riser S-DCR,82,High Riser S-DCR PT2,psi,Measured from Pressure Transducer on Riser DCR cylinder 2 higher part.
+Shell,Perdido,MIS,Riser S-DCR,83,High Riser S-DCR PT3,psi,Measured from Pressure Transducer on Riser DCR cylinder 3 higher part.
+Shell,Perdido,MIS,Riser S-DCR,84,High Riser S-DCR PT4,psi,Measured from Pressure Transducer on Riser DCR cylinder 4 higher part.
+Shell,Perdido,MIS,Riser S-DCR,85,Riser S-DCR Stroke,ft,Riser DCR stroke measured by string pot 
+Shell,Perdido,MIS,AWOS,86,AWOS Cloud Height,ft,Measured cloud height on the 1st cloud layer.
+Shell,Perdido,MIS,AWOS,87,AWOS Cloud Coverage,code,"Measured types of cloud cover conditions include SKC (sky clear), FEW (trace), SCT (scattered), BKN (broken) and OVC (overcast). Cloud cover is reported in terms of 1/8th of sky cover with 1-2/8th being FEW, 3-4/8th being SCT, 5-7/8th being BKN and 8/8 denoted at OVC."
+Shell,Perdido,MIS,AWOS,88,AWOS Cloud Ht 2,ft,Measured cloud height on the 2nd cloud layer.
+Shell,Perdido,MIS,AWOS,89,AWOS Sky Cond 2,code,"Measured sky condition on the 2nd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)."
+Shell,Perdido,MIS,AWOS,90,AWOS Cloud Ht 3,ft,Measured cloud height on the 3rd cloud layer.
+Shell,Perdido,MIS,AWOS,91,AWOS Sky Cond 3,code,"Measured sky condition on the 3rd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)."
+Shell,Perdido,MIS,AWOS,92,AWOS Visibility,mile,Measured visibility.
+Shell,Perdido,MIS,AWOS,93,AWOS Rain Accumulation,in/hr,"Measured the amount of precipitation measured during the past hour, counting from the beginning of the hour."
+Shell,Perdido,MIS,AWOS,94,AWOS Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Perdido,MIS,AWOS,95,AWOS Dew Point,degF,Measured dew point at sensor location.
+Shell,Perdido,MIS,AWOS,96,AWOS 2min Wind Dir,degT,Measured 2-minute average relative wind direction at sensor location.
+Shell,Perdido,MIS,AWOS,97,AWOS 2min Wind Spd,knots,Measured 2-minute average wind speed at the sensor location.
+Shell,Perdido,MIS,AWOS,98,AWOS Altimeter,inHg,Measured altitude above the MSL (mean sea level) elevation.
+Shell,Perdido,MIS,AWOS,99,AWOS Density Alt,ft,Measured altitude in the standard atmosphere where air density is equivalent to that of the airport.
+Shell,Perdido,MIS,AWOS,100,AWOS Baro Pressure,inHg,Measured barometric pressure.
+Shell,Perdido,MIS,AWOS,101,AWOS Present Weather1,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Perdido,MIS,AWOS,102,AWOS Present Weather2,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Perdido,MIS,AWOS,103,AWOS Present Weather3,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Perdido,MIS,AWOS,104,AWOS Humidity,%,Measured relative humidity at sensor location.
+Shell,Perdido,MIS,AWOS,105,AWOS 2min Wind Spd Gust,knots,Derived wind gust speed computed during the previous 2 minutes.
+Shell,Perdido,MIS,WaMos,106,Sig Wave Height,ft,Measured significant wave height.
+Shell,Perdido,MIS,WaMos,107,Wave Period,s,Measured wave peak period.
+Shell,Perdido,MIS,WaMos,108,Peak Direction,deg,"Measured principal wave peak direction from, true."
+Shell,Perdido,MIS,WaMos,109,Peak Period,s,Measured principal wave peak period.
+Shell,Perdido,MIS,WaMos,110,Peak Wave Length,ft,Measured principal wave peak wave length.
+Shell,Perdido,MIS,WaMos,111,1st Peak Direction,deg,"Measured primary wave peak direction from, true."
+Shell,Perdido,MIS,WaMos,112,1st Peak Period,s,Measured primary wave peak period.
+Shell,Perdido,MIS,WaMos,113,1st Peak Wave Length,ft,Measured primary wave peak wave length.
+Shell,Perdido,MIS,WaMos,114,2nd Peak Direction,deg,"Measured secondary wave peak direction from, true."
+Shell,Perdido,MIS,WaMos,115,2nd Peak Period,s,Measured secondary wave peak period.
+Shell,Perdido,MIS,WaMos,116,2nd Peak Wave Length,ft,Measured secondary wave peak wave length.
+Shell,Perdido,MIS,WaMos,117,WaMos Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Perdido,MIS,WaMos,118,WaMos Current Spd,knot,Measured surface current speed.
+Shell,Perdido,MIS,DCS (Topside Tanks),119,Methanol1 Tank Level,ft,"Output Methanol1 Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),120,Methanol2 Tank Level,ft,"Output Methanol2 Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),121,LDHI Tank Level,ft,"Output LDHI Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),122,Drill Water Tank Level,ft,"Output Drill Water Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),123,Diesel Oil Tank Level,ft,"Output Diesel Oil Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),124,Hull Dead Oil1 Tank Level,ft,"Output Hull Dead Oil1 Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),125,Hull Dead Oil2 Tank Level,ft,"Output Hull Dead Oil2 Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),126,Dry Oil Tank Level,ft,"Output Dry Oil Tank Level, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),127,DCS Watchdog Counter,#,"Output DCS Watchdog Counter, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),128,2060 Prt Water Tank A,%,"Output 2060 Prt Water Tank A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),129,2060 Prt Water Tank B,%,"Output 2060 Prt Water Tank B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),130,2080 Diesel Tank,ft,"Output 2080 Diesel Tank, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),131,8750 Topside HPU,ft,"Output 8750 Topside HPU, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),132,2170 HPU Supply,%,"Output 2170 HPU Supply, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),133,2170 HPU Return,%,"Output 2170 HPU Return, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),134,2300 Asphaltene Inh,%,"Output 2300 Asphaltene Inh, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),135,2310 Corrosion Inhi,%,"Output 2310 Corrosion Inhi, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),136,2320 Demulsifier,%,"Output 2320 Demulsifier, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),137,2330 Defoamer,%,"Output 2330 Defoamer, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),138,2340 LDHI,%,"Output 2340 LDHI, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),139,2350 Methanol,%,"Output 2350 Methanol, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),140,2360 Paraffin Inhi,%,"Output 2360 Paraffin Inhi, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),141,2370 Scale Inhibito,%,"Output 2370 Scale Inhibito, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),142,2380 Antifoam,%,"Output 2380 Antifoam, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),143,2390 Acid Dmlsifier,%,"Output 2390 Acid Dmlsifier, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),144,2400 Water Clarifie,%,"Output 2400 Water Clarifie, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),145,2410 Flotatn Aid,%,"Output 2410 Flotatn Aid, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),146,2420 Tri-Ethl Glyco,%,"Output 2420 Tri-Ethl Glyco, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),147,2430 H2S Scavenger,%,"Output 2430 H2S Scavenger, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),148,2440 Nitrate,%,"Output 2440 Nitrate, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),149,2450 Biocide,%,"Output 2450 Biocide, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),150,2460 Scale Inhibito,%,"Output 2460 Scale Inhibito, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),151,2470 O2 Scavenger,%,"Output 2470 O2 Scavenger, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),152,2480 Gas P/L Corr,%,"Output 2480 Gas P/L Corr, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),153,2490 Oil P/L Corr,%,"Output 2490 Oil P/L Corr, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),154,2500 Pour Point Dep,%,"Output 2500 Pour Point Dep, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),155,DRY OIL TANK,ft,"Output DRY OIL TANK, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),156,Potable Water Tank A,ft,"Output Potable Water Tank A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),157,Potable Water Tank B,ft,"Output Potable Water Tank B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),158,MBD-1060,%,"Output MBD-1060, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),159,MBD-1610A,%,"Output MBD-1610A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),160,MBD-1610B,%,"Output MBD-1610B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),161,MBD-1610C,%,"Output MBD-1610C, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),162,MBD-1610D,%,"Output MBD-1610D, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),163,MBD-1610E,%,"Output MBD-1610E, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),164,BBC1220,%,"Output BBC1220, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),165,ABJ-2030,%,"Output ABJ-2030, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),166,MBD-124003,%,"Output MBD-124003, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),167,MBD-124005,%,"Output MBD-124005, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),168,MBJ-1330,%,"Output MBJ-1330, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),169,MBD-1520A,%,"Output MBD-1520A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),170,MBD-1520B,%,"Output MBD-1520B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),171,MBD-1520C,%,"Output MBD-1520C, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),172,MBD-1520D,%,"Output MBD-1520D, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),173,MBD-1520E,%,"Output MBD-1520E, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),174,MBF-1190A,%,"Output MBF-1190A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),175,MBF-1190B,%,"Output MBF-1190B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),176,MBF-1200A,%,"Output MBF-1200A, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),177,MBF-1200B,%,"Output MBF-1200B, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),178,MBM-151001,%,"Output MBM-151001, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),179,MBM-151006,%,"Output MBM-151006, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),180,MBD-105013,%,"Output MBD-105013, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),181,MBD-105018,%,"Output MBD-105018, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),182,MAK-1110A04,%,"Output MAK-1110A04, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),183,MAK-1110A06,%,"Output MAK-1110A06, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),184,MAK-1110B04,%,"Output MAK-1110B04, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),185,MAK-1110B06,%,"Output MAK-1110B06, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),186,MBF-1090,%,"Output MBF-1090, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),187,MBM-154001,%,"Output MBM-154001, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),188,MBM-154003,%,"Output MBM-154003, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),189,MBF-1080,%,"Output MBF-1080, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),190,MBD-1630-25,%,"Output MBD-1630-25, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,DCS (Topside Tanks),191,MBD-1630-35,%,"Output MBD-1630-35, from Topside tanks' levels, from Yokogawa."
+Shell,Perdido,MIS,Mooring,192,Static Tension ML1,kips,"Output Static Tension ML1, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,193,Static Tension ML2,kips,"Output Static Tension ML2, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,194,Static Tension ML3,kips,"Output Static Tension ML3, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,195,Static Tension ML4,kips,"Output Static Tension ML4, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,196,Static Tension ML5,kips,"Output Static Tension ML5, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,197,Static Tension ML6,kips,"Output Static Tension ML6, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,198,Static Tension ML7,kips,"Output Static Tension ML7, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,199,Static Tension ML8,kips,"Output Static Tension ML8, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,200,Static Tension ML9,kips,"Output Static Tension ML9, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,201,Dynamic Tension ML1,kips,"Output Dynamic Tension ML1, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,202,Dynamic Tension ML2,kips,"Output Dynamic Tension ML2, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,203,Dynamic Tension ML3,kips,"Output Dynamic Tension ML3, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,204,Dynamic Tension ML4,kips,"Output Dynamic Tension ML4, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,205,Dynamic Tension ML5,kips,"Output Dynamic Tension ML5, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,206,Dynamic Tension ML6,kips,"Output Dynamic Tension ML6, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,207,Dynamic Tension ML7,kips,"Output Dynamic Tension ML7, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,208,Dynamic Tension ML8,kips,"Output Dynamic Tension ML8, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,209,Dynamic Tension ML9,kips,"Output Dynamic Tension ML9, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,210,Chain Footage ML1,ft,"Output Chain Footage ML1, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,211,Chain Footage ML2,ft,"Output Chain Footage ML2, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,212,Chain Footage ML3,ft,"Output Chain Footage ML3, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,213,Chain Footage ML4,ft,"Output Chain Footage ML4, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,214,Chain Footage ML5,ft,"Output Chain Footage ML5, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,215,Chain Footage ML6,ft,"Output Chain Footage ML6, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,216,Chain Footage ML7,ft,"Output Chain Footage ML7, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,217,Chain Footage ML8,ft,"Output Chain Footage ML8, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,218,Chain Footage ML9,ft,"Output Chain Footage ML9, from Mooring channels from Mooring PLC, ZenMAS, output to LMP."
+Shell,Perdido,MIS,Mooring,219,Dynamic Over Tension ML1,bool,"Output Dynamic Over Tension ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,220,Dynamic Under Tension ML1,bool,"Output Dynamic Under Tension ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,221,loadcell error ML1,bool,"Output loadcell error ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,222,Ratchet sensor error ML1,bool,"Output Ratchet sensor error ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,223,Chain stopper error ML1,bool,"Output Chain stopper error ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,224,Operation error ML1,bool,"Output Operation error ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,225,Position error ML1,bool,"Output Position error ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,226,Max chain out ML1,bool,"Output Max chain out ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,227,Max chain in ML1,bool,"Output Max chain in ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,228,PT loop fail ML1,bool,"Output PT loop fail ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,229,Over Speed ML1,bool,"Output Over Speed ML1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,230,Dynamic Over Tension ML2,bool,"Output Dynamic Over Tension ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,231,Dynamic Under Tension ML2,bool,"Output Dynamic Under Tension ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,232,loadcell error ML2,bool,"Output loadcell error ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,233,Ratchet sensor error ML2,bool,"Output Ratchet sensor error ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,234,Chain stopper error ML2,bool,"Output Chain stopper error ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,235,Operation error ML2,bool,"Output Operation error ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,236,Position error ML2,bool,"Output Position error ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,237,Max chain out ML2,bool,"Output Max chain out ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,238,Max chain in ML2,bool,"Output Max chain in ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,239,PT loop fail ML2,bool,"Output PT loop fail ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,240,Over Speed ML2,bool,"Output Over Speed ML2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,241,Dynamic Over Tension ML3,bool,"Output Dynamic Over Tension ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,242,Dynamic Under Tension ML3,bool,"Output Dynamic Under Tension ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,243,loadcell error ML3,bool,"Output loadcell error ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,244,Ratchet sensor error ML3,bool,"Output Ratchet sensor error ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,245,Chain stopper error ML3,bool,"Output Chain stopper error ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,246,Operation error ML3,bool,"Output Operation error ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,247,Position error ML3,bool,"Output Position error ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,248,Max chain out ML3,bool,"Output Max chain out ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,249,Max chain in ML3,bool,"Output Max chain in ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,250,PT loop fail ML3,bool,"Output PT loop fail ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,251,Over Speed ML3,bool,"Output Over Speed ML3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,252,Dynamic Over Tension ML4,bool,"Output Dynamic Over Tension ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,253,Dynamic Under Tension ML4,bool,"Output Dynamic Under Tension ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,254,loadcell error ML4,bool,"Output loadcell error ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,255,Ratchet sensor error ML4,bool,"Output Ratchet sensor error ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,256,Chain stopper error ML4,bool,"Output Chain stopper error ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,257,Operation error ML4,bool,"Output Operation error ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,258,Position error ML4,bool,"Output Position error ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,259,Max chain out ML4,bool,"Output Max chain out ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,260,Max chain in ML4,bool,"Output Max chain in ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,261,PT loop fail ML4,bool,"Output PT loop fail ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,262,Over Speed ML4,bool,"Output Over Speed ML4, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,263,Dynamic Over Tension ML5,bool,"Output Dynamic Over Tension ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,264,Dynamic Under Tension ML5,bool,"Output Dynamic Under Tension ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,265,loadcell error ML5,bool,"Output loadcell error ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,266,Ratchet sensor error ML5,bool,"Output Ratchet sensor error ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,267,Chain stopper error ML5,bool,"Output Chain stopper error ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,268,Operation error ML5,bool,"Output Operation error ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,269,Position error ML5,bool,"Output Position error ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,270,Max chain out ML5,bool,"Output Max chain out ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,271,Max chain in ML5,bool,"Output Max chain in ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,272,PT loop fail ML5,bool,"Output PT loop fail ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,273,Over Speed ML5,bool,"Output Over Speed ML5, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,274,Dynamic Over Tension ML6,bool,"Output Dynamic Over Tension ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,275,Dynamic Under Tension ML6,bool,"Output Dynamic Under Tension ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,276,loadcell error ML6,bool,"Output loadcell error ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,277,Ratchet sensor error ML6,bool,"Output Ratchet sensor error ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,278,Chain stopper error ML6,bool,"Output Chain stopper error ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,279,Operation error ML6,bool,"Output Operation error ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,280,Position error ML6,bool,"Output Position error ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,281,Max chain out ML6,bool,"Output Max chain out ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,282,Max chain in ML6,bool,"Output Max chain in ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,283,PT loop fail ML6,bool,"Output PT loop fail ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,284,Over Speed ML6,bool,"Output Over Speed ML6, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,285,Dynamic Over Tension ML7,bool,"Output Dynamic Over Tension ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,286,Dynamic Under Tension ML7,bool,"Output Dynamic Under Tension ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,287,loadcell error ML7,bool,"Output loadcell error ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,288,Ratchet sensor error ML7,bool,"Output Ratchet sensor error ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,289,Chain stopper error ML7,bool,"Output Chain stopper error ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,290,Operation error ML7,bool,"Output Operation error ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,291,Position error ML7,bool,"Output Position error ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,292,Max chain out ML7,bool,"Output Max chain out ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,293,Max chain in ML7,bool,"Output Max chain in ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,294,PT loop fail ML7,bool,"Output PT loop fail ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,295,Over Speed ML7,bool,"Output Over Speed ML7, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,296,Dynamic Over Tension ML8,bool,"Output Dynamic Over Tension ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,297,Dynamic Under Tension ML8,bool,"Output Dynamic Under Tension ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,298,loadcell error ML8,bool,"Output loadcell error ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,299,Ratchet sensor error ML8,bool,"Output Ratchet sensor error ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,300,Chain stopper error ML8,bool,"Output Chain stopper error ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,301,Operation error ML8,bool,"Output Operation error ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,302,Position error ML8,bool,"Output Position error ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,303,Max chain out ML8,bool,"Output Max chain out ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,304,Max chain in ML8,bool,"Output Max chain in ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,305,PT loop fail ML8,bool,"Output PT loop fail ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,306,Over Speed ML8,bool,"Output Over Speed ML8, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,307,Dynamic Over Tension ML9,bool,"Output Dynamic Over Tension ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,308,Dynamic Under Tension ML9,bool,"Output Dynamic Under Tension ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,309,loadcell error ML9,bool,"Output loadcell error ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,310,Ratchet sensor error ML9,bool,"Output Ratchet sensor error ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,311,Chain stopper error ML9,bool,"Output Chain stopper error ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,312,Operation error ML9,bool,"Output Operation error ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,313,Position error ML9,bool,"Output Position error ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,314,Max chain out ML9,bool,"Output Max chain out ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,315,Max chain in ML9,bool,"Output Max chain in ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,316,PT loop fail ML9,bool,"Output PT loop fail ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,317,Over Speed ML9,bool,"Output Over Speed ML9, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,318,Oil Level Lo,bool,"Output Oil Level Lo, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,319,Oil Level LoLo,bool,"Output Oil Level LoLo, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,320,Oil Temp Hi,bool,"Output Oil Temp Hi, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,321,Oil Temp HiHi,bool,"Output Oil Temp HiHi, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,322,Oil Temp HiHiHi,bool,"Output Oil Temp HiHiHi, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,323,PLC Low Battery,bool,"Output PLC Low Battery, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,324,EmStop Group1 Activated,bool,"Output EmStop Group1 Activated, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,325,EmStop Group2 Activated,bool,"Output EmStop Group2 Activated, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,326,EmStop Group3 Activated,bool,"Output EmStop Group3 Activated, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,327,EmStop HPU Activated,bool,"Output EmStop HPU Activated, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,328,Return Filter Clogged1,bool,"Output Return Filter Clogged1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,329,Return Filter Clogged2,bool,"Output Return Filter Clogged2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,330,Main Pump1 Running,bool,"Output Main Pump1 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,331,Main Pump2 Running,bool,"Output Main Pump2 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,332,Main Pump3 Running,bool,"Output Main Pump3 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,333,Main Pump4 Running,bool,"Output Main Pump4 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,334,Cir Pump1 Running,bool,"Output Cir Pump1 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,335,Cir Pump2 Running,bool,"Output Cir Pump2 Running, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,336,Cooling Fan Running1,bool,"Output Cooling Fan Running1, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,337,Cooling Fan Running2,bool,"Output Cooling Fan Running2, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,338,Cooling Fan Running3,bool,"Output Cooling Fan Running3, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,339,Hydr. Press Standby,bool,"Output Hydr. Press Standby, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,340,Hydr. Press Work,bool,"Output Hydr. Press Work, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,341,Hydr. Press Work High,bool,"Output Hydr. Press Work High, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,342,Prssure Available,bool,"Output Prssure Available, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Mooring,343,ML Watchdog Counter,#,"Output ML Watchdog Counter, from Mooring channels from Mooring PLC, ZenMAS."
+Shell,Perdido,MIS,Ballast & Draft,344,BCS Draft1,ft,"Output BCS Draft1, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,345,BCS Draft2,ft,"Output BCS Draft2, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,346,3NVB Ballast Tank Level,ft,"Output 3NVB Ballast Tank Level, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,347,3EVB Ballast Tank Level,ft,"Output 3EVB Ballast Tank Level, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,348,3SVB Ballast Tank Level,ft,"Output 3SVB Ballast Tank Level, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,349,3WVB Ballast Tank Level,ft,"Output 3WVB Ballast Tank Level, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,350,4NVO Void,bool,"Output 4NVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,351,4EVO Void,bool,"Output 4EVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,352,4SVO Void,bool,"Output 4SVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,353,4WVO Void,bool,"Output 4WVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,354,5NVO Void,bool,"Output 5NVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,355,5EVO Void,bool,"Output 5EVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,356,5SVO Void,bool,"Output 5SVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,357,5WVO Void,bool,"Output 5WVO Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,358,6NVO1 Void,bool,"Output 6NVO1 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,359,6NVO2 Void,bool,"Output 6NVO2 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,360,6EVO1 Void,bool,"Output 6EVO1 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,361,6EVO2 Void,bool,"Output 6EVO2 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,362,6SVO1 Void,bool,"Output 6SVO1 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,363,6SVO2 Void,bool,"Output 6SVO2 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,364,6WVO1 Void,bool,"Output 6WVO1 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,Ballast & Draft,365,6WVO2 Void,bool,"Output 6WVO2 Void, from Ballast & Draft, from Ballast PLC."
+Shell,Perdido,MIS,VADCP,366,VADCP Current Speed,knots,Max VADCP Current Speed from configured bin ranges.
+Shell,Perdido,MIS,VADCP,367,VADCP Current Direction,deg,Corresponding Direction to the Max VADCP Current Speed.
+Shell,Perdido,MIS,VADCP,368,VADCP Water Temp,degC,Measured sea water temperature at sensor location.
+Shell,Perdido,MIS,ROV ADCP,369,ROV Current Spd,knots,ROV Current Speed
+Shell,Perdido,MIS,ROV ADCP,370,ROV Current Dir,deg,ROV Current Dir
+Shell,Perdido,MIS,ROV ADCP,371,ROV Water Temp,degC,ROV Temperature
+Shell,Perdido,MIS,Drilling,372,Activity Code,none,"Output Activity Code, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,373,Depth Bit,ft,"Output Depth Bit, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,374,Rate of Penetration,ft/hr,"Output Rate of Penetration, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,375,Hookload,kips,"Output Hookload, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,376,Weight on Bit,kips,"Output Weight on Bit, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,377,Rotary Torque,ft-kips,"Output Rotary Torque, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,378,Rotary Speed,rpm,"Output Rotary Speed, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,379,Mud Weight Out,ppg,"Output Mud Weight Out, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Drilling,380,Mud Weight In,ppg,"Output Mud Weight In, data relayed from drilling system, RTOC."
+Shell,Perdido,MIS,Riser Wear,381,Max DLS Near Keel,deg/ft,"Calculated riser shape results, Dog Leg Severiry, near keel, computed by BMT WinMon."
+Shell,Perdido,MIS,Riser Wear,382,Max DLS Near Stressjoint,deg/ft,"Calculated riser shape results, Dog Leg Severiry, near stressjoint, computed by BMT WinMon."
+Shell,Perdido,MIS,Riser Wear,383,RSM Error Code,#,Riser Shape Module error.
+Shell,Perdido,MIS,Riser Wear,384,Riser Wear Error Code,#,Used to communicate errors from the Riser Wear Module. It will normally be a value of 0 and positive values will be used to identify various errors.
+Shell,Perdido,MIS,Riser Wear,385,Max Riser Wear,inches,"Calculated maximum riser wear along the entire riser, extracted along with maximum only around the Keel and Stressjoint, computed by BMT WinMon."
+Shell,Perdido,MIS,Riser Wear,386,Max Riser Wear Rate,in/24hrs,"Calculated maximum riser wear rate along the entire riser, extracted along with maximum only around the Keel and Stressjoint, computed by BMT WinMon."
+Shell,Perdido,MIS,Riser Wear,387,Keel Riser Wear,inches,"Calculated riser wear at keel, computed by BMT WindMon."
+Shell,Perdido,MIS,Riser Wear,388,Keel Riser Wear Rate,in/24hrs,"Calculated riser wear rate at keel, computed by BMT WindMon."
+Shell,Perdido,MIS,Riser Wear,389,Stressjnt Riser Wear,inches,"Calculated riser wear at stressjoint, computed by BMT WindMon."
+Shell,Perdido,MIS,Riser Wear,390,Stressjnt Riser wear Rate,in/24hrs,"Calculated riser wear rate at stressjoint, computed by BMT WindMon."
+Shell,Perdido,MIS,MAS,391,Calculation Flag,bool,"Output Calculation Flag, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,392,KG Margin,ft,"Output KG Margin, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,393,Predicted Draft,ft,"Output Predicted Draft, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,394,Predicted Heel,deg,"Output Predicted Heel, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,395,Predicted Trim,deg,"Output Predicted Trim, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,396,Lightship Weight,kips,"Output Lightship Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,397,Lightship VCG,ft,"Output Lightship VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,398,Lightship CG EW,ft,"Output Lightship CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,399,Lightship CG NS,ft,"Output Lightship CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,400,Lightship Mt Vert HI,ft-kips,"Output Lightship Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,401,Lightship Mt Vert LO,ft-kips,"Output Lightship Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,402,Lightship Mt EW HI,ft-kips,"Output Lightship Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,403,Lightship Mt EW LO,ft-kips,"Output Lightship Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,404,Lightship Mt NS HI,ft-kips,"Output Lightship Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,405,Lightship Mt NS LO,ft-kips,"Output Lightship Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,406,Lightship Ch Weight,kips,"Output Lightship Ch Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,407,Lightship Ch VCG,ft,"Output Lightship Ch VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,408,Lightship Ch CG EW,ft,"Output Lightship Ch CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,409,Lightship Ch CG NS,ft,"Output Lightship Ch CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,410,Lightship Ch Mt Vert HI,ft-kips,"Output Lightship Ch Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,411,Lightship Ch Mt Vert LO,ft-kips,"Output Lightship Ch Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,412,Lightship Ch Mt EW HI,ft-kips,"Output Lightship Ch Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,413,Lightship Ch Mt EW LO,ft-kips,"Output Lightship Ch Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,414,Lightship Ch Mt NS HI,ft-kips,"Output Lightship Ch Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,415,Lightship Ch Mt NS LO,ft-kips,"Output Lightship Ch Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,416,Ballast Weight,kips,"Output Ballast Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,417,Ballast VCG,ft,"Output Ballast VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,418,Ballast CG EW,ft,"Output Ballast CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,419,Ballast CG NS,ft,"Output Ballast CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,420,Ballast Mt Vert HI,ft-kips,"Output Ballast Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,421,Ballast Mt Vert LO,ft-kips,"Output Ballast Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,422,Ballast Mt EW HI,ft-kips,"Output Ballast Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,423,Ballast Mt EW LO,ft-kips,"Output Ballast Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,424,Ballast Mt NS HI,ft-kips,"Output Ballast Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,425,Ballast Mt NS LO,ft-kips,"Output Ballast Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,426,Ballast FS Mt EW HI,ft-kips,"Output Ballast FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,427,Ballast FS Mt EW LO,ft-kips,"Output Ballast FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,428,Ballast FS Mt NS HI,ft-kips,"Output Ballast FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,429,Ballast FS Mt NS LO,ft-kips,"Output Ballast FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,430,Diesel Oil Weight,kips,"Output Diesel Oil Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,431,Diesel Oil VCG,ft,"Output Diesel Oil VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,432,Diesel Oil CG EW,ft,"Output Diesel Oil CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,433,Diesel Oil CG NS,ft,"Output Diesel Oil CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,434,Diesel Oil Mt Vert HI,ft-kips,"Output Diesel Oil Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,435,Diesel Oil Mt Vert LO,ft-kips,"Output Diesel Oil Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,436,Diesel Oil Mt EW HI,ft-kips,"Output Diesel Oil Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,437,Diesel Oil Mt EW LO,ft-kips,"Output Diesel Oil Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,438,Diesel Oil Mt NS,ft-kips,"Output Diesel Oil Mt NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,439,Diesel Oil FS Mt EW HI,ft-kips,"Output Diesel Oil FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,440,Diesel Oil FS Mt EW LO,ft-kips,"Output Diesel Oil FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,441,Diesel Oil FS Mt NS HI,ft-kips,"Output Diesel Oil FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,442,Diesel Oil FS Mt NS LO,ft-kips,"Output Diesel Oil FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,443,Drill Water Weight,kips,"Output Drill Water Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,444,Drill Water VCG,ft,"Output Drill Water VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,445,Drill Water CG EW,ft,"Output Drill Water CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,446,Drill Water CG NS,ft,"Output Drill Water CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,447,Drill Water Mt Vert HI,ft-kips,"Output Drill Water Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,448,Drill Water Mt Vert LO,ft-kips,"Output Drill Water Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,449,Drill Water Mt EW HI,ft-kips,"Output Drill Water Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,450,Drill Water Mt EW LO,ft-kips,"Output Drill Water Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,451,Drill Water Mt NS HI,ft-kips,"Output Drill Water Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,452,Drill Water Mt NS LO,ft-kips,"Output Drill Water Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,453,Drill Water FS Mt EW HI,ft-kips,"Output Drill Water FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,454,Drill Water FS Mt EW LO,ft-kips,"Output Drill Water FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,455,Drill Water FS Mt NS HI,ft-kips,"Output Drill Water FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,456,Drill Water FS Mt NS LO,ft-kips,"Output Drill Water FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,457,Methanol Weight,kips,"Output Methanol Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,458,Methanol VCG,ft,"Output Methanol VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,459,Methanol CG EW,ft,"Output Methanol CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,460,Methanol CG NS,ft,"Output Methanol CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,461,Methanol Mt Vert HI,ft-kips,"Output Methanol Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,462,Methanol Mt Vert LO,ft-kips,"Output Methanol Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,463,Methanol Mt EW HI,ft-kips,"Output Methanol Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,464,Methanol Mt EW LO,ft-kips,"Output Methanol Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,465,Methanol Mt NS HI,ft-kips,"Output Methanol Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,466,Methanol Mt NS LO,ft-kips,"Output Methanol Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,467,Methanol FS Mt EW HI,ft-kips,"Output Methanol FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,468,Methanol FS Mt EW LO,ft-kips,"Output Methanol FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,469,Methanol FS Mt NS HI,ft-kips,"Output Methanol FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,470,Methanol FS Mt NS LO,ft-kips,"Output Methanol FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,471,DO LDHI Weight,kips,"Output DO LDHI Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,472,DO LDHI VCG,ft,"Output DO LDHI VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,473,DO LDHI CG EW,ft,"Output DO LDHI CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,474,DO LDHI CG NS,ft,"Output DO LDHI CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,475,DO LDHI Mt Vert HI,ft-kips,"Output DO LDHI Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,476,DO LDHI Mt Vert LO,ft-kips,"Output DO LDHI Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,477,DO LDHI Mt EW HI,ft-kips,"Output DO LDHI Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,478,DO LDHI Mt EW LO,ft-kips,"Output DO LDHI Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,479,DO LDHI Mt NS HI,ft-kips,"Output DO LDHI Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,480,DO LDHI Mt NS LO,ft-kips,"Output DO LDHI Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,481,DO LDHI FS Mt EW HI,ft-kips,"Output DO LDHI FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,482,DO LDHI FS Mt EW LO,ft-kips,"Output DO LDHI FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,483,DO LDHI FS Mt NS HI,ft-kips,"Output DO LDHI FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,484,DO LDHI FS Mt NS LO,ft-kips,"Output DO LDHI FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,485,Chain Locker Weight,kips,"Output Chain Locker Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,486,Chain Locker VCG,ft,"Output Chain Locker VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,487,Chain Locker CG EW,ft,"Output Chain Locker CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,488,Chain Locker CG NS,ft,"Output Chain Locker CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,489,Chain Locker Mt Vert HI,ft-kips,"Output Chain Locker Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,490,Chain Locker Mt Vert LO,ft-kips,"Output Chain Locker Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,491,Chain Locker Mt EW HI,ft-kips,"Output Chain Locker Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,492,Chain Locker Mt EW LO,ft-kips,"Output Chain Locker Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,493,Chain Locker Mt NS HI,ft-kips,"Output Chain Locker Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,494,Chain Locker Mt NS LO,ft-kips,"Output Chain Locker Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,495,Chain Weights Weight,kips,"Output Chain Weights Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,496,Chain Weights VCG,ft,"Output Chain Weights VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,497,Chain Weights CG EW,ft,"Output Chain Weights CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,498,Chain Weights CG NS,ft,"Output Chain Weights CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,499,Chain Weights Mt Vert HI,ft-kips,"Output Chain Weights Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,500,Chain Weights Mt Vert LO,ft-kips,"Output Chain Weights Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,501,Chain Weights Mt EW HI,ft-kips,"Output Chain Weights Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,502,Chain Weights Mt EW LO,ft-kips,"Output Chain Weights Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,503,Chain Weights Mt NS HI,ft-kips,"Output Chain Weights Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,504,Chain Weights Mt NS LO,ft-kips,"Output Chain Weights Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,505,Mooring Lines Weight,kips,"Output Mooring Lines Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,506,Mooring Lines VCG,ft,"Output Mooring Lines VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,507,Mooring Lines CG EW,ft,"Output Mooring Lines CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,508,Mooring Lines CG NS,ft,"Output Mooring Lines CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,509,Mooring Lines Mt Vert HI,ft-kips,"Output Mooring Lines Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,510,Mooring Lines Mt Vert LO,ft-kips,"Output Mooring Lines Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,511,Mooring Lines Mt EW HI,ft-kips,"Output Mooring Lines Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,512,Mooring Lines Mt EW LO,ft-kips,"Output Mooring Lines Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,513,Mooring Lines Mt NS HI,ft-kips,"Output Mooring Lines Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,514,Mooring Lines Mt NS LO,ft-kips,"Output Mooring Lines Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,515,Risers Weight,kips,"Output Risers Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,516,Risers VCG,ft,"Output Risers VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,517,Risers CG EW,ft,"Output Risers CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,518,Risers CG NS,ft,"Output Risers CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,519,Risers Mt Vert HI,ft-kips,"Output Risers Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,520,Risers Mt Vert LO,ft-kips,"Output Risers Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,521,Risers Mt EW HI,ft-kips,"Output Risers Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,522,Risers Mt EW LO,ft-kips,"Output Risers Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,523,Risers Mt NS HI,ft-kips,"Output Risers Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,524,Risers Mt NS LO,ft-kips,"Output Risers Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,525,Drilling Rig Weight,kips,"Output Drilling Rig Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,526,Drilling Rig VCG,ft,"Output Drilling Rig VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,527,Drilling Rig CG EW,ft,"Output Drilling Rig CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,528,Drilling Rig CG NS,ft,"Output Drilling Rig CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,529,Drilling Rig Mt Vert HI,ft-kips,"Output Drilling Rig Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,530,Drilling Rig Mt Vert LO,ft-kips,"Output Drilling Rig Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,531,Drilling Rig Mt EW HI,ft-kips,"Output Drilling Rig Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,532,Drilling Rig Mt EW LO,ft-kips,"Output Drilling Rig Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,533,Drilling Rig Mt NS HI,ft-kips,"Output Drilling Rig Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,534,Drilling Rig Mt NS LO,ft-kips,"Output Drilling Rig Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,535,Prod Dk LIQ Weight,kips,"Output Prod Dk LIQ Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,536,Prod Dk LIQ VCG,ft,"Output Prod Dk LIQ VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,537,Prod Dk LIQ CG EW,ft,"Output Prod Dk LIQ CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,538,Prod Dk LIQ CG NS,ft,"Output Prod Dk LIQ CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,539,Prod Dk LIQ Mt Vert HI,ft-kips,"Output Prod Dk LIQ Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,540,Prod Dk LIQ Mt Vert LO,ft-kips,"Output Prod Dk LIQ Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,541,Prod Dk LIQ Mt EW HI,ft-kips,"Output Prod Dk LIQ Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,542,Prod Dk LIQ Mt EW LO,ft-kips,"Output Prod Dk LIQ Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,543,Prod Dk LIQ Mt NS HI,ft-kips,"Output Prod Dk LIQ Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,544,Prod Dk LIQ Mt NS LO,ft-kips,"Output Prod Dk LIQ Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,545,Prod Dk LIQ FS Mt EW HI,ft-kips,"Output Prod Dk LIQ FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,546,Prod Dk LIQ FS Mt EW LO,ft-kips,"Output Prod Dk LIQ FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,547,Prod Dk LIQ FS Mt NS HI,ft-kips,"Output Prod Dk LIQ FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,548,Prod Dk LIQ FS Mt NS LO,ft-kips,"Output Prod Dk LIQ FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,549,Cellr Dk Liq Weight,kips,"Output Cellr Dk Liq Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,550,Cellr Dk Liq VCG,ft,"Output Cellr Dk Liq VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,551,Cellr Dk Liq CG EW,ft,"Output Cellr Dk Liq CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,552,Cellr Dk Liq CG NS,ft,"Output Cellr Dk Liq CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,553,Cellr Dk Liq Mt Vert HI,ft-kips,"Output Cellr Dk Liq Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,554,Cellr Dk Liq Mt Vert LO,ft-kips,"Output Cellr Dk Liq Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,555,Cellr Dk Liq Mt EW HI,ft-kips,"Output Cellr Dk Liq Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,556,Cellr Dk Liq Mt EW LO,ft-kips,"Output Cellr Dk Liq Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,557,Cellr Dk Liq Mt NS HI,ft-kips,"Output Cellr Dk Liq Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,558,Cellr Dk Liq Mt NS LO,ft-kips,"Output Cellr Dk Liq Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,559,Cellr Dk Liq FS Mt EW HI,ft-kips,"Output Cellr Dk Liq FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,560,Cellr Dk Liq FS Mt EW LO,ft-kips,"Output Cellr Dk Liq FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,561,Cellr Dk Liq FS Mt NS HI,ft-kips,"Output Cellr Dk Liq FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,562,Cellr Dk Liq FS Mt NS LO,ft-kips,"Output Cellr Dk Liq FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,563,Drilling Fluids Weight,kips,"Output Drilling Fluids Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,564,Drilling Fluids VCG,ft,"Output Drilling Fluids VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,565,Drilling Fluids CG EW,ft,"Output Drilling Fluids CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,566,Drilling Fluids CG NS,ft,"Output Drilling Fluids CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,567,Drilling Flds Mt Vert HI,ft-kips,"Output Drilling Flds Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,568,Drilling Flds Mt Vert LO,ft-kips,"Output Drilling Flds Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,569,Drilling Fluids Mt EW HI,ft-kips,"Output Drilling Fluids Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,570,Drilling Fluids Mt EW LO,ft-kips,"Output Drilling Fluids Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,571,Drilling Fluids Mt NS HI,ft-kips,"Output Drilling Fluids Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,572,Drilling Fluids Mt NS LO,ft-kips,"Output Drilling Fluids Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,573,Drilling Flds FS Mt EW HI,ft-kips,"Output Drilling Flds FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,574,Drilling Flds FS Mt EW LO,ft-kips,"Output Drilling Flds FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,575,Drilling Flds FS Mt NS HI,ft-kips,"Output Drilling Flds FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,576,Drilling Flds FS Mt NS LO,ft-kips,"Output Drilling Flds FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,577,Spaces Weight,kips,"Output Spaces Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,578,Spaces VCG,ft,"Output Spaces VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,579,Spaces CG EW,ft,"Output Spaces CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,580,Spaces CG NS,ft,"Output Spaces CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,581,Spaces Mt Vert HI,ft-kips,"Output Spaces Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,582,Spaces Mt Vert LO,ft-kips,"Output Spaces Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,583,Spaces Mt EW HI,ft-kips,"Output Spaces Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,584,Spaces Mt EW LO,ft-kips,"Output Spaces Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,585,Spaces Mt NS HI,ft-kips,"Output Spaces Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,586,Spaces Mt NS LO,ft-kips,"Output Spaces Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,587,Main Dk Weight,kips,"Output Main Dk Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,588,Main Dk VCG,ft,"Output Main Dk VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,589,Main Dk CG EW,ft,"Output Main Dk CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,590,Main Dk CG NS,ft,"Output Main Dk CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,591,Main Dk Mt Vert HI,ft-kips,"Output Main Dk Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,592,Main Dk Mt Vert LO,ft-kips,"Output Main Dk Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,593,Main Dk Mt EW HI,ft-kips,"Output Main Dk Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,594,Main Dk Mt EW LO,ft-kips,"Output Main Dk Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,595,Main Dk Mt NS HI,ft-kips,"Output Main Dk Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,596,Main Dk Mt NS LO,ft-kips,"Output Main Dk Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,597,Prod Dk Weight,kips,"Output Prod Dk Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,598,Prod Dk VCG,ft,"Output Prod Dk VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,599,Prod Dk CG EW,ft,"Output Prod Dk CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,600,Prod Dk CG NS,ft,"Output Prod Dk CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,601,Prod Dk Mt Vert HI,ft-kips,"Output Prod Dk Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,602,Prod Dk Mt Vert LO,ft-kips,"Output Prod Dk Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,603,Prod Dk Mt EW HI,ft-kips,"Output Prod Dk Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,604,Prod Dk Mt EW LO,ft-kips,"Output Prod Dk Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,605,Prod Dk Mt NS HI,ft-kips,"Output Prod Dk Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,606,Prod Dk Mt NS LO,ft-kips,"Output Prod Dk Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,607,Cllr Dk Weight,kips,"Output Cllr Dk Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,608,Cllr Dk VCG,ft,"Output Cllr Dk VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,609,Cllr Dk CG EW,ft,"Output Cllr Dk CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,610,Cllr Dk CG NS,ft,"Output Cllr Dk CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,611,Cllr Dk Mt Vert HI,ft-kips,"Output Cllr Dk Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,612,Cllr Dk Mt Vert LO,ft-kips,"Output Cllr Dk Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,613,Cllr Dk Mt EW HI,ft-kips,"Output Cllr Dk Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,614,Cllr Dk Mt EW LO,ft-kips,"Output Cllr Dk Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,615,Cllr Dk Mt NS HI,ft-kips,"Output Cllr Dk Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,616,Cllr Dk Mt NS LO,ft-kips,"Output Cllr Dk Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,617,Spar Dk Weight,kips,"Output Spar Dk Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,618,Spar Dk VCG,ft,"Output Spar Dk VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,619,Spar Dk CG EW,ft,"Output Spar Dk CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,620,Spar Dk CG NS,ft,"Output Spar Dk CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,621,Spar Dk Mt Vert HI,ft-kips,"Output Spar Dk Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,622,Spar Dk Mt Vert LO,ft-kips,"Output Spar Dk Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,623,Spar Dk Mt EW HI,ft-kips,"Output Spar Dk Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,624,Spar Dk Mt EW LO,ft-kips,"Output Spar Dk Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,625,Spar Dk Mt NS HI,ft-kips,"Output Spar Dk Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,626,Spar Dk Mt NS LO,ft-kips,"Output Spar Dk Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,627,Voids Weight,kips,"Output Voids Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,628,Voids VCG,ft,"Output Voids VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,629,Voids CG EW,ft,"Output Voids CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,630,Voids CG NS,ft,"Output Voids CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,631,Voids Mt Vert HI,ft-kips,"Output Voids Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,632,Voids Mt Vert LO,ft-kips,"Output Voids Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,633,Voids Mt EW HI,ft-kips,"Output Voids Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,634,Voids Mt EW LO,ft-kips,"Output Voids Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,635,Voids Mt NS HI,ft-kips,"Output Voids Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,636,Voids Mt NS LO,ft-kips,"Output Voids Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,637,Voids FS Mt EW HI,ft-kips,"Output Voids FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,638,Voids FS Mt EW LO,ft-kips,"Output Voids FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,639,Voids FS Mt NS HI,ft-kips,"Output Voids FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,640,Voids FS Mt NS LO,ft-kips,"Output Voids FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,641,HFM Weight,kips,"Output HFM Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,642,HFM VCG,ft,"Output HFM VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,643,HFM CG EW,ft,"Output HFM CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,644,HFM CG NS,ft,"Output HFM CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,645,HFM Mt Vert HI,ft-kips,"Output HFM Mt Vert HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,646,HFM Mt Vert LO,ft-kips,"Output HFM Mt Vert LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,647,HFM Mt EW HI,ft-kips,"Output HFM Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,648,HFM Mt EW LO,ft-kips,"Output HFM Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,649,HFM Mt NS HI,ft-kips,"Output HFM Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,650,HFM Mt NS LO,ft-kips,"Output HFM Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,651,Disc Weight,kips,"Output Disc Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,652,Disc Weight VCG,ft,"Output Disc Weight VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,653,Disc Weight CG EW,ft,"Output Disc Weight CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,654,Disc Weight CG NS,ft,"Output Disc Weight CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,655,Lateral Phantom Force EW,kips,"Output Lateral Phantom Force EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,656,Lateral Phantom Force NS,kips,"Output Lateral Phantom Force NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,657,LPF Mt EW HI,ft-kips,"Output LPF Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,658,LPF Mt EW LO,ft-kips,"Output LPF Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,659,LPF Mt NS HI,ft-kips,"Output LPF Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,660,LPF Mt NS LO,ft-kips,"Output LPF Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,661,Apparent Draft,ft,"Calculated Draft, from 3rd party Herbert-ABS LMP system."
+Shell,Perdido,MIS,MAS,662,Apparent Inclination EW,deg,"Calculated Inclination EW, from 3rd party Herbert-ABS LMP system."
+Shell,Perdido,MIS,MAS,663,Apparent Inclination NS,deg,"Calculated Inclination NS, from 3rd party Herbert-ABS LMP system."
+Shell,Perdido,MIS,MAS,664,Total Platform KG,ft,"Output Total Platform KG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,665,Operating KG Allow,ft,"Output Operating KG Allow, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,666,Storm KG Allow,ft,"Output Storm KG Allow, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,667,Rig Location EW,ft,"Output Rig Location EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,668,Rig Location NS,ft,"Output Rig Location NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,669,Total Weight Weight,kips,"Output Total Weight Weight, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,670,Total Weight VCG,ft,"Output Total Weight VCG, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,671,Total Weight CG EW,ft,"Output Total Weight CG EW, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,672,Total Weight CG NS,ft,"Output Total Weight CG NS, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,673,Total Weight FS Mt EW HI,ft-kips,"Output Total Weight FS Mt EW HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,674,Total Weight FS Mt EW LO,ft-kips,"Output Total Weight FS Mt EW LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,675,Total Weight FS Mt NS HI,ft-kips,"Output Total Weight FS Mt NS HI, data relayed from Weight Management System."
+Shell,Perdido,MIS,MAS,676,Total Weight FS Mt NS LO,ft-kips,"Output Total Weight FS Mt NS LO, data relayed from Weight Management System."
+Shell,Perdido,MIS,MIROS,677,Miros Sig Wave Ht,ft,Measured significant wave height.
+Shell,Perdido,MIS,MIROS,678,Miros Max Wave Ht,ft,Measured maximum wave height.
+Shell,Perdido,MIS,MIROS,679,Miros Wave Period,sec,Measured wave peak period.
+Shell,Perdido,MIS,MIROS,680,Miros Wave Dir,deg,"Measured wave direction from, true."
+Shell,Perdido,MIS,MIROS,681,Miros Pri Wave Dir Spread,deg,Direction spreading of the wave spectrum's primary peak energy.
+Shell,Perdido,MIS,MIROS,682,Miros Wave Steepness,none,Measured wave steepness.
+Shell,Perdido,MIS,MIROS,683,Mean 0-Upcrossing Period,sec,Measured average wave zero up-crossing period.
+Shell,Perdido,MIS,MIROS,684,Miros Sec Wave Peak Dir,deg,"Measured secondary wave peak direction from, true."
+Shell,Perdido,MIS,MIROS,685,Miros Wave HI Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,MIROS,686,Miros Wave LO Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,MIROS,687,Miros Surface Current Spd,knots,Measured surface current speed.
+Shell,Perdido,MIS,MIROS,688,Miros Surface Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Perdido,MIS,MIROS,689,Miros Current HI Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,MIROS,690,Miros Current LO Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,Lidar,691,Lidar Ht1 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 1.
+Shell,Perdido,MIS,Lidar,692,Lidar Ht1 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 1.
+Shell,Perdido,MIS,Lidar,693,Lidar Ht1 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 1."
+Shell,Perdido,MIS,Lidar,694,Lidar Height 1,ft,Lidar configured height 1.
+Shell,Perdido,MIS,Lidar,695,Lidar Ht2 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 2.
+Shell,Perdido,MIS,Lidar,696,Lidar Ht2 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 2.
+Shell,Perdido,MIS,Lidar,697,Lidar Ht2 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 2."
+Shell,Perdido,MIS,Lidar,698,Lidar Height 2,ft,Lidar configured height 2.
+Shell,Perdido,MIS,Lidar,699,Lidar Ht3 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 3.
+Shell,Perdido,MIS,Lidar,700,Lidar Ht3 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 3.
+Shell,Perdido,MIS,Lidar,701,Lidar Ht3 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 3."
+Shell,Perdido,MIS,Lidar,702,Lidar Height 3,ft,Lidar configured height 3.
+Shell,Perdido,MIS,Lidar,703,Lidar Ht4 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 4.
+Shell,Perdido,MIS,Lidar,704,Lidar Ht4 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 4.
+Shell,Perdido,MIS,Lidar,705,Lidar Ht4 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 4."
+Shell,Perdido,MIS,Lidar,706,Lidar Height 4,ft,Lidar configured height 4.
+Shell,Perdido,MIS,Lidar,707,Lidar Ht5 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 5.
+Shell,Perdido,MIS,Lidar,708,Lidar Ht5 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 5.
+Shell,Perdido,MIS,Lidar,709,Lidar Ht5 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 5."
+Shell,Perdido,MIS,Lidar,710,Lidar Height 5,ft,Lidar configured height 5.
+Shell,Perdido,MIS,Lidar,711,Lidar Ht6 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 6.
+Shell,Perdido,MIS,Lidar,712,Lidar Ht6 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 6.
+Shell,Perdido,MIS,Lidar,713,Lidar Ht6 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 6."
+Shell,Perdido,MIS,Lidar,714,Lidar Height 6,ft,Lidar configured height 6.
+Shell,Perdido,MIS,Lidar,715,Lidar Ht7 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 7.
+Shell,Perdido,MIS,Lidar,716,Lidar Ht7 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 7.
+Shell,Perdido,MIS,Lidar,717,Lidar Ht7 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 7."
+Shell,Perdido,MIS,Lidar,718,Lidar Height 7,ft,Lidar configured height 7.
+Shell,Perdido,MIS,Lidar,719,Lidar Ht8 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 8.
+Shell,Perdido,MIS,Lidar,720,Lidar Ht8 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 8.
+Shell,Perdido,MIS,Lidar,721,Lidar Ht8 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 8."
+Shell,Perdido,MIS,Lidar,722,Lidar Height 8,ft,Lidar configured height 8.
+Shell,Perdido,MIS,Lidar,723,Lidar Ht9 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 9.
+Shell,Perdido,MIS,Lidar,724,Lidar Ht9 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 9.
+Shell,Perdido,MIS,Lidar,725,Lidar Ht9 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 9."
+Shell,Perdido,MIS,Lidar,726,Lidar Height 9,ft,Lidar configured height 9.
+Shell,Perdido,MIS,Lidar,727,Lidar Ht10 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 10.
+Shell,Perdido,MIS,Lidar,728,Lidar Ht10 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 10.
+Shell,Perdido,MIS,Lidar,729,Lidar Ht10 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 10."
+Shell,Perdido,MIS,Lidar,730,Lidar Height 10,ft,Lidar configured height 10.
+Shell,Perdido,MIS,Lidar,731,Lidar Ht11 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 11.
+Shell,Perdido,MIS,Lidar,732,Lidar Ht11 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 11.
+Shell,Perdido,MIS,Lidar,733,Lidar Ht11 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 11."
+Shell,Perdido,MIS,Lidar,734,Lidar Height 11,ft,Lidar configured height 11.
+Shell,Perdido,MIS,Lidar,735,Lidar Info Flag 10min Avg,bits,General information relating to the operational mode of the ZephIR.
+Shell,Perdido,MIS,Lidar,736,Lidar Status Flag 10min Av,bits,"Internal ZephIR status, relating to the operational state of the ZephIR. For Z150/175: Red/Amber/Green."
+Shell,Perdido,MIS,Lidar,737,Lidar Batt 10min Avg,Volts,Internal battery voltage.
+Shell,Perdido,MIS,Lidar,738,Lidar Generator 10min Avg,Volts,"External supply voltage, if present."
+Shell,Perdido,MIS,Lidar,739,Lidar Reference,#,"Each un-averaged (1sec or 3sec) record has an associated reference. The reference starts at zero and increments with each record. If the ZephIR’s internal storage is cleared, the reference resets to zero."
+Shell,Perdido,MIS,Lidar,740,Lidar Air Temp,degF,Ambient temperature measured by the Met station.
+Shell,Perdido,MIS,Lidar,741,Lidar Air Pressure,inHg,Ambient pressure measured by the Met station.
+Shell,Perdido,MIS,Lidar,742,Lidar Upper Temp,degF,Internal pod temperature as measured by internal sensor located near the window.
+Shell,Perdido,MIS,Lidar,743,Lidar Lower Temp,degF,Internal pod temperature as measured by internal sensor located near the external heat sink.
+Shell,Perdido,MIS,Lidar,744,Lidar Raining Flag,bool,"Flag indicating if the rain sensor detected rain (0 – Off, 1 – On)."
+Shell,Perdido,MIS,Lidar,745,Lidar Tilt,deg,Maximum magnitude of pitch or roll away from horizontal as measured by the Met station.
+Shell,Perdido,MIS,Lidar,746,Lidar ZephIR bearing,deg,"Bearing of Met station with respect to True North, measured by the Met station. I.e. 5 degrees would be 5 degrees East of True North."
+Shell,Perdido,MIS,Lidar,747,Lidar ZephIR Offset,deg,
+Shell,Perdido,MIS,Lidar,748,Lidar ZephIR Mode,index,
+Shell,Perdido,MIS,Lidar,749,Lidar Firmware Version,#,Firmware version.
+Shell,Perdido,MIS,Lidar,750,Num Configured Heights,#,Number of configured heights.
+Shell,Perdido,MIS,Lidar,751,Lidar Lense Height,ft,Lidar lense height from deck.
+Shell,Perdido,MIS,Lidar,752,Lidar HI Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,Lidar,753,Lidar LO Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Perdido,MIS,Lidar,754,MET Watchdog,counter,Indicate whether the metocean computer is communicating to BMT WinMon or not.
+Shell,Perdido,MIS,Derived Wind,755,AWOS Wind Spd,knots,AWOS wind speed at the sensor location.
+Shell,Perdido,MIS,Derived Wind,756,AWOS Wind Dir,degT,AWOS wind direction from true north at the sensor location.
+Shell,Perdido,MIS,Derived Wind,757,AWOS North Wind Spd,knots,AWOS wind speed component along True North Direction at the sensor location. AWOS North Wind Spd = derived(AWOS Wind Spd) * cos(derived(AWOS Wind Dir)).
+Shell,Perdido,MIS,Derived Wind,758,AWOS East Wind Spd,knots,AWOS wind speed component along True East Direction at the sensor location. AWOS East Wind Spd = derived(AWOS Wind Spd) * sin(derived(AWOS Wind Dir)).
+Shell,Perdido,MIS,Derived Wind,759,AWOS 10min Wind Spd,knots,The 10 minutes running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Wind,760,AWOS 10min Wind Dir,degT,"The 10 minutes running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Wind,761,AWOS 1hr Wind Spd,knots,The 1 hour running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Wind,762,AWOS 1hr Wind Dir,degT,"The 1 hour running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Position,763,Fugro GPS Lat,deg,Fugro GPS latitude position in deg decimal.
+Shell,Perdido,MIS,Derived Position,764,Fugro GPS Lon,deg,Fugro GPS longitude position in deg decimal.
+Shell,Perdido,MIS,Derived Position,765,Fugro GPS Altitude,ft,Fugro altitude reading at GPS height.
+Shell,Perdido,MIS,Derived Position,766,Fugro GPS Northings,ft,Fugro Northings measured from local GPS position.
+Shell,Perdido,MIS,Derived Position,767,Fugro GPS Eastings,ft,Fugro Eastings measured from local GPS position.
+Shell,Perdido,MIS,Derived Position,768,Fugro PQ Northings,ft,Fugro Northings measured from platform reference position.
+Shell,Perdido,MIS,Derived Position,769,Fugro PQ Eastings,ft,Fugro Eastings measured from platform reference position.
+Shell,Perdido,MIS,Derived Position,770,Fugro PQ Offset,ft,Distance of Fugro offset from the platform reference position.
+Shell,Perdido,MIS,Derived Position,771,Fugro PQ Offset Dir,degT,Direction from true north to Fugro offset position.
+Shell,Perdido,MIS,Derived Position,772,Fugro PQ Northings AVG,ft,20 minutes running average of Fugro PQ Northings.
+Shell,Perdido,MIS,Derived Position,773,Fugro PQ Eastings AVG,ft,20 minutes running average of Fugro PQ Eastings.
+Shell,Perdido,MIS,Derived Position,774,Fugro Crane Heading,degT,Crane Heading (no sensor existed for Perdido).
+Shell,Perdido,MIS,Derived Position,775,Orion GPS Lat,deg,Orion GPS latitude position in deg decimal.
+Shell,Perdido,MIS,Derived Position,776,Orion GPS Lon,deg,Orion GPS longitude position in deg decimal.
+Shell,Perdido,MIS,Derived Position,777,Orion GPS Altitude,ft,Orion altitude reading at GPS height.
+Shell,Perdido,MIS,Derived Position,778,Orion GPS Northings,ft,Orion Northings measured from local GPS position.
+Shell,Perdido,MIS,Derived Position,779,Orion GPS Eastings,ft,Orion Eastings measured from local GPS position.
+Shell,Perdido,MIS,Derived Position,780,Orion PQ Northings,ft,Orion Northings measured from platform reference position.
+Shell,Perdido,MIS,Derived Position,781,Orion PQ Eastings,ft,Orion Eastings measured from platform reference position.
+Shell,Perdido,MIS,Derived Position,782,Orion PQ Offset,ft,Distance of Orion offset from the platform reference position.
+Shell,Perdido,MIS,Derived Position,783,Orion PQ Offset Dir,degT,Direction from true north to Orion offset position.
+Shell,Perdido,MIS,Derived Position,784,Orion PQ Northings AVG,ft,20 minutes running average of Orion PQ Northings.
+Shell,Perdido,MIS,Derived Position,785,Orion PQ Eastings AVG,ft,20 minutes running average of Orion PQ Eastings.
+Shell,Perdido,MIS,Derived Position,786,Orion Crane Heading,degT,Crane Heading (no sensor existed for Perdido).
+Shell,Perdido,MIS,Derived Position,787,Auto GPS Lat,deg,Best of Fugro and Orion PQ Lat channels.
+Shell,Perdido,MIS,Derived Position,788,Auto GPS Lon,deg,Best of Fugro and Orion PQ Lon channels.
+Shell,Perdido,MIS,Derived Position,789,Auto GPS Altitude,ft,Best of Fugro and Orion GPS Altitude channels.
+Shell,Perdido,MIS,Derived Position,790,Auto GPS Northings,ft,Best of Fugro and Orion GPS Northings channels.
+Shell,Perdido,MIS,Derived Position,791,Auto GPS Eastings,ft,Best of Fugro and Orion GPS Eastings channels.
+Shell,Perdido,MIS,Derived Position,792,Auto PQ Northings,ft,Best of Fugro and Orion PQ Northings channels.
+Shell,Perdido,MIS,Derived Position,793,Auto PQ Eastings,ft,Best of Fugro and Orion PQ Eastings channels.
+Shell,Perdido,MIS,Derived Position,794,Auto PQ Offset,ft,Best of Fugro and Orion PQ Offset channels.
+Shell,Perdido,MIS,Derived Position,795,Auto PQ Offset Dir,degT,Best of Fugro and Orion PQ Offset Dir channels.
+Shell,Perdido,MIS,Derived Position,796,Auto PQ Northings AVG,ft,Best of Fugro and Orion PQ Northings AVG channels.
+Shell,Perdido,MIS,Derived Position,797,Auto PQ Eastings AVG,ft,Best of Fugro and Orion PQ Eastings AVG channels.
+Shell,Perdido,MIS,Derived Position,798,Auto Crane Heading,degT,Best of Fugro and Orion Crane Heading channels.
+Shell,Perdido,MIS,Derived Position,799,Auto GPS Quality,none,Best of Fugro and Orion GPS Quality channels.
+Shell,Perdido,MIS,Derived Position,800,Auto No of Satellites,#,Best of Fugro and Orion GPS No of Sats channels.
+Shell,Perdido,MIS,Derived Position,801,Auto PQ Northings WC,ft,Best of Fugro and Orion PQ Northings channels. (WC: Watch-circle shown on WinMon display)
+Shell,Perdido,MIS,Derived Position,802,Auto PQ Eastings WC,ft,Best of Fugro and Orion PQ Eastings channels. (WC: Watch-circle shown on WinMon display)
+Shell,Perdido,MIS,Derived Position,803,Auto PQ Offset WC,ft,Best of Fugro and Orion PQ Offset channels. (WC: Watch-circle shown on WinMon display)
+Shell,Perdido,MIS,Derived Position,804,Auto PQ Bearing WC,deg,Best of Fugro and Orion bearing from platform reference position.
+Shell,Perdido,MIS,Derived Position,805,Auto PQ UTM North,ft,Best of Fugro and Orion PQ Northings channels in UTM coordinate system.
+Shell,Perdido,MIS,Derived Position,806,Auto PQ UTM East,ft,Best of Fugro and Orion PQ Eastings channels in UTM coordinate system.
+Shell,Perdido,MIS,Derived 6DoF,807,PQ List,deg,20 minutes running average of 6DoF roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,808,PQ Trim,deg,20 minutes running average of 6DoF pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,809,PQ Roll RMS,deg,Root mean square of 20 minutes 6DoF roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,810,PQ Pitch RMS,deg,Root mean square of 20 minutes 6DoF pitch angle of rotation about the local body transverse (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,811,PQ Tilt,deg,Derived from PQ Roll and PQ Pitch. PQ Tilt = sqrt(PQ Roll)2 + sqrt(PQ Pitch)2
+Shell,Perdido,MIS,Derived 6DoF,812,PQ Tilt Dir,degT,Derived tilt direction from PQ Roll and PQ Pitch. PQ Tilt Dir = atan[(PQ Roll)2 + (PQ Pitch)2] + PQ Heading
+Shell,Perdido,MIS,Derived 6DoF,813,PQ Surge Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Surge Acc along the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,814,PQ Sway Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Sway Acc along the local body transverse (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,815,PQ Heave Acc RMS,ft/s^2,Root mean square of 20 minutes PQ Heave Acc along the local body vertical (z) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,816,PQ Deck Acc RMS,ft/s^2,Root mean square of 20 minutes ???? axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,817,PQ List 5min,deg,Running average of 5 minutes PQ List about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,818,PQ Trim 5min,deg,Running average of  5 minutes PQ Trim about the local body longitudinal (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,819,PQ Roll RMS 5min,deg,Root mean square of 5 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived 6DoF,820,PQ Pitch RMS 5min,deg,Root mean square of 5 minutes pitch angle of rotation about the local body transverse (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived ML Current,821,ML1 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,822,ML1 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,823,ML2 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,824,ML2 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,825,ML3 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,826,ML3 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,827,ML4 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,828,ML4 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,829,ML5 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,830,ML5 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,831,ML6 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,832,ML6 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,833,ML7 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,834,ML7 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,835,ML8 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,836,ML8 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,837,ML9 Current Link,#,
+Shell,Perdido,MIS,Derived ML Current,838,ML9 Current DOS,days,
+Shell,Perdido,MIS,Derived ML Current,839,MISMAS Watchdog,counter,Indicates whether the MISMAS software is communicating to BMT WinMon or not.
+Shell,Perdido,MIS,Derived AWOS,840,AWOS Air Temperature Avg,degF,AWOS running average of 20 minutes air temperature at sensor location.
+Shell,Perdido,MIS,Derived AWOS,841,AWOS Dew Point Avg,degF,AWOS running average of 20 minutes dew point at sensor location.
+Shell,Perdido,MIS,Derived AWOS,842,AWOS Altimeter Avg,inHg,AWOS running average of 20 minutes altimeter.
+Shell,Perdido,MIS,Derived AWOS,843,AWOS Cloud Height Avg,ft,AWOS running average of 20 minutes cloud height.
+Shell,Perdido,MIS,Derived AWOS,844,AWOS Visibility Avg,mile,AWOS running average of 20 minutes visibility.
+Shell,Perdido,MIS,Derived Lidar,845,Lidar Air Temp Avg,degF,Lidar running average of 20 minutes air temperature at sensor location.
+Shell,Perdido,MIS,Derived Lidar,846,Lidar Air Pressure Avg,inHg,Lidar running average of 20 minutes air pressure at sensor location.
+Shell,Perdido,MIS,Derived Lidar,847,Lidar Wind Spd,knots,Lidar wind speed at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,848,Lidar Wind Dir,degT,Lidar wind direction from true north at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,849,Lidar North Wind Spd,knots,Lidar wind speed component along True North Direction at the sensor location. Lidar North Wind Spd = derived(Lidar Wind Spd) * cos(derived(Lidar Wind Dir)).
+Shell,Perdido,MIS,Derived Lidar,850,Lidar East Wind Spd,knots,Lidar wind speed component along True East Direction at the sensor location. Lidar East Wind Spd = derived(Lidar Wind Spd) * sin(derived(Lidar Wind Dir)).
+Shell,Perdido,MIS,Derived Lidar,851,Lidar 3sec Wind Spd,knots,The 3 seconds running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,852,Lidar 3sec Wind Dir,degT,"The 3 seconds running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Lidar,853,Lidar 2min Wind Spd,knots,The 2 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,854,Lidar 2min Wind Dir,degT,"The 2 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Lidar,855,Lidar 10min Wind Spd,knots,The 10 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,856,Lidar 10min Wind Dir,degT,"The 10 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Lidar,857,Lidar 1hr Wind Spd,knots,The 1 hour running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Perdido,MIS,Derived Lidar,858,Lidar 1hr Wind Dir,degT,"The 1 hour running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Perdido,MIS,Derived Lidar,859,Lidar 3sec Wind Spd 10m,knots,"The 3 seconds running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Perdido,MIS,Derived Lidar,860,Lidar 2min Wind Spd 10m,knots,"The 2 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Perdido,MIS,Derived Lidar,861,Lidar 10min Wind Spd 10m,knots,"The 10 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Perdido,MIS,Derived Lidar,862,Lidar 1hr Wind Spd 10m,knots,"The 1 hour running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Perdido,MIS,Derived Riser,863,Riser S-A Load PT1,kips,"Output Riser S-A Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,864,Riser S-A Load PT2,kips,"Output Riser S-A Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,865,Riser S-A Load PT3,kips,"Output Riser S-A Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,866,Riser S-A Load PT4,kips,"Output Riser S-A Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,867,Riser S-A PT1 Diff,psi,"Output Riser S-A PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,868,Riser S-A PT2 Diff,psi,"Output Riser S-A PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,869,Riser S-A PT3 Diff,psi,"Output Riser S-A PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,870,Riser S-A PT4 Diff,psi,"Output Riser S-A PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,871,Riser S-A Tension,kips,"Output Riser S-A Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,872,Riser S-A TF,#,"Output Riser S-A TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,873,Riser S-A Stroke Rel,ft,"Output Riser S-A Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,874,Riser S-B Load PT1,kips,"Output Riser S-B Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,875,Riser S-B Load PT2,kips,"Output Riser S-B Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,876,Riser S-B Load PT3,kips,"Output Riser S-B Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,877,Riser S-B Load PT4,kips,"Output Riser S-B Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,878,Riser S-B PT1 Diff,psi,"Output Riser S-B PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,879,Riser S-B PT2 Diff,psi,"Output Riser S-B PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,880,Riser S-B PT3 Diff,psi,"Output Riser S-B PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,881,Riser S-B PT4 Diff,psi,"Output Riser S-B PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,882,Riser S-B Tension,kips,"Output Riser S-B Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,883,Riser S-B TF,#,"Output Riser S-B TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,884,Riser S-B Stroke Rel,ft,"Output Riser S-B Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,885,Riser S-C Load PT1,kips,"Output Riser S-C Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,886,Riser S-C Load PT2,kips,"Output Riser S-C Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,887,Riser S-C Load PT3,kips,"Output Riser S-C Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,888,Riser S-C Load PT4,kips,"Output Riser S-C Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,889,Riser S-C PT1 Diff,psi,"Output Riser S-C PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,890,Riser S-C PT2 Diff,psi,"Output Riser S-C PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,891,Riser S-C PT3 Diff,psi,"Output Riser S-C PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,892,Riser S-C PT4 Diff,psi,"Output Riser S-C PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,893,Riser S-C Tension,kips,"Output Riser S-C Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,894,Riser S-C TF,#,"Output Riser S-C TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,895,Riser S-C Stroke Rel,ft,"Output Riser S-C Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,896,Riser S-D Load PT1,kips,"Output Riser S-D Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,897,Riser S-D Load PT2,kips,"Output Riser S-D Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,898,Riser S-D Load PT3,kips,"Output Riser S-D Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,899,Riser S-D Load PT4,kips,"Output Riser S-D Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,900,Riser S-D PT1 Diff,psi,"Output Riser S-D PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,901,Riser S-D PT2 Diff,psi,"Output Riser S-D PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,902,Riser S-D PT3 Diff,psi,"Output Riser S-D PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,903,Riser S-D PT4 Diff,psi,"Output Riser S-D PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,904,Riser S-D Tension,kips,"Output Riser S-D Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,905,Riser S-D TF,#,"Output Riser S-D TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,906,Riser S-D Stroke Rel,ft,"Output Riser S-D Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,907,Riser S-E Load PT1,kips,"Output Riser S-E Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,908,Riser S-E Load PT2,kips,"Output Riser S-E Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,909,Riser S-E Load PT3,kips,"Output Riser S-E Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,910,Riser S-E Load PT4,kips,"Output Riser S-E Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,911,Riser S-E PT1 Diff,psi,"Output Riser S-E PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,912,Riser S-E PT2 Diff,psi,"Output Riser S-E PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,913,Riser S-E PT3 Diff,psi,"Output Riser S-E PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,914,Riser S-E PT4 Diff,psi,"Output Riser S-E PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,915,Riser S-E Tension,kips,"Output Riser S-E Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,916,Riser S-E TF,#,"Output Riser S-E TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,917,Riser S-E Stroke Rel,ft,"Output Riser S-E Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,918,Riser S-DCR Load PT1,kips,"Output Riser S-DCR Load PT1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,919,Riser S-DCR Load PT2,kips,"Output Riser S-DCR Load PT2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,920,Riser S-DCR Load PT3,kips,"Output Riser S-DCR Load PT3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,921,Riser S-DCR Load PT4,kips,"Output Riser S-DCR Load PT4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,922,Riser S-DCR PT1 Diff,psi,"Output Riser S-DCR PT1 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,923,Riser S-DCR PT2 Diff,psi,"Output Riser S-DCR PT2 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,924,Riser S-DCR PT3 Diff,psi,"Output Riser S-DCR PT3 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,925,Riser S-DCR PT4 Diff,psi,"Output Riser S-DCR PT4 Diff, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,926,Riser S-DCR Tension,kips,"Output Riser S-DCR Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,927,Riser S-DCR TF,#,"Output Riser S-DCR TF, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Riser,928,Riser S-DCR Stroke Rel,ft,"Output Riser S-DCR Stroke Rel, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Tank,929,Methanol1 Tank Wght,kips,Derived tank weight from Methanol1 Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,930,Methanol2 Tank Wght,kips,Derived tank weight from Methanol2 Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,931,LDHI Tank Wght,kips,Derived tank weight from LDHI Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,932,Drill Water Tank Wght,kips,Derived tank weight from Drill Water Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,933,Diesel Oil Tank Wght,kips,Derived tank weight from Diesel Oil Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,934,Hull Dead Oil1 Tank Wght,kips,Derived tank weight from Hull Dead Oil1 Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,935,Hull Dead Oil2 Tank Wght,kips,Derived tank weight from Hull Dead Oil2 Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,936,3NVB Ballast Tank Wght,kips,Derived tank weight from 3NVB Ballast Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,937,3EVB Ballast Tank Wght,kips,Derived tank weight from 3EVB Ballast Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,938,3SVB Ballast Tank Wght,kips,Derived tank weight from 3SVB Ballast Tank Level channel.
+Shell,Perdido,MIS,Derived Tank,939,3WVB Ballast Tank Wght,kips,Derived tank weight from 3WVB Ballast Tank Level channel.
+Shell,Perdido,MIS,Derived Link,940,DCS Link Health,bool,"DCS Link health status, 0 or 1."
+Shell,Perdido,MIS,Derived Link,941,ML Link Health,bool,"ML Link health status, 0 or 1."
+Shell,Perdido,MIS,Derived Heli,942,Heli Max Roll 10min,deg,Max of running average of 10 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,943,Heli Min Roll 10min,deg,Min of running average of 10 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,944,Heli Max Pitch 10min,deg,Max of running average of 10 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,945,Heli Min Pitch 10min,deg,Min of running average of 10 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,946,Heli Max Heave 10min,ft,Max of running average of 10 minutes heave along the local body longitudinal (z) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,947,Heli Heave Rate 10min,ft/sec,Running average of 10 minutes heave rate along the local body longitudinal (z) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,948,Heli Max Heave Rate 10min,ft/sec,Max of running average of 10 minutes heave rate along the local body longitudinal (z) axis at vessel origin.
+Shell,Perdido,MIS,Derived Heli,949,Heli Heave Period 10min,sec,Running average of 10 minutes heave period.
+Shell,Perdido,MIS,Derived Heli,950,Heli Wind Spd 10min,knots,Running average of 10 minutes wind speed at sensor location.
+Shell,Perdido,MIS,Derived Heli,951,Heli Wind Dir 10min,deg,Running average of 10 minutes wind direction at sensor location.
+Shell,Perdido,MIS, Derived Draft,952,CL Draft,ft,Calculated distance between the bottom plating (keel) of the Spar and the waterline.
+Shell,Perdido,MIS,Derived Keel Position,953,Keel PQ Northings,ft,Derived PQ Northings at keel.
+Shell,Perdido,MIS,Derived Keel Position,954,Keel PQ Eastings,ft,Derived PQ Eastings at keel.
+Shell,Perdido,MIS,Derived MAS,955,MAS Trim,deg,"Data QA applied on Trim, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,956,MAS List,deg,"Data QA applied on List, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,957,MAS Heading,deg,"Data QA applied on Heading, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,958,MAS Northings,ft,"Data QA applied on Northings, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,959,MAS Eastings,ft,"Data QA applied on Eastings, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,960,MAS Wind Spd,knots,"Data QA applied on Wind Spd, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,961,MAS Wind Dir,deg,"Data QA applied on Wind Dir, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,962,MAS Current Spd,knots,"Data QA applied on Current Spd, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,963,MAS Current Dir,deg,"Data QA applied on Current Dir, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,964,MAS Wave Height,ft,"Data QA applied on Wave Height, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,965,MAS Wave Period,sec,"Data QA applied on Wave Period, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,966,MAS Wave Direction,deg,"Data QA applied on Wave Direction, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,967,MAS CL Draft,ft,"Data QA applied on CL Draft, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,968,MAS BCS Draft 1,ft,"Data QA applied on BCS Draft 1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,969,MAS BCS Draft 2,ft,"Data QA applied on BCS Draft 2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,970,MAS Methanol1 Tank Level,ft,"Data QA applied on Methanol1 Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,971,MAS Methanol2 Tank Level,ft,"Data QA applied on Methanol2 Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,972,MAS LDHI Tank Level,ft,"Data QA applied on LDHI Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,973,MAS Drill Water Tank Level,ft,"Data QA applied on Drill Water Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,974,MAS Diesel Oil Tank Level,ft,"Data QA applied on Diesel Oil Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,975,MAS Hull Dead Oil1 Tnk Lvl,ft,"Data QA applied on Hull Dead Oil1 Tnk Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,976,MAS Hull Dead Oil2 Tnk Lvl,ft,"Data QA applied on Hull Dead Oil2 Tnk Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,977,MAS Dry Oil Tank Level,ft,"Data QA applied on Dry Oil Tank Level, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,978,MAS DCS Watchdog Counter,#,"Data QA applied on DCS Watchdog Counter, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,979,MAS 2060 Prt Water Tank A,ft,"Data QA applied on 2060 Prt Water Tank A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,980,MAS 2060 Prt Water Tank B,ft,"Data QA applied on 2060 Prt Water Tank B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,981,MAS 2080 Diesel Tank,ft,"Data QA applied on 2080 Diesel Tank, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,982,MAS 8750 Topside HPU,ft,"Data QA applied on 8750 Topside HPU, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,983,MAS 2170 HPU Supply,ft,"Data QA applied on 2170 HPU Supply, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,984,MAS 2170 HPU Return,ft,"Data QA applied on 2170 HPU Return, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,985,MAS 2300 Asphaltene Inh,ft,"Data QA applied on 2300 Asphaltene Inh, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,986,MAS 2310 Corrosion Inhi,ft,"Data QA applied on 2310 Corrosion Inhi, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,987,MAS 2320 Demulsifier,ft,"Data QA applied on 2320 Demulsifier, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,988,MAS 2330 Defoamer,ft,"Data QA applied on 2330 Defoamer, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,989,MAS 2340 LDHI,ft,"Data QA applied on 2340 LDHI, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,990,MAS 2350 Methanol,ft,"Data QA applied on 2350 Methanol, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,991,MAS 2360 Paraffin Inhi,ft,"Data QA applied on 2360 Paraffin Inhi, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,992,MAS 2370 Scale Inhibito,ft,"Data QA applied on 2370 Scale Inhibito, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,993,MAS 2380 Antifoam,ft,"Data QA applied on 2380 Antifoam, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,994,MAS 2390 Acid Dmlsifier,ft,"Data QA applied on 2390 Acid Dmlsifier, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,995,MAS 2400 Water Clarifie,ft,"Data QA applied on 2400 Water Clarifie, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,996,MAS 2410 Flotatn Aid,ft,"Data QA applied on 2410 Flotatn Aid, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,997,MAS 2420 Tri Ethl Glyco,ft,"Data QA applied on 2420 Tri Ethl Glyco, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,998,MAS 2430 H2S Scavenger,ft,"Data QA applied on 2430 H2S Scavenger, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,999,MAS 2440 Nitrate,ft,"Data QA applied on 2440 Nitrate, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1000,MAS 2450 Biocide,ft,"Data QA applied on 2450 Biocide, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1001,MAS 2460 Scale Inhibito,ft,"Data QA applied on 2460 Scale Inhibito, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1002,MAS 2470 O2 Scavenger,ft,"Data QA applied on 2470 O2 Scavenger, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1003,MAS 2480 Gas P/L Corr,ft,"Data QA applied on 2480 Gas P/L Corr, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1004,MAS 2490 Oil P/L Corr,ft,"Data QA applied on 2490 Oil P/L Corr, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1005,MAS 2500 Pour Point Dep,ft,"Data QA applied on 2500 Pour Point Dep, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1006,MAS DRY OIL TANK,ft,"Data QA applied on DRY OIL TANK, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1007,MAS Potable Water Tank A,ft,"Data QA applied on Potable Water Tank A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1008,MAS Potable Water Tank B,ft,"Data QA applied on Potable Water Tank B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1009,MAS MBD-1060,%,"Data QA applied on MBD-1060, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1010,MAS MBD-1610A,%,"Data QA applied on MBD-1610A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1011,MAS MBD-1610B,%,"Data QA applied on MBD-1610B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1012,MAS MBD-1610C,%,"Data QA applied on MBD-1610C, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1013,MAS MBD-1610D,%,"Data QA applied on MBD-1610D, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1014,MAS MBD-1610E,%,"Data QA applied on MBD-1610E, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1015,MAS BBC1220,%,"Data QA applied on BBC1220, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1016,MAS ABJ-2030,%,"Data QA applied on ABJ-2030, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1017,MAS MBD-124003,%,"Data QA applied on MBD-124003, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1018,MAS MBD-124005,%,"Data QA applied on MBD-124005, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1019,MAS MBJ-1330,%,"Data QA applied on MBJ-1330, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1020,MAS MBD-1520A,%,"Data QA applied on MBD-1520A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1021,MAS MBD-1520B,%,"Data QA applied on MBD-1520B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1022,MAS MBD-1520C,%,"Data QA applied on MBD-1520C, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1023,MAS MBD-1520D,%,"Data QA applied on MBD-1520D, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1024,MAS MBD-1520E,%,"Data QA applied on MBD-1520E, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1025,MAS MBF-1190A,%,"Data QA applied on MBF-1190A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1026,MAS MBF-1190B,%,"Data QA applied on MBF-1190B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1027,MAS MBF-1200A,%,"Data QA applied on MBF-1200A, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1028,MAS MBF-1200B,%,"Data QA applied on MBF-1200B, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1029,MAS MBM-151001,%,"Data QA applied on MBM-151001, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1030,MAS MBM-151006,%,"Data QA applied on MBM-151006, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1031,MAS MBD-105013,%,"Data QA applied on MBD-105013, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1032,MAS MBD-105018,%,"Data QA applied on MBD-105018, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1033,MAS MAK-1110A04,%,"Data QA applied on MAK-1110A04, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1034,MAS MAK-1110A06,%,"Data QA applied on MAK-1110A06, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1035,MAS MAK-1110B04,%,"Data QA applied on MAK-1110B04, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1036,MAS MAK-1110B06,%,"Data QA applied on MAK-1110B06, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1037,MAS MBF-1090,%,"Data QA applied on MBF-1090, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1038,MAS MBM-154001,%,"Data QA applied on MBM-154001, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1039,MAS MBM-154003,%,"Data QA applied on MBM-154003, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1040,MAS MBF-1080,%,"Data QA applied on MBF-1080, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1041,MAS MBD-1630-25,%,"Data QA applied on MBD-1630-25, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1042,MAS MBD-1630-35,%,"Data QA applied on MBD-1630-35, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1043,MAS Static Tension ML1,kips,"Data QA applied on Static Tension ML1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1044,MAS Static Tension ML2,kips,"Data QA applied on Static Tension ML2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1045,MAS Static Tension ML3,kips,"Data QA applied on Static Tension ML3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1046,MAS Static Tension ML4,kips,"Data QA applied on Static Tension ML4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1047,MAS Static Tension ML5,kips,"Data QA applied on Static Tension ML5, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1048,MAS Static Tension ML6,kips,"Data QA applied on Static Tension ML6, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1049,MAS Static Tension ML7,kips,"Data QA applied on Static Tension ML7, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1050,MAS Static Tension ML8,kips,"Data QA applied on Static Tension ML8, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1051,MAS Static Tension ML9,kips,"Data QA applied on Static Tension ML9, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1052,MAS Chain Footage ML1,ft,"Data QA applied on Chain Footage ML1, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1053,MAS Chain Footage ML2,ft,"Data QA applied on Chain Footage ML2, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1054,MAS Chain Footage ML3,ft,"Data QA applied on Chain Footage ML3, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1055,MAS Chain Footage ML4,ft,"Data QA applied on Chain Footage ML4, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1056,MAS Chain Footage ML5,ft,"Data QA applied on Chain Footage ML5, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1057,MAS Chain Footage ML6,ft,"Data QA applied on Chain Footage ML6, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1058,MAS Chain Footage ML7,ft,"Data QA applied on Chain Footage ML7, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1059,MAS Chain Footage ML8,ft,"Data QA applied on Chain Footage ML8, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1060,MAS Chain Footage ML9,ft,"Data QA applied on Chain Footage ML9, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1061,MAS 3NVB Ballast Tank Lvl,ft,"Data QA applied on 3NVB Ballast Tank Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1062,MAS 3EVB Ballast Tank Lvl,ft,"Data QA applied on 3EVB Ballast Tank Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1063,MAS 3SVB Ballast Tank Lvl,ft,"Data QA applied on 3SVB Ballast Tank Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1064,MAS 3WVB Ballast Tank Lvl,ft,"Data QA applied on 3WVB Ballast Tank Lvl, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1065,MAS Hookload,kips,"Data QA applied on Hookload, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1066,MAS Riser S-A Tension,kips,"Data QA applied on Riser S-A Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1067,MAS Riser S-B Tension,kips,"Data QA applied on Riser S-B Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1068,MAS Riser S-C Tension,kips,"Data QA applied on Riser S-C Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1069,MAS Riser S-D Tension,kips,"Data QA applied on Riser S-D Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1070,MAS Riser S-E Tension,kips,"Data QA applied on Riser S-E Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived MAS,1071,MAS Riser S-DCR Tension,kips,"Data QA applied on Riser S-DCR Tension, computed by BMT WinMon."
+Shell,Perdido,MIS,Derived Statistic,1072,Statistic Complete,#,Indicates whether statistic is completed and starts calculation from BMT MIS to MAS.
+Shell,Perdido,MIS,Derived Statistic,1073,Statistic Start Time,Date,Start time for statistic.
+Shell,Perdido,MIS,Derived Statistic,1074,Statistic End Time,Date,End time for statistic.
+Shell,Perdido,MIS,Derived AWOS Wind,1075,AWOS 10min Wind Spd Gust,knots,Derived 10 minutes running average of AWOS 2min Wind Spd Gust.
+Shell,Perdido,MIS,Derived AWOS Wind,1076,AWOS 1hr Wind Spd Gust,knots,Derived 1 hour running average of AWOS 2min Wind Spd Gust.
+Shell,Perdido,MIS,Derived Lidar,1077,Lidar 2min Wind Spd Gust,knots,Derived 2 minutes running average of Lidar_3sec_Wind_Spd_10m.
+Shell,Perdido,MIS,Derived Lidar,1078,Lidar 10min Wind Spd Gust,knots,Derived 10 minutes running average of Lidar_3sec_Wind_Spd_10m.
+Shell,Perdido,MIS,Derived Lidar,1079,Lidar 1hr Wind Spd Gust,knots,Derived 1 hour running average of Lidar_3sec_Wind_Spd_10m.
+Shell,Perdido,MIS,Derived,1080,Predicted Tide,ft,Derived tide from given constituent parameters.
+Shell,Perdido,MIS,Derived MAS,1081,MAS ML1 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1082,MAS ML2 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1083,MAS ML3 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1084,MAS ML4 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1085,MAS ML5 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1086,MAS ML6 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1087,MAS ML7 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1088,MAS ML8 Current Link,#,
+Shell,Perdido,MIS,Derived MAS,1089,MAS ML9 Current Link,#,
+Shell,Perdido,MIS,Derived LMP,1090,Lightship Mt Vert,ft-kips,Output Lightship Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1091,Lightship Mt EW,ft-kips,Output Lightship Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1092,Lightship Mt NS,ft-kips,Output Lightship Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1093,Lightship Ch Mt Vert,ft-kips,Output Lightship Ch Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1094,Lightship Ch Mt EW,ft-kips,Output Lightship Ch Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1095,Lightship Ch Mt NS,ft-kips,Output Lightship Ch Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1096,Ballast Mt Vert,ft-kips,Output Ballast Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1097,Ballast Mt EW,ft-kips,Output Ballast Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1098,Ballast Mt NS,ft-kips,Output Ballast Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1099,Ballast FS Mt EW,ft-kips,Output Ballast FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1100,Ballast FS Mt NS,ft-kips,Output Ballast FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1101,Diesel Oil Mt Vert,ft-kips,Output Diesel Oil Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1102,Diesel Oil Mt EW,ft-kips,Output Diesel Oil Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1103,Diesel Oil FS Mt EW,ft-kips,Output Diesel Oil FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1104,Diesel Oil FS Mt NS,ft-kips,Output Diesel Oil FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1105,Drill Water Mt Vert,ft-kips,Output Drill Water Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1106,Drill Water Mt EW,ft-kips,Output Drill Water Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1107,Drill Water Mt NS,ft-kips,Output Drill Water Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1108,Drill Water FS Mt EW,ft-kips,Output Drill Water FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1109,Drill Water FS Mt NS,ft-kips,Output Drill Water FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1110,Methanol Mt Vert,ft-kips,Output Methanol Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1111,Methanol Mt EW,ft-kips,Output Methanol Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1112,Methanol Mt NS,ft-kips,Output Methanol Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1113,Methanol FS Mt EW,ft-kips,Output Methanol FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1114,Methanol FS Mt NS,ft-kips,Output Methanol FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1115,DO LDHI Mt Vert,ft-kips,Output DO LDHI Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1116,DO LDHI Mt EW,ft-kips,Output DO LDHI Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1117,DO LDHI Mt NS,ft-kips,Output DO LDHI Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1118,DO LDHI FS Mt EW,ft-kips,Output DO LDHI FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1119,DO LDHI FS Mt NS,ft-kips,Output DO LDHI FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1120,Chain Locker Mt Vert,ft-kips,Output Chain Locker Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1121,Chain Locker Mt EW,ft-kips,Output Chain Locker Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1122,Chain Locker Mt NS,ft-kips,Output Chain Locker Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1123,Chain Weights Mt Vert,ft-kips,Output Chain Weights Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1124,Chain Weights Mt EW,ft-kips,Output Chain Weights Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1125,Chain Weights Mt NS,ft-kips,Output Chain Weights Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1126,Mooring Lines Mt Vert,ft-kips,Output Mooring Lines Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1127,Mooring Lines Mt EW,ft-kips,Output Mooring Lines Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1128,Mooring Lines Mt NS,ft-kips,Output Mooring Lines Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1129,Risers Mt Vert,ft-kips,Output Risers Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1130,Risers Mt EW,ft-kips,Output Risers Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1131,Risers Mt NS,ft-kips,Output Risers Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1132,Drilling Rig Mt Vert,ft-kips,Output Drilling Rig Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1133,Drilling Rig Mt EW,ft-kips,Output Drilling Rig Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1134,Drilling Rig Mt NS,ft-kips,Output Drilling Rig Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1135,Prod Dk LIQ Mt Vert,ft-kips,Output Prod Dk LIQ Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1136,Prod Dk LIQ Mt EW,ft-kips,Output Prod Dk LIQ Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1137,Prod Dk LIQ Mt NS,ft-kips,Output Prod Dk LIQ Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1138,Prod Dk LIQ FS Mt EW,ft-kips,Output Prod Dk LIQ FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1139,Prod Dk LIQ FS Mt NS,ft-kips,Output Prod Dk LIQ FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1140,Cellr Dk Liq Mt Vert,ft-kips,Output Cellr Dk Liq Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1141,Cellr Dk Liq Mt EW,ft-kips,Output Cellr Dk Liq Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1142,Cellr Dk Liq Mt NS,ft-kips,Output Cellr Dk Liq Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1143,Cellr Dk Liq FS Mt EW,ft-kips,Output Cellr Dk Liq FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1144,Cellr Dk Liq FS Mt NS,ft-kips,Output Cellr Dk Liq FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1145,Drilling Flds Mt Vert,ft-kips,Output Drilling Flds Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1146,Drilling Fluids Mt EW,ft-kips,Output Drilling Fluids Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1147,Drilling Fluids Mt NS,ft-kips,Output Drilling Fluids Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1148,Drilling Flds FS Mt EW,ft-kips,Output Drilling Flds FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1149,Drilling Flds FS Mt NS,ft-kips,Output Drilling Flds FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1150,Spaces Mt Vert,ft-kips,Output Spaces Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1151,Spaces Mt EW,ft-kips,Output Spaces Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1152,Spaces Mt NS,ft-kips,Output Spaces Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1153,Main Dk Mt Vert,ft-kips,Output Main Dk Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1154,Main Dk Mt EW,ft-kips,Output Main Dk Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1155,Main Dk Mt NS,ft-kips,Output Main Dk Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1156,Prod Dk Mt Vert,ft-kips,Output Prod Dk Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1157,Prod Dk Mt EW,ft-kips,Output Prod Dk Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1158,Prod Dk Mt NS,ft-kips,Output Prod Dk Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1159,Cllr Dk Mt Vert,ft-kips,Output Cllr Dk Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1160,Cllr Dk Mt EW,ft-kips,Output Cllr Dk Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1161,Cllr Dk Mt NS,ft-kips,Output Cllr Dk Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1162,Spar Dk Mt Vert,ft-kips,Output Spar Dk Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1163,Spar Dk Mt EW,ft-kips,Output Spar Dk Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1164,Spar Dk Mt NS,ft-kips,Output Spar Dk Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1165,Voids Mt Vert,ft-kips,Output Voids Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1166,Voids Mt EW,ft-kips,Output Voids Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1167,Voids Mt NS,ft-kips,Output Voids Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1168,Voids FS Mt EW,ft-kips,Output Voids FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1169,Voids FS Mt NS,ft-kips,Output Voids FS Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1170,HFM Mt Vert,ft-kips,Output HFM Mt Vert from LMP.
+Shell,Perdido,MIS,Derived LMP,1171,HFM Mt EW,ft-kips,Output HFM Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1172,HFM Mt NS,ft-kips,Output HFM Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1173,LPF Mt EW,ft-kips,Output LPF Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1174,LPF Mt NS,ft-kips,Output LPF Mt NS from LMP.
+Shell,Perdido,MIS,Derived LMP,1175,Total Weight FS Mt EW,ft-kips,Output Total Weight FS Mt EW from LMP.
+Shell,Perdido,MIS,Derived LMP,1176,Total Weight FS Mt NS,ft-kips,Output Total Weight FS Mt NS from LMP.

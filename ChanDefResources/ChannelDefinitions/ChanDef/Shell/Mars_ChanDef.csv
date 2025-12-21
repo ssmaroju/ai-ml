@@ -1,0 +1,543 @@
+﻿client,facility,system,device,channo,channame,chanunits,description
+Shell,Mars,MIS,GPS,1,Latitude DegMin,DegMin,Latitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Mars,MIS,GPS,2,Latitude DecMin,DecMin,"Latitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Mars,MIS,GPS,3,Latitude DecMin2,DecMin2,"Latitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Mars,MIS,GPS,4,Longitude DegMin,DegMin,Longitude of the antenna in terms of degrees and integer minutes (raw data - not for general use).
+Shell,Mars,MIS,GPS,5,Longitude DecMin,DecMin,"Longitude of the antenna in terms of decimal minutes (decimal places 1 to 4, 0 - 0.XXXX minutes (raw data - not for general use))."
+Shell,Mars,MIS,GPS,6,Longitude DecMin2,DecMin2,"Longiitude of the antenna in terms of decimal minutes (decimal places 5 to 8, 0 - 0.0000XXXX minutes (raw data - not for general use))."
+Shell,Mars,MIS,GPS,7,Altitude 1,m,Altitude measurement at the antenna location in terms of integer meters
+Shell,Mars,MIS,GPS,8,Altitude 2,mm*10,Altitude measurement at the antenna location in terms of integer centimeters
+Shell,Mars,MIS,GPS,9,GPS Quality,#,Quality of the GPS data - 0 no fix ; 1 GPS only ; 2 Differential GPS
+Shell,Mars,MIS,GPS,10,Number of Satellites,#,Number of Satellites available for position measurement.
+Shell,Mars,MIS,GPS,11,HDOP,#,Horizontal dilution of precision
+Shell,Mars,MIS,GPS,12,Age of Diff Corr,sec,Time lag of the correction signal in seconds.
+Shell,Mars,MIS,TIS,13,NE Tendon 2 Bending,kips-ft,Output NE Tendon 2 Bending from TIS.
+Shell,Mars,MIS,TIS,14,NE Tendon 2 Tension,kips,Output NE Tendon 2 Tension from TIS.
+Shell,Mars,MIS,TIS,15,NE Tendon 2 Angle,deg,Output NE Tendon 2 Angle from TIS.
+Shell,Mars,MIS,TIS,16,NE Tendon 2 Status,bits,Output NE Tendon 2 Status from TIS.
+Shell,Mars,MIS,TIS,17,SE Tendon 5 Bending,kips-ft,Output SE Tendon 5 Bending from TIS.
+Shell,Mars,MIS,TIS,18,SE Tendon 5 Tension,kips,Output SE Tendon 5 Tension from TIS.
+Shell,Mars,MIS,TIS,19,SE Tendon 5 Angle,deg,Output SE Tendon 5 Angle from TIS.
+Shell,Mars,MIS,TIS,20,SE Tendon 5 Status,bits,Output SE Tendon 5 Status from TIS.
+Shell,Mars,MIS,TIS,21,SW Tendon 8 Bending,kips-ft,Output SW Tendon 8 Bending from TIS.
+Shell,Mars,MIS,TIS,22,SW Tendon 8 Tension,kips,Output SW Tendon 8 Tension from TIS.
+Shell,Mars,MIS,TIS,23,SW Tendon 8 Angle,deg,Output SW Tendon 8 Angle from TIS.
+Shell,Mars,MIS,TIS,24,SW Tendon 8 Status,bits,Output SW Tendon 8 Status from TIS.
+Shell,Mars,MIS,TIS,25,NW Tendon 11 Bending,kips-ft,Output NW Tendon 11 Bending from TIS.
+Shell,Mars,MIS,TIS,26,NW Tendon 11 Tension,kips,Output NW Tendon 11 Tension from TIS.
+Shell,Mars,MIS,TIS,27,NW Tendon 11 Angle,deg,Output NW Tendon 11 Angle from TIS.
+Shell,Mars,MIS,TIS,28,NW Tendon 11 Status,bits,Output NW Tendon 11 Status from TIS.
+Shell,Mars,MIS,TIS,29,TIS Status,bits,Output TIS Status from TIS.
+Shell,Mars,MIS,AWOS,30,AWOS Cloud Height,ft,Measured cloud height on the 1st cloud layer.
+Shell,Mars,MIS,AWOS,31,AWOS Cloud Coverage,code,"Measured types of cloud cover conditions include SKC (sky clear), FEW (trace), SCT (scattered), BKN (broken) and OVC (overcast). Cloud cover is reported in terms of 1/8th of sky cover with 1-2/8th being FEW, 3-4/8th being SCT, 5-7/8th being BKN and 8/8 denoted at OVC."
+Shell,Mars,MIS,AWOS,32,AWOS Cloud Ht 2,ft,Measured cloud height on the 2nd cloud layer
+Shell,Mars,MIS,AWOS,33,AWOS Sky Cond 2,code,"Measured sky condition on the 2nd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Mars,MIS,AWOS,34,AWOS Cloud Ht 3,ft,Measured cloud height on the 3rd cloud layer
+Shell,Mars,MIS,AWOS,35,AWOS Sky Cond 3,code,"Measured sky condition on the 3rd cloud layer (the coded results include Clear, Scattered, Obscured, etc.)"
+Shell,Mars,MIS,AWOS,36,AWOS Visibility,mile,Measured visibility.
+Shell,Mars,MIS,AWOS,37,AWOS Rain Accumulation,in/hr,"Measured the amount of precipitation measured during the past hour, counting from the beginning of the hour."
+Shell,Mars,MIS,AWOS,38,AWOS Air Temperature,degF,Measured air temperature at sensor location.
+Shell,Mars,MIS,AWOS,39,AWOS Dew Point,degF,Measured dew point at sensor location.
+Shell,Mars,MIS,AWOS,40,AWOS 2min Wind Dir,degT,Measured 2-minute average relative wind direction at sensor location.
+Shell,Mars,MIS,AWOS,41,AWOS 2min Wind Spd,knots,Measured 2-minute average wind speed at the sensor location.
+Shell,Mars,MIS,AWOS,42,AWOS Altimeter,inHg,Measured altitude above the MSL (mean sea level) elevation.
+Shell,Mars,MIS,AWOS,43,AWOS Density Alt,ft,Measured altitude in the standard atmosphere where air density is equivalent to that of the airport.
+Shell,Mars,MIS,AWOS,44,AWOS Baro Pressure,inHg,Measured barometric pressure.
+Shell,Mars,MIS,AWOS,45,AWOS Present Weather1,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Mars,MIS,AWOS,46,AWOS Present Weather2,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Mars,MIS,AWOS,47,AWOS Present Weather3,code,"Derived from data for several parameters, including air temperature, dew point, temperature, visibility, lightning (when available), and precipitation type and rate data from the present weather sensor, the result is in code including 3 parts: intensity, descriptor, phenomena."
+Shell,Mars,MIS,AWOS,48,AWOS Humidity,%,Measured relative humidity at sensor location.
+Shell,Mars,MIS,AWOS,49,AWOS 2min Wind Spd Gust,knots,Derived wind gust speed computed during the previous 2 minutes.
+Shell,Mars,MIS,ADCP,50,ADCP Max Current Spd,knots,Max ADCP Current Speed
+Shell,Mars,MIS,ADCP,51,ADCP Max Current Dir,degT,Max ADCP Current Dir towards
+Shell,Mars,MIS,ADCP,52,ADCP Temperature,degF,ADCP Temperature
+Shell,Mars,MIS,SE Hull (Tanks & Draft),53,ABJ-2606 Level,ft,Output ABJ-2606 Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),54,ABJ-2607 Level,ft,Output ABJ-2607 Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),55,BAL-NPE Level,ft,Output BAL-NPE Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),56,BAL-EPN Level,ft,Output BAL-EPN Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),57,BAL-EPS Level,ft,Output BAL-EPS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),58,BAL-SPE Level,ft,Output BAL-SPE Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),59,BAL-NE0-BN Level,ft,Output BAL-NE0-BN Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),60,BAL-NE0-BE Level,ft,Output BAL-NE0-BE Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),61,BAL-SE0-BE Level,ft,Output BAL-SE0-BE Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),62,BAL-SE0-BS Level,ft,Output BAL-SE0-BS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SE Hull (Tanks & Draft),63,BAL-SE1-BS Level,ft,Output BAL-SE1-BS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),64,ABJ-2606 Vol,gallons,Output ABJ-2606 Vol from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),65,ABJ-2607 Vol,gallons,Output ABJ-2607 Vol from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),66,ABJ-2700 Level,ft,Output ABJ-2700 Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),67,ABJ-2703 Level,ft,Output ABJ-2703 Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),68,BAL-NPW Level,ft,Output BAL-NPW Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),69,BAL-WPN Level,ft,Output BAL-WPN Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),70,BAL-WPS Level,ft,Output BAL-WPS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),71,BAL-SPW Level,ft,Output BAL-SPW Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),72,BAL-NW0-BN Level,ft,Output BAL-NW0-BN Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),73,BAL-NW0-BW Level,ft,Output BAL-NW0-BW Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),74,BAL-SW0-BS Level,ft,Output BAL-SW0-BS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),75,BAL-SW0-BW Level,ft,Output BAL-SW0-BW Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),76,BAL-SW1-BS Level,ft,Output BAL-SW1-BS Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),77,ABJ-2700 Vol,bbls,Output ABJ-2700 Vol from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),78,ABJ-2703 Vol,gallons,Output ABJ-2703 Vol from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,SW Hull (Tanks & Draft),79,ABJ-801 Level,ft,Output ABJ-801 Level from 3rd party Tanks & Drafts.
+Shell,Mars,MIS,MAS,80,Calculation Flag,ND,"Data QA applied on Calculation Flag, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,81,Target Tendon 1,kips,"Data QA applied on Target Tendon 1, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,82,Target Tendon 2,kips,"Data QA applied on Target Tendon 2, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,83,Target Tendon 3,kips,"Data QA applied on Target Tendon 3, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,84,Target Tendon 4,kips,"Data QA applied on Target Tendon 4, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,85,Target Tendon 5,kips,"Data QA applied on Target Tendon 5, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,86,Target Tendon 6,kips,"Data QA applied on Target Tendon 6, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,87,Target Tendon 7,kips,"Data QA applied on Target Tendon 7, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,88,Target Tendon 8,kips,"Data QA applied on Target Tendon 8, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,89,Target Tendon 9,kips,"Data QA applied on Target Tendon 9, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,90,Target Tendon 10,kips,"Data QA applied on Target Tendon 10, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,91,Target Tendon 11,kips,"Data QA applied on Target Tendon 11, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,92,Target Tendon 12,kips,"Data QA applied on Target Tendon 12, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,93,Apparent Tendon 1,kips,"Calculated Tendon 1, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,94,Apparent Tendon 2,kips,"Calculated Tendon 2, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,95,Apparent Tendon 3,kips,"Calculated Tendon 3, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,96,Apparent Tendon 4,kips,"Calculated Tendon 4, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,97,Apparent Tendon 5,kips,"Calculated Tendon 5, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,98,Apparent Tendon 6,kips,"Calculated Tendon 6, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,99,Apparent Tendon 7,kips,"Calculated Tendon 7, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,100,Apparent Tendon 8,kips,"Calculated Tendon 8, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,101,Apparent Tendon 9,kips,"Calculated Tendon 9, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,102,Apparent Tendon 10,kips,"Calculated Tendon 10, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,103,Apparent Tendon 11,kips,"Calculated Tendon 11, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,104,Apparent Tendon 12,kips,"Calculated Tendon 12, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,105,Phantom Wt Hi,kips,"Data QA applied on Phantom Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,106,Phantom Wt Lo,kips,"Data QA applied on Phantom Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,107,Phantom Wt VCG,ft,"Data QA applied on Phantom Wt VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,108,Phantom Wt CG EW,ft,"Data QA applied on Phantom Wt CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,109,Phantom Wt CG NS,ft,"Data QA applied on Phantom Wt CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,110,Lateral Phantom Force EW,kips,"Data QA applied on Lateral Phantom Force EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,111,Lateral Phantom Force NS,kips,"Data QA applied on Lateral Phantom Force NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,112,LPF Moment EW,ft-kips,"Data QA applied on LPF Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,113,LPF Moment NS,ft-kips,"Data QA applied on LPF Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,114,Apparent Draft,ft,"Calculated Draft, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,115,Apparent TLP Incli EW,deg,"Calculated TLP Incli EW, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,116,Apparent TLP Incli NS,deg,"Calculated TLP Incli NS, from 3rd party Herbert-ABS LMP system."
+Shell,Mars,MIS,MAS,117,Platform KG,ft,"Data QA applied on Platform KG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,118,KG Allow Hurricane,ft,"Data QA applied on KG Allow Hurricane, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,119,KG Allow Winter Storm,ft,"Data QA applied on KG Allow Winter Storm, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,120,Rig Location EW,ft,"Data QA applied on Rig Location EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,121,Rig Location NS,ft,"Data QA applied on Rig Location NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,122,ABJ-2606 Advisor Level,ft,"Data QA applied on ABJ-2606 Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,123,ABJ-2607 Advisor Level,ft,"Data QA applied on ABJ-2607 Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,124,NPE-B Advisor Level,ft,"Data QA applied on NPE-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,125,EPN-B Advisor Level,ft,"Data QA applied on EPN-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,126,EPS-B Advisor Level,ft,"Data QA applied on EPS-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,127,SPE-B Advisor Level,ft,"Data QA applied on SPE-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,128,NE0-BN Advisor Level,ft,"Data QA applied on NE0-BN Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,129,NE0-BE Advisor Level,ft,"Data QA applied on NE0-BE Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,130,SE0-BE Advisor Level,ft,"Data QA applied on SE0-BE Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,131,SE0-BS Advisor Level,ft,"Data QA applied on SE0-BS Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,132,SE1-BS Advisor Level,ft,"Data QA applied on SE1-BS Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,133,ABJ-2700 Advisor Level,ft,"Data QA applied on ABJ-2700 Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,134,ABJ-2703 Advisor Level,ft,"Data QA applied on ABJ-2703 Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,135,NPW-B Advisor Level,ft,"Data QA applied on NPW-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,136,WPN-B Advisor Level,ft,"Data QA applied on WPN-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,137,WPS-B Advisor Level,ft,"Data QA applied on WPS-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,138,SPW-B Advisor Level,ft,"Data QA applied on SPW-B Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,139,NW0-BN Advisor Level,ft,"Data QA applied on NW0-BN Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,140,NW0-BW Advisor Level,ft,"Data QA applied on NW0-BW Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,141,SW0-BS Advisor Level,ft,"Data QA applied on SW0-BS Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,142,SW0-BW Advisor Level,ft,"Data QA applied on SW0-BW Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,143,SW1-BS Advisor Level,ft,"Data QA applied on SW1-BS Advisor Level, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,144,Rig Location Index,#,"Data QA applied on Rig Location Index, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,145,Calculated Draft,ft,"Data QA applied on Calculated Draft, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,146,MAS Watchdog,#,Indicates whether the MAS software is communicating to BMT WinMon or not.
+Shell,Mars,MIS,MAS,147,KG Corrected EW,ft,"Data QA applied on KG Corrected EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,148,KG Corrected NS,ft,"Data QA applied on KG Corrected NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,149,GM Corrected EW,ft,"Data QA applied on GM Corrected EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,150,GM Corrected NS,ft,"Data QA applied on GM Corrected NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,151,Lightship Wt Hi,kips,"Data QA applied on Lightship Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,152,Lightship Wt Lo,kips,"Data QA applied on Lightship Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,153,Lightship Change Wt Hi,kips,"Data QA applied on Lightship Change Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,154,Lightship Change Wt Lo,kips,"Data QA applied on Lightship Change Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,155,Lightship Change VCG,ft,"Data QA applied on Lightship Change VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,156,Lightship Change CG EW,ft,"Data QA applied on Lightship Change CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,157,Lightship Change CG NS,ft,"Data QA applied on Lightship Change CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,158,Lightship Change Mt Vert,ft-kips,"Data QA applied on Lightship Change Mt Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,159,Lightship Change Mt EW,ft-kips,"Data QA applied on Lightship Change Mt EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,160,Lightship Change Mt NS,ft-kips,"Data QA applied on Lightship Change Mt NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,161,Ballast Wt Hi,kips,"Data QA applied on Ballast Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,162,Ballast Wt Lo,kips,"Data QA applied on Ballast Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,163,Ballast VCG,ft,"Data QA applied on Ballast VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,164,Ballast CG EW,ft,"Data QA applied on Ballast CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,165,Ballast CG NS,ft,"Data QA applied on Ballast CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,166,Ballast Ttl Moment Vert,ft-kips,"Data QA applied on Ballast Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,167,Ballast Moment EW,ft-kips,"Data QA applied on Ballast Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,168,Ballast Moment NS,ft-kips,"Data QA applied on Ballast Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,169,Ballast FS Moment EW,ft-kips,"Data QA applied on Ballast FS Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,170,Ballast FS Moment NS,ft-kips,"Data QA applied on Ballast FS Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,171,Void Wt Hi,kips,"Data QA applied on Void Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,172,Void Wt Lo,kips,"Data QA applied on Void Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,173,Void VCG,ft,"Data QA applied on Void VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,174,Void CG EW,ft,"Data QA applied on Void CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,175,Void CG NS,ft,"Data QA applied on Void CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,176,Void Ttl Moment Vert,ft-kips,"Data QA applied on Void Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,177,Void Moment EW,ft-kips,"Data QA applied on Void Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,178,Void Moment NS,ft-kips,"Data QA applied on Void Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,179,Void FS Moment EW,ft-kips,"Data QA applied on Void FS Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,180,Void FS Moment NS,ft-kips,"Data QA applied on Void FS Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,181,Cons Liquids Wt Hi,kips,"Data QA applied on Cons Liquids Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,182,Cons Liquids Wt Lo,kips,"Data QA applied on Cons Liquids Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,183,Cons Liquids VCG,ft,"Data QA applied on Cons Liquids VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,184,Cons Liquids CG EW,ft,"Data QA applied on Cons Liquids CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,185,Cons Liquids CG NS,ft,"Data QA applied on Cons Liquids CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,186,Cons Liquids Ttl Mt Vert,ft-kips,"Data QA applied on Cons Liquids Ttl Mt Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,187,Cons Liquids Mt EW,ft-kips,"Data QA applied on Cons Liquids Mt EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,188,Cons Liquids Mt NS,ft-kips,"Data QA applied on Cons Liquids Mt NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,189,Cons Liquids FS Mt EW,ft-kips,"Data QA applied on Cons Liquids FS Mt EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,190,Cons Liquids FS Mt NS,ft-kips,"Data QA applied on Cons Liquids FS Mt NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,191,Drill Cons Wt Hi,kips,"Data QA applied on Drill Cons Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,192,Drill Cons Wt Lo,kips,"Data QA applied on Drill Cons Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,193,Drill Cons VCG,ft,"Data QA applied on Drill Cons VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,194,Drill Cons CG EW,ft,"Data QA applied on Drill Cons CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,195,Drill Cons CG NS,ft,"Data QA applied on Drill Cons CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,196,Drill Cons Ttl Mt Vert,ft-kips,"Data QA applied on Drill Cons Ttl Mt Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,197,Drill Cons Moment EW,ft-kips,"Data QA applied on Drill Cons Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,198,Drill Cons Moment NS,ft-kips,"Data QA applied on Drill Cons Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,199,Drill Cons FS EW,ft-kips,"Data QA applied on Drill Cons FS EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,200,Drill Cons FS NS,ft-kips,"Data QA applied on Drill Cons FS NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,201,Cement Wt Hi,kips,"Data QA applied on Cement Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,202,Cement Wt Lo,kips,"Data QA applied on Cement Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,203,Cement VCG,ft,"Data QA applied on Cement VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,204,Cement CG EW,ft,"Data QA applied on Cement CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,205,Cement CG NS,ft,"Data QA applied on Cement CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,206,Cement Ttl Moment Vert,ft-kips,"Data QA applied on Cement Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,207,Cement Moment EW,ft-kips,"Data QA applied on Cement Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,208,Cement Moment NS,ft-kips,"Data QA applied on Cement Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,209,Drill Rig Wt Hi,kips,"Data QA applied on Drill Rig Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,210,Drill Rig Wt Lo,kips,"Data QA applied on Drill Rig Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,211,Drill Rig VCG,ft,"Data QA applied on Drill Rig VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,212,Drill Rig CG EW,ft,"Data QA applied on Drill Rig CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,213,Drill Rig CG NS,ft,"Data QA applied on Drill Rig CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,214,Drill Rig Ttl Mt Vert,ft-kips,"Data QA applied on Drill Rig Ttl Mt Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,215,Drill Rig Moment EW,ft-kips,"Data QA applied on Drill Rig Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,216,Drill Rig Moment NS,ft-kips,"Data QA applied on Drill Rig Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,217,Platform W Wt Hi,kips,"Data QA applied on Platform W Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,218,Platform W Wt Lo,kips,"Data QA applied on Platform W Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,219,Platform W VCG,ft,"Data QA applied on Platform W VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,220,Platform W CG EW,ft,"Data QA applied on Platform W CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,221,Platform W CG NS,ft,"Data QA applied on Platform W CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,222,Platform W Ttl Mt Vert,ft-kips,"Data QA applied on Platform W Ttl Mt Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,223,Platform W Moment EW,ft-kips,"Data QA applied on Platform W Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,224,Platform W Moment NS,ft-kips,"Data QA applied on Platform W Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,225,SCRs Wt Hi,0,"Data QA applied on SCRs Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,226,SCRs Wt Lo,0,"Data QA applied on SCRs Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,227,SCRs VCG,ft,"Data QA applied on SCRs VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,228,SCRs CG EW,ft,"Data QA applied on SCRs CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,229,SCRs CG NS,ft,"Data QA applied on SCRs CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,230,SCRs Ttl Moment Vert,ft-kips,"Data QA applied on SCRs Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,231,SCRs Moment EW,ft-kips,"Data QA applied on SCRs Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,232,SCRs Moment NS,ft-kips,"Data QA applied on SCRs Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,233,Tendons Wt Hi,kips,"Data QA applied on Tendons Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,234,Tendons Wt Lo,kips,"Data QA applied on Tendons Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,235,Tendons VCG,ft,"Data QA applied on Tendons VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,236,Tendons CG EW,ft,"Data QA applied on Tendons CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,237,Tendons CG NS,ft,"Data QA applied on Tendons CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,238,Tendons Ttl Moment Vert,ft-kips,"Data QA applied on Tendons Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,239,Tendons Moment EW,ft-kips,"Data QA applied on Tendons Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,240,Tendons Moment NS,ft-kips,"Data QA applied on Tendons Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,241,Risers Wt Hi,kips,"Data QA applied on Risers Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,242,Risers Wt Lo,kips,"Data QA applied on Risers Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,243,Risers VCG,ft,"Data QA applied on Risers VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,244,Risers CG EW,ft,"Data QA applied on Risers CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,245,Risers CG NS,ft,"Data QA applied on Risers CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,246,Risers Ttl Moment Vert,ft-kips,"Data QA applied on Risers Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,247,Risers Moment EW,ft-kips,"Data QA applied on Risers Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,248,Risers Moment NS,ft-kips,"Data QA applied on Risers Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,249,Total Wt Hi,kips,"Data QA applied on Total Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,250,Total Wt Lo,kips,"Data QA applied on Total Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,251,Total Wt VCG,ft,"Data QA applied on Total Wt VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,252,Total Wt CG EW,ft,"Data QA applied on Total Wt CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,253,Total Wt CG NS,ft,"Data QA applied on Total Wt CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,254,Total Wt FS Moment EW,ft-kips,"Data QA applied on Total Wt FS Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,255,Total Wt FS Moment NS,ft-kips,"Data QA applied on Total Wt FS Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,256,Columns Wt Hi,kips,"Data QA applied on Columns Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,257,Columns Wt Lo,kips,"Data QA applied on Columns Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,258,Columns VCG,ft,"Data QA applied on Columns VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,259,Columns CG EW,ft,"Data QA applied on Columns CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,260,Columns CG NS,ft,"Data QA applied on Columns CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,261,Columns Ttl Moment Vert,ft-kips,"Data QA applied on Columns Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,262,Columns Moment EW,ft-kips,"Data QA applied on Columns Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,263,Columns Moment NS,ft-kips,"Data QA applied on Columns Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,264,Deck1 Wt Hi,kips,"Data QA applied on Deck1 Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,265,Deck1 Wt Lo,kips,"Data QA applied on Deck1 Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,266,Deck1 VCG,ft,"Data QA applied on Deck1 VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,267,Deck1 CG EW,ft,"Data QA applied on Deck1 CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,268,Deck1 CG NS,ft,"Data QA applied on Deck1 CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,269,Deck1 Ttl Moment Vert,ft-kips,"Data QA applied on Deck1 Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,270,Deck1 Moment EW,ft-kips,"Data QA applied on Deck1 Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,271,Deck1 Moment NS,ft-kips,"Data QA applied on Deck1 Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,272,Deck2 Wt Hi,kips,"Data QA applied on Deck2 Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,273,Deck2 Wt Lo,kips,"Data QA applied on Deck2 Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,274,Deck2 VCG,ft,"Data QA applied on Deck2 VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,275,Deck2 CG EW,ft,"Data QA applied on Deck2 CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,276,Deck2 CG NS,ft,"Data QA applied on Deck2 CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,277,Deck2 Ttl Moment Vert,ft-kips,"Data QA applied on Deck2 Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,278,Deck2 Moment EW,ft-kips,"Data QA applied on Deck2 Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,279,Deck2 Moment NS,ft-kips,"Data QA applied on Deck2 Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,280,Deck3 Wt Hi,kips,"Data QA applied on Deck3 Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,281,Deck3 Wt Lo,kips,"Data QA applied on Deck3 Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,282,Deck3 VCG,ft,"Data QA applied on Deck3 VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,283,Deck3 CG EW,ft,"Data QA applied on Deck3 CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,284,Deck3 CG NS,ft,"Data QA applied on Deck3 CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,285,Deck3 Ttl Moment Vert,ft-kips,"Data QA applied on Deck3 Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,286,Deck3 Moment EW,ft-kips,"Data QA applied on Deck3 Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,287,Deck3 Moment NS,ft-kips,"Data QA applied on Deck3 Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,288,Deck4 Wt Hi,kips,"Data QA applied on Deck4 Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,289,Deck4 Wt Lo,kips,"Data QA applied on Deck4 Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,290,Deck4 VCG,ft,"Data QA applied on Deck4 VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,291,Deck4 CG EW,ft,"Data QA applied on Deck4 CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,292,Deck4 CG NS,ft,"Data QA applied on Deck4 CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,293,Deck4 Ttl Moment Vert,ft-kips,"Data QA applied on Deck4 Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,294,Deck4 Moment EW,ft-kips,"Data QA applied on Deck4 Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,295,Deck4 Moment NS,ft-kips,"Data QA applied on Deck4 Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,296,Deck5 Wt Hi,kips,"Data QA applied on Deck5 Wt Hi, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,297,Deck5 Wt Lo,kips,"Data QA applied on Deck5 Wt Lo, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,298,Deck5 VCG,ft,"Data QA applied on Deck5 VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,299,Deck5 CG EW,ft,"Data QA applied on Deck5 CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,300,Deck5 CG NS,ft,"Data QA applied on Deck5 CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,301,Deck5 Ttl Moment Vert,ft-kips,"Data QA applied on Deck5 Ttl Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,302,Deck5 Moment EW,ft-kips,"Data QA applied on Deck5 Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,303,Deck5 Moment NS,ft-kips,"Data QA applied on Deck5 Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,304,Lightship VCG,ft,"Data QA applied on Lightship VCG, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,305,Lightship CG EW,ft,"Data QA applied on Lightship CG EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,306,Lightship CG NS,ft,"Data QA applied on Lightship CG NS, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,307,Lightship Moment Vert,ft-kips,"Data QA applied on Lightship Moment Vert, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,308,Lightship Moment EW,ft-kips,"Data QA applied on Lightship Moment EW, computed by BMT WinMon."
+Shell,Mars,MIS,MAS,309,Lightship Moment NS,ft-kips,"Data QA applied on Lightship Moment NS, computed by BMT WinMon."
+Shell,Mars,MIS,North Airgap,310,North Raw Airgap,ft,Measured distance from North Airgap sensor head to water surface..
+Shell,Mars,MIS,East Airgap,311,East Raw Airgap,ft,Measured distance from East Airgap sensor head to water surface.
+Shell,Mars,MIS,South Airgap,312,South Raw Airgap,ft,Measured distance from South Airgap sensor head to water surface.
+Shell,Mars,MIS,West Airgap,313,West Raw Airgap,ft,Measured distance from West Airgap sensor head to water surface.
+Shell,Mars,MIS,Waves,314,Sig Wave Height,ft,Measured significant wave height.
+Shell,Mars,MIS,Waves,315,Max Wave Height,ft,Measured maximum wave height.
+Shell,Mars,MIS,Waves,316,Wave Period,sec,Measured wave peak period.
+Shell,Mars,MIS,Waves,317,Wave Dir,deg,"Measured wave direction from, true."
+Shell,Mars,MIS,Waves,318,Pri Wave Dir Spread,deg,Direction spreading of the wave spectrum's primary peak energy.
+Shell,Mars,MIS,Waves,319,Wave Steepness,none,Measured wave steepness.
+Shell,Mars,MIS,Waves,320,Mean 0-Upcrossing Period,sec,Measured average wave zero up-crossing period.
+Shell,Mars,MIS,Waves,321,Sec Wave Peak Dir,deg,"Measured secondary wave peak direction from, true."
+Shell,Mars,MIS,Waves,322,Wave HI Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Waves,323,Wave LO Time,sec,"Measured wave data point timestamp. Combined ""Wave HI Time"" and  ""Wave LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Waves,324,Surface Current Spd,knots,Measured surface current speed.
+Shell,Mars,MIS,Waves,325,Surface Current Dir,deg,"Measured surface current direction towards, true."
+Shell,Mars,MIS,Waves,326,Current HI Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Waves,327,Current LO Time,sec,"Measured current data point timestamp. Combined ""Current HI Time"" and  ""Current LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Lidar,328,Lidar Ht1 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 1.
+Shell,Mars,MIS,Lidar,329,Lidar Ht1 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 1.
+Shell,Mars,MIS,Lidar,330,Lidar Ht1 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 1."
+Shell,Mars,MIS,Lidar,331,Lidar Height 1,ft,Lidar configured height 1.
+Shell,Mars,MIS,Lidar,332,Lidar Ht2 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 2.
+Shell,Mars,MIS,Lidar,333,Lidar Ht2 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 2.
+Shell,Mars,MIS,Lidar,334,Lidar Ht2 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 2."
+Shell,Mars,MIS,Lidar,335,Lidar Height 2,ft,Lidar configured height 2.
+Shell,Mars,MIS,Lidar,336,Lidar Ht3 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 3.
+Shell,Mars,MIS,Lidar,337,Lidar Ht3 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 3.
+Shell,Mars,MIS,Lidar,338,Lidar Ht3 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 3."
+Shell,Mars,MIS,Lidar,339,Lidar Height 3,ft,Lidar configured height 3.
+Shell,Mars,MIS,Lidar,340,Lidar Ht4 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 4.
+Shell,Mars,MIS,Lidar,341,Lidar Ht4 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 4.
+Shell,Mars,MIS,Lidar,342,Lidar Ht4 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 4."
+Shell,Mars,MIS,Lidar,343,Lidar Height 4,ft,Lidar configured height 4.
+Shell,Mars,MIS,Lidar,344,Lidar Ht5 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 5.
+Shell,Mars,MIS,Lidar,345,Lidar Ht5 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 5.
+Shell,Mars,MIS,Lidar,346,Lidar Ht5 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 5."
+Shell,Mars,MIS,Lidar,347,Lidar Height 5,ft,Lidar configured height 5.
+Shell,Mars,MIS,Lidar,348,Lidar Ht6 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 6.
+Shell,Mars,MIS,Lidar,349,Lidar Ht6 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 6.
+Shell,Mars,MIS,Lidar,350,Lidar Ht6 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 6."
+Shell,Mars,MIS,Lidar,351,Lidar Height 6,ft,Lidar configured height 6.
+Shell,Mars,MIS,Lidar,352,Lidar Ht7 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 7.
+Shell,Mars,MIS,Lidar,353,Lidar Ht7 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 7.
+Shell,Mars,MIS,Lidar,354,Lidar Ht7 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 7."
+Shell,Mars,MIS,Lidar,355,Lidar Height 7,ft,Lidar configured height 7.
+Shell,Mars,MIS,Lidar,356,Lidar Ht8 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 8.
+Shell,Mars,MIS,Lidar,357,Lidar Ht8 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 8.
+Shell,Mars,MIS,Lidar,358,Lidar Ht8 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 8."
+Shell,Mars,MIS,Lidar,359,Lidar Height 8,ft,Lidar configured height 8.
+Shell,Mars,MIS,Lidar,360,Lidar Ht9 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 9.
+Shell,Mars,MIS,Lidar,361,Lidar Ht9 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 9.
+Shell,Mars,MIS,Lidar,362,Lidar Ht9 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 9."
+Shell,Mars,MIS,Lidar,363,Lidar Height 9,ft,Lidar configured height 9.
+Shell,Mars,MIS,Lidar,364,Lidar Ht10 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 10.
+Shell,Mars,MIS,Lidar,365,Lidar Ht10 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 10.
+Shell,Mars,MIS,Lidar,366,Lidar Ht10 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 10."
+Shell,Mars,MIS,Lidar,367,Lidar Height 10,ft,Lidar configured height 10.
+Shell,Mars,MIS,Lidar,368,Lidar Ht11 Horz Wind Spd,knots,Measured horizontal component of wind speed at Lidar configured height 11.
+Shell,Mars,MIS,Lidar,369,Lidar Ht11 Vert Wind Spd,knots,Measured Lidar vertical component of wind speed at Lidar configured height 11.
+Shell,Mars,MIS,Lidar,370,Lidar Ht11 Wind Dir,degT,"Measured relative wind direction from, at Lidar configured height 11."
+Shell,Mars,MIS,Lidar,371,Lidar Height 11,ft,Lidar configured height 11.
+Shell,Mars,MIS,Lidar,372,Lidar Info Flag 10min Avg,bits,General information relating to the operational mode of the ZephIR.
+Shell,Mars,MIS,Lidar,373,Lidar Status Flag 10min Av,bits,"Internal ZephIR status, relating to the operational state of the ZephIR. For Z150/175: Red/Amber/Green."
+Shell,Mars,MIS,Lidar,374,Lidar Batt 10min Avg,Volts,Internal battery voltage.
+Shell,Mars,MIS,Lidar,375,Lidar Generator 10min Avg,Volts,"External supply voltage, if present."
+Shell,Mars,MIS,Lidar,376,Lidar Reference,#,"Each un-averaged (1sec or 3sec) record has an associated reference. The reference starts at zero and increments with each record. If the ZephIR’s internal storage is cleared, the reference resets to zero."
+Shell,Mars,MIS,Lidar,377,Lidar Air Temp,degF,Ambient temperature measured by the Lidar station.
+Shell,Mars,MIS,Lidar,378,Lidar Air Pressure,inHg,Ambient pressure measured by the Lidar station.
+Shell,Mars,MIS,Lidar,379,Lidar Upper Temp,degF,Internal pod temperature as measured by internal sensor located near the window.
+Shell,Mars,MIS,Lidar,380,Lidar Lower Temp,degF,Internal pod temperature as measured by internal sensor located near the external heat sink.
+Shell,Mars,MIS,Lidar,381,Lidar Raining Flag,bool,"Flag indicating if the rain sensor detected rain (0 – Off, 1 – On)."
+Shell,Mars,MIS,Lidar,382,Lidar Tilt,deg,Maximum magnitude of pitch or roll away from horizontal as measured by the Lidar station.
+Shell,Mars,MIS,Lidar,383,Lidar ZephIR bearing,deg,"Bearing of Lidar station with respect to True North, measured by the Lidar station. I.e. 5 degrees would be 5 degrees East of True North."
+Shell,Mars,MIS,Lidar,384,Lidar ZephIR Offset,deg,
+Shell,Mars,MIS,Lidar,385,Lidar ZephIR Mode,index,
+Shell,Mars,MIS,Lidar,386,Lidar Firmware Version,#,Firmware version.
+Shell,Mars,MIS,Lidar,387,Num Configured Heights,#,Number of configured heights.
+Shell,Mars,MIS,Lidar,388,Lidar Lense Height,ft,Lidar lense height from deck.
+Shell,Mars,MIS,Lidar,389,Lidar HI Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Lidar,390,Lidar LO Time,sec,"Measured Lidar data point timestamp. Combined ""Lidar HI Time"" and  ""Lidar LO Time"" channels give the measured data timestamp."
+Shell,Mars,MIS,Lidar,391,MET Watchdog,counter,Indicate whether the metocean computer is communicating to BMT WinMon or not.
+Shell,Mars,MIS,Derived,392,HADCP Temperature,degF,Measured sea water temperature at sensor location.
+Shell,Mars,MIS,Derived,393,HADCP Surface Curr Spd,knots,Max HADCP Current Speed from configured bin ranges or the best bin.
+Shell,Mars,MIS,Derived,394,HADCP Surface Curr Dir,degT,Corresponding Direction to the Max HADCP Current Speed.
+Shell,Mars,MIS,Lidar,395,Barometric Pressure,mbar,Ambient pressure measured by the Lidar station.
+Shell,Mars,MIS,Derived GPS,396,GPS Lat,deg,GPS latitude position in deg decimal.
+Shell,Mars,MIS,Derived GPS,397,GPS Lon,deg,GPS longitude position in deg decimal.
+Shell,Mars,MIS,Derived GPS,398,GPS Altitude,ft,altitude reading at GPS height.
+Shell,Mars,MIS,Derived GPS,399,GPS Northings,ft,Northings measured from local GPS position.
+Shell,Mars,MIS,Derived GPS,400,GPS Eastings,ft,Eastings measured from local GPS position.
+Shell,Mars,MIS,Derived GPS,401,PQ Northings,ft,Northings measured from platform reference position.
+Shell,Mars,MIS,Derived GPS,402,PQ Eastings,ft,Eastings measured from platform reference position.
+Shell,Mars,MIS,Derived GPS,403,PQ Altitude,ft,Altitude reading from platform reference position.
+Shell,Mars,MIS,Derived GPS,404,PQ Offset,ft,Distance of offset from the platform reference position.
+Shell,Mars,MIS,Derived GPS,405,PQ Bearing,degT,Direction from true north to offset position.
+Shell,Mars,MIS,Derived GPS,406,PQ Northings AVG,ft,20 minutes running average of PQ Northings.
+Shell,Mars,MIS,Derived GPS,407,PQ Eastings AVG,ft,20 minutes running average of PQ Eastings.
+Shell,Mars,MIS,Derived GPS,408,PQ Quality,none,GPS Quality - 0 no fix ; 1 GPS only ; 2 Differential GPS.
+Shell,Mars,MIS,Derived GPS,409,WCC Offset,ft,Offset measured from watch circle position.
+Shell,Mars,MIS,Derived GPS,410,WCC Bearing,degT,Bearing measured from watch circle position.
+Shell,Mars,MIS,Derived AWOS,411,AWOS Wind Spd,knots,AWOS wind speed at the sensor location.
+Shell,Mars,MIS,Derived AWOS,412,AWOS Wind Dir,degT,AWOS wind direction from true north at the sensor location.
+Shell,Mars,MIS,Derived AWOS,413,AWOS North Wind Spd,knots,AWOS wind speed component along True North Direction at the sensor location. AWOS North Wind Spd = derived(AWOS Wind Spd) * cos(derived(AWOS Wind Dir)).
+Shell,Mars,MIS,Derived AWOS,414,AWOS East Wind Spd,knots,AWOS wind speed component along True East Direction at the sensor location. AWOS East Wind Spd = derived(AWOS Wind Spd) * sin(derived(AWOS Wind Dir)).
+Shell,Mars,MIS,Derived AWOS,415,AWOS 10min Wind Spd,knots,The 10 minutes running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived AWOS,416,AWOS 10min Wind Dir,degT,"The 10 minutes running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived AWOS,417,AWOS 1hr Wind Spd,knots,The 1 hour running average of derived(AWOS Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived AWOS,418,AWOS 1hr Wind Dir,degT,"The 1 hour running average of derived(AWOS Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived Tide,419,Tide,ft,Derived tide from given constituent parameters.
+Shell,Mars,MIS,Derived VOID,420,VOID NE0-VS,bool,Output VOID NE0-VS from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,421,VOID SE0-VN,bool,Output VOID SE0-VN from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,422,VOID SW0-VN,bool,Output VOID SW0-VN from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,423,VOID NW0-VS,bool,Output VOID NW0-VS from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,424,VOID NE1-VS,bool,Output VOID NE1-VS from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,425,VOID SE1-VN,bool,Output VOID SE1-VN from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,426,VOID SW1-VN,bool,Output VOID SW1-VN from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,427,VOID NW1-VS,bool,Output VOID NW1-VS from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,428,VOID NE3-V,bool,Output VOID NE3-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,429,VOID SE3-V,bool,Output VOID SE3-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,430,VOID SW3-V,bool,Output VOID SW3-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,431,VOID NW3-V,bool,Output VOID NW3-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,432,VOID NE4-V,bool,Output VOID NE4-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,433,VOID SE4-V,bool,Output VOID SE4-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,434,VOID SW4-VE,bool,Output VOID SW4-VE from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,435,VOID SW4-VW,bool,Output VOID SW4-VW from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived VOID,436,VOID NW4-V,bool,Output VOID NW4-V from 3rd party Ballast Tanks.
+Shell,Mars,MIS,Derived Airgap,437,North Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Mars,MIS,Derived Airgap,438,North Sig Wave Ht,ft,4*standard deviation of derive(North Airgap). A 20 minute running value of standar deviation is used.
+Shell,Mars,MIS,Derived Airgap,439,North Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Mars,MIS,Derived Airgap,440,North Draft,ft,"Draft at the X,Y position of the North Airgap sensor."
+Shell,Mars,MIS,Derived Airgap,441,East Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Mars,MIS,Derived Airgap,442,East Sig Wave Ht,ft,4*standard deviation of derive(East Airgap). A 20 minute running value of standar deviation is used.
+Shell,Mars,MIS,Derived Airgap,443,East Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Mars,MIS,Derived Airgap,444,East Draft,ft,"Draft at the X,Y position of the East Airgap sensor."
+Shell,Mars,MIS,Derived Airgap,445,South Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Mars,MIS,Derived Airgap,446,South Sig Wave Ht,ft,4*standard deviation of derive(South Airgap). A 20 minute running value of standar deviation is used.
+Shell,Mars,MIS,Derived Airgap,447,South Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Mars,MIS,Derived Airgap,448,South Draft,ft,"Draft at the X,Y position of the South Airgap sensor."
+Shell,Mars,MIS,Derived Airgap,449,West Airgap,ft,Raw Airgap data with outliers removed.
+Shell,Mars,MIS,Derived Airgap,450,West Sig Wave Ht,ft,4*standard deviation of derive(West Airgap). A 20 minute running value of standar deviation is used.
+Shell,Mars,MIS,Derived Airgap,451,West Wave Period,sec,Average zero up crossings period determined over a running 20 minute interval.
+Shell,Mars,MIS,Derived Airgap,452,West Draft,ft,"Draft at the X,Y position of the West Airgap sensor."
+Shell,Mars,MIS,Derived Airgap,453,Best Airgap Sig Wave Ht,ft,Best significant wave height from 4 airgaps.
+Shell,Mars,MIS,Derived Airgap,454,Best Airgap Wave Period,sec,Best mean zero-upcrossing wave period from 4 airgaps.
+Shell,Mars,MIS,Derived Airgap,455,CL Draft Fr Airgaps,ft,"Draft at the 0,0 position of the platform."
+Shell,Mars,MIS,Derived Airgap,456,List Fr Airgaps,deg,Derived from airgap running average of 20 minutes roll angle of rotation about the local body longitudinal (x) axis at vessel origin.
+Shell,Mars,MIS,Derived Airgap,457,Trim Fr Airgaps,deg,Derived from airgap running average of 20 minutes pitch angle of rotation about the local body longitudinal (y) axis at vessel origin.
+Shell,Mars,MIS,Derived Lidar,458,Lidar Wind Spd,knots,Lidar wind speed at the sensor location.
+Shell,Mars,MIS,Derived Lidar,459,Lidar Wind Dir,degT,Lidar wind direction from true north at the sensor location.
+Shell,Mars,MIS,Derived Lidar,460,Lidar North Wind Spd,knots,Lidar wind speed component along True North Direction at the sensor location. Lidar North Wind Spd = derived(Lidar Wind Spd) * cos(derived(Lidar Wind Dir)).
+Shell,Mars,MIS,Derived Lidar,461,Lidar East Wind Spd,knots,Lidar wind speed component along True East Direction at the sensor location. Lidar East Wind Spd = derived(Lidar Wind Spd) * sin(derived(Lidar Wind Dir)).
+Shell,Mars,MIS,Derived Lidar,462,Lidar 3sec Wind Spd,knots,The 3 seconds running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived Lidar,463,Lidar 3sec Wind Dir,degT,"The 3 seconds running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived Lidar,464,Lidar 2min Wind Spd,knots,The 2 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived Lidar,465,Lidar 2min Wind Dir,degT,"The 2 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived Lidar,466,Lidar 10min Wind Spd,knots,The 10 minutes running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived Lidar,467,Lidar 10min Wind Dir,degT,"The 10 minutes running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived Lidar,468,Lidar 1hr Wind Spd,knots,The 1 hour running average of derived(Lidar Wind Spd) at the sensor location.
+Shell,Mars,MIS,Derived Lidar,469,Lidar 1hr Wind Dir,degT,"The 1 hour running average of derived(Lidar Wind Dir), referring to the true north at the sensor location."
+Shell,Mars,MIS,Derived Lidar,470,Lidar 3sec Wind Spd 10m,knots,"The 3 seconds running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Mars,MIS,Derived Lidar,471,Lidar 2min Wind Spd 10m,knots,"The 2 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Mars,MIS,Derived Lidar,472,Lidar 10min Wind Spd 10m,knots,"The 10 minutes running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Mars,MIS,Derived Lidar,473,Lidar 1hr Wind Spd 10m,knots,"The 1 hour running average of derived(Lidar Wind Spd), which has been corrected to a reporting height of 10m."
+Shell,Mars,MIS,Derived MAS,474,Statistic Complete,#,Indicates whether statistic is completed and starts calculation from BMT MIS to MAS.
+Shell,Mars,MIS,Derived MAS,475,Statistic Start Time,Date,Start time for statistic.
+Shell,Mars,MIS,Derived MAS,476,Statistic End Time,Date,End time for statistic.
+Shell,Mars,MIS,Derived MAS,477,MAS PQ Northings,ft,"Data QA applied on PQ Northings, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,478,MAS PQ Eastings,ft,"Data QA applied on PQ Eastings, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,479,MAS Wind Spd,knots,"Data QA applied on Wind Spd, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,480,MAS Wind Dir,degT,"Data QA applied on Wind Dir, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,481,MAS Max Current Spd,knots,"Data QA applied on Max Current Spd, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,482,MAS Max Current Dir,degT,"Data QA applied on Max Current Dir, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,483,MAS Sig Wave Ht,ft,"Data QA applied on Sig Wave Ht, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,484,MAS Wave Period,sec,"Data QA applied on Wave Period, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,485,MAS Wave Dir,degT,"Data QA applied on Wave Dir, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,486,MAS NE Tendon 2 Tension,kips,"Data QA applied on NE Tendon 2 Tension, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,487,MAS SE Tendon 5 Tension,kips,"Data QA applied on SE Tendon 5 Tension, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,488,MAS SW Tendon 8 Tension,kips,"Data QA applied on SW Tendon 8 Tension, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,489,MAS NW Tendon 11 Tension,kips,"Data QA applied on NW Tendon 11 Tension, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,490,MAS ABJ-2606 Level,ft,"Data QA applied on ABJ-2606 Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,491,MAS ABJ-2607 Level,ft,"Data QA applied on ABJ-2607 Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,492,MAS BAL-NPE Level,ft,"Data QA applied on BAL-NPE Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,493,MAS BAL-EPN Level,ft,"Data QA applied on BAL-EPN Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,494,MAS BAL-EPS Level,ft,"Data QA applied on BAL-EPS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,495,MAS BAL-SPE Level,ft,"Data QA applied on BAL-SPE Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,496,MAS BAL-NE0-BN Level,ft,"Data QA applied on BAL-NE0-BN Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,497,MAS BAL-NE0-BE Level,ft,"Data QA applied on BAL-NE0-BE Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,498,MAS BAL-SE0-BE Level,ft,"Data QA applied on BAL-SE0-BE Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,499,MAS BAL-SE0-BS Level,ft,"Data QA applied on BAL-SE0-BS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,500,MAS BAL-SE1-BS Level,ft,"Data QA applied on BAL-SE1-BS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,501,MAS ABJ-2700 Level,ft,"Data QA applied on ABJ-2700 Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,502,MAS ABJ-2703 Level,ft,"Data QA applied on ABJ-2703 Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,503,MAS BAL-NPW Level,ft,"Data QA applied on BAL-NPW Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,504,MAS BAL-WPN Level,ft,"Data QA applied on BAL-WPN Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,505,MAS BAL-WPS Level,ft,"Data QA applied on BAL-WPS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,506,MAS BAL-SPW Level,ft,"Data QA applied on BAL-SPW Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,507,MAS BAL-NW0-BN Level,ft,"Data QA applied on BAL-NW0-BN Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,508,MAS BAL-NW0-BW Level,ft,"Data QA applied on BAL-NW0-BW Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,509,MAS BAL-SW0-BS Level,ft,"Data QA applied on BAL-SW0-BS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,510,MAS BAL-SW0-BW Level,ft,"Data QA applied on BAL-SW0-BW Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,511,MAS BAL-SW1-BS Level,ft,"Data QA applied on BAL-SW1-BS Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,512,MAS ABJ-801 Level,ft,"Data QA applied on ABJ-801 Level, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,513,MAS North Draft,ft,"Data QA applied on North Draft, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,514,MAS East Draft,ft,"Data QA applied on East Draft, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,515,MAS South Draft,ft,"Data QA applied on South Draft, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,516,MAS West Draft,ft,"Data QA applied on West Draft, computed by BMT WinMon."
+Shell,Mars,MIS,Derived MAS,517,TIS Watchdog,#,Indicate whether the TIS is communicating to BMT WinMon or not.
+Shell,Mars,MIS,Derived MAS,518,AWOS 10min Wind Spd Gust,knots,Derived AWOS wind gust speed computed during the previous 10 minutes at the sensor location.
+Shell,Mars,MIS,Derived MAS,519,AWOS 1hr Wind Spd Gust,knots,Derived AWOS wind gust speed computed during the previous 1 hour at the sensor location.
+Shell,Mars,MIS,Derived MAS,520,Lidar 2min Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 2 minutes at the sensor location.
+Shell,Mars,MIS,Derived MAS,521,Lidar 10min Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 10 minutes at the sensor location.
+Shell,Mars,MIS,Derived MAS,522,Lidar 1hr Wind Spd Gust,knots,Derived Lidar wind gust speed computed during the previous 1 hour at the sensor location.
+Shell,Mars,MIS,Derived MAS,523,Phantom Weight,kips,"Output Phantom Weight, from 3rd party."
+Shell,Mars,MIS,Derived MAS,524,Lightship Wt,kips,"Output Lightship Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,525,Lightship Change Wt,kips,"Output Lightship Change Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,526,Ballast Wt,kips,"Output Ballast Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,527,Void Wt,kips,"Output Void Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,528,Cons Liquids Wt,kips,"Output Cons Liquids Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,529,Drill Cons Wt,kips,"Output Drill Cons Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,530,Cement Wt,kips,"Output Cement Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,531,Drill Rig Wt,kips,"Output Drill Rig Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,532,Platform W Wt,kips,"Output Platform W Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,533,SCRs Wt,kips,"Output SCRs Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,534,Tendons Wt,kips,"Output Tendons Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,535,Risers Wt,kips,"Output Risers Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,536,Total Wt,kips,"Output Total Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,537,Columns Wt,kips,"Output Columns Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,538,Deck1 Wt,kips,"Output Deck1 Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,539,Deck2 Wt,kips,"Output Deck2 Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,540,Deck3 Wt,kips,"Output Deck3 Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,541,Deck4 Wt,kips,"Output Deck4 Wt, from 3rd party."
+Shell,Mars,MIS,Derived MAS,542,Deck5 Wt,kips,"Output Deck5 Wt, from 3rd party."
