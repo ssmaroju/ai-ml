@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__lancedb-search__search_descriptions",
+      "mcp__lancedb-search__search_dependencies",
+      "mcp__lancedb-search__search_coordinates",
+      "mcp__lancedb-search__search_oandm",
+      "mcp__lancedb-search__get_channel_lineage",
+      "mcp__lancedb-search__list_platforms",
+      "Skill(monitoring-assistant)",
+      "Skill(channel-description)",
+      "Skill(channel-dependency)",
+      "Skill(coordinate-system)",
+      "Skill(oandm-search)",
+      "Skill(channel-resolver)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
