@@ -10,7 +10,15 @@ Explain coordinate system conventions and sensor positions:
 - Transformation between local and global frames
 
 ## Tool
-Use `search_coordinates(query, platform?, limit?)` from `lancedb-search` MCP.
+Run the LanceDB CLI to search coordinate systems:
+```bash
+uv run --with lancedb --with sentence-transformers --with pandas python lancedb_cli.py coordinates "<query>" --platform "<platform>" --limit 5
+```
+
+Parameters:
+- `<query>`: Search term (e.g., "GPS location", "6DOF sensor", "coordinate system")
+- `--platform`: Optional platform filter
+- `--limit`: Number of results
 
 ## Key Concepts
 

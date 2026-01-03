@@ -10,8 +10,17 @@ Explain how channels are derived, what feeds them, and what they feed into:
 - Processing/calculation relationships
 
 ## Tools
-- `get_channel_lineage(channel_name, platform)` - Full lineage for specific channel
-- `search_dependencies(query, platform?, limit?)` - Search dependency graph
+Run the LanceDB CLI:
+
+**Search dependencies:**
+```bash
+uv run --with lancedb --with sentence-transformers --with pandas python lancedb_cli.py dependencies "<query>" --platform "<platform>" --limit 5
+```
+
+**Get full lineage for a specific channel:**
+```bash
+uv run --with lancedb --with sentence-transformers --with pandas python lancedb_cli.py lineage "<channel_name>" --platform "<platform>"
+```
 
 ## Key Concepts
 

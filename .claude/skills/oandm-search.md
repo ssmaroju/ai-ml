@@ -11,7 +11,15 @@ Find and summarize relevant information from O&M manuals:
 - Troubleshooting guides
 
 ## Tool
-Use `search_oandm(query, platform?, limit?)` from `lancedb-search` MCP.
+Run the LanceDB CLI to search O&M manuals:
+```bash
+uv run --with lancedb --with sentence-transformers --with pandas python lancedb_cli.py oandm "<query>" --platform "<platform>" --limit 5
+```
+
+Parameters:
+- `<query>`: Search term (e.g., "calibration procedure", "maintenance schedule")
+- `--platform`: Optional platform filter
+- `--limit`: Number of results
 
 ## Available Platforms with O&M Docs
 Argos, Atlantis, Boomvang, Constitution, Glen Lyon, Gunnison, Holstein,
